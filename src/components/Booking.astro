@@ -42,12 +42,15 @@ const t = useTranslations(lang).booking;
       class="mx-auto rounded-2xl overflow-hidden"
       style="max-width: 820px; box-shadow: 0 24px 48px rgba(0,0,0,0.35);"
     >
+      <!-- min-height reserves space before HubSpot injects the iframe → prevents CLS -->
       <div
         class="meetings-iframe-container"
         data-src="https://meetings-na3.hubspot.com/soulimane?embed=true"
+        style="min-height: 700px;"
       ></div>
     </div>
   </div>
 </section>
 
-<script is:inline src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>
+<!-- defer: script loads after HTML parse → non render-blocking (FCP/FID improvement) -->
+<script defer src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>
