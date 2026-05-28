@@ -1,0 +1,141 @@
+---
+import type { Lang } from '../i18n/ui';
+import { useTranslations } from '../i18n/utils';
+
+interface Props { lang?: Lang }
+const { lang = 'fr' } = Astro.props;
+const t = useTranslations(lang).footer;
+const tNav = useTranslations(lang).nav;
+const tContact = useTranslations(lang).contact;
+const year = new Date().getFullYear();
+
+const navLinks = [
+  { label: tNav.services,  href: '#services'  },
+  { label: tNav.processus, href: '#processus' },
+  { label: tNav.faq,       href: '#faq'       },
+  { label: tNav.tarifs,    href: '#tarifs'    },
+  { label: tNav.blog,      href: lang === 'en' ? '/en/blog/' : '/blog/' },
+  { label: tNav.contact,   href: '#contact'   },
+];
+
+const serviceLinks = [
+  { label: lang === 'fr' ? 'SEO Technique & YMYL'        : 'Technical SEO & YMYL',        href: '#services' },
+  { label: lang === 'fr' ? 'GEO Local Montréal'          : 'GEO Local Montréal',           href: '#services' },
+  { label: lang === 'fr' ? 'Contenu Médical Optimisé'    : 'Optimized Medical Content',    href: '#services' },
+  { label: lang === 'fr' ? 'Audit SEO Santé'             : 'Health SEO Audit',             href: '#tarifs'   },
+  { label: lang === 'fr' ? 'Accompagnement Premium'      : 'Premium Support',              href: '#tarifs'   },
+];
+---
+
+<footer role="contentinfo" style="background: var(--color-primary-light); color: rgba(255,255,255,0.65);">
+
+  <div class="container py-14">
+    <div class="grid md:grid-cols-4 gap-10">
+
+      <!-- Brand -->
+      <div class="md:col-span-2">
+        <a
+          href={lang === 'en' ? '/en/' : '/'}
+          class="inline-flex items-center gap-2 mb-4 no-underline"
+          style="font-family: var(--font-family-heading); font-weight: 700; font-size: 1.25rem; color: white; letter-spacing: -0.025em;"
+        >
+          <svg width="26" height="26" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+            <rect width="28" height="28" rx="8" fill="#CA8A04" fill-opacity="0.2"/>
+            <path d="M7 14h4l2-5 4 10 2-5h2" stroke="#CA8A04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          SEO<span style="color: var(--color-cta);">Pharma</span>Montréal
+        </a>
+
+        <p class="mb-5 max-w-xs" style="font-size: 0.9rem; line-height: 1.7; color: rgba(255,255,255,0.55);">
+          {t.description}
+        </p>
+
+        <div class="flex flex-col gap-2.5">
+          <a
+            href="mailto:info@seopharmamontreal.com"
+            class="flex items-center gap-2 text-sm no-underline hover:text-white transition-colors duration-150"
+            style="color: rgba(255,255,255,0.6);"
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--color-cta)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            info@seopharmamontreal.com
+          </a>
+          <span class="flex items-center gap-2 text-sm" style="color: rgba(255,255,255,0.45);">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--color-cta)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><circle cx="12" cy="11" r="3"/>
+            </svg>
+            Montréal, Québec, Canada
+          </span>
+          <!-- Phone -->
+          <a
+            href={`tel:${tContact.phone}`}
+            class="flex items-center gap-2 text-sm no-underline hover:text-white transition-colors duration-150"
+            style="color: rgba(255,255,255,0.6);"
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--color-cta)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"/>
+            </svg>
+            {tContact.phone}
+          </a>
+          <!-- LinkedIn -->
+          <a
+            href="https://www.linkedin.com/in/soulimanefarah/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex items-center gap-2 text-sm no-underline hover:text-white transition-colors duration-150"
+            style="color: rgba(255,255,255,0.6);"
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="color: var(--color-cta);">
+              <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/>
+              <circle cx="4" cy="4" r="2"/>
+            </svg>
+            LinkedIn — Soulimane Farah
+          </a>
+        </div>
+      </div>
+
+      <!-- Navigation -->
+      <nav aria-label={t.navTitle}>
+        <h3 class="text-xs font-semibold mb-4 uppercase tracking-widest" style="color: white;">{t.navTitle}</h3>
+        <ul class="flex flex-col gap-2.5 list-none m-0 p-0">
+          {navLinks.map(l => (
+            <li>
+              <a href={l.href} class="text-sm no-underline hover:text-white transition-colors duration-150" style="color: rgba(255,255,255,0.55);">
+                {l.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+
+      <!-- Services -->
+      <nav aria-label={t.servicesTitle}>
+        <h3 class="text-xs font-semibold mb-4 uppercase tracking-widest" style="color: white;">{t.servicesTitle}</h3>
+        <ul class="flex flex-col gap-2.5 list-none m-0 p-0">
+          {serviceLinks.map(l => (
+            <li>
+              <a href={l.href} class="text-sm no-underline hover:text-white transition-colors duration-150" style="color: rgba(255,255,255,0.55);">
+                {l.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Barre du bas -->
+  <div style="border-top: 1px solid rgba(255,255,255,0.08);">
+    <div class="container py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
+      <p class="text-xs m-0" style="color: rgba(255,255,255,0.35);">
+        {t.copyright.replace('{year}', String(year))}
+      </p>
+      <div class="flex gap-5">
+        <a href={lang === 'en' ? '/en/privacy/' : '/confidentialite/'} class="text-xs no-underline hover:text-white transition-colors duration-150" style="color: rgba(255,255,255,0.35);">{t.privacy}</a>
+        <a href={lang === 'en' ? '/en/terms/' : '/conditions/'} class="text-xs no-underline hover:text-white transition-colors duration-150" style="color: rgba(255,255,255,0.35);">{t.terms}</a>
+      </div>
+    </div>
+  </div>
+</footer>

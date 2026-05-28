@@ -1,0 +1,142 @@
+---
+import type { Lang } from '../i18n/ui';
+import { useTranslations } from '../i18n/utils';
+
+interface Props { lang?: Lang }
+const { lang = 'fr' } = Astro.props;
+const t = useTranslations(lang).about;
+
+const photoAlt = lang === 'fr'
+  ? 'Soulimane Farah — Consultant SEO/GEO Pharma & Santé, Montréal'
+  : 'Soulimane Farah — SEO/GEO Consultant Pharma & Health, Montréal';
+---
+
+<section
+  id="a-propos"
+  class="py-20 md:py-28"
+  style="background: var(--color-surface-alt);"
+  aria-labelledby="about-title"
+>
+  <div class="container">
+    <div class="grid lg:grid-cols-2 gap-14 lg:gap-20 items-center">
+
+      <!-- Gauche : texte -->
+      <div>
+        <span class="overline">{t.overline}</span>
+        <h2
+          id="about-title"
+          class="mb-5"
+          style="font-size: clamp(1.75rem, 3.5vw, 2.375rem); color: var(--color-primary); line-height: 1.2; letter-spacing: -0.025em;"
+        >
+          {t.title}
+        </h2>
+        <p style="font-size: 1rem; line-height: 1.75; color: var(--color-text-muted); margin-bottom: 1.25rem;">
+          {t.p1}
+        </p>
+
+        <div class="flex flex-wrap gap-2 mb-5" aria-label={lang === 'fr' ? 'Certifications et accréditations' : 'Certifications and credentials'}>
+          {t.credentials.map(c => (
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold" style="background: rgba(202,138,4,0.1); color: #92400E; border: 1px solid rgba(202,138,4,0.25);">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="m4.5 12.75 6 6 9-13.5"/>
+              </svg>
+              {c}
+            </span>
+          ))}
+        </div>
+
+        <p class="font-semibold" style="font-size: 0.9375rem; color: var(--color-primary); margin-bottom: 0.75rem; letter-spacing: 0.01em;">
+          {t.p2}
+        </p>
+
+        <ul class="flex flex-col gap-2.5 mb-8 m-0 p-0 list-none">
+          {t.skills.map(s => (
+            <li class="flex items-center gap-2.5">
+              <!-- Heroicons: check-circle -->
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="#CA8A04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <path d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+              </svg>
+              <span style="font-size: 0.9375rem; color: var(--color-text-muted);">{s}</span>
+            </li>
+          ))}
+        </ul>
+
+        <a href="#contact" class="btn btn-primary btn-lg">{t.cta}</a>
+      </div>
+
+      <!-- Droite : photo + carte profil -->
+      <div class="flex flex-col gap-6">
+
+        <!-- Photo professionnelle — à remplacer par une vraie photo WebP de Soulimane -->
+        <div class="rounded-2xl overflow-hidden" style="aspect-ratio: 16/9; box-shadow: 0 20px 40px rgba(15,23,42,0.15);">
+          <img
+            src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=760&h=428&fm=webp&auto=format&fit=crop&q=82"
+            alt={photoAlt}
+            width="760"
+            height="428"
+            loading="lazy"
+            decoding="async"
+            class="w-full h-full object-cover"
+          />
+        </div>
+
+        <!-- Carte identité -->
+        <div class="rounded-2xl p-7" style="background: var(--color-primary); color: white;">
+          <div class="flex items-center gap-4 mb-6">
+            <div
+              class="w-14 h-14 rounded-xl flex items-center justify-center text-xl font-bold shrink-0"
+              style="background: rgba(202,138,4,0.2); border: 2px solid rgba(202,138,4,0.35); color: #FCD34D; font-family: var(--font-family-heading);"
+              aria-hidden="true"
+            >
+              SF
+            </div>
+            <div>
+              <div class="font-bold text-lg" style="font-family: var(--font-family-heading);">Soulimane Farah</div>
+              <div style="color: rgba(255,255,255,0.65); font-size: 0.875rem; margin-top: 0.2rem;">
+                Consultant SEO/GEO — Pharma & Santé
+              </div>
+              <a
+                href="https://www.linkedin.com/in/soulimanefarah/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center gap-1.5 mt-1.5 no-underline transition-opacity hover:opacity-80"
+                style="color: var(--color-cta); font-size: 0.78rem; font-weight: 600;"
+              >
+                <!-- LinkedIn icon -->
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/>
+                  <circle cx="4" cy="4" r="2"/>
+                </svg>
+                LinkedIn
+              </a>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-2 gap-3">
+            {t.stats.map(s => (
+              <div class="rounded-xl p-3.5" style="background: rgba(255,255,255,0.07);">
+                <div class="font-bold text-sm" style="color: var(--color-cta); font-family: var(--font-family-heading);">{s.value}</div>
+                <div style="font-size: 0.75rem; color: rgba(255,255,255,0.6); margin-top: 0.1rem;">{s.label}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <!-- Citation compétitive -->
+        <blockquote
+          class="rounded-2xl p-6 not-italic"
+          style="background: var(--color-surface); border: 1px solid var(--color-border); border-left: 4px solid var(--color-cta); box-shadow: var(--shadow-card);"
+        >
+          <p class="m-0" style="font-size: 0.9375rem; line-height: 1.7; color: var(--color-text-muted); max-width: none; font-style: italic;">
+            {t.quote}
+          </p>
+          <footer class="mt-4 text-sm font-semibold" style="color: var(--color-primary);">
+            {t.quoteAuthor}
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</section>

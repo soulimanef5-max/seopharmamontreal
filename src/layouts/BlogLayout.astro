@@ -1,0 +1,102 @@
+---
+import Layout from './Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+import type { Lang } from '../i18n/ui';
+import { useTranslations } from '../i18n/utils';
+
+interface Props {
+  lang?:        Lang;
+  title:        string;
+  description:  string;
+  pubDate:      Date;
+  readingTime?: number;
+  author?:      string;
+  tags?:        string[];
+}
+
+const {
+  lang        = 'fr',
+  title,
+  description,
+  pubDate,
+  readingTime = 5,
+  author      = 'Soulimane Farah',
+  tags        = [],
+} = Astro.props;
+
+const t = useTranslations(lang);
+const dateStr = pubDate.toLocaleDateString(lang === 'fr' ? 'fr-CA' : 'en-CA', {
+  year: 'numeric', month: 'long', day: 'numeric',
+});
+---
+
+<Layout lang={lang} title={title} description={description}>
+  <Navbar lang={lang} />
+  <main id="main-content">
+    <!-- Hero article -->
+    <header class="py-16 md:py-24" style="background: var(--color-primary);">
+      <div class="container" style="max-width: var(--container-narrow);">
+        <a
+          href={lang === 'en' ? '/en/blog/' : '/blog/'}
+          class="inline-flex items-center gap-2 text-sm no-underline mb-8 transition-opacity hover:opacity-70"
+          style="color: rgba(255,255,255,0.55);"
+        >
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+          {t.blog.backBlog}
+        </a>
+
+        {tags.length > 0 && (
+          <div class="flex flex-wrap gap-2 mb-5">
+            {tags.map(tag => (
+              <span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background: rgba(202,138,4,0.15); color: #FCD34D;">{tag}</span>
+            ))}
+          </div>
+        )}
+
+        <h1 class="text-white mb-5" style="font-size: clamp(1.75rem, 4vw, 2.5rem); line-height: 1.2; letter-spacing: -0.025em;">{title}</h1>
+
+        <div class="flex flex-wrap items-center gap-4 text-sm" style="color: rgba(255,255,255,0.5);">
+          <span class="flex items-center gap-1.5">
+            <!-- Heroicons: clock -->
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--color-cta)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/></svg>
+            {readingTime} {t.blog.minRead}
+          </span>
+          <span class="w-px h-4" style="background: rgba(255,255,255,0.2);" aria-hidden="true"></span>
+          <time datetime={pubDate.toISOString()}>{dateStr}</time>
+          <span class="w-px h-4" style="background: rgba(255,255,255,0.2);" aria-hidden="true"></span>
+          <span>{author}</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Contenu article -->
+    <article class="py-14 md:py-20">
+      <div class="container" style="max-width: var(--container-narrow);">
+        <div class="prose prose-slate prose-lg max-w-none"
+          style="--tw-prose-headings: var(--color-primary); --tw-prose-links: var(--color-cta);">
+          <slot />
+        </div>
+
+        <!-- CTA bas d'article -->
+        <div
+          class="mt-14 rounded-2xl p-8 text-center"
+          style="background: var(--color-primary);"
+        >
+          <p class="font-bold mb-2" style="font-family: var(--font-family-heading); font-size: 1.25rem; color: white;">
+            {lang === 'fr' ? 'Prêt à améliorer votre SEO santé ?' : 'Ready to improve your health SEO?'}
+          </p>
+          <p class="mb-6 text-sm" style="color: rgba(255,255,255,0.65);">
+            {lang === 'fr'
+              ? 'Obtenez une analyse préliminaire gratuite de votre site — réponse sous 24h.'
+              : 'Get a free preliminary analysis of your site — response within 24h.'}
+          </p>
+          <a href={lang === 'en' ? '/en/#contact' : '/#contact'} class="btn btn-primary btn-lg">
+            {lang === 'fr' ? 'Demander un audit gratuit' : 'Request a free audit'}
+          </a>
+        </div>
+      </div>
+    </article>
+  </main>
+  <Footer lang={lang} />
+</Layout>

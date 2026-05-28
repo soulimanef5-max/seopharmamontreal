@@ -1,0 +1,53 @@
+---
+import type { Lang } from '../i18n/ui';
+import { useTranslations } from '../i18n/utils';
+
+interface Props { lang?: Lang }
+const { lang = 'fr' } = Astro.props;
+const t = useTranslations(lang).booking;
+---
+
+<section
+  id="rendez-vous"
+  class="py-20 md:py-28"
+  style="background: var(--color-primary);"
+  aria-labelledby="booking-title"
+>
+  <div
+    class="absolute pointer-events-none"
+    style="inset: 0; background: radial-gradient(ellipse 70% 50% at 50% 100%, rgba(202,138,4,0.1) 0%, transparent 65%);"
+    aria-hidden="true"
+  ></div>
+
+  <div class="container relative">
+    <div class="section-header" style="--section-header-color: white;">
+      <span class="overline" style="color: #FCD34D;">{t.overline}</span>
+      <h2
+        id="booking-title"
+        class="section-title"
+        style="color: white;"
+      >
+        {t.title}
+      </h2>
+      <p
+        class="section-lead"
+        style="color: rgba(255,255,255,0.65);"
+      >
+        {t.lead}
+      </p>
+    </div>
+
+    <!-- HubSpot Meetings Embed -->
+    <div
+      class="mx-auto rounded-2xl overflow-hidden"
+      style="max-width: 820px; box-shadow: 0 24px 48px rgba(0,0,0,0.35);"
+    >
+      <div
+        class="meetings-iframe-container"
+        data-src="https://meetings-na3.hubspot.com/soulimane?embed=true"
+      ></div>
+    </div>
+  </div>
+</section>
+
+<script is:inline src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>

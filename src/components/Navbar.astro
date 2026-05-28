@@ -1,0 +1,172 @@
+---
+import type { Lang } from '../i18n/ui';
+import { useTranslations, getAlternateUrl } from '../i18n/utils';
+
+interface Props { lang?: Lang }
+const { lang = 'fr' } = Astro.props;
+const t = useTranslations(lang);
+const altUrl = getAlternateUrl(Astro.url);
+const altLabel = lang === 'fr' ? 'EN' : 'FR';
+
+const links = [
+  { href: '#services',      label: t.nav.services  },
+  { href: '#processus',     label: t.nav.processus },
+  { href: '#faq',           label: t.nav.faq       },
+  { href: '#tarifs',        label: t.nav.tarifs    },
+  { href: '#rendez-vous',   label: t.nav.rdv, highlight: true },
+  { href: lang === 'en' ? '/en/blog/' : '/blog/', label: t.nav.blog },
+  { href: '#contact',       label: t.nav.contact   },
+];
+---
+
+<header
+  id="navbar"
+  class="fixed top-0 left-0 right-0 z-[30] transition-all duration-300"
+  style="background: rgba(248,250,252,0.92); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid transparent;"
+>
+  <div class="container">
+    <div class="flex items-center justify-between h-16">
+
+      <!-- Logo -->
+      <a
+        href={lang === 'en' ? '/en/' : '/'}
+        class="flex items-center gap-2 text-xl font-bold no-underline"
+        style="font-family: var(--font-family-heading); color: var(--color-primary); letter-spacing: -0.025em;"
+        aria-label="SEO Pharma Montréal — Accueil"
+      >
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <rect width="28" height="28" rx="8" fill="#0F172A"/>
+          <path d="M7 14h4l2-5 4 10 2-5h2" stroke="#CA8A04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        SEO<span style="color: var(--color-cta);">Pharma</span>
+      </a>
+
+      <!-- Nav desktop -->
+      <nav aria-label="Navigation principale" class="hidden md:block">
+        <ul class="flex items-center gap-7 list-none m-0 p-0">
+          {links.map(link => (
+            <li>
+              {link.highlight ? (
+                <a
+                  href={link.href}
+                  class="text-xs font-bold no-underline px-3 py-1.5 rounded-full transition-colors duration-150"
+                  style="background: var(--color-cta-light); color: var(--color-cta-hover); letter-spacing: 0.04em;"
+                >
+                  {link.label}
+                </a>
+              ) : (
+                <a
+                  href={link.href}
+                  class="text-sm font-medium no-underline transition-colors duration-150 relative group"
+                  style="color: var(--color-text-muted);"
+                >
+                  {link.label}
+                  <span
+                    class="absolute -bottom-0.5 left-0 right-0 h-0.5 rounded-full scale-x-0 group-hover:scale-x-100 transition-transform duration-200 origin-left"
+                    style="background: var(--color-cta);"
+                  ></span>
+                </a>
+              )}
+            </li>
+          ))}
+        </ul>
+      </nav>
+
+      <!-- Actions desktop -->
+      <div class="hidden md:flex items-center gap-3">
+        <!-- Langue switcher -->
+        <a
+          href={altUrl}
+          class="text-xs font-semibold px-2.5 py-1.5 rounded-md transition-colors duration-150 no-underline"
+          style="border: 1.5px solid var(--color-border); color: var(--color-text-muted);"
+          aria-label={lang === 'fr' ? 'Switch to English' : 'Passer en français'}
+        >
+          {altLabel}
+        </a>
+        <!-- LinkedIn -->
+        <a
+          href="https://www.linkedin.com/in/soulimanefarah/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex items-center justify-center w-8 h-8 rounded-md transition-colors duration-150"
+          style="border: 1.5px solid var(--color-border); color: var(--color-text-muted);"
+          aria-label="LinkedIn de Soulimane Farah"
+        >
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/>
+            <circle cx="4" cy="4" r="2"/>
+          </svg>
+        </a>
+        <a href="#contact" class="btn btn-primary" style="padding: 0.5rem 1.25rem; font-size: 0.875rem; animation: none;">
+          {t.nav.cta}
+        </a>
+      </div>
+
+      <!-- Burger mobile -->
+      <button
+        id="menu-btn"
+        class="md:hidden flex flex-col gap-1.5 p-2 cursor-pointer"
+        aria-label="Ouvrir le menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <span class="block w-6 h-0.5 rounded" style="background: var(--color-primary);"></span>
+        <span class="block w-6 h-0.5 rounded" style="background: var(--color-primary);"></span>
+        <span class="block w-4 h-0.5 rounded" style="background: var(--color-primary);"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Menu mobile -->
+  <div id="mobile-menu" class="md:hidden hidden" style="border-top: 1px solid var(--color-border);">
+    <nav aria-label="Menu mobile">
+      <ul class="flex flex-col list-none m-0 p-0 py-3">
+        {links.map(link => (
+          <li>
+            <a
+              href={link.href}
+              class={link.highlight
+                ? "block px-6 py-3 text-sm font-bold no-underline"
+                : "block px-6 py-3 text-sm font-medium no-underline"}
+              style={link.highlight
+                ? "color: var(--color-cta-hover);"
+                : "color: var(--color-text-muted);"}
+              onclick="document.getElementById('mobile-menu').classList.add('hidden'); document.getElementById('menu-btn').setAttribute('aria-expanded','false');"
+            >
+              {link.label}
+            </a>
+          </li>
+        ))}
+        <li class="flex items-center gap-3 px-6 pt-3 pb-2">
+          <a href={altUrl} class="text-xs font-semibold px-3 py-1.5 rounded-md no-underline" style="border: 1.5px solid var(--color-border); color: var(--color-text-muted);">{altLabel}</a>
+          <a href="https://www.linkedin.com/in/soulimanefarah/" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold px-3 py-1.5 rounded-md no-underline" style="border: 1.5px solid var(--color-border); color: var(--color-text-muted);">LinkedIn</a>
+        </li>
+        <li class="px-6 pt-1 pb-3">
+          <a href="#contact" class="btn btn-primary w-full justify-center" style="animation: none;">{t.nav.cta}</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="h-16" aria-hidden="true"></div>
+
+<script>
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 10) {
+      navbar?.style.setProperty('border-bottom-color', 'var(--color-border)');
+      navbar?.style.setProperty('box-shadow', '0 4px 6px rgba(15,23,42,0.07)');
+    } else {
+      navbar?.style.setProperty('border-bottom-color', 'transparent');
+      navbar?.style.setProperty('box-shadow', 'none');
+    }
+  }, { passive: true });
+
+  const btn = document.getElementById('menu-btn');
+  const menu = document.getElementById('mobile-menu');
+  btn?.addEventListener('click', () => {
+    const open = menu?.classList.toggle('hidden') === false;
+    btn.setAttribute('aria-expanded', String(open));
+  });
+</script>

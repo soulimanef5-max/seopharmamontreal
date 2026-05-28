@@ -1,0 +1,56 @@
+---
+import type { Lang } from '../i18n/ui';
+import { useTranslations } from '../i18n/utils';
+
+interface Props { lang?: Lang }
+const { lang = 'fr' } = Astro.props;
+const t = useTranslations(lang).stats;
+---
+
+<section
+  class="py-20 md:py-28"
+  style="background: var(--color-primary);"
+  aria-label={t.title}
+>
+  <div class="container">
+    <div class="section-header section-dark mb-16">
+      <span class="overline" style="color: #FCD34D;">{t.overline}</span>
+      <h2 class="section-title" style="color: white;">{t.title}</h2>
+      <p class="section-lead" style="color: rgba(255,255,255,0.65);">{t.lead}</p>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-6">
+      {t.items.map((stat) => (
+        <div class="text-center" data-animate="stat">
+          <div
+            class="font-bold leading-none mb-3"
+            style="font-family: var(--font-family-heading); font-size: clamp(2.25rem, 4.5vw, 3rem); letter-spacing: -0.03em; color: white;"
+          >
+            {stat.value}
+          </div>
+          <p
+            class="m-0"
+            style="font-size: 0.875rem; line-height: 1.55; color: rgba(255,255,255,0.62); max-width: 16ch; margin-inline: auto;"
+          >
+            {stat.label}
+          </p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<script>
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          (entry.target as HTMLElement).style.animation = 'stat-reveal 0.6s cubic-bezier(0.34,1.56,0.64,1) both';
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.3 }
+  );
+  document.querySelectorAll('[data-animate="stat"]').forEach(el => observer.observe(el));
+</script>

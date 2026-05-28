@@ -1,23 +1,95 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
-	</head>
-	<body>
-		<slot />
-	</body>
-</html>
+---
+import '../styles/global.css';
+import type { Lang } from '../i18n/ui';
 
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
-</style>
+interface Props {
+  title?:       string;
+  description?: string;
+  canonical?:   string;
+  lang?:        Lang;
+}
+
+const {
+  lang        = 'fr',
+  title       = lang === 'en'
+    ? 'SEO Pharma Montréal — Pharma & Health SEO/GEO Consultant'
+    : 'SEO Pharma Montréal — Expert SEO/GEO pour le secteur santé',
+  description = lang === 'en'
+    ? 'Freelance SEO consultant specialized in pharma, natural health products and medical devices in Montréal. YMYL-compliant, E-E-A-T strategy, measurable results.'
+    : 'Consultant SEO freelance spécialisé en secteur pharma, produits de santé naturels et dispositifs médicaux à Montréal. Stratégie YMYL, E-E-A-T et contenu médical optimisé.',
+  canonical   = `https://seopharmamontreal.com${Astro.url.pathname}`,
+} = Astro.props;
+
+const altLang    = lang === 'fr' ? 'en' : 'fr';
+const altCanonical = lang === 'fr'
+  ? `https://seopharmamontreal.com/en${Astro.url.pathname === '/' ? '' : Astro.url.pathname}`
+  : `https://seopharmamontreal.com${Astro.url.pathname.replace(/^\/en/, '') || '/'}`;
+
+const schema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type':    'ProfessionalService',
+  name:        'SEO Pharma Montréal',
+  url:         'https://seopharmamontreal.com',
+  description,
+  address: {
+    '@type':         'PostalAddress',
+    addressLocality: 'Montréal',
+    addressRegion:   'QC',
+    addressCountry:  'CA',
+  },
+  areaServed: {
+    '@type':      'GeoCircle',
+    geoMidpoint:  { '@type': 'GeoCoordinates', latitude: 45.5017, longitude: -73.5673 },
+    geoRadius:    '100000',
+  },
+  serviceType: ['SEO', 'GEO', 'YMYL Content Strategy', 'Pharma Digital Marketing'],
+  priceRange:  '$$',
+  employee: {
+    '@type': 'Person',
+    name:    'Soulimane Farah',
+    url:     'https://www.linkedin.com/in/soulimanefarah/',
+    jobTitle: lang === 'en' ? 'SEO/GEO Consultant' : 'Consultant SEO/GEO',
+  },
+});
+---
+
+<!doctype html>
+<html lang={lang === 'fr' ? 'fr-CA' : 'en-CA'}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0F172A" />
+
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+
+    <!-- Hreflang -->
+    <link rel="alternate" hreflang="fr-CA" href={lang === 'fr' ? canonical : altCanonical} />
+    <link rel="alternate" hreflang="en-CA" href={lang === 'en' ? canonical : altCanonical} />
+    <link rel="alternate" hreflang="x-default" href={lang === 'fr' ? canonical : altCanonical} />
+
+    <!-- Open Graph -->
+    <meta property="og:type"        content="website" />
+    <meta property="og:url"         content={canonical} />
+    <meta property="og:title"       content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:locale"      content={lang === 'fr' ? 'fr_CA' : 'en_CA'} />
+    <meta property="og:site_name"   content="SEO Pharma Montréal" />
+
+    <meta name="twitter:card"        content="summary_large_image" />
+    <meta name="twitter:title"       content={title} />
+    <meta name="twitter:description" content={description} />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <script type="application/ld+json" set:html={schema} />
+    <meta name="generator" content={Astro.generator} />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
