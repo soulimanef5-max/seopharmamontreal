@@ -13,6 +13,7 @@ interface Props {
   readingTime?: number;
   author?:      string;
   tags?:        string[];
+  slug?:        string;
 }
 
 const {
@@ -23,17 +24,105 @@ const {
   readingTime = 5,
   author      = 'Soulimane Farah',
   tags        = [],
+  slug        = '',
 } = Astro.props;
 
 const t = useTranslations(lang);
 const dateStr = pubDate.toLocaleDateString(lang === 'fr' ? 'fr-CA' : 'en-CA', {
   year: 'numeric', month: 'long', day: 'numeric',
 });
+
+const canonicalUrl  = `https://seopharmamontreal.com${Astro.url.pathname}`;
+const blogUrl       = lang === 'en' ? 'https://seopharmamontreal.com/en/blog/' : 'https://seopharmamontreal.com/blog/';
+const homeUrl       = lang === 'en' ? 'https://seopharmamontreal.com/en/' : 'https://seopharmamontreal.com/';
+
+// JSON-LD Article
+const articleSchema = JSON.stringify({
+  '@context':         'https://schema.org',
+  '@type':            'Article',
+  '@id':              canonicalUrl,
+  headline:           title,
+  description:        description,
+  inLanguage:         lang === 'fr' ? 'fr-CA' : 'en-CA',
+  url:                canonicalUrl,
+  datePublished:      pubDate.toISOString(),
+  dateModified:       pubDate.toISOString(),
+  author: {
+    '@type': 'Person',
+    '@id':   'https://seopharmamontreal.com/#person',
+    name:    author,
+    url:     'https://seopharmamontreal.com',
+  },
+  publisher: {
+    '@type':  'Organization',
+    '@id':    'https://seopharmamontreal.com/#business',
+    name:     'SEO Pharma Montréal',
+    url:      'https://seopharmamontreal.com',
+    logo: {
+      '@type': 'ImageObject',
+      url:     'https://seopharmamontreal.com/favicon.svg',
+    },
+  },
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id':   canonicalUrl,
+  },
+  ...(tags.length > 0 && { keywords: tags.join(', ') }),
+});
+
+// JSON-LD BreadcrumbList
+const breadcrumbSchema = JSON.stringify({
+  '@context':    'https://schema.org',
+  '@type':       'BreadcrumbList',
+  itemListElement: [
+    {
+      '@type':   'ListItem',
+      position:  1,
+      name:      lang === 'fr' ? 'Accueil' : 'Home',
+      item:      homeUrl,
+    },
+    {
+      '@type':   'ListItem',
+      position:  2,
+      name:      'Blog',
+      item:      blogUrl,
+    },
+    {
+      '@type':   'ListItem',
+      position:  3,
+      name:      title,
+      item:      canonicalUrl,
+    },
+  ],
+});
 ---
 
-<Layout lang={lang} title={title} description={description}>
+<Layout lang={lang} title={title} description={description} type="article" pubDate={pubDate} author={author} canonical={canonicalUrl}>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={articleSchema} />
+    <script type="application/ld+json" set:html={breadcrumbSchema} />
+  </Fragment>
   <Navbar lang={lang} />
   <main id="main-content">
+    <!-- Fil d'Ariane (breadcrumb visible) -->
+    <nav aria-label={lang === 'fr' ? 'Fil d\'ariane' : 'Breadcrumb'} class="py-3" style="background: var(--color-surface-alt); border-bottom: 1px solid var(--color-border);">
+      <div class="container" style="max-width: var(--container-narrow);">
+        <ol class="flex flex-wrap items-center gap-1.5 list-none m-0 p-0 text-xs" style="color: var(--color-text-muted);">
+          <li>
+            <a href={homeUrl} class="no-underline hover:underline" style="color: var(--color-text-muted);">
+              {lang === 'fr' ? 'Accueil' : 'Home'}
+            </a>
+          </li>
+          <li aria-hidden="true" class="select-none">/</li>
+          <li>
+            <a href={blogUrl} class="no-underline hover:underline" style="color: var(--color-text-muted);">Blog</a>
+          </li>
+          <li aria-hidden="true" class="select-none">/</li>
+          <li class="truncate max-w-xs font-medium" style="color: var(--color-primary);" aria-current="page">{title}</li>
+        </ol>
+      </div>
+    </nav>
+
     <!-- Hero article -->
     <header class="py-16 md:py-24" style="background: var(--color-primary);">
       <div class="container" style="max-width: var(--container-narrow);">

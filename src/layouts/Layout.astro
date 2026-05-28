@@ -3,54 +3,128 @@ import '../styles/global.css';
 import type { Lang } from '../i18n/ui';
 
 interface Props {
-  title?:       string;
-  description?: string;
-  canonical?:   string;
-  lang?:        Lang;
+  title?:        string;
+  description?:  string;
+  canonical?:    string;
+  ogImage?:      string;
+  lang?:         Lang;
+  type?:         'website' | 'article';
+  pubDate?:      Date;
+  author?:       string;
 }
 
 const {
   lang        = 'fr',
+  type        = 'website',
+  pubDate,
+  author      = 'Soulimane Farah',
   title       = lang === 'en'
     ? 'SEO Pharma Montréal — Pharma & Health SEO/GEO Consultant'
     : 'SEO Pharma Montréal — Expert SEO/GEO pour le secteur santé',
   description = lang === 'en'
-    ? 'Freelance SEO consultant specialized in pharma, natural health products and medical devices in Montréal. YMYL-compliant, E-E-A-T strategy, measurable results.'
-    : 'Consultant SEO freelance spécialisé en secteur pharma, produits de santé naturels et dispositifs médicaux à Montréal. Stratégie YMYL, E-E-A-T et contenu médical optimisé.',
+    ? 'Freelance SEO/GEO consultant specialized in pharma, natural health products and medical devices in Montréal. YMYL-compliant, E-E-A-T strategy, LLM visibility.'
+    : 'Consultant SEO/GEO freelance spécialisé en secteur pharma, produits de santé naturels et dispositifs médicaux à Montréal. Stratégie YMYL, E-E-A-T et visibilité LLM.',
   canonical   = `https://seopharmamontreal.com${Astro.url.pathname}`,
+  ogImage     = 'https://seopharmamontreal.com/og-image.jpg',
 } = Astro.props;
 
-const altLang    = lang === 'fr' ? 'en' : 'fr';
+const altLang      = lang === 'fr' ? 'en' : 'fr';
 const altCanonical = lang === 'fr'
   ? `https://seopharmamontreal.com/en${Astro.url.pathname === '/' ? '' : Astro.url.pathname}`
   : `https://seopharmamontreal.com${Astro.url.pathname.replace(/^\/en/, '') || '/'}`;
 
-const schema = JSON.stringify({
+// ── JSON-LD : WebSite ──────────────────────────────────────────────────────
+const schemaWebSite = {
   '@context': 'https://schema.org',
-  '@type':    'ProfessionalService',
-  name:        'SEO Pharma Montréal',
-  url:         'https://seopharmamontreal.com',
-  description,
+  '@type':    'WebSite',
+  '@id':      'https://seopharmamontreal.com/#website',
+  name:       'SEO Pharma Montréal',
+  url:        'https://seopharmamontreal.com',
+  inLanguage: ['fr-CA', 'en-CA'],
+  potentialAction: {
+    '@type':       'SearchAction',
+    target:        { '@type': 'EntryPoint', urlTemplate: 'https://seopharmamontreal.com/blog/?s={search_term_string}' },
+    'query-input': 'required name=search_term_string',
+  },
+};
+
+// ── JSON-LD : LocalBusiness ────────────────────────────────────────────────
+const schemaBusiness = {
+  '@context':    'https://schema.org',
+  '@type':       ['LocalBusiness', 'ProfessionalService'],
+  '@id':         'https://seopharmamontreal.com/#business',
+  name:          'SEO Pharma Montréal',
+  url:           'https://seopharmamontreal.com',
+  telephone:     '+14389206377',
+  email:         'info@seopharmamontreal.com',
+  description:   lang === 'en'
+    ? 'SEO/GEO consultant specialized in pharma, NHP and medical devices in Montréal.'
+    : 'Consultant SEO/GEO spécialisé en pharma, PSN et dispositifs médicaux à Montréal.',
   address: {
-    '@type':         'PostalAddress',
-    addressLocality: 'Montréal',
-    addressRegion:   'QC',
-    addressCountry:  'CA',
+    '@type':          'PostalAddress',
+    addressLocality:  'Montréal',
+    addressRegion:    'QC',
+    postalCode:       'H1A',
+    addressCountry:   'CA',
   },
-  areaServed: {
-    '@type':      'GeoCircle',
-    geoMidpoint:  { '@type': 'GeoCoordinates', latitude: 45.5017, longitude: -73.5673 },
-    geoRadius:    '100000',
+  geo: {
+    '@type':    'GeoCoordinates',
+    latitude:   45.5017,
+    longitude:  -73.5673,
   },
-  serviceType: ['SEO', 'GEO', 'YMYL Content Strategy', 'Pharma Digital Marketing'],
-  priceRange:  '$$',
-  employee: {
-    '@type': 'Person',
-    name:    'Soulimane Farah',
-    url:     'https://www.linkedin.com/in/soulimanefarah/',
-    jobTitle: lang === 'en' ? 'SEO/GEO Consultant' : 'Consultant SEO/GEO',
-  },
-});
+  areaServed: [
+    { '@type': 'City',     name: 'Montréal' },
+    { '@type': 'State',    name: 'Québec'   },
+    { '@type': 'Country',  name: 'Canada'   },
+  ],
+  serviceType:  ['SEO', 'GEO', 'YMYL Content Strategy', 'LLM Optimization', 'Pharma Digital Marketing'],
+  priceRange:   '$$',
+  openingHours: 'Mo-Fr 09:00-18:00',
+  sameAs:       ['https://www.linkedin.com/in/soulimanefarah/'],
+};
+
+// ── JSON-LD : Person ───────────────────────────────────────────────────────
+const schemaPerson = {
+  '@context':  'https://schema.org',
+  '@type':     'Person',
+  '@id':       'https://seopharmamontreal.com/#person',
+  name:        'Soulimane Farah',
+  url:         'https://seopharmamontreal.com',
+  email:       'info@seopharmamontreal.com',
+  telephone:   '+14389206377',
+  jobTitle:    lang === 'en' ? 'SEO/GEO Consultant — Pharma & Health' : 'Consultant SEO/GEO — Pharma & Santé',
+  worksFor:    { '@type': 'Organization', '@id': 'https://seopharmamontreal.com/#business' },
+  sameAs:      ['https://www.linkedin.com/in/soulimanefarah/'],
+  knowsAbout:  ['SEO', 'GEO', 'LLMO', 'YMYL', 'E-E-A-T', 'Pharma', 'Health Canada', 'GMP/BPF', 'NHP/PSN', 'Medical Devices'],
+  alumniOf:    { '@type': 'CollegeOrUniversity', name: 'Collège Gérald-Godin' },
+  hasCredential: [
+    {
+      '@type':              'EducationalOccupationalCredential',
+      name:                 'AEC Assurance Qualité Pharmaceutique',
+      credentialCategory:   'degree',
+      recognizedBy:         { '@type': 'CollegeOrUniversity', name: 'Collège Gérald-Godin' },
+    },
+    {
+      '@type':              'EducationalOccupationalCredential',
+      name:                 'Certifié Google Analytics 4',
+      credentialCategory:   'certificate',
+      recognizedBy:         { '@type': 'Organization', name: 'Google' },
+    },
+    {
+      '@type':              'EducationalOccupationalCredential',
+      name:                 'Certifié AI-driven SEO',
+      credentialCategory:   'certificate',
+    },
+  ],
+};
+
+const schemas = JSON.stringify([schemaWebSite, schemaBusiness, schemaPerson]);
+
+// ── OG / Twitter image ─────────────────────────────────────────────────────
+const heroImageUrl = 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=630&fm=jpg&fit=crop&q=85';
+const resolvedOgImage = ogImage.startsWith('http') ? ogImage : heroImageUrl;
+
+const lcpPreloadUrl = 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=920&h=700&fm=webp&auto=format&fit=crop&q=82';
 ---
 
 <!doctype html>
@@ -60,36 +134,80 @@ const schema = JSON.stringify({
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#0F172A" />
 
+    <!-- Titre & Description ────────────────────────────────────────────── -->
     <title>{title}</title>
     <meta name="description" content={description} />
-    <link rel="canonical" href={canonical} />
+    <meta name="author" content={author} />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="generator" content={Astro.generator} />
 
-    <!-- Hreflang -->
-    <link rel="alternate" hreflang="fr-CA" href={lang === 'fr' ? canonical : altCanonical} />
-    <link rel="alternate" hreflang="en-CA" href={lang === 'en' ? canonical : altCanonical} />
+    <!-- Canonical & Hreflang ───────────────────────────────────────────── -->
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang="fr-CA"    href={lang === 'fr' ? canonical : altCanonical} />
+    <link rel="alternate" hreflang="en-CA"    href={lang === 'en' ? canonical : altCanonical} />
     <link rel="alternate" hreflang="x-default" href={lang === 'fr' ? canonical : altCanonical} />
 
-    <!-- Open Graph -->
-    <meta property="og:type"        content="website" />
+    <!-- Géolocalisation (SEO local) ────────────────────────────────────── -->
+    <meta name="geo.region"     content="CA-QC" />
+    <meta name="geo.placename"  content="Montréal, Québec, Canada" />
+    <meta name="geo.position"   content="45.5017;-73.5673" />
+    <meta name="ICBM"           content="45.5017, -73.5673" />
+
+    <!-- Open Graph ─────────────────────────────────────────────────────── -->
+    <meta property="og:type"        content={type} />
     <meta property="og:url"         content={canonical} />
     <meta property="og:title"       content={title} />
     <meta property="og:description" content={description} />
+    <meta property="og:image"       content={resolvedOgImage} />
+    <meta property="og:image:width"  content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt"    content={lang === 'fr' ? 'SEO Pharma Montréal — Soulimane Farah, Consultant SEO/GEO' : 'SEO Pharma Montréal — Soulimane Farah, SEO/GEO Consultant'} />
     <meta property="og:locale"      content={lang === 'fr' ? 'fr_CA' : 'en_CA'} />
+    <meta property="og:locale:alternate" content={lang === 'fr' ? 'en_CA' : 'fr_CA'} />
     <meta property="og:site_name"   content="SEO Pharma Montréal" />
+    {type === 'article' && pubDate && (
+      <meta property="article:published_time" content={pubDate.toISOString()} />
+    )}
+    {type === 'article' && (
+      <meta property="article:author" content={author} />
+    )}
 
+    <!-- Twitter Card ───────────────────────────────────────────────────── -->
     <meta name="twitter:card"        content="summary_large_image" />
     <meta name="twitter:title"       content={title} />
     <meta name="twitter:description" content={description} />
+    <meta name="twitter:image"       content={resolvedOgImage} />
+    <meta name="twitter:image:alt"   content={lang === 'fr' ? 'SEO Pharma Montréal — Consultant SEO/GEO Pharma Montréal' : 'SEO Pharma Montréal — Pharma SEO/GEO Consultant'} />
 
+    <!-- Favicon ────────────────────────────────────────────────────────── -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+
+    <!-- Preconnect & Performance ───────────────────────────────────────── -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="preconnect" href="https://static.hsappstatic.net" />
+    <!-- Preload LCP (image hero, desktop uniquement) -->
+    <link rel="preload" as="image" href={lcpPreloadUrl} fetchpriority="high" media="(min-width: 1024px)" />
 
-    <script type="application/ld+json" set:html={schema} />
-    <meta name="generator" content={Astro.generator} />
+    <!-- JSON-LD ─────────────────────────────────────────────────────────── -->
+    <script type="application/ld+json" set:html={schemas} />
+
+    <slot name="head" />
   </head>
   <body>
+    <!-- Skip to content (accessibilité + SEO) -->
+    <a
+      href="#main-content"
+      class="skip-link"
+      style="position:absolute;top:-100px;left:1rem;z-index:9999;padding:.5rem 1rem;border-radius:.375rem;font-size:.875rem;font-weight:600;background:var(--color-primary);color:white;transition:top .15s;text-decoration:none;"
+      onfocus="this.style.top='1rem';"
+      onblur="this.style.top='-100px';"
+    >
+      {lang === 'fr' ? 'Passer au contenu principal' : 'Skip to main content'}
+    </a>
     <slot />
   </body>
 </html>

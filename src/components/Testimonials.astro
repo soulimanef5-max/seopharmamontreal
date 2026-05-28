@@ -6,7 +6,23 @@ import { useTranslations } from '../i18n/utils';
 interface Props { lang?: Lang }
 const { lang = 'fr' } = Astro.props;
 const t = useTranslations(lang).faq;
+
+// JSON-LD FAQPage — exploité par Google pour les rich snippets
+const faqSchema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type':    'FAQPage',
+  mainEntity: t.items.map(item => ({
+    '@type': 'Question',
+    name:    item.q,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text:    item.a,
+    },
+  })),
+});
 ---
+
+<script type="application/ld+json" set:html={faqSchema} />
 
 <section
   id="faq"
