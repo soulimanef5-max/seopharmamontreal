@@ -18,8 +18,8 @@ export const ui = {
     hero: {
       badge:    'Consultant SEO/GEO | Pharma · PSN · Dispositifs Médicaux | Montréal',
       title1:   'Dominez Google',
-      title2:   'dans le secteur',
-      title3:   'pharma à Montréal',
+      title2:   'en SEO pharma',
+      title3:   'à Montréal',
       subtitle: 'Stratégie SEO/GEO sur mesure pour PME pharma, PSN et dispositifs médicaux. Conforme E-E-A-T, YMYL et Santé Canada — visible sur Google ET les LLMs (ChatGPT, Perplexity, Claude).',
       cta1:     'Obtenir un audit gratuit',
       cta2:     'Voir les services',
@@ -110,7 +110,7 @@ export const ui = {
 
     process: {
       overline: 'Comment ça fonctionne',
-      title:    '3 étapes simples pour des résultats durables',
+      title:    'Mon processus SEO/GEO pharma : audit, stratégie, résultats',
       lead:     'Pas de jargon inutile. Un processus structuré, transparent, conçu pour les équipes marketing pharma qui manquent de temps.',
       steps: [
         {
@@ -139,7 +139,7 @@ export const ui = {
 
     faq: {
       overline: 'Questions fréquentes',
-      title:    'Tout ce que vous devez savoir avant de vous lancer',
+      title:    'FAQ — SEO pharma, YMYL et visibilité dans les LLMs',
       lead:     'Vous débutez avec le SEO ou vous avez des questions spécifiques au secteur pharma ? Voici les réponses honnêtes.',
       items: [
         {
@@ -191,7 +191,7 @@ export const ui = {
 
     pricing: {
       overline: 'Tarifs transparents',
-      title:    'Investissez dans votre croissance organique',
+      title:    'Tarifs SEO/GEO Pharma — Forfaits flexibles sans engagement',
       lead:     'Pas de contrats longue durée cachés. Facturation mensuelle, annulation à tout moment. Tous les prix sont en CAD et excluent les taxes applicables.',
       note:     'Tous les forfaits incluent un appel de démarrage. Besoin d\'une offre sur mesure ?',
       noteLink: 'Contactez-moi',
@@ -303,7 +303,7 @@ export const ui = {
 
     blog: {
       overline:   'Blog',
-      title:      'Ressources SEO pour le secteur santé',
+      title:      'Blog SEO Pharma — Guides et analyses pour le secteur santé',
       lead:       'Articles, guides et analyses sur le SEO médical, le contenu YMYL et la visibilité locale pour les entreprises pharmaceutiques au Québec.',
       readMore:   'Lire l\'article',
       backHome:   '← Retour à l\'accueil',
@@ -329,8 +329,8 @@ export const ui = {
     hero: {
       badge:    'SEO/GEO Consultant | Pharma · NHP · Medical Devices | Montréal',
       title1:   'Dominate Google',
-      title2:   'in the pharma',
-      title3:   'sector in Montréal',
+      title2:   'in pharma SEO',
+      title3:   'in Montréal',
       subtitle: 'Custom SEO/GEO strategy for pharma SMEs, NHPs and medical devices. E-E-A-T, YMYL and Health Canada compliant — visible on Google AND LLMs (ChatGPT, Perplexity, Claude).',
       cta1:     'Get a Free Audit',
       cta2:     'View Services',
@@ -421,7 +421,7 @@ export const ui = {
 
     process: {
       overline: 'How it works',
-      title:    '3 simple steps to lasting results',
+      title:    'My Pharma SEO/GEO Process: Audit, Strategy, Results',
       lead:     'No unnecessary jargon. A structured, transparent process designed for pharma marketing teams with limited time.',
       steps: [
         {
@@ -450,7 +450,7 @@ export const ui = {
 
     faq: {
       overline: 'Frequently asked questions',
-      title:    'Everything you need to know before getting started',
+      title:    'FAQ — Pharma SEO, YMYL and LLM Visibility',
       lead:     'New to SEO or do you have questions specific to the pharma sector? Here are honest answers.',
       items: [
         {
@@ -502,7 +502,7 @@ export const ui = {
 
     pricing: {
       overline: 'Transparent pricing',
-      title:    'Invest in your organic growth',
+      title:    'Pharma SEO/GEO Pricing — Flexible, No Long-Term Contract',
       lead:     'No hidden long-term contracts. Monthly billing, cancel anytime. All prices in CAD, taxes not included.',
       note:     'All plans include an onboarding call. Need a custom offer?',
       noteLink: 'Contact me',
@@ -614,7 +614,7 @@ export const ui = {
 
     blog: {
       overline:   'Blog',
-      title:      'SEO resources for the health sector',
+      title:      'Pharma SEO Blog — Guides & Analysis for the Health Sector',
       lead:       'Articles, guides and analysis on medical SEO, YMYL content and local visibility for pharmaceutical businesses in Québec.',
       readMore:   'Read article',
       backHome:   '← Back to home',
