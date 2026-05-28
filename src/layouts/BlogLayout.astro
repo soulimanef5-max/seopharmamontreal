@@ -36,6 +36,10 @@ const canonicalUrl  = `https://seopharmamontreal.com${Astro.url.pathname}`;
 const blogUrl       = lang === 'en' ? 'https://seopharmamontreal.com/en/blog/' : 'https://seopharmamontreal.com/blog/';
 const homeUrl       = lang === 'en' ? 'https://seopharmamontreal.com/en/' : 'https://seopharmamontreal.com/';
 
+// Slug extrait du pathname → /blog/mon-article/ → "mon-article"
+const slugFromPath  = Astro.url.pathname.split('/').filter(Boolean).pop() ?? 'home';
+const ogImageUrl    = `https://seopharmamontreal.com/og/${lang}/${slugFromPath}.png`;
+
 // JSON-LD Article
 const articleSchema = JSON.stringify({
   '@context':         'https://schema.org',
@@ -97,7 +101,7 @@ const breadcrumbSchema = JSON.stringify({
 });
 ---
 
-<Layout lang={lang} title={title} description={description} type="article" pubDate={pubDate} author={author} canonical={canonicalUrl}>
+<Layout lang={lang} title={title} description={description} type="article" pubDate={pubDate} author={author} canonical={canonicalUrl} ogImage={ogImageUrl}>
   <Fragment slot="head">
     <script type="application/ld+json" set:html={articleSchema} />
     <script type="application/ld+json" set:html={breadcrumbSchema} />

@@ -25,7 +25,7 @@ const {
     ? 'Freelance SEO/GEO consultant specialized in pharma, natural health products and medical devices in Montréal. YMYL-compliant, E-E-A-T strategy, LLM visibility.'
     : 'Consultant SEO/GEO freelance spécialisé en secteur pharma, produits de santé naturels et dispositifs médicaux à Montréal. Stratégie YMYL, E-E-A-T et visibilité LLM.',
   canonical   = `https://seopharmamontreal.com${Astro.url.pathname}`,
-  ogImage     = 'https://seopharmamontreal.com/og-image.jpg',
+  ogImage     = `https://seopharmamontreal.com/og/${lang}/home.png`,
 } = Astro.props;
 
 const altLang      = lang === 'fr' ? 'en' : 'fr';
