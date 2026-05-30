@@ -1,0 +1,92 @@
+---
+import { getCollection } from 'astro:content';
+import type { Lang } from '../i18n/ui';
+
+interface Props {
+  lang?:        Lang;
+  currentSlug:  string;
+  currentTags:  string[];
+}
+
+const { lang = 'fr', currentSlug, currentTags } = Astro.props;
+
+// Récupère tous les articles dans la même langue, sauf l'article courant
+const allPosts = await getCollection('blog', e =>
+  e.data.lang === lang && e.id !== currentSlug
+);
+
+// Score chaque article par nombre de tags en commun
+const scored = allPosts
+  .map(post => ({
+    post,
+    score: post.data.tags.filter(t => currentTags.includes(t)).length,
+  }))
+  .filter(({ score }) => score > 0)
+  .sort((a, b) => b.score - a.score || b.post.data.pubDate.getTime() - a.post.data.pubDate.getTime())
+  .slice(0, 3);
+
+// Si moins de 2 articles avec tags communs, compléter avec les plus récents
+if (scored.length < 2) {
+  const existing = new Set(scored.map(s => s.post.id));
+  const recent = allPosts
+    .filter(p => !existing.has(p.id))
+    .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime())
+    .slice(0, 3 - scored.length)
+    .map(post => ({ post, score: 0 }));
+  scored.push(...recent);
+}
+
+const blogBase = lang === 'en' ? '/en/blog/' : '/blog/';
+const heading  = lang === 'fr' ? 'Articles connexes'    : 'Related articles';
+const readMore = lang === 'fr' ? 'Lire l\'article →'    : 'Read article →';
+const minRead  = lang === 'fr' ? 'min de lecture'       : 'min read';
+---
+
+{scored.length > 0 && (
+  <aside
+    class="mt-14 pt-10"
+    style="border-top: 2px solid var(--color-border);"
+    aria-labelledby="related-posts-title"
+  >
+    <h2
+      id="related-posts-title"
+      class="mb-6"
+      style="font-size: 1.25rem; color: var(--color-primary); font-family: var(--font-family-heading);"
+    >
+      {heading}
+    </h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      {scored.map(({ post }) => {
+        const url = `${blogBase}${post.id}/`;
+        return (
+          <a
+            href={url}
+            class="flex flex-col gap-3 rounded-xl p-5 no-underline hover:opacity-90 transition-opacity"
+            style="background: var(--color-surface-alt); border: 1px solid var(--color-border);"
+          >
+            {post.data.tags.length > 0 && (
+              <span
+                class="text-xs font-semibold self-start px-2.5 py-0.5 rounded-full"
+                style="background: rgba(202,138,4,0.12); color: var(--color-cta-hover);"
+              >
+                {post.data.tags[0]}
+              </span>
+            )}
+            <p
+              class="flex-1 font-semibold"
+              style="font-size: 0.9375rem; line-height: 1.45; color: var(--color-primary);"
+            >
+              {post.data.title}
+            </p>
+            <span
+              class="text-xs font-medium mt-auto"
+              style="color: var(--color-cta);"
+            >
+              {readMore}
+            </span>
+          </a>
+        );
+      })}
+    </div>
+  </aside>
+)}

@@ -8,7 +8,6 @@ readingTime: 7
 author: Soulimane Farah
 modDate: 2026-05-30
 translationSlug: "eeat-medical-seo-pharma-2025-en"
-modDate: 2026-05-30
 ---
 
 Si vous gérez le site d'une pharmacie indépendante, d'une marque de produits de santé naturels ou d'un distributeur de dispositifs médicaux au Québec, vous êtes concerné par l'un des aspects les plus méconnus — et les plus déterminants — du référencement naturel : les critères **E-E-A-T**.

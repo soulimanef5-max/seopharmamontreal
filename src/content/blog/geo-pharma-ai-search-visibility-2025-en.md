@@ -8,7 +8,6 @@ readingTime: 8
 author: Soulimane Farah
 modDate: 2026-05-30
 translationSlug: "geo-pharma-chatgpt-perplexity-sante-2025"
-modDate: 2026-05-30
 ---
 
 In 2025, a quiet but major shift is reshaping how healthcare decision-makers find suppliers, solutions and experts: they're asking AI directly.

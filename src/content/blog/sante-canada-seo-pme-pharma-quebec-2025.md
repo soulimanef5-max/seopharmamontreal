@@ -8,7 +8,6 @@ readingTime: 9
 author: Soulimane Farah
 modDate: 2026-05-30
 translationSlug: "health-canada-seo-nhp-compliance-2025-en"
-modDate: 2026-05-30
 ---
 
 Si vous gérez le site web d'une entreprise pharmaceutique, d'une marque de produits de santé naturels (PSN) ou d'un fabricant de dispositifs médicaux au Québec, vous naviguez en permanence entre deux exigences apparemment contradictoires : **être visible sur Google** et **respecter les cadres réglementaires de Santé Canada**.

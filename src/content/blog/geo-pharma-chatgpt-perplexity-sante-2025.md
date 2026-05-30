@@ -8,7 +8,6 @@ readingTime: 8
 author: Soulimane Farah
 modDate: 2026-05-30
 translationSlug: "geo-pharma-ai-search-visibility-2025-en"
-modDate: 2026-05-30
 ---
 
 En 2025, une tendance discrète mais majeure transforme la façon dont les décideurs du secteur santé cherchent des fournisseurs, des solutions et des experts : ils demandent directement à une intelligence artificielle.

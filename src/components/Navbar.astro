@@ -8,14 +8,15 @@ const t = useTranslations(lang);
 const altUrl = getAlternateUrl(Astro.url);
 const altLabel = lang === 'fr' ? 'EN' : 'FR';
 
+const base  = lang === 'en' ? '/en/' : '/';
 const links = [
-  { href: '#services',      label: t.nav.services  },
-  { href: '#processus',     label: t.nav.processus },
-  { href: '#faq',           label: t.nav.faq       },
-  { href: '#tarifs',        label: t.nav.tarifs    },
-  { href: '#rendez-vous',   label: t.nav.rdv, highlight: true },
+  { href: `${base}#services`,    label: t.nav.services  },
+  { href: `${base}#processus`,   label: t.nav.processus },
+  { href: `${base}#faq`,         label: t.nav.faq       },
+  { href: `${base}#tarifs`,      label: t.nav.tarifs    },
+  { href: `${base}#rendez-vous`, label: t.nav.rdv, highlight: true },
   { href: lang === 'en' ? '/en/blog/' : '/blog/', label: t.nav.blog },
-  { href: '#contact',       label: t.nav.contact   },
+  { href: `${base}#contact`,     label: t.nav.contact   },
 ];
 ---
 
