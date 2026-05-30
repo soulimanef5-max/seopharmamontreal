@@ -6,6 +6,7 @@ lang: fr
 tags: ["SEO local", "pharmacie", "Québec", "Google Business Profile", "AQPP", "pharmacien propriétaire"]
 readingTime: 7
 author: Soulimane Farah
+modDate: 2026-05-30
 ---
 
 Jean Coutu. Pharmaprix. Uniprix. Metro Pharmacy. Ces chaînes dépensent des millions en marketing numérique et occupent les premières positions sur Google pour des centaines de mots-clés liés à la pharmacie.

@@ -6,6 +6,7 @@ lang: fr
 tags: ["dispositifs médicaux", "instruments médicaux", "SEO B2B", "Santé Canada", "RIM", "Canada"]
 readingTime: 8
 author: Soulimane Farah
+modDate: 2026-05-30
 ---
 
 Le marché des dispositifs médicaux au Canada représente plus de 10 milliards de dollars annuellement. Pourtant, si vous tapez « fabricant dispositifs médicaux Canada » dans Google, vous trouverez essentiellement des répertoires génériques et quelques grandes multinationales.

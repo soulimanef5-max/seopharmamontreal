@@ -6,6 +6,7 @@ lang: fr
 tags: ["PSN", "NPN", "produits de santé naturels", "SEO", "RPSN", "Santé Canada", "e-commerce santé"]
 readingTime: 8
 author: Soulimane Farah
+modDate: 2026-05-30
 ---
 
 Le marché canadien des produits de santé naturels (PSN) représente plus de 13 milliards de dollars annuellement — et la majorité des consommateurs commencent leur parcours d'achat sur Google. Pourtant, la plupart des marques PSN canadiennes sous-investissent massivement dans leur référencement naturel.

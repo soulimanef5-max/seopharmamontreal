@@ -10,6 +10,7 @@ interface Props {
   title:            string;
   description:      string;
   pubDate:          Date;
+  modDate?:         Date;
   readingTime?:     number;
   author?:          string;
   tags?:            string[];
@@ -22,6 +23,7 @@ const {
   title,
   description,
   pubDate,
+  modDate,
   readingTime     = 5,
   author          = 'Soulimane Farah',
   tags            = [],
@@ -57,7 +59,7 @@ const articleSchema = JSON.stringify({
   inLanguage:         lang === 'fr' ? 'fr-CA' : 'en-CA',
   url:                canonicalUrl,
   datePublished:      pubDate.toISOString(),
-  dateModified:       pubDate.toISOString(),
+  dateModified:       (modDate ?? pubDate).toISOString(),
   image: {
     '@type':  'ImageObject',
     url:      ogImageUrl,

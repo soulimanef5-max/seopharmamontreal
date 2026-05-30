@@ -6,6 +6,7 @@ lang: fr
 tags: ["SEO local", "clinique", "médecin", "Montréal", "Google Business Profile", "santé", "patients"]
 readingTime: 7
 author: Soulimane Farah
+modDate: 2026-05-30
 ---
 
 Un médecin de famille à Rosemont. Une clinique dentaire à Laval. Un physiothérapeute à Verdun. Chaque jour, des centaines de Montréalais cherchent sur Google un professionnel de santé près de chez eux — et la majorité clique sur l'un des trois premiers résultats.

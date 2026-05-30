@@ -12,6 +12,7 @@ const blog = defineCollection({
     readingTime:     z.number().optional(),
     author:          z.string().default('Soulimane Farah'),
     translationSlug: z.string().optional(),
+    modDate:         z.coerce.date().optional(),
   }),
 });
 
