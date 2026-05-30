@@ -20,7 +20,7 @@ Depuis les mises à jour majeures de son algorithme (notamment *Medic Update* en
 
 YMYL signifie *Your Money Your Life*. Il désigne l'ensemble des pages web dont le contenu pourrait affecter la santé physique, mentale, financière ou la sécurité d'un utilisateur.
 
-Tout contenu pharmaceutique est, par définition, YMYL : une notice de médicament mal rédigée, une description de produit de santé naturelle trompeuse ou un article sur les interactions médicamenteuses inexact peut nuire à une personne réelle. Google le sait — et c'est pour cela que ses évaluateurs humains (les *Quality Raters*) notent ces pages selon des standards bien plus exigeants que pour un site de mode ou de cuisine.
+Tout contenu pharmaceutique est, par définition, YMYL : une notice de médicament mal rédigée, une description de produit de santé naturelle trompeuse ou un article sur les interactions médicamenteuses inexact peut nuire à une personne réelle. Google le sait — et c'est pour cela que ses évaluateurs humains (les [*Quality Raters*](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)) notent ces pages selon des standards bien plus exigeants que pour un site de mode ou de cuisine.
 
 **Résultat concret :** si votre site ne démontre pas clairement son niveau d'expertise et de fiabilité, il sera dépriorisé dans les résultats, indépendamment de la qualité technique de votre SEO.
 
@@ -45,7 +45,7 @@ L'expertise désigne les **qualifications formelles** de l'auteur ou de l'organi
 - Mentions du diplôme ou de l'ordre professionnel de l'auteur
 - Pages "À propos" détaillées avec parcours professionnel
 - Affiliation à des institutions médicales reconnues
-- Bibliographie et sources citées (publications, études cliniques, etc.)
+- Bibliographie et sources citées (publications, [études cliniques sur PubMed](https://pubmed.ncbi.nlm.nih.gov), etc.)
 
 **Attention :** publier un article de santé sous un auteur anonyme est l'un des signaux négatifs les plus puissants pour Google dans le secteur YMYL.
 
@@ -54,9 +54,9 @@ L'expertise désigne les **qualifications formelles** de l'auteur ou de l'organi
 L'autorité se construit sur ce que **les autres disent de vous**, pas sur ce que vous dites de vous-même.
 
 Concrètement, cela signifie :
-- Obtenir des mentions et backlinks de sites médicaux reconnus (associations de pharmaciens, Santé Canada, universités)
+- Obtenir des mentions et backlinks de sites médicaux reconnus (associations de pharmaciens, [Santé Canada](https://www.canada.ca/fr/sante-canada.html), universités)
 - Être cité dans des articles de presse liés à la santé au Québec
-- Avoir des profils cohérents sur les plateformes professionnelles (Ordre des pharmaciens, LinkedIn, etc.)
+- Avoir des profils cohérents sur les plateformes professionnelles ([Ordre des pharmaciens du Québec](https://www.opq.org), LinkedIn, etc.)
 - Les avis Google vérifiés, en particulier pour les pharmacies indépendantes
 
 ### 4. Trustworthiness (Fiabilité)
@@ -102,7 +102,7 @@ Voici par où commencer concrètement :
 
 2. **Ajoutez des dates de publication et de mise à jour** sur tous vos articles et pages de produits.
 
-3. **Sourcez chaque affirmation médicale** : utilisez des liens vers des études publiées dans PubMed, les directives de Santé Canada ou les recommandations des ordres professionnels québécois.
+3. **Sourcez chaque affirmation médicale** : utilisez des liens vers des [études publiées dans PubMed](https://pubmed.ncbi.nlm.nih.gov), les [directives de Santé Canada](https://www.canada.ca/fr/sante-canada.html) ou les recommandations des ordres professionnels québécois.
 
 4. **Auditez vos disclaimers** : chaque page de produit ou article médical doit comporter une mention claire stipulant que le contenu ne remplace pas un avis médical professionnel.
 

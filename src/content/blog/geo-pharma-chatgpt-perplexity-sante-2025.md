@@ -12,7 +12,7 @@ translationSlug: "geo-pharma-ai-search-visibility-2025-en"
 
 En 2025, une tendance discrète mais majeure transforme la façon dont les décideurs du secteur santé cherchent des fournisseurs, des solutions et des experts : ils demandent directement à une intelligence artificielle.
 
-« Quels sont les meilleurs consultants SEO pour une PME pharmaceutique au Canada ? » — posée à ChatGPT, cette question génère une réponse en quelques secondes, sans que l'utilisateur visite un seul site. Si votre entreprise n'est pas citée dans cette réponse, vous n'existez pas pour ce client potentiel.
+« Quels sont les meilleurs consultants SEO pour une PME pharmaceutique au Canada ? » — posée à [ChatGPT](https://chatgpt.com), cette question génère une réponse en quelques secondes, sans que l'utilisateur visite un seul site. Si votre entreprise n'est pas citée dans cette réponse, vous n'existez pas pour ce client potentiel.
 
 C'est le défi — et l'opportunité — du **GEO : Generative Engine Optimization**.
 
@@ -22,7 +22,7 @@ C'est le défi — et l'opportunité — du **GEO : Generative Engine Optimizati
 
 Le **SEO** (Search Engine Optimization) vise à positionner vos pages dans les résultats de Google ou Bing. L'objectif : apparaître en haut d'une liste de liens que l'utilisateur clique.
 
-Le **GEO** vise à être *cité comme source* par un modèle de langage (ChatGPT, Perplexity, Claude, Gemini). L'objectif : que l'IA recommande votre entreprise, votre produit ou votre expertise directement dans sa réponse.
+Le **GEO** vise à être *cité comme source* par un modèle de langage ([ChatGPT](https://chatgpt.com), [Perplexity](https://www.perplexity.ai), Claude, Gemini). L'objectif : que l'IA recommande votre entreprise, votre produit ou votre expertise directement dans sa réponse.
 
 Ces deux disciplines sont complémentaires, mais leurs mécanismes diffèrent fondamentalement :
 
@@ -84,7 +84,7 @@ Restructurez vos pages de services, fiches produits et articles de blog en inté
 
 ### 3. Optimiser votre fichier `llms.txt`
 
-À l'image du `robots.txt` pour les crawlers traditionnels, le fichier `llms.txt` est un standard émergent qui permet aux modèles de langage de comprendre rapidement votre identité, votre expertise et vos sources fiables.
+À l'image du `robots.txt` pour les crawlers traditionnels, le fichier [`llms.txt`](https://llmstxt.org) est un standard émergent qui permet aux modèles de langage de comprendre rapidement votre identité, votre expertise et vos sources fiables.
 
 Ce fichier doit contenir :
 - Une description concise de votre entreprise et de votre domaine d'expertise
@@ -124,14 +124,14 @@ Pour optimiser votre présence sur Perplexity :
 
 - **Publiez régulièrement** — Perplexity favorise les contenus récents
 - **Utilisez des titres en forme de question** — « Comment... », « Qu'est-ce que... », « Pourquoi... »
-- **Rendez votre site crawlable** — vérifiez que votre `robots.txt` n'interdit pas les crawlers IA (`GPTBot`, `PerplexityBot`, `ClaudeBot`)
+- **Rendez votre site crawlable** — vérifiez que votre `robots.txt` n'interdit pas les crawlers IA (`GPTBot`, `PerplexityBot`, `ClaudeBot`) — voir la [documentation OpenAI sur GPTBot](https://platform.openai.com/docs/gptbot)
 - **Obtenez des backlinks de médias** — Perplexity accorde un poids important aux sources mentionnées dans des articles de presse
 
 ---
 
 ## GEO et conformité réglementaire : le double défi pharma
 
-Le secteur pharmaceutique fait face à une contrainte que la plupart des industries n'ont pas : la réglementation des allégations santé. Au Canada, le PAAB (Pharmaceutical Advertising Advisory Board) encadre strictement la communication sur les médicaments d'ordonnance, tandis que Santé Canada réglemente les allégations sur les PSN.
+Le secteur pharmaceutique fait face à une contrainte que la plupart des industries n'ont pas : la réglementation des allégations santé. Au Canada, le [PAAB (Pharmaceutical Advertising Advisory Board)](https://www.paab.ca) encadre strictement la communication sur les médicaments d'ordonnance, tandis que Santé Canada réglemente les allégations sur les PSN.
 
 Cette contrainte devient un *avantage compétitif* en GEO : les entreprises qui démontrent leur conformité réglementaire dans leurs contenus web inspirent davantage confiance aux modèles IA, qui sont entraînés à détecter les allégations irresponsables ou non étayées.
 

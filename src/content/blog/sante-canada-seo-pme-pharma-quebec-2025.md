@@ -22,11 +22,11 @@ Avant d'aborder le SEO, il est essentiel de comprendre les acteurs réglementair
 
 ### Santé Canada
 L'organisme fédéral qui encadre la mise en marché, la fabrication et la promotion des :
-- **Médicaments d'ordonnance et en vente libre** (Loi sur les aliments et drogues, Loi C-17)
-- **Produits de santé naturels** (Règlement sur les produits de santé naturels — RPSN)
+- **Médicaments d'ordonnance et en vente libre** ([Loi sur les aliments et drogues](https://laws-lois.justice.gc.ca/fra/lois/F-27/), [Loi C-17](https://www.canada.ca/fr/sante-canada/sujets/loi-de-vanessa.html))
+- **Produits de santé naturels** ([Règlement sur les produits de santé naturels — RPSN](https://laws-lois.justice.gc.ca/fra/reglements/DORS-2003-196/))
 - **Instruments médicaux** (Règlement sur les instruments médicaux — RIM)
 
-### Le PAAB (Pharmaceutical Advertising Advisory Board)
+### Le [PAAB (Pharmaceutical Advertising Advisory Board)](https://www.paab.ca)
 L'organisme d'autoréglementation qui examine et accrédite la publicité sur les médicaments d'ordonnance destinée aux professionnels de santé. Son code s'applique aux contenus promotionnels numériques, y compris les sites web.
 
 ### Les Normes canadiennes de la publicité (NCP)
@@ -109,10 +109,10 @@ Pour les PSN : le balisage `DietarySupplement` avec les propriétés `activeIngr
 Les backlinks en pharma doivent être soigneusement qualifiés. Un lien provenant d'un site qui fait des allégations non conformes peut, dans certains contextes, créer une association indésirable.
 
 Privilégiez les mentions et backlinks de :
-- Associations professionnelles accréditées (AQPP, CPEQ, Pharmabio Développement)
+- Associations professionnelles accréditées ([AQPP](https://www.aqpp.qc.ca), [CPEQ](https://www.cpeq.org), [Pharmabio Développement](https://www.pharmabio.qc.ca))
 - Médias sectoriels spécialisés
 - Universités et centres de recherche
-- Organismes gouvernementaux (Santé Canada, INSPQ)
+- Organismes gouvernementaux ([Santé Canada](https://www.canada.ca/fr/sante-canada.html), [INSPQ](https://www.inspq.qc.ca))
 
 ### Pilier 6 — Gestion de la réputation numérique en contexte réglementaire
 

@@ -20,9 +20,9 @@ Si vous n'êtes pas dans ce top 3 local, vous perdez des patients au profit de c
 Le SEO local pour les professionnels de santé présente une complexité que les autres secteurs n'ont pas : **la réglementation des ordres professionnels**.
 
 Au Québec, la publicité des professionnels de santé est encadrée par leurs ordres respectifs :
-- **Médecins :** Collège des médecins du Québec (CMQ) — règles strictes sur les allégations de compétence et les témoignages patients
+- **Médecins :** [Collège des médecins du Québec (CMQ)](https://www.cmq.org) — règles strictes sur les allégations de compétence et les témoignages patients
 - **Dentistes :** Ordre des dentistes du Québec (ODQ)
-- **Pharmaciens :** Ordre des pharmaciens du Québec (OPQ)
+- **Pharmaciens :** [Ordre des pharmaciens du Québec (OPQ)](https://www.opq.org)
 - **Physiothérapeutes, ergothérapeutes :** OPPQ
 
 Ces cadres réglementaires imposent des limites sur ce que vous pouvez et ne pouvez pas dire dans votre contenu web. Mais ils créent aussi une opportunité : les professionnels qui naviguent correctement ces contraintes construisent une crédibilité que les autres n'atteignent pas.
@@ -33,7 +33,7 @@ Ces cadres réglementaires imposent des limites sur ce que vous pouvez et ne pou
 
 ### Fondation 1 — Le profil Google Business Profile comme priorité absolue
 
-Votre fiche GBP est votre vitrine numérique principale. 78 % des recherches locales de santé passent par Google Maps ou le Local Pack — le bloc de trois établissements affiché en haut des résultats.
+Votre fiche GBP est votre vitrine numérique principale. 78 % des recherches locales de santé passent par [Google Maps](https://business.google.com) ou le Local Pack — le bloc de trois établissements affiché en haut des résultats.
 
 **Configuration optimale pour une clinique :**
 
@@ -91,7 +91,7 @@ Les professionnels de santé qui publient régulièrement du contenu éducatif s
 
 *Physiothérapie :*
 - « Entorse de la cheville : glace ou chaleur ? La réponse de notre physiothérapeute »
-- « Physiothérapie remboursée par la RAMQ : dans quels cas ? »
+- « [Physiothérapie remboursée par la RAMQ](https://www.ramq.gouv.qc.ca) : dans quels cas ? »
 
 ### Fondation 5 — La stratégie de citations locales médicales
 
@@ -103,7 +103,7 @@ En santé, les citations (mentions de votre nom + adresse + téléphone) sur des
 - Répertoire de la Ville de Montréal
 - Doctissimo Canada (si applicable)
 - Healthgrades Canada
-- RateMDs.com
+- [RateMDs.com](https://www.ratemds.com)
 - Clinique.ca
 
 La cohérence absolue du NAP (Nom, Adresse, Téléphone) entre toutes ces plateformes est non négociable.

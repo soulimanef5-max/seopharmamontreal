@@ -62,7 +62,7 @@ Une chaîne publie les mêmes articles santé génériques dans toutes ses succu
 **Idées de contenu hyperlocal :**
 - « La saison des allergies à Montréal : ce que nos patients de Rosemont nous demandent le plus »
 - « Vaccins disponibles cet automne à notre pharmacie du Plateau »
-- « Comprendre la couverture médicament de la RAMQ : ce que nos clients oublient souvent »
+- « Comprendre la couverture médicament de la [RAMQ](https://www.ramq.gouv.qc.ca) : ce que nos clients oublient souvent »
 - « Livraison de médicaments à domicile dans Outremont : comment ça fonctionne »
 
 Ce type de contenu est introuvable sur les sites des chaînes. Il répond à des besoins réels, génère des partages sur les réseaux sociaux locaux (Facebook de quartier, NextDoor) et crée des backlinks naturels.
@@ -99,8 +99,8 @@ Créez une page dédiée pour chaque service, avec du contenu informatif (pas se
 En SEO local, les « citations » sont des mentions de votre pharmacie (nom, adresse, téléphone) sur d'autres sites web. Plus elles sont cohérentes et nombreuses, plus Google vous considère comme un acteur légitime de votre zone géographique.
 
 **Citations prioritaires pour une pharmacie québécoise :**
-- Répertoire de l'AQPP (Association québécoise des pharmaciens propriétaires)
-- Pages Jaunes Canada
+- Répertoire de l'[AQPP (Association québécoise des pharmaciens propriétaires)](https://www.aqpp.qc.ca)
+- [Pages Jaunes Canada](https://www.pagesjaunes.ca)
 - Yelp Canada
 - Répertoire de la ville de Montréal / de votre municipalité
 - Chambre de commerce locale

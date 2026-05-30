@@ -19,7 +19,7 @@ Résultat : des positions dominées par Amazon, iHerb et quelques grands distrib
 
 Les produits de santé naturels occupent une position unique dans le paysage réglementaire canadien — et dans la façon dont Google les évalue.
 
-**Côté réglementaire :** un PSN possède un numéro de produit naturel (NPN) ou un numéro de médicament homéopathique (DIN-HM) délivré par Santé Canada. Ses allégations sont approuvées, ses ingrédients listés, ses conditions d'utilisation définies.
+**Côté réglementaire :** un PSN possède un [numéro de produit naturel (NPN)](https://health-products.canada.ca/lnhpd-bdpsnh/index-fra.jsp) ou un numéro de médicament homéopathique (DIN-HM) délivré par [Santé Canada](https://www.canada.ca/fr/sante-canada/services/medicaments-produits-sante/produits-sante-naturels.html). Ses allégations sont approuvées, ses ingrédients listés, ses conditions d'utilisation définies.
 
 **Côté Google :** les pages PSN sont classées YMYL (*Your Money or Your Life*). Elles sont évaluées avec des critères d'expertise, d'autorité et de fiabilité (E-E-A-T) bien plus stricts qu'une page de vêtements ou d'électronique.
 
@@ -70,7 +70,7 @@ Ce contenu attire des visiteurs qui cherchent de l'information, pas encore un pr
 - « Quelle est la différence entre vitamine D2 et D3 ? »
 - « Magnésium : glycinate, malate ou citrate — lequel choisir ? »
 - « Adaptogènes : guide pour les débutants »
-- « Comment lire l'étiquette d'un PSN au Canada »
+- « [Comment lire l'étiquette d'un PSN au Canada](https://www.canada.ca/fr/sante-canada/services/medicaments-produits-sante/produits-sante-naturels/pour-consommateurs.html) »
 
 **Objectif SEO :** cibler des mots-clés informationnels à fort volume (10 000+ recherches/mois) pour capturer des visiteurs en début de parcours. La conversion vient ensuite, via des liens internes vers vos produits pertinents.
 
@@ -96,9 +96,9 @@ Vos pages produits doivent être bien plus qu'une fiche technique. Une page prod
 - Mises en garde et contre-indications
 
 **Bloc de confiance :**
-- Numéro NPN cliquable (lien vers la base de données de Santé Canada)
+- Numéro [NPN cliquable vers la base de données officielle de Santé Canada](https://health-products.canada.ca/lnhpd-bdpsnh/index-fra.jsp)
 - Certification BPF du fabricant si applicable
-- Certifications tierces (NSF, USP, B Corp, etc.)
+- Certifications tierces ([NSF](https://www.nsf.org), [USP](https://www.usp.org), B Corp, etc.)
 - Lieu de fabrication
 
 **Bloc engagement :**

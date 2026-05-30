@@ -33,7 +33,7 @@ Cette perception est de plus en plus obsolète. Voici pourquoi :
 
 ## Le cadre réglementaire qui structure votre SEO
 
-Le Règlement sur les instruments médicaux (RIM) de Santé Canada classe les dispositifs en quatre classes selon leur niveau de risque :
+Le [Règlement sur les instruments médicaux (RIM)](https://laws-lois.justice.gc.ca/fra/reglements/DORS-98-282/) de [Santé Canada](https://www.canada.ca/fr/sante-canada/services/medicaments-produits-sante/instruments-medicaux.html) classe les dispositifs en quatre classes selon leur niveau de risque :
 
 | Classe | Risque | Exemples | Exigences |
 |--------|--------|---------|-----------|
@@ -60,7 +60,7 @@ Les acheteurs institutionnels de dispositifs médicaux n'utilisent pas les même
 **Requêtes de comparaison :**
 - « [type de dispositif] classe [II/III] Canada prix »
 - « [votre technologie] vs [technologie concurrente] »
-- « certification ISO 13485 fournisseur Canada »
+- « certification [ISO 13485](https://www.iso.org/fr/iso-13485-medical-devices.html) fournisseur Canada »
 
 **Requêtes réglementaires :**
 - « numéro d'instrument médical [spécification] »
@@ -72,7 +72,7 @@ Les acheteurs institutionnels de dispositifs médicaux n'utilisent pas les même
 **Couche 1 — Pages produits complètes**
 
 Chaque produit ou gamme mérite une page dédiée incluant :
-- Numéro d'homologation (Device Identifier ou DI) cliquable vers la base de données de Santé Canada
+- Numéro d'homologation (Device Identifier ou DI) cliquable vers la [base de données des instruments médicaux de Santé Canada](https://health-products.canada.ca/mdall-limh/index-fra.jsp)
 - Classe du dispositif et justification
 - Indications d'utilisation approuvées
 - Spécifications techniques complètes
@@ -116,7 +116,7 @@ Ce type de contenu attire des responsables réglementaires, ingénieurs biomédi
 
 ## Le SEO des appels d'offres publics : une niche inexploitée
 
-Les institutions publiques québécoises (CIUSSS, CISSS, CHU) publient leurs appels d'offres sur SEAO (Système électronique d'appel d'offres). Ces appels d'offres sont précédés de phases de recherche de marché qui passent souvent par Google.
+Les institutions publiques québécoises (CIUSSS, CISSS, CHU) publient leurs appels d'offres sur [SEAO (Système électronique d'appel d'offres)](https://www.seao.ca). Ces appels d'offres sont précédés de phases de recherche de marché qui passent souvent par Google.
 
 **Stratégie recommandée :**
 
@@ -142,7 +142,7 @@ En B2B médical, la crédibilité est encore plus cruciale qu'en B2C. Votre site
 
 Les backlinks dans le secteur des DM proviennent de sources très spécifiques :
 
-- **MEDEC** (Medical Device Canada) — l'association nationale du secteur
+- **[MEDEC](https://medec.org)** (Medical Device Canada) — l'association nationale du secteur
 - **Réseau de recherche en santé** des universités canadiennes
 - **Publications scientifiques** qui citent vos dispositifs dans des études
 - **Hôpitaux et centres de recherche** qui mentionnent vos équipements
