@@ -1,0 +1,98 @@
+---
+import { getCollection } from 'astro:content';
+import type { Lang } from '../i18n/ui';
+
+interface Props { lang?: Lang }
+const { lang = 'fr' } = Astro.props;
+
+const allPosts = await getCollection('blog', e => e.data.lang === lang);
+const posts = allPosts
+  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime())
+  .slice(0, 3);
+
+const blogBase = lang === 'en' ? '/en/blog/' : '/blog/';
+
+const heading  = lang === 'fr' ? 'Derniers articles'          : 'Latest articles';
+const overline = lang === 'fr' ? 'Ressources SEO pharma'      : 'Pharma SEO resources';
+const lead     = lang === 'fr'
+  ? 'Stratégies, analyses et guides pratiques pour le secteur pharmaceutique canadien.'
+  : 'Strategies, insights and practical guides for the Canadian pharmaceutical sector.';
+const readMore = lang === 'fr' ? 'Lire l\'article'            : 'Read article';
+const allPosts_label = lang === 'fr' ? 'Voir tous les articles' : 'View all articles';
+const minRead  = lang === 'fr' ? 'min de lecture'             : 'min read';
+---
+
+<section
+  id="blog-recents"
+  class="py-20 md:py-28"
+  style="background: var(--color-primary);"
+  aria-labelledby="recent-posts-title"
+>
+  <div class="container">
+    <div class="section-header">
+      <span class="overline" style="color: #FCD34D;">{overline}</span>
+      <h2 class="section-title" id="recent-posts-title" style="color: white;">{heading}</h2>
+      <p class="section-lead" style="color: rgba(255,255,255,0.65);">{lead}</p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6 mb-10">
+      {posts.map(post => {
+        const url = `${blogBase}${post.id}/`;
+        const date = post.data.pubDate.toLocaleDateString(lang === 'fr' ? 'fr-CA' : 'en-CA', {
+          year: 'numeric', month: 'short', day: 'numeric',
+        });
+        return (
+          <article
+            class="rounded-2xl p-6 flex flex-col gap-4 hover:opacity-90 transition-opacity"
+            style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1);"
+          >
+            {post.data.tags.length > 0 && (
+              <span
+                class="text-xs font-semibold self-start px-2.5 py-1 rounded-full"
+                style="background: rgba(202,138,4,0.2); color: #FCD34D;"
+              >
+                {post.data.tags[0]}
+              </span>
+            )}
+            <h3 style="font-size: 1rem; line-height: 1.4; color: white; font-weight: 600;">
+              <a href={url} class="no-underline hover:underline" style="color: white;">
+                {post.data.title}
+              </a>
+            </h3>
+            <p style="font-size: 0.875rem; line-height: 1.65; color: rgba(255,255,255,0.6); flex: 1;">
+              {post.data.description}
+            </p>
+            <div class="flex items-center justify-between mt-auto pt-3" style="border-top: 1px solid rgba(255,255,255,0.1);">
+              <span style="font-size: 0.8rem; color: rgba(255,255,255,0.4);">
+                {date} · {post.data.readingTime ?? 5} {minRead}
+              </span>
+              <a
+                href={url}
+                class="text-xs font-semibold no-underline hover:underline flex items-center gap-1"
+                style="color: #FCD34D;"
+              >
+                {readMore}
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+        );
+      })}
+    </div>
+
+    <div class="text-center">
+      <a
+        href={blogBase}
+        class="btn btn-ghost btn-lg"
+        style="color: white; border-color: rgba(255,255,255,0.25);"
+      >
+        {allPosts_label}
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>

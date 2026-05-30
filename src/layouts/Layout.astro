@@ -41,11 +41,6 @@ const schemaWebSite = {
   name:       'SEO Pharma Montréal',
   url:        'https://seopharmamontreal.com',
   inLanguage: ['fr-CA', 'en-CA'],
-  potentialAction: {
-    '@type':       'SearchAction',
-    target:        { '@type': 'EntryPoint', urlTemplate: 'https://seopharmamontreal.com/blog/?s={search_term_string}' },
-    'query-input': 'required name=search_term_string',
-  },
 };
 
 // ── JSON-LD : LocalBusiness ────────────────────────────────────────────────
@@ -132,13 +127,86 @@ const schemaPerson = {
   ],
 };
 
-const schemas = JSON.stringify([schemaWebSite, schemaBusiness, schemaPerson]);
+// ── JSON-LD : Services ────────────────────────────────────────────────────
+const schemaServices = [
+  {
+    '@context':   'https://schema.org',
+    '@type':      'Service',
+    '@id':        'https://seopharmamontreal.com/#service-audit',
+    name:         lang === 'fr' ? 'Audit SEO/GEO Pharma' : 'Pharma SEO/GEO Audit',
+    description:  lang === 'fr'
+      ? 'Analyse complète de la visibilité Google et LLMs, conformité Santé Canada, feuille de route priorisée livrée en 7 jours.'
+      : 'Full Google and LLM visibility analysis, Health Canada compliance, prioritized roadmap delivered in 7 days.',
+    provider:     { '@type': 'Organization', '@id': 'https://seopharmamontreal.com/#business' },
+    areaServed:   { '@type': 'City', name: 'Montréal' },
+    serviceType:  'SEO Audit',
+    offers: {
+      '@type':          'Offer',
+      price:            '997',
+      priceCurrency:    'CAD',
+      priceSpecification: {
+        '@type':        'UnitPriceSpecification',
+        price:          '997',
+        priceCurrency:  'CAD',
+        unitText:       'one-time',
+      },
+    },
+  },
+  {
+    '@context':   'https://schema.org',
+    '@type':      'Service',
+    '@id':        'https://seopharmamontreal.com/#service-monthly',
+    name:         lang === 'fr' ? 'SEO Mensuel Pharma' : 'Monthly Pharma SEO',
+    description:  lang === 'fr'
+      ? 'Accompagnement SEO/GEO continu pour PME pharma — optimisation technique, contenu YMYL, Google Business Profile.'
+      : 'Ongoing SEO/GEO support for pharma SMEs — technical optimization, YMYL content, Google Business Profile.',
+    provider:     { '@type': 'Organization', '@id': 'https://seopharmamontreal.com/#business' },
+    areaServed:   { '@type': 'City', name: 'Montréal' },
+    serviceType:  'SEO Consulting',
+    offers: {
+      '@type':          'Offer',
+      price:            '1497',
+      priceCurrency:    'CAD',
+      priceSpecification: {
+        '@type':        'UnitPriceSpecification',
+        price:          '1497',
+        priceCurrency:  'CAD',
+        unitText:       'month',
+      },
+    },
+  },
+  {
+    '@context':   'https://schema.org',
+    '@type':      'Service',
+    '@id':        'https://seopharmamontreal.com/#service-premium',
+    name:         lang === 'fr' ? 'Accompagnement SEO Premium Pharma' : 'Premium Pharma SEO Support',
+    description:  lang === 'fr'
+      ? 'Stratégie SEO intégrale avec gestion complète de la présence digitale santé — contenu, netlinking, veille concurrentielle.'
+      : 'Full SEO strategy with complete health digital presence management — content, link building, competitive intelligence.',
+    provider:     { '@type': 'Organization', '@id': 'https://seopharmamontreal.com/#business' },
+    areaServed:   { '@type': 'City', name: 'Montréal' },
+    serviceType:  'SEO Consulting',
+    offers: {
+      '@type':          'Offer',
+      price:            '2997',
+      priceCurrency:    'CAD',
+      priceSpecification: {
+        '@type':        'UnitPriceSpecification',
+        price:          '2997',
+        priceCurrency:  'CAD',
+        unitText:       'month',
+      },
+    },
+  },
+];
+
+const schemas = JSON.stringify([schemaWebSite, schemaBusiness, schemaPerson, ...schemaServices]);
 
 // ── OG / Twitter image ─────────────────────────────────────────────────────
 const heroImageUrl = 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=630&fm=jpg&fit=crop&q=85';
 const resolvedOgImage = ogImage.startsWith('http') ? ogImage : heroImageUrl;
 
-const lcpPreloadUrl = 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=920&h=700&fm=webp&auto=format&fit=crop&q=82';
+const lcpPreloadUrl = '/images/soulimane-farah.webp';
 ---
 
 <!doctype html>
