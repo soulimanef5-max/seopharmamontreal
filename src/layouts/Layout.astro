@@ -65,13 +65,13 @@ const schemaBusiness = {
     '@type':          'PostalAddress',
     addressLocality:  'Montréal',
     addressRegion:    'QC',
-    postalCode:       'H1A',
+    postalCode:       'H1A 1A1',
     addressCountry:   'CA',
   },
   geo: {
     '@type':    'GeoCoordinates',
-    latitude:   45.5017,
-    longitude:  -73.5673,
+    latitude:   45.50884,
+    longitude:  -73.58781,
   },
   areaServed: [
     { '@type': 'City',     name: 'Montréal' },
@@ -80,7 +80,14 @@ const schemaBusiness = {
   ],
   serviceType:  ['SEO', 'GEO', 'YMYL Content Strategy', 'LLM Optimization', 'Pharma Digital Marketing'],
   priceRange:   '$$',
-  openingHours: 'Mo-Fr 09:00-18:00',
+  openingHoursSpecification: [
+    {
+      '@type':     'OpeningHoursSpecification',
+      dayOfWeek:   ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens:       '09:00',
+      closes:      '18:00',
+    },
+  ],
   sameAs:       ['https://www.linkedin.com/in/soulimanefarah/'],
 };
 
