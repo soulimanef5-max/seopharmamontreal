@@ -20,7 +20,7 @@ Since Google's major algorithm updates (notably the *Medic Update* in 2018 and s
 
 YMYL stands for *Your Money Your Life*. It refers to all web pages whose content could affect a user's physical health, mental health, financial wellbeing, or safety.
 
-All pharmaceutical content is, by definition, YMYL: a poorly written medication leaflet, a misleading natural health product description, or an inaccurate article on drug interactions can cause real harm to a real person. Google knows this — which is why its human evaluators (*Quality Raters*) score these pages according to standards far more demanding than those applied to fashion or cooking websites.
+All pharmaceutical content is, by definition, YMYL: a poorly written medication leaflet, a misleading natural health product description, or an inaccurate article on drug interactions can cause real harm to a real person. Google knows this — which is why its human evaluators ([*Quality Raters*](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)) score these pages according to standards far more demanding than those applied to fashion or cooking websites.
 
 **Practical result:** if your site doesn't clearly demonstrate its level of expertise and trustworthiness, it will be deprioritized in search results, regardless of how technically sound your SEO is.
 
@@ -45,7 +45,7 @@ Expertise refers to the **formal qualifications** of the author or organization.
 - Mention of the author's degree or professional licensing body
 - Detailed "About" pages with professional background
 - Affiliation with recognized medical institutions
-- Bibliography and cited sources (publications, clinical studies, etc.)
+- Bibliography and cited sources (publications, [clinical studies on PubMed](https://pubmed.ncbi.nlm.nih.gov), etc.)
 
 **Important:** publishing a health article under an anonymous author is one of the most powerful negative signals Google identifies in the YMYL sector.
 
@@ -54,9 +54,9 @@ Expertise refers to the **formal qualifications** of the author or organization.
 Authority is built on **what others say about you**, not on what you say about yourself.
 
 In practice, this means:
-- Earning mentions and backlinks from recognized medical websites (pharmacist associations, Health Canada, universities)
+- Earning mentions and backlinks from recognized medical websites (pharmacist associations, [Health Canada](https://www.canada.ca/en/health-canada.html), universities)
 - Being cited in health-related press coverage in Québec
-- Consistent profiles on professional platforms (Ordre des pharmaciens, LinkedIn, etc.)
+- Consistent profiles on professional platforms ([Ordre des pharmaciens du Québec](https://www.opq.org/en/), LinkedIn, etc.)
 - Verified Google reviews, particularly for independent pharmacies
 
 ### 4. Trustworthiness
@@ -102,7 +102,7 @@ Here's where to start concretely:
 
 2. **Add publication and update dates** on all your articles and product pages.
 
-3. **Source every medical claim**: use links to studies published on PubMed, Health Canada guidelines, or recommendations from Québec professional bodies.
+3. **Source every medical claim**: use links to [studies published on PubMed](https://pubmed.ncbi.nlm.nih.gov), [Health Canada guidelines](https://www.canada.ca/en/health-canada.html), or recommendations from Québec professional bodies.
 
 4. **Audit your disclaimers**: every product page or medical article must include a clear statement that the content does not replace professional medical advice.
 

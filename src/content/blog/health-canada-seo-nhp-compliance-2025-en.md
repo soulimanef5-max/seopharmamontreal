@@ -22,14 +22,14 @@ Before addressing SEO, it's essential to understand the regulatory players invol
 
 ### Health Canada
 The federal body that governs the marketing, manufacturing and promotion of:
-- **Prescription and over-the-counter drugs** (Food and Drugs Act, Bill C-17)
-- **Natural Health Products** (Natural Health Products Regulations — NHPR)
+- **Prescription and over-the-counter drugs** ([Food and Drugs Act](https://laws-lois.justice.gc.ca/eng/acts/F-27/), [Bill C-17](https://www.canada.ca/en/health-canada/topics/vanessas-law.html))
+- **Natural Health Products** ([Natural Health Products Regulations — NHPR](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2003-196/))
 - **Medical Devices** (Medical Devices Regulations — MDR)
 
-### PAAB (Pharmaceutical Advertising Advisory Board)
+### [PAAB (Pharmaceutical Advertising Advisory Board)](https://www.paab.ca)
 The self-regulatory body that reviews and accredits prescription drug advertising directed at healthcare professionals. Its code applies to digital promotional content, including websites.
 
-### Advertising Standards Canada (ASC)
+### [Advertising Standards Canada (ASC)](https://adstandards.ca)
 Governs consumer-directed advertising, including for NHPs and over-the-counter drugs.
 
 ---
@@ -78,7 +78,7 @@ Your `<title>` tags and meta descriptions are promotional content in the regulat
 
 A compliant and well-ranked product page must include:
 
-- The visible and clickable DIN or NPN number (linking to Health Canada's database)
+- The visible and clickable [DIN or NPN number](https://health-products.canada.ca/lnhpd-bdpsnh/index-eng.jsp) (linking to Health Canada's database)
 - The list of medicinal and non-medicinal ingredients (labelling requirement = natural SEO content)
 - Approved claims only
 - Required warnings and contraindications
@@ -109,10 +109,10 @@ For NHPs: the `DietarySupplement` markup with `activeIngredient`, `safetyConside
 Backlinks in pharma must be carefully qualified. A link from a site making non-compliant claims can, in some contexts, create an undesirable association.
 
 Prioritize mentions and backlinks from:
-- Accredited professional associations (AQPP, CPEQ, MEDEC, BIOTECanada)
+- Accredited professional associations ([AQPP](https://www.aqpp.qc.ca/en/), [CPEQ](https://www.cpeq.org), [MEDEC](https://medec.org), [BIOTECanada](https://www.biotech.ca))
 - Specialized sector media
 - Universities and research centers
-- Government bodies (Health Canada, PHAC)
+- Government bodies ([Health Canada](https://www.canada.ca/en/health-canada.html), [PHAC](https://www.canada.ca/en/public-health.html))
 
 ### Pillar 6 — Online Reputation Management in a Regulatory Context
 

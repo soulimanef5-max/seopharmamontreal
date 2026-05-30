@@ -12,7 +12,7 @@ translationSlug: "geo-pharma-chatgpt-perplexity-sante-2025"
 
 In 2025, a quiet but major shift is reshaping how healthcare decision-makers find suppliers, solutions and experts: they're asking AI directly.
 
-"What are the best SEO consultants for a Canadian pharmaceutical company?" — asked to ChatGPT, this question generates a complete answer in seconds, without the user visiting a single website. If your company isn't cited in that answer, you don't exist for that potential client.
+"What are the best SEO consultants for a Canadian pharmaceutical company?" — asked to [ChatGPT](https://chatgpt.com), this question generates a complete answer in seconds, without the user visiting a single website. If your company isn't cited in that answer, you don't exist for that potential client.
 
 This is the challenge — and the opportunity — of **GEO: Generative Engine Optimization**.
 
@@ -22,7 +22,7 @@ This is the challenge — and the opportunity — of **GEO: Generative Engine Op
 
 **SEO** (Search Engine Optimization) aims to rank your pages in Google or Bing results. The goal: appear at the top of a list of links that the user clicks.
 
-**GEO** aims to be *cited as a source* by a language model (ChatGPT, Perplexity, Claude, Gemini). The goal: have the AI recommend your company, your product, or your expertise directly in its response.
+**GEO** aims to be *cited as a source* by a language model ([ChatGPT](https://chatgpt.com), [Perplexity](https://www.perplexity.ai), Claude, Gemini). The goal: have the AI recommend your company, your product, or your expertise directly in its response.
 
 These two disciplines are complementary, but their mechanics differ fundamentally:
 
@@ -84,7 +84,7 @@ Restructure your service pages, product sheets and blog articles to systematical
 
 ### 3. Optimize Your `llms.txt` File
 
-Similar to `robots.txt` for traditional crawlers, the `llms.txt` file is an emerging standard that allows language models to quickly understand your identity, expertise and reliable sources.
+Similar to `robots.txt` for traditional crawlers, the [`llms.txt`](https://llmstxt.org) file is an emerging standard that allows language models to quickly understand your identity, expertise and reliable sources.
 
 This file should contain:
 - A concise description of your company and area of expertise
@@ -124,18 +124,18 @@ To optimize your presence on Perplexity:
 
 - **Publish regularly** — Perplexity favors recent content
 - **Use question-format titles** — "How to...", "What is...", "Why..."
-- **Make your site crawlable** — verify your `robots.txt` doesn't block AI crawlers (`GPTBot`, `PerplexityBot`, `ClaudeBot`)
+- **Make your site crawlable** — verify your `robots.txt` doesn't block AI crawlers (`GPTBot`, `PerplexityBot`, `ClaudeBot`) — see [OpenAI's GPTBot documentation](https://platform.openai.com/docs/gptbot)
 - **Get media backlinks** — Perplexity gives significant weight to sources mentioned in press articles
 
 ---
 
 ## GEO and Regulatory Compliance: The Dual Pharma Challenge
 
-The pharmaceutical sector faces a constraint most industries don't: the regulation of health claims. In Canada, PAAB strictly governs communication about prescription drugs, while Health Canada regulates claims for NHPs.
+The pharmaceutical sector faces a constraint most industries don't: the regulation of health claims. In Canada, [PAAB](https://www.paab.ca) strictly governs communication about prescription drugs, while Health Canada regulates claims for NHPs.
 
 This constraint becomes a *competitive advantage* in GEO: companies that demonstrate regulatory compliance in their web content inspire greater trust in AI models, which are trained to detect irresponsible or unsupported claims.
 
-**Recommended strategy:** systematically integrate references to applicable regulatory frameworks in your content — not defensively, but as proof of expertise. An article that correctly cites the Natural Health Products Regulations or ICH GMP guidelines positions its author as a reliable expert in the eyes of AI.
+**Recommended strategy:** systematically integrate references to applicable regulatory frameworks in your content — not defensively, but as proof of expertise. An article that correctly cites the [Natural Health Products Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2003-196/) or [ICH GMP guidelines](https://www.canada.ca/en/health-canada/services/drugs-health-products/compliance-enforcement/good-manufacturing-practices.html) positions its author as a reliable expert in the eyes of AI.
 
 ---
 
