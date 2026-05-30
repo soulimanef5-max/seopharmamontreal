@@ -9,8 +9,9 @@ const blog = defineCollection({
     pubDate:     z.coerce.date(),
     lang:        z.enum(['fr', 'en']),
     tags:        z.array(z.string()).default([]),
-    readingTime: z.number().optional(),
-    author:      z.string().default('Soulimane Farah'),
+    readingTime:     z.number().optional(),
+    author:          z.string().default('Soulimane Farah'),
+    translationSlug: z.string().optional(),
   }),
 });
 

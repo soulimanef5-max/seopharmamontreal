@@ -6,6 +6,7 @@ lang: en
 tags: ["E-E-A-T", "YMYL", "Medical SEO", "pharma", "Montréal"]
 readingTime: 7
 author: Soulimane Farah
+translationSlug: "eeat-seo-medical-pharma-2025"
 ---
 
 If you manage the website of an independent pharmacy, a natural health product brand, or a medical device distributor in Québec, you're affected by one of the most overlooked — and most decisive — aspects of organic search: **E-E-A-T** criteria.

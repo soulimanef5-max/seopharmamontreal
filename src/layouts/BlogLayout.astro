@@ -6,25 +6,27 @@ import type { Lang } from '../i18n/ui';
 import { useTranslations } from '../i18n/utils';
 
 interface Props {
-  lang?:        Lang;
-  title:        string;
-  description:  string;
-  pubDate:      Date;
-  readingTime?: number;
-  author?:      string;
-  tags?:        string[];
-  slug?:        string;
+  lang?:            Lang;
+  title:            string;
+  description:      string;
+  pubDate:          Date;
+  readingTime?:     number;
+  author?:          string;
+  tags?:            string[];
+  slug?:            string;
+  translationSlug?: string;
 }
 
 const {
-  lang        = 'fr',
+  lang            = 'fr',
   title,
   description,
   pubDate,
-  readingTime = 5,
-  author      = 'Soulimane Farah',
-  tags        = [],
-  slug        = '',
+  readingTime     = 5,
+  author          = 'Soulimane Farah',
+  tags            = [],
+  slug            = '',
+  translationSlug = '',
 } = Astro.props;
 
 const t = useTranslations(lang);
@@ -35,6 +37,11 @@ const dateStr = pubDate.toLocaleDateString(lang === 'fr' ? 'fr-CA' : 'en-CA', {
 const canonicalUrl  = `https://seopharmamontreal.com${Astro.url.pathname}`;
 const blogUrl       = lang === 'en' ? 'https://seopharmamontreal.com/en/blog/' : 'https://seopharmamontreal.com/blog/';
 const homeUrl       = lang === 'en' ? 'https://seopharmamontreal.com/en/' : 'https://seopharmamontreal.com/';
+
+// Hreflang — utilise translationSlug explicite pour éviter les 404 sur slugs différents FR/EN
+const altLangCode   = lang === 'fr' ? 'en' : 'fr';
+const altBlogBase   = lang === 'fr' ? 'https://seopharmamontreal.com/en/blog/' : 'https://seopharmamontreal.com/blog/';
+const altCanonical  = translationSlug ? `${altBlogBase}${translationSlug}/` : null;
 
 // Slug extrait du pathname → /blog/mon-article/ → "mon-article"
 const slugFromPath  = Astro.url.pathname.split('/').filter(Boolean).pop() ?? 'home';
@@ -108,6 +115,15 @@ const breadcrumbSchema = JSON.stringify({
 ---
 
 <Layout lang={lang} title={`${title} | SEO Pharma Montréal`} description={description} type="article" pubDate={pubDate} author={author} canonical={canonicalUrl} ogImage={ogImageUrl}>
+  <Fragment slot="head">
+    {altCanonical && (
+      <>
+        <link rel="alternate" hreflang={`${lang === 'fr' ? 'fr' : 'en'}-CA`} href={canonicalUrl} />
+        <link rel="alternate" hreflang={`${altLangCode}-CA`} href={altCanonical} />
+        <link rel="alternate" hreflang="x-default" href={lang === 'fr' ? canonicalUrl : altCanonical} />
+      </>
+    )}
+  </Fragment>
   <Fragment slot="head">
     <script type="application/ld+json" set:html={articleSchema} />
     <script type="application/ld+json" set:html={breadcrumbSchema} />

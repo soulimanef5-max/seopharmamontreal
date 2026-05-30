@@ -6,6 +6,7 @@ lang: fr
 tags: ["GEO", "LLMO", "ChatGPT", "Perplexity", "pharma", "santé", "Montréal"]
 readingTime: 8
 author: Soulimane Farah
+translationSlug: "geo-pharma-ai-search-visibility-2025-en"
 ---
 
 En 2025, une tendance discrète mais majeure transforme la façon dont les décideurs du secteur santé cherchent des fournisseurs, des solutions et des experts : ils demandent directement à une intelligence artificielle.

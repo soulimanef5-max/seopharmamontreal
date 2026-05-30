@@ -6,6 +6,7 @@ lang: en
 tags: ["GEO", "LLMO", "ChatGPT", "Perplexity", "pharma", "health", "Montreal"]
 readingTime: 8
 author: Soulimane Farah
+translationSlug: "geo-pharma-chatgpt-perplexity-sante-2025"
 ---
 
 In 2025, a quiet but major shift is reshaping how healthcare decision-makers find suppliers, solutions and experts: they're asking AI directly.

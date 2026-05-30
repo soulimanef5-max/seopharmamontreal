@@ -6,6 +6,7 @@ lang: en
 tags: ["Health Canada", "NHP", "NPN", "PAAB", "pharma SEO", "regulation", "Canada"]
 readingTime: 9
 author: Soulimane Farah
+translationSlug: "sante-canada-seo-pme-pharma-quebec-2025"
 ---
 
 If you manage the website of a pharmaceutical company, a natural health product (NHP) brand, or a medical device manufacturer in Canada, you're constantly navigating what feels like a contradiction: **ranking on Google** while **respecting Health Canada's regulatory frameworks**.
