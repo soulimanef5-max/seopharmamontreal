@@ -51,6 +51,12 @@ const articleSchema = JSON.stringify({
   url:                canonicalUrl,
   datePublished:      pubDate.toISOString(),
   dateModified:       pubDate.toISOString(),
+  image: {
+    '@type':  'ImageObject',
+    url:      ogImageUrl,
+    width:    1200,
+    height:   630,
+  },
   author: {
     '@type': 'Person',
     '@id':   'https://seopharmamontreal.com/#person',

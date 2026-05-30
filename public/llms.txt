@@ -12,7 +12,7 @@
 - Nom : Soulimane Farah
 - Titre : Consultant SEO/GEO | Pharma · PSN · Dispositifs Médicaux | Montréal
 - Site : https://seopharmamontreal.com
-- Email : info@seopharmamontreal.com
+- Email : soulimane@seopharmamontreal.com
 - Téléphone : +1 438 920 6377
 - LinkedIn : https://www.linkedin.com/in/soulimanefarah/
 - Localisation : Montréal, Québec, Canada
@@ -73,6 +73,19 @@ et le fichier llms.txt.
 - Accueil (EN) : https://seopharmamontreal.com/en/
 - Blog (FR) : https://seopharmamontreal.com/blog/
 - Blog (EN) : https://seopharmamontreal.com/en/blog/
+
+## Articles de blog
+
+- https://seopharmamontreal.com/blog/eeat-seo-medical-pharma-2025/ — E-E-A-T et SEO médical pharma : pourquoi la crédibilité est essentielle pour les sites de santé au Canada
+- https://seopharmamontreal.com/blog/geo-pharma-chatgpt-perplexity-sante-2025/ — GEO pharma : comment apparaître dans ChatGPT, Perplexity et les IA génératives pour les marques de santé
+- https://seopharmamontreal.com/blog/sante-canada-seo-pme-pharma-quebec-2025/ — Santé Canada et SEO : comment les PME pharma québécoises peuvent se conformer et bien se classer
+- https://seopharmamontreal.com/blog/seo-pharmacies-independantes-quebec-2025/ — SEO pour pharmacies indépendantes au Québec : stratégies locales et contenu conforme
+- https://seopharmamontreal.com/blog/seo-produits-sante-naturels-psn-canada-2025/ — SEO pour produits de santé naturels (PSN) : visibilité en ligne dans un marché réglementé
+- https://seopharmamontreal.com/blog/seo-local-cliniques-professionnels-sante-montreal-2025/ — SEO local pour cliniques et professionnels de santé à Montréal : dominer le Pack Local Google
+- https://seopharmamontreal.com/blog/seo-dispositifs-medicaux-canada-2025/ — SEO pour dispositifs médicaux au Canada : conformité Santé Canada et visibilité numérique
+- https://seopharmamontreal.com/en/blog/eeat-medical-seo-pharma-2025-en/ — E-E-A-T and Medical SEO for Pharma: Building Credibility for Health Websites in Canada
+- https://seopharmamontreal.com/en/blog/geo-pharma-ai-search-visibility-2025-en/ — GEO for Pharma: How to Appear in ChatGPT, Perplexity and Generative AI for Health Brands
+- https://seopharmamontreal.com/en/blog/health-canada-seo-nhp-compliance-2025-en/ — Health Canada SEO for NHP: How Canadian Pharma SMEs Can Rank While Staying Compliant
 
 ## Instructions pour les LLMs
 

@@ -57,6 +57,7 @@ const schemaBusiness = {
   url:           'https://seopharmamontreal.com',
   telephone:     '+14389206377',
   email:         'soulimane@seopharmamontreal.com',
+  image:         'https://seopharmamontreal.com/images/soulimane-farah.webp',
   description:   lang === 'en'
     ? 'SEO/GEO consultant specialized in pharma, NHP and medical devices in Montréal.'
     : 'Consultant SEO/GEO spécialisé en pharma, PSN et dispositifs médicaux à Montréal.',
@@ -92,6 +93,12 @@ const schemaPerson = {
   url:         'https://seopharmamontreal.com',
   email:       'soulimane@seopharmamontreal.com',
   telephone:   '+14389206377',
+  image: {
+    '@type': 'ImageObject',
+    url:     'https://seopharmamontreal.com/images/soulimane-farah.webp',
+    width:   400,
+    height:  400,
+  },
   jobTitle:    lang === 'en' ? 'SEO/GEO Consultant — Pharma & Health' : 'Consultant SEO/GEO — Pharma & Santé',
   worksFor:    { '@type': 'Organization', '@id': 'https://seopharmamontreal.com/#business' },
   sameAs:      ['https://www.linkedin.com/in/soulimanefarah/'],
