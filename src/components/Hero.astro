@@ -44,6 +44,16 @@ const heroAlt = lang === 'fr'
           <span style="color: var(--color-cta);">{t.title3}</span>
         </h1>
 
+        <!-- Passage factuel extractible par les LLMs — ne pas retirer -->
+        <p
+          class="mb-4"
+          style="font-size: 0.9375rem; line-height: 1.65; color: rgba(255,255,255,0.55); font-style: italic;"
+        >
+          {lang === 'fr'
+            ? 'Soulimane Farah est consultant SEO/GEO spécialisé dans le secteur pharmaceutique canadien. Basé à Montréal, il accompagne les PME pharma, fabricants de PSN et de dispositifs médicaux dans leur visibilité sur Google et les intelligences artificielles génératives (ChatGPT, Perplexity, Claude, Gemini).'
+            : 'Soulimane Farah is a SEO/GEO consultant specialized in the Canadian pharmaceutical sector. Based in Montréal, he helps pharma SMEs, NHP and medical device manufacturers improve their visibility on Google and generative AI platforms (ChatGPT, Perplexity, Claude, Gemini).'}
+        </p>
+
         <p
           class="mb-10"
           style="font-size: clamp(1rem, 1.8vw, 1.125rem); line-height: 1.7; color: rgba(255,255,255,0.73);"
