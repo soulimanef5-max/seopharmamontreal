@@ -1,0 +1,153 @@
+---
+import type { Lang } from '../i18n/ui';
+
+interface Props { lang?: Lang }
+const { lang = 'fr' } = Astro.props;
+
+const signals = lang === 'fr'
+  ? {
+      overline: 'Pourquoi me faire confiance',
+      title:    'Une expertise rare : terrain pharma + digital',
+      lead:     'Je suis l\'un des seuls consultants SEO au Québec à combiner une décennie en assurance qualité pharmaceutique avec une maîtrise complète du référencement naturel et de la visibilité IA.',
+      items: [
+        {
+          icon: 'building',
+          title: '10 ans chez Roche Pharmaceuticals',
+          desc:  'Expert en assurance qualité, BPF/GMP et dispositifs médicaux. Je connais vos SOPs, vos contraintes réglementaires et le langage de l\'industrie.',
+        },
+        {
+          icon: 'shield',
+          title: 'Formation AEC Qualité Pharmaceutique',
+          desc:  'Diplômé du Collège Gérald-Godin en Assurance Qualité Pharmaceutique — la seule formation de ce type au Québec.',
+        },
+        {
+          icon: 'chart',
+          title: 'Certifié Google Analytics 4 & AI-driven SEO',
+          desc:  'Maîtrise des outils d\'analyse avancée et des nouvelles techniques SEO orientées intelligence artificielle.',
+        },
+        {
+          icon: 'globe',
+          title: 'Bilingue FR/EN — marché canadien',
+          desc:  'Stratégies SEO adaptées aux deux marchés linguistiques du Canada. Contenu optimisé fr-CA et en-CA.',
+        },
+        {
+          icon: 'check',
+          title: '150+ points d\'audit vérifiés',
+          desc:  'Chaque mission suit une méthodologie rigoureuse couvrant le SEO technique, le contenu YMYL, le GEO et la conformité Santé Canada.',
+        },
+        {
+          icon: 'clock',
+          title: 'Résultats livrés en 7 jours',
+          desc:  'Audit complet avec feuille de route priorisée livrée en une semaine. Pas de vague promesse — des actions concrètes.',
+        },
+      ],
+      employers: 'Expérience acquise chez',
+    }
+  : {
+      overline: 'Why trust me',
+      title:    'A rare expertise: pharma field + digital',
+      lead:     'I am one of the only SEO consultants in Québec combining a decade in pharmaceutical quality assurance with full command of SEO and AI visibility.',
+      items: [
+        {
+          icon: 'building',
+          title: '10 years at Roche Pharmaceuticals',
+          desc:  'Quality assurance expert in GMP/BPF and medical devices. I know your SOPs, regulatory constraints and industry language.',
+        },
+        {
+          icon: 'shield',
+          title: 'AEC Pharmaceutical Quality Assurance',
+          desc:  'Graduate of Collège Gérald-Godin in Pharmaceutical Quality Assurance — the only program of its kind in Québec.',
+        },
+        {
+          icon: 'chart',
+          title: 'Google Analytics 4 & AI-driven SEO Certified',
+          desc:  'Proficient in advanced analytics tools and the latest AI-oriented SEO techniques.',
+        },
+        {
+          icon: 'globe',
+          title: 'Bilingual FR/EN — Canadian market',
+          desc:  'SEO strategies adapted to both Canadian linguistic markets. Optimized fr-CA and en-CA content.',
+        },
+        {
+          icon: 'check',
+          title: '150+ verified audit points',
+          desc:  'Every engagement follows a rigorous methodology covering technical SEO, YMYL content, GEO and Health Canada compliance.',
+        },
+        {
+          icon: 'clock',
+          title: 'Results delivered in 7 days',
+          desc:  'Full audit with a prioritized roadmap delivered in one week. No vague promises — concrete actions.',
+        },
+      ],
+      employers: 'Experience gained at',
+    };
+
+const employers = ['Roche', 'Pharmascience', 'Galderma', 'Oral Science'];
+
+const icons: Record<string, string> = {
+  building: 'M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Z',
+  shield:   'M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z',
+  chart:    'M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z',
+  globe:    'M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418',
+  check:    'M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z',
+  clock:    'M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z',
+};
+---
+
+<section
+  id="confiance"
+  class="py-20 md:py-28"
+  style="background: var(--color-surface);"
+  aria-labelledby="trust-title"
+>
+  <div class="container">
+    <div class="section-header">
+      <span class="overline">{signals.overline}</span>
+      <h2 class="section-title" id="trust-title">{signals.title}</h2>
+      <p class="section-lead">{signals.lead}</p>
+    </div>
+
+    <!-- Logos employeurs -->
+    <div class="flex flex-wrap justify-center items-center gap-6 mb-14">
+      <p class="w-full text-center text-xs font-semibold uppercase tracking-widest mb-2" style="color: var(--color-text-subtle);">
+        {signals.employers}
+      </p>
+      {employers.map(name => (
+        <span
+          class="px-5 py-2.5 rounded-lg text-sm font-semibold"
+          style="background: var(--color-surface-alt); color: var(--color-text-muted); border: 1px solid var(--color-border);"
+        >
+          {name}
+        </span>
+      ))}
+    </div>
+
+    <!-- Grille de signaux de confiance -->
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {signals.items.map(item => (
+        <div
+          class="rounded-2xl p-6 flex flex-col gap-4"
+          style="background: var(--color-surface-alt); border: 1px solid var(--color-border);"
+        >
+          <div
+            class="w-10 h-10 rounded-xl flex items-center justify-center shrink-0"
+            style="background: rgba(202,138,4,0.12);"
+            aria-hidden="true"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#CA8A04" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d={icons[item.icon]} />
+            </svg>
+          </div>
+          <div>
+            <h3 class="font-semibold mb-1.5" style="font-size: 0.9375rem; color: var(--color-primary);">
+              {item.title}
+            </h3>
+            <p style="font-size: 0.875rem; line-height: 1.65; color: var(--color-text-muted);">
+              {item.desc}
+            </p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
