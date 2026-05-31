@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "generated": "2026-05-31",
+    "site": "seopharmamontreal.com",
+    "author": "Soulimane Farah",
+    "totalPosts": 9,
+    "totalClusters": 5,
+    "totalLinks": 28,
+    "estimatedWords": 18500,
+    "language": "bilingual FR/EN"
+  },
+  "pillar": {
+    "title": "Consultant SEO Pharma Montréal / Pharma SEO Consultant Montreal",
+    "keyword_fr": "consultant SEO pharma Montréal",
+    "keyword_en": "pharma SEO consultant Montreal",
+    "url_fr": "/",
+    "url_en": "/en/",
+    "template": "landing-page",
+    "wordCount": 2500,
+    "status": "published",
+    "secondaryKeywords": [
+      "expert SEO santé Québec",
+      "health SEO consultant Montreal",
+      "agence SEO pharmaceutique Canada",
+      "pharma SEO agency Canada",
+      "consultant SEO indépendant pharma"
+    ]
+  },
+  "clusters": [
+    {
+      "id": "cluster-1",
+      "name": "Conformité & Réglementation",
+      "color": "#1a3a5c",
+      "priority": 1,
+      "rationale": "Différenciateur unique — aucun concurrent francophone au Québec sur cet angle",
+      "posts": [
+        {
+          "id": "c1-fr",
+          "title": "SEO Pharmaceutique et Conformité PAAB : Le Guide Complet pour le Canada",
+          "keyword": "SEO conformité PAAB Canada",
+          "secondaryKeywords": [
+            "SEO réglementation Santé Canada",
+            "E-E-A-T site pharmaceutique",
+            "référencement YMYL secteur santé",
+            "contenu pharmaceutique conforme Google"
+          ],
+          "url": "/blog/seo-pharmaceutique-conformite-paab-sante-canada/",
+          "language": "fr",
+          "template": "ultimate-guide",
+          "wordCount": 2200,
+          "intent": "informational",
+          "status": "planned"
+        },
+        {
+          "id": "c1-en",
+          "title": "Pharmaceutical SEO and PAAB Compliance: The Complete Guide for Canada",
+          "keyword": "pharmaceutical SEO PAAB compliance",
+          "secondaryKeywords": [
+            "Health Canada SEO regulations",
+            "YMYL healthcare SEO strategy",
+            "E-E-A-T pharmaceutical website",
+            "compliant pharma content Google"
+          ],
+          "url": "/en/blog/pharmaceutical-seo-paab-compliance-health-canada/",
+          "language": "en",
+          "template": "ultimate-guide",
+          "wordCount": 2200,
+          "intent": "informational",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "id": "cluster-2",
+      "name": "Secteurs cibles — Biotech / Médical / Labo",
+      "color": "#c9a84c",
+      "priority": 2,
+      "rationale": "Montréal = 2e hub pharma/biotech Canada — secteur sous-servi en SEO francophone",
+      "posts": [
+        {
+          "id": "c2-fr",
+          "title": "SEO pour Biotechnologie, Dispositifs Médicaux et Laboratoires au Québec",
+          "keyword": "SEO biotechnologie Québec",
+          "secondaryKeywords": [
+            "référencement dispositif médical Canada",
+            "SEO laboratoire clinique Montréal",
+            "consultant SEO laboratoire pharmaceutique",
+            "sciences de la vie SEO Québec"
+          ],
+          "url": "/blog/seo-biotechnologie-dispositif-medical-quebec/",
+          "language": "fr",
+          "template": "ultimate-guide",
+          "wordCount": 1800,
+          "intent": "commercial",
+          "status": "planned"
+        },
+        {
+          "id": "c2-en",
+          "title": "SEO for Biotech, Medical Devices and Life Sciences in Quebec & Canada",
+          "keyword": "biotech SEO Montreal",
+          "secondaryKeywords": [
+            "medical device SEO Canada",
+            "life sciences SEO Quebec",
+            "SEO for drug manufacturers Canada",
+            "pharmaceutical marketing SEO Montreal"
+          ],
+          "url": "/en/blog/biotech-medical-device-seo-quebec-canada/",
+          "language": "en",
+          "template": "ultimate-guide",
+          "wordCount": 1800,
+          "intent": "commercial",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "id": "cluster-3",
+      "name": "GEO & Visibilité IA Pharma",
+      "color": "#2ecc71",
+      "priority": 1,
+      "rationale": "Opportunité #1 — zéro concurrent FR/QC, forte croissance 2026, terrain vierge",
+      "posts": [
+        {
+          "id": "c3-fr",
+          "title": "GEO Pharma : Apparaître dans ChatGPT et Perplexity pour l'Industrie Pharmaceutique Canadienne",
+          "keyword": "GEO pharma Québec",
+          "secondaryKeywords": [
+            "optimisation moteurs IA santé Canada",
+            "visibilité ChatGPT Perplexity pharma",
+            "stratégie contenu pharma SEO Canada",
+            "generative engine optimization pharmaceutique"
+          ],
+          "url": "/blog/geo-pharma-visibilite-ia-chatgpt-perplexity-canada/",
+          "language": "fr",
+          "template": "ultimate-guide",
+          "wordCount": 2000,
+          "intent": "informational",
+          "status": "planned"
+        },
+        {
+          "id": "c3-en",
+          "title": "Pharma GEO: How to Appear in ChatGPT and Perplexity for Canadian Pharmaceutical Companies",
+          "keyword": "GEO pharma Canada",
+          "secondaryKeywords": [
+            "generative engine optimization healthcare",
+            "AI search visibility pharma",
+            "ChatGPT visibility pharma Canada",
+            "pharma content strategy SEO Canada"
+          ],
+          "url": "/en/blog/pharma-geo-ai-visibility-chatgpt-perplexity-canada/",
+          "language": "en",
+          "template": "ultimate-guide",
+          "wordCount": 2000,
+          "intent": "informational",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "id": "cluster-4",
+      "name": "Tarifs & ROI",
+      "color": "#e74c3c",
+      "priority": 2,
+      "rationale": "Intent bas de funnel — trafic qualifié prêt à convertir",
+      "posts": [
+        {
+          "id": "c4-fr",
+          "title": "Combien Coûte un Consultant SEO Pharmaceutique au Canada ? Tarifs 2026",
+          "keyword": "tarif consultant SEO santé Montréal",
+          "secondaryKeywords": [
+            "prix référencement naturel pharma Québec",
+            "tarif consultant SEO freelance Québec",
+            "coût SEO industrie pharmaceutique Canada",
+            "budget SEO pharma PME"
+          ],
+          "url": "/blog/tarif-consultant-seo-sante-pharmaceutique-montreal/",
+          "language": "fr",
+          "template": "explainer",
+          "wordCount": 1400,
+          "intent": "commercial_investigation",
+          "status": "planned"
+        },
+        {
+          "id": "c4-en",
+          "title": "How Much Does a Pharmaceutical SEO Consultant Cost in Canada? 2026 Pricing",
+          "keyword": "pharma SEO pricing Canada",
+          "secondaryKeywords": [
+            "pharmaceutical SEO consultant cost",
+            "freelance SEO consultant pharma Quebec",
+            "pharma SEO agency pricing",
+            "B2B SEO pharmaceutical industry cost"
+          ],
+          "url": "/en/blog/pharma-seo-consultant-cost-canada/",
+          "language": "en",
+          "template": "explainer",
+          "wordCount": 1400,
+          "intent": "commercial_investigation",
+          "status": "planned"
+        }
+      ]
+    }
+  ],
+  "links": [
+    { "from": "pillar-fr", "to": "c1-fr", "type": "mandatory", "anchor": "SEO pharmaceutique conforme au PAAB" },
+    { "from": "pillar-fr", "to": "c2-fr", "type": "mandatory", "anchor": "SEO pour biotechnologie et dispositifs médicaux" },
+    { "from": "pillar-fr", "to": "c3-fr", "type": "mandatory", "anchor": "GEO pharma et visibilité IA" },
+    { "from": "pillar-fr", "to": "c4-fr", "type": "mandatory", "anchor": "tarifs et forfaits SEO pharma" },
+    { "from": "pillar-en", "to": "c1-en", "type": "mandatory", "anchor": "PAAB-compliant pharmaceutical SEO" },
+    { "from": "pillar-en", "to": "c2-en", "type": "mandatory", "anchor": "SEO for biotech and medical devices" },
+    { "from": "pillar-en", "to": "c3-en", "type": "mandatory", "anchor": "pharma GEO and AI visibility" },
+    { "from": "pillar-en", "to": "c4-en", "type": "mandatory", "anchor": "pharma SEO pricing and packages" },
+    { "from": "c1-fr", "to": "pillar-fr", "type": "mandatory", "anchor": "consultant SEO pharma Montréal" },
+    { "from": "c1-en", "to": "pillar-en", "type": "mandatory", "anchor": "pharma SEO consultant Montreal" },
+    { "from": "c2-fr", "to": "pillar-fr", "type": "mandatory", "anchor": "consultant SEO pharmaceutique" },
+    { "from": "c2-en", "to": "pillar-en", "type": "mandatory", "anchor": "pharmaceutical SEO consultant" },
+    { "from": "c3-fr", "to": "pillar-fr", "type": "mandatory", "anchor": "consultant SEO pharma" },
+    { "from": "c3-en", "to": "pillar-en", "type": "mandatory", "anchor": "pharma SEO consultant" },
+    { "from": "c4-fr", "to": "pillar-fr", "type": "mandatory", "anchor": "consultant SEO pharma Montréal" },
+    { "from": "c4-en", "to": "pillar-en", "type": "mandatory", "anchor": "pharma SEO consultant Montreal" },
+    { "from": "c1-fr", "to": "c3-fr", "type": "cross-cluster", "anchor": "visibilité IA pour contenu pharmaceutique conforme" },
+    { "from": "c1-en", "to": "c3-en", "type": "cross-cluster", "anchor": "AI visibility for compliant pharma content" },
+    { "from": "c2-fr", "to": "c1-fr", "type": "within-cluster", "anchor": "conformité PAAB pour biotech et dispositifs médicaux" },
+    { "from": "c2-en", "to": "c1-en", "type": "within-cluster", "anchor": "PAAB compliance for biotech and medical devices" },
+    { "from": "c3-fr", "to": "c1-fr", "type": "cross-cluster", "anchor": "contenu GEO conforme au PAAB" },
+    { "from": "c3-en", "to": "c1-en", "type": "cross-cluster", "anchor": "PAAB-compliant GEO content" },
+    { "from": "c4-fr", "to": "c1-fr", "type": "within-cluster", "anchor": "audit SEO pharmaceutique conforme" },
+    { "from": "c4-en", "to": "c1-en", "type": "within-cluster", "anchor": "compliant pharma SEO audit" },
+    { "from": "c4-fr", "to": "c2-fr", "type": "cross-cluster", "anchor": "tarifs SEO pour biotech et labos" },
+    { "from": "c4-en", "to": "c2-en", "type": "cross-cluster", "anchor": "SEO pricing for biotech and labs" },
+    { "from": "c3-fr", "to": "c2-fr", "type": "within-cluster", "anchor": "GEO pour biotechnologie Québec" },
+    { "from": "c3-en", "to": "c2-en", "type": "within-cluster", "anchor": "GEO for biotech Quebec" }
+  ]
+}

@@ -6,11 +6,11 @@ lang: fr
 tags: ["GEO", "LLMO", "ChatGPT", "Perplexity", "pharma", "santé", "Montréal"]
 readingTime: 8
 author: Soulimane Farah
-modDate: 2026-05-30
+modDate: 2026-05-31
 translationSlug: "geo-pharma-ai-search-visibility-2025-en"
 ---
 
-En 2025, une tendance discrète mais majeure transforme la façon dont les décideurs du secteur santé cherchent des fournisseurs, des solutions et des experts : ils demandent directement à une intelligence artificielle.
+**40 millions de personnes posent des questions de santé à ChatGPT chaque jour** (OpenAI, 2026). 48,7 % des requêtes santé sur la première page de Google déclenchent désormais un AI Overview — une réponse générée avant le moindre lien organique. En 2026, une tendance discrète mais majeure transforme la façon dont les décideurs du secteur santé cherchent des fournisseurs, des solutions et des experts : ils demandent directement à une intelligence artificielle.
 
 « Quels sont les meilleurs consultants SEO pour une PME pharmaceutique au Canada ? » — posée à [ChatGPT](https://chatgpt.com), cette question génère une réponse en quelques secondes, sans que l'utilisateur visite un seul site. Si votre entreprise n'est pas citée dans cette réponse, vous n'existez pas pour ce client potentiel.
 
@@ -116,9 +116,26 @@ Chaque réponse bien structurée est une occasion d'être cité.
 
 ---
 
+## Mesurer votre visibilité GEO — outils et KPIs
+
+Avant d'optimiser, il faut savoir où vous en êtes. Trois outils permettent de mesurer votre visibilité dans les réponses IA :
+
+- **[Otterly.ai](https://otterly.ai)** — surveille les mentions de votre marque dans ChatGPT, Perplexity et Google AI Overviews en temps réel
+- **[LLMrefs](https://llmrefs.com)** — analyse quelles pages de votre site sont citées par les LLM et à quelle fréquence
+- **SE Ranking AI Visibility** — suit l'évolution de vos citations IA dans le temps, avec comparaison concurrentielle
+
+Les KPIs à suivre chaque mois :
+- Taux de citation IA sur vos 10 requêtes cibles
+- Sources concurrentes citées à votre place
+- Requêtes où vous apparaissez vs requêtes où vous êtes absent
+
+---
+
 ## Le cas particulier de Perplexity : la IA qui cite le plus
 
 Perplexity se distingue des autres modèles par sa capacité à effectuer des recherches web en temps réel et à citer explicitement ses sources avec des liens. C'est la plateforme IA où la visibilité organique est la plus directement transférable.
+
+En mars 2026, Perplexity a lancé **Perplexity Health** — une interface dédiée aux requêtes médicales qui cite exclusivement des sources à haute autorité. Pour les entreprises pharma et santé au Québec, c'est à la fois une opportunité (visibilité auprès d'une audience qualifiée) et une exigence (le niveau d'autorité requis est encore plus élevé).
 
 Pour optimiser votre présence sur Perplexity :
 
