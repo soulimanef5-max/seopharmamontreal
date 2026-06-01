@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Récap SEO — 2026-06-01 — seopharmamontreal.com</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --navy: #0a1628;
+    --navy-card: #0f2240;
+    --navy-deep: #071020;
+    --navy-border: #1e3a5f;
+    --gold: #c9a84c;
+    --slate: #94a3b8;
+    --text: #e2e8f0;
+    --green: #16a34a;
+    --red: #dc2626;
+    --blue: #60a5fa;
+    --purple: #a78bfa;
+  }
+  body {
+    background: var(--navy);
+    color: var(--text);
+    font-family: system-ui, -apple-system, sans-serif;
+    min-height: 100vh;
+    padding-bottom: 48px;
+  }
+
+  /* Header */
+  .header {
+    background: var(--navy-deep);
+    border-bottom: 2px solid var(--gold);
+    padding: 18px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .brand { font-size: 20px; font-weight: 800; color: #fff; }
+  .brand span { color: var(--gold); }
+  .brand-sub { font-size: 12px; color: var(--slate); margin-top: 3px; }
+  .header-right { text-align: right; }
+  .header-date { font-size: 12px; color: #64748b; margin-bottom: 8px; }
+  .score-wrap { display: flex; align-items: center; gap: 12px; }
+  .score-num { font-size: 48px; font-weight: 800; color: var(--gold); line-height: 1; }
+  .score-denom { font-size: 22px; font-weight: 400; color: var(--slate); }
+  .score-badge {
+    background: var(--gold);
+    color: #fff;
+    font-weight: 700;
+    font-size: 11px;
+    padding: 3px 10px;
+    border-radius: 4px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  /* Layout */
+  .container { max-width: 920px; margin: 0 auto; padding: 28px 20px 0; }
+
+  /* Cards */
+  .card {
+    background: var(--navy-card);
+    border: 1px solid var(--navy-border);
+    border-radius: 8px;
+    padding: 22px 24px;
+    margin-bottom: 20px;
+  }
+  .section-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--gold);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 18px;
+  }
+
+  /* KPI row */
+  .kpi-row { display: flex; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; }
+  .kpi {
+    flex: 1 1 120px;
+    background: var(--navy-deep);
+    border-radius: 6px;
+    padding: 10px 14px;
+    border-left-width: 3px;
+    border-left-style: solid;
+  }
+  .kpi-label { font-size: 11px; color: #64748b; margin-bottom: 4px; }
+  .kpi-val { font-size: 22px; font-weight: 800; }
+
+  /* Chart */
+  .chart-wrap { position: relative; height: 270px; }
+
+  /* Table */
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  thead th {
+    text-align: left;
+    padding: 8px 10px;
+    color: #64748b;
+    font-weight: 600;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid var(--navy-border);
+  }
+  tbody tr { border-bottom: 1px solid #0d1e38; }
+  tbody td { padding: 11px 10px; }
+  .td-query { color: var(--text); }
+  .td-clics { font-weight: 700; color: var(--gold); }
+  .td-imp { color: var(--slate); }
+  .td-pos { color: var(--text); }
+  .delta-up { color: var(--green); font-weight: 700; }
+  .delta-down { color: var(--red); font-weight: 700; }
+  .delta-flat { color: var(--slate); }
+
+  /* IA cards */
+  .ia-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+  .ia-card { background: var(--navy-deep); border-radius: 6px; padding: 12px 16px; border-width: 1px; border-style: solid; }
+  .ia-query { font-size: 12px; color: var(--slate); margin-bottom: 8px; line-height: 1.4; }
+  .ia-statut { font-weight: 700; font-size: 13px; }
+  .ia-cite { color: var(--green); }
+  .ia-partiel { color: var(--gold); }
+  .ia-none { color: var(--red); }
+
+  /* Alertes */
+  .alerte {
+    border-radius: 6px;
+    padding: 10px 16px;
+    font-size: 13px;
+    border-left-width: 4px;
+    border-left-style: solid;
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+
+  /* Recommandations */
+  .reco {
+    background: var(--navy-deep);
+    border-radius: 6px;
+    padding: 14px 18px;
+    border-left-width: 4px;
+    border-left-style: solid;
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    margin-bottom: 12px;
+  }
+  .prio-badge { font-weight: 800; font-size: 11px; padding: 3px 8px; border-radius: 4px; color: #fff; flex-shrink: 0; letter-spacing: 0.05em; }
+  .reco-title { font-weight: 700; color: #fff; margin-bottom: 4px; font-size: 14px; }
+  .reco-action { font-size: 13px; color: var(--slate); line-height: 1.5; }
+
+  /* Footer */
+  .footer { text-align: center; font-size: 11px; color: #334155; margin-top: 32px; padding: 0 20px; }
+
+  @media (max-width: 600px) {
+    .header { padding: 14px 16px; }
+    .card { padding: 16px; }
+    .score-num { font-size: 36px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <div>
+    <div class="brand">SEO Pharma <span>Montréal</span></div>
+    <div class="brand-sub">seopharmamontreal.com</div>
+  </div>
+  <div class="header-right">
+    <div class="header-date">Récap du dimanche 1 juin 2026</div>
+    <div class="score-wrap">
+      <div class="score-num">74<span class="score-denom">/100</span></div>
+      <span class="score-badge" style="background: var(--gold);">Moyen</span>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- GSC Chart -->
+  <div class="card">
+    <div class="section-title">📈 Évolution GSC — 7 derniers jours</div>
+    <div class="kpi-row">
+      <div class="kpi" style="border-left-color: var(--gold);">
+        <div class="kpi-label">Clics aujourd'hui</div>
+        <div class="kpi-val" style="color: var(--gold);">24</div>
+      </div>
+      <div class="kpi" style="border-left-color: var(--blue);">
+        <div class="kpi-label">Impressions</div>
+        <div class="kpi-val" style="color: var(--blue);">480</div>
+      </div>
+      <div class="kpi" style="border-left-color: var(--purple);">
+        <div class="kpi-label">Position moy.</div>
+        <div class="kpi-val" style="color: var(--purple);">12.0</div>
+      </div>
+      <div class="kpi" style="border-left-color: #34d399;">
+        <div class="kpi-label">CTR</div>
+        <div class="kpi-val" style="color: #34d399;">5.0%</div>
+      </div>
+    </div>
+    <div class="chart-wrap">
+      <canvas id="gscChart"></canvas>
+    </div>
+  </div>
+
+  <!-- Top requêtes -->
+  <div class="card">
+    <div class="section-title">🔑 Top 5 requêtes</div>
+    <div style="overflow-x: auto;">
+      <table>
+        <thead>
+          <tr>
+            <th>Requête</th>
+            <th>Clics</th>
+            <th>Impressions</th>
+            <th>Position</th>
+            <th>Δ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="td-query">consultant SEO pharma Montréal</td>
+            <td class="td-clics">8</td>
+            <td class="td-imp">142</td>
+            <td class="td-pos">4.2</td>
+            <td class="delta-up">↑ +2.1</td>
+          </tr>
+          <tr>
+            <td class="td-query">agence SEO pharmaceutique Canada</td>
+            <td class="td-clics">5</td>
+            <td class="td-imp">98</td>
+            <td class="td-pos">7.8</td>
+            <td class="delta-down">↓ -0.5</td>
+          </tr>
+          <tr>
+            <td class="td-query">SEO santé Montréal</td>
+            <td class="td-clics">4</td>
+            <td class="td-imp">87</td>
+            <td class="td-pos">9.1</td>
+            <td class="delta-up">↑ +1.3</td>
+          </tr>
+          <tr>
+            <td class="td-query">référencement naturel pharma</td>
+            <td class="td-clics">4</td>
+            <td class="td-imp">76</td>
+            <td class="td-pos">11.4</td>
+            <td class="delta-up">↑ +3.2</td>
+          </tr>
+          <tr>
+            <td class="td-query">consultant GEO IA pharma</td>
+            <td class="td-clics">3</td>
+            <td class="td-imp">77</td>
+            <td class="td-pos">12.6</td>
+            <td class="delta-down">↓ -1.8</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Visibilité IA -->
+  <div class="card">
+    <div class="section-title">🤖 Visibilité IA — Citations du jour</div>
+    <div class="ia-grid">
+      <div class="ia-card" style="border-color: #16a34a33;">
+        <div class="ia-query">consultant SEO pharma Montréal</div>
+        <div class="ia-statut ia-cite">✅ Cité</div>
+      </div>
+      <div class="ia-card" style="border-color: #c9a84c33;">
+        <div class="ia-query">agence SEO santé Canada</div>
+        <div class="ia-statut ia-partiel">⚠️ Partiel</div>
+      </div>
+      <div class="ia-card" style="border-color: #dc262633;">
+        <div class="ia-query">SEO pharmaceutique Québec</div>
+        <div class="ia-statut ia-none">❌ Non cité</div>
+      </div>
+      <div class="ia-card" style="border-color: #16a34a33;">
+        <div class="ia-query">consultant GEO intelligence artificielle</div>
+        <div class="ia-statut ia-cite">✅ Cité</div>
+      </div>
+      <div class="ia-card" style="border-color: #c9a84c33;">
+        <div class="ia-query">référencement médical Montréal</div>
+        <div class="ia-statut ia-partiel">⚠️ Partiel</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Alertes -->
+  <div class="card">
+    <div class="section-title">🚨 Alertes</div>
+    <div class="alerte" style="background: #dc262611; border-color: #dc262644; border-left-color: #dc2626; color: var(--text);">
+      <strong style="color: #dc2626;">Critique —</strong> "agence SEO pharma Québec" : chute de 6 positions (19.3 → 25.1)
+    </div>
+    <div class="alerte" style="background: #c9a84c11; border-color: #c9a84c44; border-left-color: var(--gold); color: var(--text);">
+      <strong style="color: var(--gold);">Attention —</strong> Impressions en baisse de 23% sur /en/blog/geo-pharma-ai/
+    </div>
+    <div class="alerte" style="background: #16a34a11; border-color: #16a34a44; border-left-color: var(--green); color: var(--text);">
+      <strong style="color: var(--green);">Opportunité —</strong> "consultant SEO pharmaceutique" entre dans le top 10 — position 9.8
+    </div>
+  </div>
+
+  <!-- Recommandations -->
+  <div class="card">
+    <div class="section-title">💡 Recommandations</div>
+    <div class="reco" style="border-left-color: #dc2626;">
+      <span class="prio-badge" style="background: #dc2626;">P1</span>
+      <div>
+        <div class="reco-title">Renforcer la page /en/blog/geo-pharma-ai/</div>
+        <div class="reco-action">Ajouter 500 mots sur les cas d'usage GEO + 3 liens internes depuis les articles FR pour compenser la baisse d'impressions.</div>
+      </div>
+    </div>
+    <div class="reco" style="border-left-color: var(--gold);">
+      <span class="prio-badge" style="background: var(--gold);">P2</span>
+      <div>
+        <div class="reco-title">Optimiser la balise title de /services/</div>
+        <div class="reco-action">Inclure "consultant SEO pharma Montréal" dans le H1 et la meta description pour consolider la position 4.2.</div>
+      </div>
+    </div>
+    <div class="reco" style="border-left-color: var(--green);">
+      <span class="prio-badge" style="background: var(--green);">P3</span>
+      <div>
+        <div class="reco-title">Créer une page dédiée "SEO pharmaceutique Québec"</div>
+        <div class="reco-action">Article 1 200 mots ciblant les PME pharma québécoises avec FAQ Schema — exploiter la requête non citée par l'IA.</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">
+  Généré automatiquement le 2026-06-01 à 16h00 MTL &nbsp;|&nbsp; seopharmamontreal.com
+</div>
+
+<script>
+const GOLD = "#c9a84c";
+const BLUE = "#60a5fa";
+const PURPLE = "#a78bfa";
+const BORDER = "#1e3a5f";
+
+const ctx = document.getElementById("gscChart").getContext("2d");
+new Chart(ctx, {
+  type: "line",
+  data: {
+    labels: ["26 mai", "27 mai", "28 mai", "29 mai", "30 mai", "31 mai", "1 juin"],
+    datasets: [
+      {
+        label: "Clics",
+        data: [12, 15, 11, 18, 22, 19, 24],
+        borderColor: GOLD,
+        backgroundColor: GOLD + "22",
+        tension: 0.4,
+        fill: true,
+        yAxisID: "y",
+        pointRadius: 5,
+        pointBackgroundColor: GOLD,
+        pointHoverRadius: 7,
+      },
+      {
+        label: "Impressions",
+        data: [320, 340, 290, 410, 450, 420, 480],
+        borderColor: BLUE,
+        backgroundColor: "transparent",
+        tension: 0.4,
+        fill: false,
+        yAxisID: "y",
+        pointRadius: 5,
+        pointBackgroundColor: BLUE,
+        pointHoverRadius: 7,
+      },
+      {
+        label: "Position moy. (axe ↗ = meilleur)",
+        data: [18, 16, 17, 14, 13, 15, 12],
+        borderColor: PURPLE,
+        backgroundColor: "transparent",
+        tension: 0.4,
+        fill: false,
+        yAxisID: "y2",
+        pointRadius: 5,
+        pointBackgroundColor: PURPLE,
+        pointHoverRadius: 7,
+        borderDash: [5, 4],
+      },
+    ],
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    interaction: { mode: "index", intersect: false },
+    plugins: {
+      legend: {
+        labels: {
+          color: "#e2e8f0",
+          font: { family: "system-ui", size: 12 },
+          boxWidth: 16,
+          padding: 16,
+        },
+      },
+      tooltip: {
+        backgroundColor: "#071020",
+        borderColor: BORDER,
+        borderWidth: 1,
+        titleColor: "#e2e8f0",
+        bodyColor: "#94a3b8",
+        padding: 10,
+      },
+    },
+    scales: {
+      x: {
+        ticks: { color: "#94a3b8", font: { family: "system-ui", size: 11 } },
+        grid: { color: BORDER },
+      },
+      y: {
+        type: "linear",
+        position: "left",
+        ticks: { color: "#94a3b8", font: { family: "system-ui" } },
+        grid: { color: BORDER },
+        title: { display: true, text: "Clics / Impressions", color: "#64748b", font: { size: 11 } },
+      },
+      y2: {
+        type: "linear",
+        position: "right",
+        reverse: true,
+        ticks: { color: PURPLE, font: { family: "system-ui" } },
+        grid: { drawOnChartArea: false },
+        title: { display: true, text: "Position (inversée)", color: PURPLE, font: { size: 11 } },
+      },
+    },
+  },
+});
+</script>
+</body>
+</html>
