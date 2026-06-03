@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Récap SEO — 3 juin 2026 — seopharmamontreal.com</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root { --navy: #0a1628; --navy-card: #0f2240; --navy-deep: #071020; --navy-border: #1e3a5f; --gold: #c9a84c; --slate: #94a3b8; --text: #e2e8f0; --green: #16a34a; --red: #dc2626; --blue: #60a5fa; --purple: #a78bfa; }
+  body { background: var(--navy); color: var(--text); font-family: system-ui, -apple-system, sans-serif; min-height: 100vh; padding-bottom: 48px; }
+  .header { background: var(--navy-deep); border-bottom: 2px solid var(--gold); padding: 18px 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+  .brand { font-size: 20px; font-weight: 800; color: #fff; }
+  .brand span { color: var(--gold); }
+  .brand-sub { font-size: 12px; color: var(--slate); margin-top: 3px; }
+  .header-right { text-align: right; }
+  .header-date { font-size: 12px; color: #64748b; margin-bottom: 8px; }
+  .score-wrap { display: flex; align-items: center; gap: 12px; }
+  .score-num { font-size: 48px; font-weight: 800; color: var(--gold); line-height: 1; }
+  .score-denom { font-size: 22px; font-weight: 400; color: var(--slate); }
+  .score-badge { color: #fff; font-weight: 700; font-size: 11px; padding: 3px 10px; border-radius: 4px; letter-spacing: 0.06em; text-transform: uppercase; }
+  .container { max-width: 920px; margin: 0 auto; padding: 28px 20px 0; }
+  .card { background: var(--navy-card); border: 1px solid var(--navy-border); border-radius: 8px; padding: 22px 24px; margin-bottom: 20px; }
+  .section-title { font-size: 13px; font-weight: 700; color: var(--gold); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 18px; }
+  .kpi-row { display: flex; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; }
+  .kpi { flex: 1 1 120px; background: var(--navy-deep); border-radius: 6px; padding: 10px 14px; border-left-width: 3px; border-left-style: solid; }
+  .kpi-label { font-size: 11px; color: #64748b; margin-bottom: 4px; }
+  .kpi-val { font-size: 22px; font-weight: 800; }
+  .chart-wrap { position: relative; height: 270px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  thead th { text-align: left; padding: 8px 10px; color: #64748b; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; border-bottom: 1px solid var(--navy-border); }
+  tbody tr { border-bottom: 1px solid #0d1e38; }
+  tbody td { padding: 11px 10px; }
+  .ia-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+  .ia-card { background: var(--navy-deep); border-radius: 6px; padding: 12px 16px; border-width: 1px; border-style: solid; }
+  .ia-query { font-size: 12px; color: var(--slate); margin-bottom: 8px; line-height: 1.4; }
+  .ia-statut { font-weight: 700; font-size: 13px; }
+  .alerte { border-radius: 6px; padding: 10px 16px; font-size: 13px; border-left-width: 4px; border-left-style: solid; border-width: 1px; border-style: solid; margin-bottom: 10px; line-height: 1.5; }
+  .reco { background: var(--navy-deep); border-radius: 6px; padding: 14px 18px; border-left-width: 4px; border-left-style: solid; display: flex; gap: 14px; align-items: flex-start; margin-bottom: 12px; }
+  .prio-badge { font-weight: 800; font-size: 11px; padding: 3px 8px; border-radius: 4px; color: #fff; flex-shrink: 0; }
+  .reco-title { font-weight: 700; color: #fff; margin-bottom: 4px; font-size: 14px; }
+  .reco-action { font-size: 13px; color: var(--slate); line-height: 1.5; }
+  .footer { text-align: center; font-size: 11px; color: #334155; margin-top: 32px; }
+  .email-card { background: var(--navy-deep); border-radius: 6px; padding: 14px 18px; margin-bottom: 10px; border-left: 3px solid var(--navy-border); }
+  .email-meta { font-size: 11px; color: #64748b; margin-bottom: 6px; }
+  .email-subject { font-weight: 700; font-size: 14px; color: #fff; margin-bottom: 8px; }
+  .email-bullet { font-size: 13px; color: var(--slate); line-height: 1.6; padding-left: 14px; position: relative; }
+  .email-bullet::before { content: "•"; position: absolute; left: 0; color: var(--gold); }
+  .badge-haute { background: #7f1d1d; color: #fca5a5; border: 1px solid #dc2626; }
+  .badge-moyenne { background: #713f12; color: #fcd34d; border: 1px solid #d97706; }
+  .badge-info { background: #1e3a5f; color: var(--blue); border: 1px solid #3b82f6; }
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="brand">
+    <div>seo<span>pharma</span>montreal<span>.com</span></div>
+    <div class="brand-sub">Soulimane Farah · Consultant SEO/GEO Pharma · Montréal</div>
+  </div>
+  <div class="header-right">
+    <div class="header-date">Rapport généré le mercredi 3 juin 2026</div>
+    <div class="score-wrap">
+      <div><div class="score-num">60</div></div>
+      <div>
+        <div class="score-denom">/100</div>
+        <div class="score-badge" style="background:#713f12;">EN DÉVELOPPEMENT</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="alerte" style="background:#0f1f10;border-left-color:#16a34a;border-color:#166534;">
+    🟡 <strong>Attention :</strong> Le Google Core Update de mai 2026 vient de terminer son déploiement (12 jours de rollout). Surveiller les positions sur 2 semaines avant toute modification de contenu.
+  </div>
+  <div class="alerte" style="background:#1c1208;border-left-color:#d97706;border-color:#92400e;margin-bottom:20px;">
+    ⚠️ <strong>Visibilité IA à 0/5 :</strong> Aucune citation détectée dans les moteurs IA pour les 5 requêtes cibles. Action prioritaire : créer des ressources citables (études de cas PAAB, guides pharma SEO).
+  </div>
+  <div class="card">
+    <div class="section-title">📈 Stats Google Search Console — Hier (2 juin 2026)</div>
+    <div class="kpi-row">
+      <div class="kpi" style="border-left-color:#60a5fa;"><div class="kpi-label">Clics</div><div class="kpi-val" style="color:#60a5fa;">0</div></div>
+      <div class="kpi" style="border-left-color:#a78bfa;"><div class="kpi-label">Impressions</div><div class="kpi-val" style="color:#a78bfa;">3</div></div>
+      <div class="kpi" style="border-left-color:#c9a84c;"><div class="kpi-label">CTR moyen</div><div class="kpi-val" style="color:#c9a84c;">0,0%</div></div>
+      <div class="kpi" style="border-left-color:#94a3b8;"><div class="kpi-label">Position moy.</div><div class="kpi-val" style="color:#94a3b8;">78,7</div></div>
+      <div class="kpi" style="border-left-color:#f59e0b;"><div class="kpi-label">Requêtes actives</div><div class="kpi-val" style="color:#f59e0b;">3</div></div>
+    </div>
+    <table>
+      <thead><tr><th>Requête</th><th>Clics</th><th>Impressions</th><th>CTR</th><th>Position</th><th>Δ vs J-2</th></tr></thead>
+      <tbody>
+        <tr><td style="color:#e2e8f0;">(unknown)</td><td>0</td><td>1</td><td>0,0%</td><td style="color:#f59e0b;">55</td><td style="color:#94a3b8;">—</td></tr>
+        <tr><td style="color:#e2e8f0;">pharma seo</td><td>0</td><td>1</td><td>0,0%</td><td style="color:#ef4444;">81</td><td style="color:#94a3b8;">—</td></tr>
+        <tr><td style="color:#e2e8f0;">why is seo important in pharmaceutical industry?</td><td>0</td><td>1</td><td>0,0%</td><td style="color:#ef4444;">100</td><td style="color:#94a3b8;">—</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="card">
+    <div class="section-title">📊 Tendance 7 jours — Clics &amp; Impressions</div>
+    <div class="chart-wrap"><canvas id="chartGSC"></canvas></div>
+  </div>
+  <div class="card">
+    <div class="section-title">🤖 Visibilité IA — Citations LLM (0/5)</div>
+    <div class="ia-grid">
+      <div class="ia-card" style="border-color:#7f1d1d;"><div class="ia-query">consultant SEO pharmaceutique Montréal</div><div class="ia-statut" style="color:#ef4444;">✗ Non-cité</div></div>
+      <div class="ia-card" style="border-color:#7f1d1d;"><div class="ia-query">SEO industrie pharmaceutique Canada</div><div class="ia-statut" style="color:#ef4444;">✗ Non-cité</div></div>
+      <div class="ia-card" style="border-color:#7f1d1d;"><div class="ia-query">référencement naturel santé Québec</div><div class="ia-statut" style="color:#ef4444;">✗ Non-cité</div></div>
+      <div class="ia-card" style="border-color:#7f1d1d;"><div class="ia-query">PAAB SEO conformité</div><div class="ia-statut" style="color:#ef4444;">✗ Non-cité</div></div>
+      <div class="ia-card" style="border-color:#7f1d1d;"><div class="ia-query">pharma SEO consultant Montreal</div><div class="ia-statut" style="color:#ef4444;">✗ Non-cité</div></div>
+    </div>
+    <p style="font-size:12px;color:#64748b;margin-top:14px;">ℹ️ Aucune citation détectée. Créer des ressources citables (guides PAAB, cas clients, articles d'autorité) pour apparaître dans les réponses IA.</p>
+  </div>
+  <div class="card">
+    <div class="section-title">📬 Veille SEO du jour — Emails analysés</div>
+    <div class="email-card" style="border-left-color:#dc2626;">
+      <div class="email-meta"><span class="score-badge badge-haute" style="margin-right:8px;">HAUTE PRIORITÉ</span>Neil Patel · 3 juin 2026</div>
+      <div class="email-subject">Google Core Update for May (what to do now)</div>
+      <div class="email-bullet">Google May 2026 Core Update lancé le 21 mai — terminé après volatilité importante, plus lourd que mars.</div>
+      <div class="email-bullet">Core Updates récompensent : qualité contenu, signaux d'autorité, alignement intention, IA search, brand trust.</div>
+      <div class="email-bullet">⚠️ Ne pas réagir trop vite — attendre la stabilisation avant tout changement majeur.</div>
+    </div>
+    <div class="email-card" style="border-left-color:#dc2626;">
+      <div class="email-meta"><span class="score-badge badge-haute" style="margin-right:8px;">HAUTE PRIORITÉ</span>Search Engine Journal · 3 juin 2026</div>
+      <div class="email-subject">Google's May Core Update Complete After Volatile Rollout</div>
+      <div class="email-bullet">Update terminé après 12 jours — pros SEO décrivent comme plus impactant que mars 2026.</div>
+      <div class="email-bullet">Sites YMYL santé/pharma historiquement les plus impactés — audit de contenu E-E-A-T recommandé.</div>
+      <div class="email-bullet">Surveiller positions et trafic organique sur 2 semaines pour identifier tendances durables.</div>
+    </div>
+    <div class="email-card" style="border-left-color:#dc2626;">
+      <div class="email-meta"><span class="score-badge badge-haute" style="margin-right:8px;">HAUTE PRIORITÉ</span>Semrush · 3 juin 2026</div>
+      <div class="email-subject">AI is quoting your haters</div>
+      <div class="email-bullet">Les moteurs IA reprennent les narratifs négatifs — une seule mauvaise mention peut l'emporter sur 100 positives.</div>
+      <div class="email-bullet">Monitorer comment les IA parlent de votre marque et identifier les sources qui influencent leurs réponses.</div>
+      <div class="email-bullet">Action GEO immédiate : auditer les sources influençant les LLMs sur "Soulimane Farah" et "seopharmamontreal.com".</div>
+    </div>
+    <div class="email-card" style="border-left-color:#d97706;">
+      <div class="email-meta"><span class="score-badge badge-moyenne" style="margin-right:8px;">MOYENNE PRIORITÉ</span>Search Engine Journal · 3 juin 2026</div>
+      <div class="email-subject">[Webinar] The 4-Layer AI System Driving Better SEO Results</div>
+      <div class="email-bullet">Système IA à 4 couches pour SEO + plan 90 jours pour prouver l'impact du contenu IA.</div>
+      <div class="email-bullet">Applicable au pharma : structurer une stratégie SEO/GEO avec contenu IA-assisté conforme PAAB.</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="section-title">💡 Recommandations du jour</div>
+    <div class="reco" style="border-left-color:#dc2626;">
+      <div><div class="prio-badge" style="background:#7f1d1d;">URGENT</div></div>
+      <div>
+        <div class="reco-title">Optimiser pour "consultant SEO pharmaceutique Montréal" (position 55)</div>
+        <div class="reco-action">Créer une page pilier ciblant ce mot-clé : H1, méta-description, 800+ mots, expertise PAAB, études de cas pharma montréalais, LocalBusiness Schema.org. Objectif : top 10 en 60 jours.</div>
+      </div>
+    </div>
+    <div class="reco" style="border-left-color:#d97706;">
+      <div><div class="prio-badge" style="background:#713f12;">PRIORITÉ</div></div>
+      <div>
+        <div class="reco-title">Lancer stratégie GEO — 0/5 citations IA détectées</div>
+        <div class="reco-action">Créer 3 contenus citables : (1) Guide PAAB &amp; SEO, (2) Étude de cas SEO pharma Canada, (3) Glossaire pharma SEO. Publier sur site + Medium + LinkedIn pour multiplier les sources indexables par LLMs.</div>
+      </div>
+    </div>
+    <div class="reco" style="border-left-color:#c9a84c;">
+      <div><div class="prio-badge" style="background:#3b2800;color:#fcd34d;">VEILLE</div></div>
+      <div>
+        <div class="reco-title">Surveiller Google Core Update Mai 2026 (terminé aujourd'hui)</div>
+        <div class="reco-action">Pas de modifications contenu avant 14 jours. Configurer alertes GSC pour chutes de position &gt; 5 rangs. Renforcer signaux E-E-A-T critiques pour sites YMYL santé/pharma.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    Rapport SEO quotidien · seopharmamontreal.com · Soulimane Farah · 3 juin 2026<br>
+    Données : Google Search Console via Supermetrics · Veille : Gmail · Visibilité IA : Apify RAG Browser
+  </div>
+</div>
+<script>
+const ctx = document.getElementById('chartGSC').getContext('2d');
+new Chart(ctx, {
+  type: 'bar',
+  data: {
+    labels: ['27 mai', '28 mai', '29 mai', '30 mai', '31 mai', '1 juin', '2 juin'],
+    datasets: [
+      {
+        label: 'Clics',
+        data: [0, 0, 1, 2, 1, 0, 0],
+        backgroundColor: 'rgba(201,168,76,0.85)',
+        borderColor: '#c9a84c',
+        borderWidth: 1,
+        yAxisID: 'y',
+        order: 2
+      },
+      {
+        label: 'Impressions',
+        data: [0, 0, 1, 4, 3, 0, 3],
+        type: 'line',
+        borderColor: '#60a5fa',
+        backgroundColor: 'rgba(96,165,250,0.1)',
+        borderWidth: 2,
+        pointBackgroundColor: '#60a5fa',
+        pointRadius: 4,
+        tension: 0.3,
+        yAxisID: 'y2',
+        order: 1
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    interaction: { mode: 'index', intersect: false },
+    plugins: { legend: { labels: { color: '#94a3b8', font: { size: 12 } } } },
+    scales: {
+      x: { ticks: { color: '#64748b' }, grid: { color: '#1e3a5f' } },
+      y: { type: 'linear', position: 'left', ticks: { color: '#c9a84c', stepSize: 1 }, grid: { color: '#1e3a5f' }, title: { display: true, text: 'Clics', color: '#c9a84c', font: { size: 11 } } },
+      y2: { type: 'linear', position: 'right', ticks: { color: '#60a5fa', stepSize: 1 }, grid: { drawOnChartArea: false }, title: { display: true, text: 'Impressions', color: '#60a5fa', font: { size: 11 } } }
+    }
+  }
+});
+</script>
+</body>
+</html>
