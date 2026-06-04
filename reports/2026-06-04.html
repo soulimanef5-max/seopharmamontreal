@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Récap SEO — 2026-06-04 — seopharmamontreal.com</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root { --navy: #0a1628; --navy-card: #0f2240; --navy-deep: #071020; --navy-border: #1e3a5f; --gold: #c9a84c; --slate: #94a3b8; --text: #e2e8f0; --green: #16a34a; --red: #dc2626; --blue: #60a5fa; --purple: #a78bfa; }
+  body { background: var(--navy); color: var(--text); font-family: system-ui, -apple-system, sans-serif; min-height: 100vh; padding-bottom: 48px; }
+  .header { background: var(--navy-deep); border-bottom: 2px solid var(--gold); padding: 18px 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+  .brand { font-size: 20px; font-weight: 800; color: #fff; }
+  .brand span { color: var(--gold); }
+  .brand-sub { font-size: 12px; color: var(--slate); margin-top: 3px; }
+  .header-right { text-align: right; }
+  .header-date { font-size: 12px; color: #64748b; margin-bottom: 8px; }
+  .score-wrap { display: flex; align-items: center; gap: 12px; }
+  .score-num { font-size: 48px; font-weight: 800; color: var(--gold); line-height: 1; }
+  .score-denom { font-size: 22px; font-weight: 400; color: var(--slate); }
+  .score-badge { color: #fff; font-weight: 700; font-size: 11px; padding: 3px 10px; border-radius: 4px; letter-spacing: 0.06em; text-transform: uppercase; }
+  .container { max-width: 920px; margin: 0 auto; padding: 28px 20px 0; }
+  .card { background: var(--navy-card); border: 1px solid var(--navy-border); border-radius: 8px; padding: 22px 24px; margin-bottom: 20px; }
+  .section-title { font-size: 13px; font-weight: 700; color: var(--gold); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 18px; }
+  .kpi-row { display: flex; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; }
+  .kpi { flex: 1 1 120px; background: var(--navy-deep); border-radius: 6px; padding: 10px 14px; border-left-width: 3px; border-left-style: solid; }
+  .kpi-label { font-size: 11px; color: #64748b; margin-bottom: 4px; }
+  .kpi-val { font-size: 22px; font-weight: 800; }
+  .chart-wrap { position: relative; height: 270px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  thead th { text-align: left; padding: 8px 10px; color: #64748b; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; border-bottom: 1px solid var(--navy-border); }
+  tbody tr { border-bottom: 1px solid #0d1e38; }
+  tbody td { padding: 11px 10px; }
+  .ia-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+  .ia-card { background: var(--navy-deep); border-radius: 6px; padding: 12px 16px; border-width: 1px; border-style: solid; }
+  .ia-query { font-size: 12px; color: var(--slate); margin-bottom: 8px; line-height: 1.4; }
+  .ia-statut { font-weight: 700; font-size: 13px; }
+  .alerte { border-radius: 6px; padding: 10px 16px; font-size: 13px; border-left-width: 4px; border-left-style: solid; border-width: 1px; border-style: solid; margin-bottom: 10px; line-height: 1.5; }
+  .reco { background: var(--navy-deep); border-radius: 6px; padding: 14px 18px; border-left-width: 4px; border-left-style: solid; display: flex; gap: 14px; align-items: flex-start; margin-bottom: 12px; }
+  .prio-badge { font-weight: 800; font-size: 11px; padding: 3px 8px; border-radius: 4px; color: #fff; flex-shrink: 0; }
+  .reco-title { font-weight: 700; color: #fff; margin-bottom: 4px; font-size: 14px; }
+  .reco-action { font-size: 13px; color: var(--slate); line-height: 1.5; }
+  .footer { text-align: center; font-size: 11px; color: #334155; margin-top: 32px; }
+  .email-card { background: var(--navy-deep); border-radius: 6px; padding: 14px 18px; margin-bottom: 10px; border-left: 3px solid var(--gold); }
+  .email-meta { font-size: 11px; color: #64748b; margin-bottom: 6px; }
+  .email-subj { font-weight: 700; color: #fff; margin-bottom: 8px; font-size: 14px; }
+  .email-bullets { font-size: 12px; color: var(--slate); line-height: 1.6; padding-left: 16px; }
+  .prio-haute { background: #7c2d12; color: #fcd34d; padding: 2px 8px; border-radius: 3px; font-size: 10px; font-weight: 700; margin-left: 8px; }
+  .prio-info { background: #1e3a5f; color: #93c5fd; padding: 2px 8px; border-radius: 3px; font-size: 10px; font-weight: 700; margin-left: 8px; }
+  .delta-up { color: #4ade80; }
+  .delta-down { color: #f87171; }
+</style>
+</head>
+<body>
+<div class="header">
+  <div>
+    <div class="brand">SEO<span>Pharma</span>Montréal</div>
+    <div class="brand-sub">Soulimane Farah — Consultant SEO/GEO Pharma</div>
+  </div>
+  <div class="header-right">
+    <div class="header-date">Rapport automatisé — Jeudi 4 juin 2026</div>
+    <div class="score-wrap">
+      <div>
+        <span class="score-num">70</span><span class="score-denom">/100</span>
+      </div>
+      <span class="score-badge" style="background:#ca8a04;">Bon</span>
+    </div>
+    <div style="font-size:11px;color:#64748b;margin-top:4px;">+10 CTR &gt; 3% | Base 60</div>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="alerte" style="border-left-color:#16a34a;background:#052e16;border-color:#166534;">
+    🟢 <strong>ALERTE POSITIVE</strong> — La requête <em>"(unknown)"</em> est passée de la position <strong>55</strong> (avant-hier) à <strong>4,56</strong> (hier) — gain de <strong>+50 positions</strong>. Une ou plusieurs pages semblent entrer dans le top 10.
+  </div>
+
+  <div class="card">
+    <div class="section-title">📈 Stats GSC — Hier (3 juin 2026)</div>
+    <div class="kpi-row">
+      <div class="kpi" style="border-left-color:#c9a84c;">
+        <div class="kpi-label">Clics</div>
+        <div class="kpi-val" style="color:#c9a84c;">2</div>
+      </div>
+      <div class="kpi" style="border-left-color:#60a5fa;">
+        <div class="kpi-label">Impressions</div>
+        <div class="kpi-val" style="color:#60a5fa;">34</div>
+      </div>
+      <div class="kpi" style="border-left-color:#4ade80;">
+        <div class="kpi-label">CTR</div>
+        <div class="kpi-val" style="color:#4ade80;">5,88%</div>
+      </div>
+      <div class="kpi" style="border-left-color:#a78bfa;">
+        <div class="kpi-label">Pos. moy. (clics)</div>
+        <div class="kpi-val" style="color:#a78bfa;">4,56</div>
+      </div>
+      <div class="kpi" style="border-left-color:#fb923c;">
+        <div class="kpi-label">Score global</div>
+        <div class="kpi-val" style="color:#fb923c;">70/100</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="section-title">📊 Tendance 7 jours (28 mai – 3 juin 2026)</div>
+    <div class="chart-wrap">
+      <canvas id="chart7j"></canvas>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="section-title">🔍 Top requêtes — Hier (3 juin 2026)</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Requête</th><th>Clics</th><th>Impressions</th><th>CTR</th><th>Position</th><th>Δ vs avant-hier</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>(unknown)</td><td>2</td><td>18</td><td>11,11%</td><td>4,56</td><td class="delta-up">↑ +50,44 pos</td></tr>
+        <tr><td>pharma seo</td><td>0</td><td>6</td><td>0%</td><td>84,50</td><td class="delta-down">↓ -3,5 pos</td></tr>
+        <tr><td>seo cliniques</td><td>0</td><td>3</td><td>0%</td><td>81,00</td><td style="color:#94a3b8;">—</td></tr>
+        <tr><td>organic search pharma</td><td>0</td><td>2</td><td>0%</td><td>97,00</td><td style="color:#94a3b8;">—</td></tr>
+        <tr><td>pharmaceutical seo</td><td>0</td><td>2</td><td>0%</td><td>95,00</td><td style="color:#94a3b8;">—</td></tr>
+        <tr><td>seo for pharmaceutical companies</td><td>0</td><td>1</td><td>0%</td><td>90,00</td><td style="color:#94a3b8;">—</td></tr>
+        <tr><td>seo pharmaceutical</td><td>0</td><td>1</td><td>0%</td><td>81,00</td><td style="color:#94a3b8;">—</td></tr>
+        <tr><td>seo centres de santé</td><td>0</td><td>1</td><td>0%</td><td>79,00</td><td style="color:#94a3b8;">—</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <div class="section-title">🤖 Visibilité IA — Citations (4 juin 2026)</div>
+    <div style="margin-bottom:14px;font-size:13px;color:#94a3b8;">
+      ⚠️ Vérification Apify indisponible depuis cet environnement (accès réseau API externe bloqué par politique réseau). À vérifier manuellement dans ChatGPT / Perplexity / Gemini.
+    </div>
+    <div class="ia-grid">
+      <div class="ia-card" style="border-color:#334155;"><div class="ia-query">consultant SEO pharmaceutique Montréal</div><div class="ia-statut" style="color:#64748b;">N/A — Non vérifié</div></div>
+      <div class="ia-card" style="border-color:#334155;"><div class="ia-query">SEO industrie pharmaceutique Canada</div><div class="ia-statut" style="color:#64748b;">N/A — Non vérifié</div></div>
+      <div class="ia-card" style="border-color:#334155;"><div class="ia-query">référencement naturel santé Québec</div><div class="ia-statut" style="color:#64748b;">N/A — Non vérifié</div></div>
+      <div class="ia-card" style="border-color:#334155;"><div class="ia-query">PAAB SEO conformité</div><div class="ia-statut" style="color:#64748b;">N/A — Non vérifié</div></div>
+      <div class="ia-card" style="border-color:#334155;"><div class="ia-query">pharma SEO consultant Montreal</div><div class="ia-statut" style="color:#64748b;">N/A — Non vérifié</div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="section-title">📰 Actualités & Tendances SEO — 4 juin 2026</div>
+    <div class="email-card">
+      <div class="email-meta">Search Engine Journal · loren@searchenginejournal.com · 14h09<span class="prio-haute">HAUTE</span></div>
+      <div class="email-subj">Google CEO Sundar Pichai Is OK With AI Mode Replacing Classic Search</div>
+      <ul class="email-bullets">
+        <li>Pichai valide activement l'AI Mode comme successeur de la Recherche classique — signal fort d'une transition accélérée</li>
+        <li>Nouveauté : GSC rapporte désormais quelles pages apparaissent dans AI Overviews, AI Mode et Discover</li>
+        <li>Utilisateurs qui fuient vers des moteurs sans IA — segmentation de l'audience SEO à anticiper pour le secteur pharma</li>
+      </ul>
+      <div style="font-size:11px;color:#64748b;margin-top:8px;">Pertinence pharma : Haute — PAAB + E-E-A-T deviennent critiques pour apparaître dans les réponses IA médicales.</div>
+    </div>
+    <div class="email-card">
+      <div class="email-meta">Neil Patel · np@neilpatel.com · 15h13<span class="prio-haute">HAUTE</span></div>
+      <div class="email-subj">Most AI visibility strategies aren't generating revenue — Webinar AEO/GEO</div>
+      <ul class="email-bullets">
+        <li>La plupart des marques confondent visibilité IA et pipeline — les citations dans ChatGPT/Gemini ne convertissent pas automatiquement</li>
+        <li>Webinar "How to Make AEO/GEO Profitable" le mardi 16 juin à 8h PDT — leçons de 100 campagnes</li>
+        <li>Plan d'action 90 jours : KPIs qui comptent maintenant, stratégies ROI les plus élevées</li>
+      </ul>
+      <div style="font-size:11px;color:#64748b;margin-top:8px;">Pertinence pharma : Haute — Application directe pour positionner seopharmamontreal.com dans les réponses IA pharma Canada.</div>
+    </div>
+    <div class="email-card" style="border-left-color:#334155;">
+      <div class="email-meta">Search Engine Journal Sponsored · 17h07<span class="prio-info">INFO</span></div>
+      <div class="email-subj">New AEO course — Free Enterprise AEO Certification (seoClarity)</div>
+      <ul class="email-bullets">
+        <li>Certification AEO gratuite par seoClarity — comprendre le traitement LLM du contenu</li>
+        <li>Merger SEO et AEO sans repartir de zéro, prouver l'impact avec attribution claire</li>
+        <li>Plateforme Clarity ArcAI — outil end-to-end pour la visibilité dans les LLMs</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="section-title">💡 Recommandations du jour</div>
+    <div class="reco" style="border-left-color:#c9a84c;">
+      <span class="prio-badge" style="background:#ca8a04;">URGENT</span>
+      <div>
+        <div class="reco-title">Identifier les pages derrière la requête "(unknown)" en position 4,56</div>
+        <div class="reco-action">La requête masquée génère 100% des clics avec CTR 11%. GSC → Performance → filtrer par "Requêtes non disponibles" pour identifier les pages concernées et consolider cette position top 5.</div>
+      </div>
+    </div>
+    <div class="reco" style="border-left-color:#60a5fa;">
+      <span class="prio-badge" style="background:#1d4ed8;">PRIORITÉ</span>
+      <div>
+        <div class="reco-title">Créer du contenu ciblé pour les requêtes pharma SEO (pos. 80-97)</div>
+        <div class="reco-action">7 requêtes clés ont des impressions mais des positions entre 79-97. Rédiger 2-3 articles de fond (1500+ mots) avec E-E-A-T fort et références PAAB pour progresser vers la page 1 en 60 jours.</div>
+      </div>
+    </div>
+    <div class="reco" style="border-left-color:#a78bfa;">
+      <span class="prio-badge" style="background:#6d28d9;">STRATÉGIE</span>
+      <div>
+        <div class="reco-title">Activer une stratégie GEO/AEO pour les citations IA pharma Canada</div>
+        <div class="reco-action">Suite à Pichai + Neil Patel : structurer 3-5 pages expert répondant à "consultant SEO pharmaceutique Montréal" et "PAAB SEO conformité" en format FAQ + données structurées pour être cité dans ChatGPT/Gemini/AI Overviews.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    Sources : Google Search Console via Supermetrics MCP · Gmail (3 emails SEO analysés) · Apify N/A (réseau bloqué)<br>
+    Généré automatiquement le 4 juin 2026 — seopharmamontreal.com · Soulimane Farah, Consultant SEO/GEO Pharma Montréal
+  </div>
+</div>
+
+<script>
+const ctx = document.getElementById('chart7j').getContext('2d');
+new Chart(ctx, {
+  type: 'bar',
+  data: {
+    labels: ['28 mai', '29 mai', '30 mai', '31 mai', '1 juin', '2 juin', '3 juin'],
+    datasets: [
+      {
+        label: 'Impressions',
+        data: [0, 1, 4, 3, 0, 3, 34],
+        backgroundColor: 'rgba(96, 165, 250, 0.35)',
+        borderColor: '#60a5fa',
+        borderWidth: 1,
+        yAxisID: 'y'
+      },
+      {
+        label: 'Clics',
+        data: [0, 1, 2, 1, 0, 0, 2],
+        backgroundColor: 'rgba(201, 168, 76, 0.8)',
+        borderColor: '#c9a84c',
+        borderWidth: 2,
+        type: 'line',
+        tension: 0.3,
+        pointRadius: 5,
+        yAxisID: 'y1'
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { labels: { color: '#94a3b8', font: { size: 12 } } } },
+    scales: {
+      x: { ticks: { color: '#64748b' }, grid: { color: '#0d1e38' } },
+      y: { type: 'linear', position: 'left', ticks: { color: '#60a5fa' }, grid: { color: '#0d1e38' }, title: { display: true, text: 'Impressions', color: '#60a5fa' } },
+      y1: { type: 'linear', position: 'right', ticks: { color: '#c9a84c' }, grid: { drawOnChartArea: false }, title: { display: true, text: 'Clics', color: '#c9a84c' }, min: 0, max: 5 }
+    }
+  }
+});
+</script>
+</body>
+</html>
