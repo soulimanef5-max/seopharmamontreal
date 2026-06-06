@@ -32,7 +32,7 @@ const {
 
 const altLang      = lang === 'fr' ? 'en' : 'fr';
 const altCanonical = lang === 'fr'
-  ? `https://seopharmamontreal.com/en${Astro.url.pathname === '/' ? '' : Astro.url.pathname}`
+  ? `https://seopharmamontreal.com/en${Astro.url.pathname === '/' ? '/' : Astro.url.pathname}`
   : `https://seopharmamontreal.com${Astro.url.pathname.replace(/^\/en/, '') || '/'}`;
 
 // ── JSON-LD : WebSite ──────────────────────────────────────────────────────
@@ -87,7 +87,11 @@ const schemaBusiness = {
       closes:      '18:00',
     },
   ],
-  sameAs:       ['https://www.linkedin.com/in/soulimanefarah/'],
+  sameAs:       [
+    'https://www.linkedin.com/in/soulimanefarah/',
+    // Ajouter URL GBP après vérification : 'https://maps.google.com/?cid=XXXXX'
+    // Ajouter URL Clutch : 'https://clutch.co/profile/...'
+  ],
 };
 
 // ── JSON-LD : Person ───────────────────────────────────────────────────────
@@ -105,11 +109,15 @@ const schemaPerson = {
     width:   400,
     height:  400,
   },
-  jobTitle:    lang === 'en' ? 'SEO/GEO Consultant — Pharma & Health' : 'Consultant SEO/GEO — Pharma & Santé',
+  jobTitle:    'SEO/GEO Consultant — Pharma & Health',
   worksFor:    { '@type': 'Organization', '@id': 'https://seopharmamontreal.com/#business' },
-  sameAs:      ['https://www.linkedin.com/in/soulimanefarah/'],
+  sameAs:      [
+    'https://www.linkedin.com/in/soulimanefarah/',
+    // Ajouter URL Clutch : 'https://clutch.co/profile/...'
+    // Ajouter URL Wikidata après création
+  ],
   knowsAbout:  ['SEO', 'GEO', 'LLMO', 'YMYL', 'E-E-A-T', 'Pharma', 'Health Canada', 'GMP/BPF', 'NHP/PSN', 'Medical Devices'],
-  alumniOf:    { '@type': 'CollegeOrUniversity', name: 'Collège Gérald-Godin' },
+  alumniOf:    { '@type': 'CollegeOrUniversity', name: 'Collège Gérald-Godin', url: 'https://www.college-gerald-godin.qc.ca' },
   hasCredential: [
     {
       '@type':              'EducationalOccupationalCredential',
@@ -148,6 +156,8 @@ const schemaServices = [
       '@type':          'Offer',
       price:            '997',
       priceCurrency:    'CAD',
+      availability:     'https://schema.org/InStock',
+      url:              'https://seopharmamontreal.com/#contact',
       priceSpecification: {
         '@type':        'UnitPriceSpecification',
         price:          '997',
@@ -171,6 +181,8 @@ const schemaServices = [
       '@type':          'Offer',
       price:            '1497',
       priceCurrency:    'CAD',
+      availability:     'https://schema.org/InStock',
+      url:              'https://seopharmamontreal.com/#contact',
       priceSpecification: {
         '@type':        'UnitPriceSpecification',
         price:          '1497',
@@ -194,6 +206,8 @@ const schemaServices = [
       '@type':          'Offer',
       price:            '2997',
       priceCurrency:    'CAD',
+      availability:     'https://schema.org/InStock',
+      url:              'https://seopharmamontreal.com/#contact',
       priceSpecification: {
         '@type':        'UnitPriceSpecification',
         price:          '2997',
