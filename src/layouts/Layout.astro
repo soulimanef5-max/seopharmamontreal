@@ -58,17 +58,19 @@ const schemaBusiness = {
     : 'Consultant SEO/GEO spécialisé en pharma, PSN et dispositifs médicaux à Montréal.',
   address: {
     '@type':          'PostalAddress',
-    addressLocality:  'Montréal',
+    streetAddress:    '4119 9e rue',
+    addressLocality:  'Laval',
     addressRegion:    'QC',
-    postalCode:       'H1A 1A1',
+    postalCode:       'H7W 1Y2',
     addressCountry:   'CA',
   },
   geo: {
     '@type':    'GeoCoordinates',
-    latitude:   45.50884,
-    longitude:  -73.58781,
+    latitude:   45.55630,
+    longitude:  -73.75100,
   },
   areaServed: [
+    { '@type': 'City',     name: 'Laval'    },
     { '@type': 'City',     name: 'Montréal' },
     { '@type': 'State',    name: 'Québec'   },
     { '@type': 'Country',  name: 'Canada'   },
@@ -138,7 +140,7 @@ const schemaServices = [
       ? 'Analyse complète de la visibilité Google et LLMs, conformité Santé Canada, feuille de route priorisée livrée en 7 jours.'
       : 'Full Google and LLM visibility analysis, Health Canada compliance, prioritized roadmap delivered in 7 days.',
     provider:     { '@type': 'Organization', '@id': 'https://seopharmamontreal.com/#business' },
-    areaServed:   { '@type': 'City', name: 'Montréal' },
+    areaServed:   [{ '@type': 'City', name: 'Laval' }, { '@type': 'City', name: 'Montréal' }],
     serviceType:  'SEO Audit',
     offers: {
       '@type':          'Offer',
@@ -161,7 +163,7 @@ const schemaServices = [
       ? 'Accompagnement SEO/GEO continu pour PME pharma — optimisation technique, contenu YMYL, Google Business Profile.'
       : 'Ongoing SEO/GEO support for pharma SMEs — technical optimization, YMYL content, Google Business Profile.',
     provider:     { '@type': 'Organization', '@id': 'https://seopharmamontreal.com/#business' },
-    areaServed:   { '@type': 'City', name: 'Montréal' },
+    areaServed:   [{ '@type': 'City', name: 'Laval' }, { '@type': 'City', name: 'Montréal' }],
     serviceType:  'SEO Consulting',
     offers: {
       '@type':          'Offer',
@@ -184,7 +186,7 @@ const schemaServices = [
       ? 'Stratégie SEO intégrale avec gestion complète de la présence digitale santé — contenu, netlinking, veille concurrentielle.'
       : 'Full SEO strategy with complete health digital presence management — content, link building, competitive intelligence.',
     provider:     { '@type': 'Organization', '@id': 'https://seopharmamontreal.com/#business' },
-    areaServed:   { '@type': 'City', name: 'Montréal' },
+    areaServed:   [{ '@type': 'City', name: 'Laval' }, { '@type': 'City', name: 'Montréal' }],
     serviceType:  'SEO Consulting',
     offers: {
       '@type':          'Offer',
@@ -231,9 +233,9 @@ const lcpPreloadUrl = '/images/soulimane-farah.webp';
 
     <!-- Géolocalisation (SEO local) ────────────────────────────────────── -->
     <meta name="geo.region"     content="CA-QC" />
-    <meta name="geo.placename"  content="Montréal, Québec, Canada" />
-    <meta name="geo.position"   content="45.5017;-73.5673" />
-    <meta name="ICBM"           content="45.5017, -73.5673" />
+    <meta name="geo.placename"  content="Laval, Québec, Canada" />
+    <meta name="geo.position"   content="45.5563;-73.7510" />
+    <meta name="ICBM"           content="45.5563, -73.7510" />
 
     <!-- Open Graph ─────────────────────────────────────────────────────── -->
     <meta property="og:type"        content={type} />

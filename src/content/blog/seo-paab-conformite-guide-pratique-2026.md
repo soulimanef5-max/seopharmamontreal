@@ -169,4 +169,4 @@ La conformité PAAB et le SEO ne s'opposent pas — ils se renforcent. Un conten
 
 Les entreprises pharmaceutiques qui maîtrisent cette double exigence bénéficient d'un avantage compétitif durable : leurs concurrents non spécialisés ne peuvent pas les imiter sans expertise réglementaire.
 
-Pour un audit complet de votre site pharmaceutique — conformité PAAB + SEO + GEO — [contactez-moi directement](/fr/#contact).
+Pour un audit complet de votre site pharmaceutique — conformité PAAB + SEO + GEO — [contactez-moi directement](/#contact).

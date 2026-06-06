@@ -1,6 +1,6 @@
 ---
-title: "Consultant SEO Pharmaceutique à Montréal : Soulimane Farah — Expertise, Méthode et Résultats"
-description: "Vous cherchez un consultant SEO spécialisé en industrie pharmaceutique à Montréal ? Soulimane Farah combine expertise pharma (Roche, Galderma), maîtrise PAAB et SEO/GEO bilingue FR/EN. Découvrez sa méthode et ses différenciateurs."
+title: "Consultant SEO Pharmaceutique à Montréal — Soulimane Farah"
+description: "Consultant SEO pharmaceutique à Montréal : expertise PAAB et Santé Canada, double parcours pharma (Roche, Galderma) et SEO/GEO bilingue. Audit dès 750 $."
 pubDate: 2026-06-05
 lang: fr
 tags: ["consultant SEO", "SEO pharmaceutique", "Montréal", "PAAB", "GEO", "E-E-A-T", "Soulimane Farah", "pharma Canada"]
@@ -203,7 +203,7 @@ Oui. Je livre tous mes rapports et stratégies en français ou en anglais selon 
 
 ### Comment se déroule la première prise de contact ?
 
-[Contactez-moi via le formulaire](/fr/#contact) ou directement à [soulimane@seopharmamontreal.com](mailto:soulimane@seopharmamontreal.com). Je réponds sous 24h ouvrables. On commence par un appel de 30 minutes (sans engagement) pour cerner votre situation actuelle, vos objectifs et voir si une collaboration fait sens.
+[Contactez-moi via le formulaire](/#contact) ou directement à [soulimane@seopharmamontreal.com](mailto:soulimane@seopharmamontreal.com). Je réponds sous 24h ouvrables. On commence par un appel de 30 minutes (sans engagement) pour cerner votre situation actuelle, vos objectifs et voir si une collaboration fait sens.
 
 ### Pouvez-vous travailler sous NDA ?
 
@@ -219,7 +219,7 @@ Je suis consultant SEO/GEO pharmaceutique basé à **Laval (Grand Montréal), Qu
 **Téléphone :** +1 438 920 6377
 **LinkedIn :** [Soulimane Farah](https://www.linkedin.com/in/soulimane-farah/)
 
-Vous avez une question précise sur votre situation ? [Écrivez-moi directement](/fr/#contact) — je réponds à chaque message personnellement.
+Vous avez une question précise sur votre situation ? [Écrivez-moi directement](/#contact) — je réponds à chaque message personnellement.
 
 ---
 
