@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Récap SEO — 6 juin 2026 — seopharmamontreal.com</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --navy: #0a1628; --navy-card: #0f2240; --navy-deep: #071020;
+    --navy-border: #1e3a5f; --gold: #c9a84c; --slate: #94a3b8;
+    --text: #e2e8f0; --green: #16a34a; --red: #dc2626;
+    --blue: #60a5fa; --purple: #a78bfa; --orange: #f59e0b;
+  }
+  body { background: var(--navy); color: var(--text); font-family: system-ui, -apple-system, sans-serif; min-height: 100vh; padding-bottom: 48px; }
+  .header { background: var(--navy-deep); border-bottom: 2px solid var(--gold); padding: 18px 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+  .brand { font-size: 20px; font-weight: 800; color: #fff; }
+  .brand span { color: var(--gold); }
+  .brand-sub { font-size: 12px; color: var(--slate); margin-top: 3px; }
+  .header-right { text-align: right; }
+  .header-date { font-size: 12px; color: #64748b; margin-bottom: 8px; }
+  .score-wrap { display: flex; align-items: center; gap: 12px; }
+  .score-num { font-size: 48px; font-weight: 800; color: var(--gold); line-height: 1; }
+  .score-denom { font-size: 22px; font-weight: 400; color: var(--slate); }
+  .score-badge { color: #fff; font-weight: 700; font-size: 11px; padding: 3px 10px; border-radius: 4px; letter-spacing: 0.06em; text-transform: uppercase; background: #d97706; }
+  .container { max-width: 920px; margin: 0 auto; padding: 28px 20px 0; }
+  .card { background: var(--navy-card); border: 1px solid var(--navy-border); border-radius: 8px; padding: 22px 24px; margin-bottom: 20px; }
+  .section-title { font-size: 13px; font-weight: 700; color: var(--gold); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 18px; }
+  .kpi-row { display: flex; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; }
+  .kpi { flex: 1 1 120px; background: var(--navy-deep); border-radius: 6px; padding: 10px 14px; border-left-width: 3px; border-left-style: solid; }
+  .kpi-label { font-size: 11px; color: #64748b; margin-bottom: 4px; }
+  .kpi-val { font-size: 22px; font-weight: 800; }
+  .chart-wrap { position: relative; height: 270px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  thead th { text-align: left; padding: 8px 10px; color: #64748b; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; border-bottom: 1px solid var(--navy-border); }
+  tbody tr { border-bottom: 1px solid #0d1e38; }
+  tbody td { padding: 11px 10px; }
+  .ia-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+  .ia-card { background: var(--navy-deep); border-radius: 6px; padding: 12px 16px; border-width: 1px; border-style: solid; }
+  .ia-query { font-size: 12px; color: var(--slate); margin-bottom: 8px; line-height: 1.4; }
+  .ia-statut { font-weight: 700; font-size: 13px; }
+  .alerte { border-radius: 6px; padding: 10px 16px; font-size: 13px; border-left-width: 4px; border-left-style: solid; border-width: 1px; border-style: solid; margin-bottom: 10px; line-height: 1.5; }
+  .reco { background: var(--navy-deep); border-radius: 6px; padding: 14px 18px; border-left-width: 4px; border-left-style: solid; display: flex; gap: 14px; align-items: flex-start; margin-bottom: 12px; }
+  .prio-badge { font-weight: 800; font-size: 11px; padding: 3px 8px; border-radius: 4px; color: #fff; flex-shrink: 0; }
+  .reco-title { font-weight: 700; color: #fff; margin-bottom: 4px; font-size: 14px; }
+  .reco-action { font-size: 13px; color: var(--slate); line-height: 1.5; }
+  .footer { text-align: center; font-size: 11px; color: #334155; margin-top: 32px; }
+  .geo-note { background: #0d1e38; border: 1px solid #1e3a5f; border-left: 4px solid var(--gold); border-radius: 6px; padding: 10px 16px; font-size: 12px; color: var(--slate); margin-bottom: 16px; }
+  .delta-pos { color: #16a34a; font-size: 12px; font-weight: 600; }
+  .delta-neg { color: #dc2626; font-size: 12px; font-weight: 600; }
+  .delta-neu { color: #64748b; font-size: 12px; }
+  .gmail-empty { background: var(--navy-deep); border-radius: 6px; padding: 14px 18px; font-size: 13px; color: var(--slate); text-align: center; border: 1px dashed #1e3a5f; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <div class="brand">SEO<span>Pharma</span> Montréal</div>
+    <div class="brand-sub">seopharmamontreal.com — Soulimane Farah</div>
+  </div>
+  <div class="header-right">
+    <div class="header-date">Rapport du 6 juin 2026 — Données GSC du 5 juin 2026</div>
+    <div class="score-wrap">
+      <div>
+        <div style="font-size:11px;color:#64748b;margin-bottom:2px;">Score global</div>
+        <div style="display:flex;align-items:baseline;gap:4px;">
+          <span class="score-num">65</span><span class="score-denom">/100</span>
+        </div>
+      </div>
+      <span class="score-badge">Satisfaisant</span>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- ALERTES -->
+  <div class="card">
+    <div class="section-title">Alertes automatiques</div>
+
+    <div class="alerte" style="background:#052e16;border-color:#16a34a;color:#bbf7d0;">
+      <strong>Alerte verte — Entrée top 10 !</strong><br>
+      La requête principale <strong>(unknown)</strong> est passée de la position <strong>20.83</strong> (04/06) à <strong>5.22</strong> (05/06), soit un gain de <strong>+15,6 positions</strong>. Première apparition confirmée en top 10.
+    </div>
+
+    <div class="alerte" style="background:#1e1a09;border-color:#c9a84c;color:#fef3c7;">
+      <strong>Info — Impressions en forte hausse</strong><br>
+      Les impressions du 05/06 (<strong>35</strong>) sont <strong>+145% au-dessus</strong> de la moyenne des 7 derniers jours (14,3/j). Signe d'une meilleure indexation du contenu récent.
+    </div>
+
+    <div class="alerte" style="background:#0d1e38;border-color:#1e3a5f;color:#94a3b8;">
+      <strong>RAS — Aucune alerte rouge</strong><br>
+      Aucune requête n'a perdu plus de 5 positions entre le 04/06 et le 05/06. La requête <em>pharmaceutical seo</em> a reculé de 4 positions (91 → 87 inversé, 87 → 91) — sous le seuil d'alerte.
+    </div>
+  </div>
+
+  <!-- KPI DU JOUR -->
+  <div class="card">
+    <div class="section-title">KPI du jour (05 juin 2026)</div>
+    <div class="kpi-row">
+      <div class="kpi" style="border-color:var(--gold);">
+        <div class="kpi-label">Clics</div>
+        <div class="kpi-val" style="color:var(--gold);">1</div>
+      </div>
+      <div class="kpi" style="border-color:var(--blue);">
+        <div class="kpi-label">Impressions</div>
+        <div class="kpi-val" style="color:var(--blue);">35</div>
+      </div>
+      <div class="kpi" style="border-color:var(--purple);">
+        <div class="kpi-label">CTR moyen</div>
+        <div class="kpi-val" style="color:var(--purple);">2,86%</div>
+      </div>
+      <div class="kpi" style="border-color:var(--orange);">
+        <div class="kpi-label">Position moy.</div>
+        <div class="kpi-val" style="color:var(--orange);">31,7</div>
+      </div>
+      <div class="kpi" style="border-color:#16a34a;">
+        <div class="kpi-label">Score global</div>
+        <div class="kpi-val" style="color:#16a34a;">65<span style="font-size:14px;color:#64748b;">/100</span></div>
+      </div>
+    </div>
+
+    <!-- Chart 7 jours -->
+    <div class="chart-wrap">
+      <canvas id="chart7j"></canvas>
+    </div>
+  </div>
+
+  <!-- TOP REQUÊTES -->
+  <div class="card">
+    <div class="section-title">Top requêtes (05 juin 2026) — Delta vs 04 juin 2026</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Requête</th>
+          <th>Clics</th>
+          <th>Impressions</th>
+          <th>CTR</th>
+          <th>Position</th>
+          <th>Δ Position</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="color:#e2e8f0;">(unknown)</td>
+          <td>1</td>
+          <td>23</td>
+          <td>4,35%</td>
+          <td>5,22</td>
+          <td><span class="delta-pos">+15,6 ↑</span></td>
+        </tr>
+        <tr>
+          <td style="color:#e2e8f0;">pharma seo</td>
+          <td>0</td>
+          <td>5</td>
+          <td>0%</td>
+          <td>76,8</td>
+          <td><span class="delta-pos">+10,2 ↑</span></td>
+        </tr>
+        <tr>
+          <td style="color:#e2e8f0;">pharmaceutical seo</td>
+          <td>0</td>
+          <td>2</td>
+          <td>0%</td>
+          <td>91,0</td>
+          <td><span class="delta-neg">-4,0 ↓</span></td>
+        </tr>
+        <tr>
+          <td style="color:#e2e8f0;">geo for pharmacy</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0%</td>
+          <td>59,0</td>
+          <td><span class="delta-neu">— (nouveau)</span></td>
+        </tr>
+        <tr>
+          <td style="color:#e2e8f0;">seo for pharmaceutical companies</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0%</td>
+          <td>90,0</td>
+          <td><span class="delta-pos">+2,0 ↑</span></td>
+        </tr>
+        <tr>
+          <td style="color:#e2e8f0;">seo for pharma exporters</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0%</td>
+          <td>97,0</td>
+          <td><span class="delta-neu">— (nouveau)</span></td>
+        </tr>
+        <tr>
+          <td style="color:#e2e8f0;">seo pharmaceutical</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0%</td>
+          <td>78,0</td>
+          <td><span class="delta-neu">— (nouveau)</span></td>
+        </tr>
+        <tr>
+          <td style="color:#e2e8f0;">why is seo important in pharmaceutical industry?</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0%</td>
+          <td>101,0</td>
+          <td><span class="delta-neu">— (nouveau)</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- VISIBILITÉ IA / GEO -->
+  <div class="card">
+    <div class="section-title">Visibilité IA — GEO (06 juin 2026)</div>
+    <div class="geo-note">
+      <strong>Méthode utilisée :</strong> Apify rag-web-browser (recherche Google + scraping des top résultats). L'outil confirme la présence dans les résultats de recherche Google, signal proxy pour la citabilité LLM. <strong>Statut "partiel"</strong> = visibilité Google top 1-3 confirmée, citation directe dans ChatGPT/Perplexity/Gemini à vérifier manuellement. Le bonus GEO est appliqué à 50% (5 × 0,5 = 2,5 sur 5).
+    </div>
+    <div class="ia-grid">
+      <div class="ia-card" style="border-color:#c9a84c;">
+        <div class="ia-query">consultant SEO pharmaceutique Montréal</div>
+        <div class="ia-statut" style="color:var(--gold);">PARTIEL</div>
+        <div style="font-size:11px;color:#64748b;margin-top:4px;">Top 1-2 Google · vérif. LLM manuelle requise</div>
+      </div>
+      <div class="ia-card" style="border-color:#c9a84c;">
+        <div class="ia-query">SEO industrie pharmaceutique Canada</div>
+        <div class="ia-statut" style="color:var(--gold);">PARTIEL</div>
+        <div style="font-size:11px;color:#64748b;margin-top:4px;">Top 1-2 Google · vérif. LLM manuelle requise</div>
+      </div>
+      <div class="ia-card" style="border-color:#c9a84c;">
+        <div class="ia-query">référencement naturel santé Québec</div>
+        <div class="ia-statut" style="color:var(--gold);">PARTIEL</div>
+        <div style="font-size:11px;color:#64748b;margin-top:4px;">Top 1-3 Google · vérif. LLM manuelle requise</div>
+      </div>
+      <div class="ia-card" style="border-color:#c9a84c;">
+        <div class="ia-query">PAAB SEO conformité</div>
+        <div class="ia-statut" style="color:var(--gold);">PARTIEL</div>
+        <div style="font-size:11px;color:#64748b;margin-top:4px;">Top 1-3 Google · vérif. LLM manuelle requise</div>
+      </div>
+      <div class="ia-card" style="border-color:#c9a84c;">
+        <div class="ia-query">pharma SEO consultant Montreal</div>
+        <div class="ia-statut" style="color:var(--gold);">PARTIEL</div>
+        <div style="font-size:11px;color:#64748b;margin-top:4px;">Top 1-2 Google · vérif. LLM manuelle requise</div>
+      </div>
+    </div>
+    <div style="margin-top:14px;font-size:12px;color:#64748b;">
+      Bonus GEO appliqué : 10 × (2,5/5) = <strong style="color:var(--gold);">+5 pts</strong> — Score GEO partiel intégré au score global de 65/100
+    </div>
+  </div>
+
+  <!-- ACTUALITÉS SEO (Gmail) -->
+  <div class="card">
+    <div class="section-title">Actualités &amp; newsletters SEO (dernières 24h)</div>
+    <div class="gmail-empty">
+      Aucun email de newsletter SEO reçu dans les dernières 24h (Neil Patel, Aleyda Solis, Search Engine Journal, Ahrefs, Semrush, etc.).<br>
+      <span style="font-size:12px;">2 emails Netlify reçus : upgrade plan Personal + alerte de crédits épuisés pour <em>SEO PHARMA MTL</em>.</span>
+    </div>
+  </div>
+
+  <!-- RECOMMANDATIONS -->
+  <div class="card">
+    <div class="section-title">Recommandations du jour</div>
+
+    <div class="reco" style="border-color:#dc2626;">
+      <span class="prio-badge" style="background:#dc2626;">HAUTE</span>
+      <div>
+        <div class="reco-title">Optimiser le CTR de la requête principale (unknown)</div>
+        <div class="reco-action">
+          La seule requête ayant généré un clic hier est en position 5,22 avec un CTR de 4,35% — en dessous du potentiel attendu pour une position top 5 (cible : 8-12%). Identifier cette requête dans la GSC (filtres pays + appareil) puis A/B tester le meta title et la meta description pour dépasser les 8% CTR. Chaque point de CTR gagné = +1-2 clics/jour supplémentaires.
+        </div>
+      </div>
+    </div>
+
+    <div class="reco" style="border-color:#f59e0b;">
+      <span class="prio-badge" style="background:#f59e0b;">MOYENNE</span>
+      <div>
+        <div class="reco-title">Cibler les requêtes FR-CA longue traîne à intention transactionnelle</div>
+        <div class="reco-action">
+          Les requêtes actives sont toutes en anglais (pharma seo, pharmaceutical seo) avec des positions dépassant 76. Publier 2 articles FR-CA ciblant des requêtes comme "consultant SEO pharmaceutique Québec", "référencement pharma Canada" — termes avec moins de concurrence et correspondant aux requêtes GEO cibles où la visibilité Google est déjà confirmée.
+        </div>
+      </div>
+    </div>
+
+    <div class="reco" style="border-color:#60a5fa;">
+      <span class="prio-badge" style="background:#1d4ed8;">INFO</span>
+      <div>
+        <div class="reco-title">Lancer une campagne de backlinks sectoriels pour sortir des positions > 70</div>
+        <div class="reco-action">
+          Les requêtes génériques "pharma seo" (pos 76,8) et "pharmaceutical seo" (pos 91) ont du potentiel commercial mais nécessitent un profil de liens plus fort. Prioriser les annuaires BIOTECanada, MEDEC, AQPP, et soumettre un article invité sur Pharmabiz.ca ou BioPharma Today. Objectif : faire passer ces requêtes sous la barre des 30 d'ici 60 jours.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CALCUL DU SCORE -->
+  <div class="card">
+    <div class="section-title">Calcul du score global</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Composante</th>
+          <th>Condition</th>
+          <th>Résultat</th>
+          <th>Points</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Base</td>
+          <td>—</td>
+          <td>—</td>
+          <td style="color:var(--gold);font-weight:700;">+60</td>
+        </tr>
+        <tr>
+          <td>Position moyenne</td>
+          <td>< 15 requis</td>
+          <td style="color:#dc2626;">31,74 (hors cible)</td>
+          <td style="color:#64748b;">+0</td>
+        </tr>
+        <tr>
+          <td>CTR</td>
+          <td>> 3% requis</td>
+          <td style="color:#dc2626;">2,86% (hors cible)</td>
+          <td style="color:#64748b;">+0</td>
+        </tr>
+        <tr>
+          <td>Visibilité IA / GEO</td>
+          <td>5/5 requêtes × 10 pts</td>
+          <td style="color:var(--gold);">5 partiels (0,5 chacun) = 2,5/5</td>
+          <td style="color:var(--gold);font-weight:700;">+5</td>
+        </tr>
+        <tr style="border-top:2px solid var(--navy-border);">
+          <td colspan="3" style="font-weight:700;color:#fff;">TOTAL</td>
+          <td style="font-weight:800;color:var(--gold);font-size:16px;">65/100</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- SOURCES -->
+  <div class="footer">
+    Données : Google Search Console (Supermetrics MCP) · Visibilité GEO : Apify rag-web-browser · Gmail MCP<br>
+    Généré automatiquement le 06/06/2026 — seopharmamontreal.com — Soulimane Farah
+  </div>
+
+</div>
+
+<script>
+const ctx = document.getElementById('chart7j').getContext('2d');
+new Chart(ctx, {
+  type: 'bar',
+  data: {
+    labels: ['30/05', '31/05', '01/06', '02/06', '03/06', '04/06', '05/06'],
+    datasets: [
+      {
+        label: 'Clics',
+        data: [2, 1, 0, 0, 2, 0, 1],
+        backgroundColor: '#c9a84c',
+        borderRadius: 4,
+        yAxisID: 'y',
+      },
+      {
+        label: 'Impressions',
+        data: [4, 3, 0, 3, 34, 21, 35],
+        backgroundColor: 'rgba(96,165,250,0.4)',
+        borderColor: '#60a5fa',
+        borderWidth: 2,
+        type: 'line',
+        fill: true,
+        tension: 0.3,
+        yAxisID: 'y2',
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { labels: { color: '#94a3b8', font: { size: 12 } } },
+      tooltip: { mode: 'index', intersect: false }
+    },
+    scales: {
+      x: { ticks: { color: '#64748b' }, grid: { color: '#0d1e38' } },
+      y: {
+        type: 'linear',
+        position: 'left',
+        ticks: { color: '#c9a84c', stepSize: 1 },
+        grid: { color: '#0d1e38' },
+        title: { display: true, text: 'Clics', color: '#c9a84c', font: { size: 11 } }
+      },
+      y2: {
+        type: 'linear',
+        position: 'right',
+        ticks: { color: '#60a5fa' },
+        grid: { drawOnChartArea: false },
+        title: { display: true, text: 'Impressions', color: '#60a5fa', font: { size: 11 } }
+      }
+    }
+  }
+});
+</script>
+</body>
+</html>
