@@ -15,8 +15,12 @@ export default defineConfig({
           en: 'en-CA',
         },
       },
-      // Exclure les pages utilitaires
-      filter: (page) => !page.includes('/404') && !page.includes('/confidentialite') && !page.includes('/conditions') && !page.includes('/privacy') && !page.includes('/terms'),
+      filter: (page) => !page.includes('/404') && !page.includes('/og/'),
+      lastmod: new Date(),
+      serialize(item) {
+        item.lastmod = new Date().toISOString().slice(0, 10);
+        return item;
+      },
     }),
   ],
   vite: {
