@@ -158,6 +158,30 @@ export const ui = {
           q: 'Puis-je annuler mon forfait mensuel à tout moment ?',
           a: 'Oui. Aucun contrat longue durée n\'est imposé. Les forfaits mensuels fonctionnent sur la base d\'un préavis de 30 jours. Mon objectif est que vous restiez parce que les résultats parlent d\'eux-mêmes, pas parce qu\'un contrat vous y oblige.',
         },
+        {
+          q: 'Qu\'est-ce que le GEO (Generative Engine Optimization) ?',
+          a: 'Le GEO est l\'optimisation de la présence d\'une entreprise dans les réponses des intelligences artificielles génératives — ChatGPT, Perplexity, Google AI Overviews, Claude, Gemini. Contrairement au SEO traditionnel qui cible des liens cliquables dans Google, le GEO vise à être cité ou recommandé directement dans la réponse d\'un modèle de langage. En contexte pharma canadien, cela implique du contenu factuel structuré, des passages auto-suffisants, un fichier llms.txt et une conformité aux cadres PAAB et Santé Canada.',
+        },
+        {
+          q: 'Comment Santé Canada affecte-t-il le SEO d\'un site pharmaceutique ?',
+          a: 'Santé Canada réglemente les allégations que vous pouvez publier sur votre site web — pour les médicaments, les produits de santé naturels (PSN) et les dispositifs médicaux. Publier une allégation thérapeutique non approuvée dans une balise méta ou un article de blogue constitue une infraction réglementaire. Paradoxalement, la conformité à Santé Canada est aussi un signal de confiance E-E-A-T puissant aux yeux de Google : un site qui cite ses numéros NPN, ses certifications BPF et les cadres réglementaires applicables se positionne comme une source fiable.',
+        },
+        {
+          q: 'Quelle est la différence entre un consultant SEO généraliste et un consultant SEO pharma ?',
+          a: 'Un consultant SEO généraliste maîtrise les techniques de référencement mais ignore les contraintes réglementaires spécifiques au secteur santé. Il peut produire du contenu qui viole les règles PAAB ou les allégations approuvées par Santé Canada, exposant votre entreprise à des risques légaux. Un consultant SEO pharma comprend simultanément les algorithmes de Google, le cadre réglementaire canadien (PAAB, RPSN, RIM, Loi C-17), le vocabulaire médical et les standards E-E-A-T YMYL. Pour une PME pharmaceutique, ce double mandat est non négociable.',
+        },
+        {
+          q: 'Qu\'est-ce que le PAAB et quel est son impact sur ma stratégie de contenu web ?',
+          a: 'Le PAAB (Pharmaceutical Advertising Advisory Board) est l\'organisme d\'autoréglementation canadien qui encadre la publicité sur les médicaments d\'ordonnance destinée aux professionnels de santé. Son code s\'applique aux contenus numériques, y compris les sites web et blogues. Une stratégie de contenu web pour une entreprise pharma doit respecter ces balises : ne promouvoir que les indications approuvées, éviter les comparaisons directes non validées, et respecter les règles sur les témoignages. La bonne nouvelle : un contenu conforme au PAAB est naturellement aligné avec les critères E-E-A-T de Google.',
+        },
+        {
+          q: 'Comment une entreprise pharma peut-elle apparaître dans ChatGPT ou Perplexity ?',
+          a: 'Pour être cité par les LLMs (ChatGPT, Perplexity, Claude), votre contenu doit répondre à plusieurs critères : un auteur identifié avec des credentials vérifiables, des passages auto-suffisants qui répondent directement à une question, des données factuelles sourcées (numéros NPN, références réglementaires), une structure avec définitions, listes et tableaux, et un fichier llms.txt qui guide les modèles vers vos contenus clés. Les modèles de langage appliquent eux-mêmes un filtre YMYL : ils préfèrent citer des sources conformes aux cadres réglementaires comme Santé Canada ou le PAAB.',
+        },
+        {
+          q: 'Pourquoi le E-E-A-T est-il plus strict pour les sites de santé ?',
+          a: 'E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) est le cadre d\'évaluation qualitative de Google. Pour les contenus YMYL comme la santé, les évaluateurs humains de Google (Quality Raters) appliquent des standards particulièrement rigoureux : l\'auteur doit avoir des qualifications vérifiables, le contenu doit être sourcé, et le site doit démontrer sa fiabilité par des mentions légales claires, une politique de confidentialité et des disclaimers médicaux appropriés. Un contenu santé anonyme ou non sourcé sera systématiquement dévalorisé, quelle que soit sa qualité technique.',
+        },
       ],
     },
 
@@ -468,6 +492,30 @@ export const ui = {
         {
           q: 'Can I cancel my monthly plan at any time?',
           a: 'Yes. No long-term contracts are imposed. Monthly plans work on a 30-day notice basis. My goal is for you to stay because results speak for themselves, not because a contract forces you to.',
+        },
+        {
+          q: 'What is GEO (Generative Engine Optimization)?',
+          a: 'GEO is the optimization of a company\'s presence in generative AI responses — ChatGPT, Perplexity, Google AI Overviews, Claude, Gemini. Unlike traditional SEO that targets clickable links in Google, GEO aims to be cited or recommended directly in a language model\'s response. In a Canadian pharma context, this requires factual structured content, self-sufficient passages, a llms.txt file, and compliance with PAAB and Health Canada frameworks.',
+        },
+        {
+          q: 'How does Health Canada regulation affect my website\'s SEO?',
+          a: 'Health Canada regulates the claims you can publish on your website — for drugs, natural health products (NHPs), and medical devices. Publishing an unauthorized therapeutic claim in a meta tag or blog article constitutes a regulatory violation. Paradoxically, Health Canada compliance is also a powerful E-E-A-T trust signal in Google\'s eyes: a site that cites its NPN numbers, GMP certifications, and applicable regulatory frameworks positions itself as a reliable source.',
+        },
+        {
+          q: 'What is the difference between a generalist SEO consultant and a pharma SEO specialist?',
+          a: 'A generalist SEO consultant masters search engine techniques but is unaware of health sector regulatory constraints. They may produce content that violates PAAB rules or Health Canada-approved claims, exposing your company to legal risks. A pharma SEO consultant simultaneously understands Google\'s algorithms, Canadian regulatory frameworks (PAAB, NHPR, MDR, Bill C-17), medical vocabulary, and YMYL E-E-A-T standards. For a pharma SME, this dual mandate is non-negotiable.',
+        },
+        {
+          q: 'What is PAAB and how does it impact my web content strategy?',
+          a: 'PAAB (Pharmaceutical Advertising Advisory Board) is the Canadian self-regulatory body governing prescription drug advertising directed at healthcare professionals. Its code applies to digital content, including websites and blogs. A web content strategy for a pharma company must respect these boundaries: only promote approved indications, avoid unvalidated direct comparisons, and respect testimonial rules. The good news: PAAB-compliant content is naturally aligned with Google\'s E-E-A-T criteria.',
+        },
+        {
+          q: 'How can a pharma company appear in ChatGPT or Perplexity responses?',
+          a: 'To be cited by LLMs (ChatGPT, Perplexity, Claude), your content must meet several criteria: an identified author with verifiable credentials, self-sufficient passages that directly answer a question, factual data with sources (NPN numbers, regulatory references), a structure with definitions, lists and tables, and a llms.txt file guiding models to your key content. Language models apply their own YMYL filter: they prefer to cite sources that comply with regulatory frameworks like Health Canada or PAAB.',
+        },
+        {
+          q: 'Why is E-E-A-T stricter for health websites?',
+          a: 'E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) is Google\'s qualitative evaluation framework. For YMYL content like health, Google\'s human evaluators (Quality Raters) apply particularly rigorous standards: the author must have verifiable qualifications, content must be sourced, and the site must demonstrate trustworthiness through clear legal notices, a privacy policy, and appropriate medical disclaimers. Anonymous or unsourced health content will be systematically devalued, regardless of its technical quality.',
         },
       ],
     },
