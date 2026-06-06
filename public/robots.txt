@@ -19,9 +19,3 @@ Allow: /
 
 # Sitemap
 Sitemap: https://seopharmamontreal.com/sitemap-index.xml
-
-# Bloquer les pages utilitaires
-Disallow: /confidentialite/
-Disallow: /conditions/
-Disallow: /privacy/
-Disallow: /terms/
