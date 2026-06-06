@@ -1,0 +1,115 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import Footer from '../../components/Footer.astro';
+
+const lang = 'en';
+const title = 'Terms of Use | SEO Pharma Montréal';
+const description = 'Terms of use for seopharmamontreal.com — rules of use, intellectual property, limitation of liability and applicable law.';
+const canonical = 'https://seopharmamontreal.com/en/terms/';
+---
+
+<Layout lang={lang} title={title} description={description} canonical={canonical}>
+  <Navbar lang={lang} />
+  <main id="main-content">
+    <header class="py-16 md:py-20" style="background: var(--color-primary);">
+      <div class="container" style="max-width: var(--container-narrow);">
+        <h1 class="text-white" style="font-size: clamp(1.75rem, 4vw, 2.5rem); line-height: 1.2;">
+          Terms of Use
+        </h1>
+        <p style="color: rgba(255,255,255,0.6); margin-top: 0.75rem; font-size: 0.95rem;">
+          Last updated: June 6, 2026
+        </p>
+      </div>
+    </header>
+
+    <article class="py-16 md:py-20">
+      <div class="container prose prose-slate prose-lg max-w-none" style="max-width: var(--container-narrow);">
+
+        <h2>1. Identification</h2>
+        <p>
+          The website <strong>seopharmamontreal.com</strong> is operated by <strong>Soulimane Farah</strong>,
+          independent SEO/GEO consultant, based in Laval, Québec, Canada.<br />
+          Email: <a href="mailto:soulimane@seopharmamontreal.com">soulimane@seopharmamontreal.com</a><br />
+          Phone: +1 438 920 6377
+        </p>
+
+        <h2>2. Acceptance of Terms</h2>
+        <p>
+          By accessing and browsing this website, you accept these terms of use in their entirety.
+          If you do not accept these terms, please discontinue use of this website.
+        </p>
+
+        <h2>3. Purpose of the Website</h2>
+        <p>
+          This website presents the search engine optimization (SEO) and generative engine optimization
+          (GEO) consulting services of Soulimane Farah, specialized in the pharmaceutical sector,
+          natural health products and medical devices in Canada.
+        </p>
+
+        <h2>4. Intellectual Property</h2>
+        <p>
+          All content published on this website — texts, blog articles, graphics, logos, and structure —
+          is the exclusive property of Soulimane Farah or his licensors, and is protected by Canadian
+          copyright laws.
+        </p>
+        <p>
+          Any reproduction, distribution, modification or commercial use of the content, in whole or
+          in part, without prior written authorization is strictly prohibited. You may quote excerpts
+          for non-commercial purposes provided the source is credited with a link to the original page.
+        </p>
+
+        <h2>5. Informational Content — Disclaimer</h2>
+        <p>
+          Articles and resources published on this website are provided for informational and educational
+          purposes only. They do not constitute legal, regulatory or medical advice. In particular:
+        </p>
+        <ul>
+          <li>Information regarding Health Canada, PAAB or other regulatory bodies may evolve —
+          always consult official sources;</li>
+          <li>SEO results mentioned as examples are indicative and do not constitute a performance
+          guarantee;</li>
+          <li>No content on this website replaces the advice of a qualified professional
+          (lawyer, physician, pharmacist, etc.).</li>
+        </ul>
+
+        <h2>6. Limitation of Liability</h2>
+        <p>
+          To the fullest extent permitted by applicable law, Soulimane Farah shall not be liable
+          for any direct, indirect, incidental or consequential damages resulting from the use of
+          or inability to use this website or its content.
+        </p>
+
+        <h2>7. Links to Third-Party Websites</h2>
+        <p>
+          This website contains links to third-party websites (Health Canada, PAAB, PubMed, etc.)
+          provided as references. These links do not constitute an endorsement of those sites'
+          content. Soulimane Farah assumes no responsibility for their content, availability
+          or privacy practices.
+        </p>
+
+        <h2>8. Modifications</h2>
+        <p>
+          Soulimane Farah reserves the right to modify the content of this website and these terms
+          at any time without notice. The version in effect is the one displayed on this page with
+          the corresponding update date.
+        </p>
+
+        <h2>9. Governing Law and Jurisdiction</h2>
+        <p>
+          These terms are governed by the laws of the province of Québec and applicable federal
+          laws of Canada. Any dispute relating to the use of this website shall be subject to the
+          exclusive jurisdiction of the courts of the province of Québec.
+        </p>
+
+        <h2>10. Contact</h2>
+        <p>
+          For any questions regarding these terms:
+          <a href="mailto:soulimane@seopharmamontreal.com">soulimane@seopharmamontreal.com</a>
+        </p>
+
+      </div>
+    </article>
+  </main>
+  <Footer lang={lang} />
+</Layout>
