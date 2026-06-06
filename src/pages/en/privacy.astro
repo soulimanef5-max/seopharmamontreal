@@ -1,0 +1,126 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import Footer from '../../components/Footer.astro';
+
+const lang = 'en';
+const title = 'Privacy Policy | SEO Pharma Montréal';
+const description = 'Privacy Policy for SEO Pharma Montréal — how we collect, use and protect your personal information, in compliance with Quebec Law 25.';
+const canonical = 'https://seopharmamontreal.com/en/privacy/';
+---
+
+<Layout lang={lang} title={title} description={description} canonical={canonical}>
+  <Navbar lang={lang} />
+  <main id="main-content">
+    <header class="py-16 md:py-20" style="background: var(--color-primary);">
+      <div class="container" style="max-width: var(--container-narrow);">
+        <h1 class="text-white" style="font-size: clamp(1.75rem, 4vw, 2.5rem); line-height: 1.2;">
+          Privacy Policy
+        </h1>
+        <p style="color: rgba(255,255,255,0.6); margin-top: 0.75rem; font-size: 0.95rem;">
+          Last updated: June 6, 2026
+        </p>
+      </div>
+    </header>
+
+    <article class="py-16 md:py-20">
+      <div class="container prose prose-slate prose-lg max-w-none" style="max-width: var(--container-narrow);">
+
+        <h2>1. Data Controller</h2>
+        <p>
+          SEO Pharma Montréal is operated by <strong>Soulimane Farah</strong>, independent SEO/GEO consultant,
+          based in Laval, Québec, Canada.<br />
+          Email: <a href="mailto:soulimane@seopharmamontreal.com">soulimane@seopharmamontreal.com</a><br />
+          Phone: +1 438 920 6377
+        </p>
+
+        <h2>2. Personal Information Collected</h2>
+        <p>We only collect information you voluntarily provide:</p>
+        <ul>
+          <li><strong>Contact form</strong>: name, email address, company name, message.</li>
+          <li><strong>Navigation data</strong>: anonymized IP address, pages visited, session duration (via Google Analytics 4, with IP anonymization enabled).</li>
+        </ul>
+        <p>We do not collect sensitive information (health data, credit card numbers, etc.).</p>
+
+        <h2>3. Purposes of Collection</h2>
+        <p>Your information is used exclusively to:</p>
+        <ul>
+          <li>Respond to your inquiries and service requests;</li>
+          <li>Prepare quotes or service agreements;</li>
+          <li>Improve site user experience (aggregated, anonymized data).</li>
+        </ul>
+        <p>We do not sell, rent or share your personal information with third parties for commercial purposes.</p>
+
+        <h2>4. Legal Basis (Quebec Law 25)</h2>
+        <p>
+          In compliance with Quebec's <em>Act to modernize legislative provisions respecting the protection of personal information</em>
+          (Law 25, S.Q. 2021, c. 25), the collection of your information is based on your explicit consent,
+          expressed when submitting the contact form.
+        </p>
+
+        <h2>5. Data Retention</h2>
+        <p>
+          Contact form submissions are stored in a secure Zoho Mail mailbox (encrypted in transit and at rest)
+          for the duration of the business relationship, and for a maximum of <strong>3 years</strong> after last contact.
+          Google Analytics data is retained for <strong>14 months</strong>.
+        </p>
+
+        <h2>6. Third Parties and Sub-processors</h2>
+        <table>
+          <thead><tr><th>Service</th><th>Purpose</th><th>Privacy Policy</th></tr></thead>
+          <tbody>
+            <tr><td>Netlify</td><td>Site hosting and form processing</td><td><a href="https://www.netlify.com/privacy/" target="_blank" rel="noopener">netlify.com/privacy</a></td></tr>
+            <tr><td>Google Analytics 4</td><td>Anonymized navigation statistics</td><td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></td></tr>
+            <tr><td>Zoho Mail</td><td>Receiving form emails</td><td><a href="https://www.zoho.com/privacy.html" target="_blank" rel="noopener">zoho.com/privacy</a></td></tr>
+          </tbody>
+        </table>
+
+        <h2>7. Your Rights</h2>
+        <p>Under Quebec Law 25, you have the following rights:</p>
+        <ul>
+          <li><strong>Access</strong>: obtain a copy of your personal information;</li>
+          <li><strong>Rectification</strong>: correct inaccurate information;</li>
+          <li><strong>Deletion</strong>: request erasure of your information;</li>
+          <li><strong>Portability</strong>: receive your data in a structured technological format.</li>
+        </ul>
+        <p>
+          To exercise these rights, contact: <a href="mailto:soulimane@seopharmamontreal.com">soulimane@seopharmamontreal.com</a>.
+          We will respond within <strong>30 days</strong>.
+        </p>
+
+        <h2>8. Cookies</h2>
+        <p>
+          This site uses session cookies via Google Analytics 4 (_ga, _gid cookies).
+          These cookies are anonymized and cannot personally identify you.
+          You can disable cookies in your browser settings or via the
+          <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analytics Opt-out</a> extension.
+        </p>
+
+        <h2>9. Security</h2>
+        <p>
+          The site is served exclusively over HTTPS (TLS 1.3). HTTP security headers
+          (HSTS, X-Content-Type-Options, X-Frame-Options, Referrer-Policy) are active.
+          No payment card data is processed or stored on this site.
+        </p>
+
+        <h2>10. Changes</h2>
+        <p>
+          This policy may be updated to reflect legislative or operational changes.
+          The update date at the top of the page will be modified accordingly.
+        </p>
+
+        <h2>11. Contact and Complaints</h2>
+        <p>
+          For any questions regarding this policy:
+          <a href="mailto:soulimane@seopharmamontreal.com">soulimane@seopharmamontreal.com</a>
+        </p>
+        <p>
+          You may also file a complaint with the
+          <a href="https://www.cai.quebec.ca/" target="_blank" rel="noopener">Commission d'accès à l'information du Québec (CAI)</a>.
+        </p>
+
+      </div>
+    </article>
+  </main>
+  <Footer lang={lang} />
+</Layout>

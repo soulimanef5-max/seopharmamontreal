@@ -1,0 +1,127 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+
+const lang = 'fr';
+const title = 'Politique de confidentialité | SEO Pharma Montréal';
+const description = 'Politique de confidentialité de SEO Pharma Montréal — comment nous collectons, utilisons et protégeons vos données personnelles, conformément à la Loi 25 du Québec.';
+const canonical = 'https://seopharmamontreal.com/confidentialite/';
+---
+
+<Layout lang={lang} title={title} description={description} canonical={canonical}>
+  <Navbar lang={lang} />
+  <main id="main-content">
+    <header class="py-16 md:py-20" style="background: var(--color-primary);">
+      <div class="container" style="max-width: var(--container-narrow);">
+        <h1 class="text-white" style="font-size: clamp(1.75rem, 4vw, 2.5rem); line-height: 1.2;">
+          Politique de confidentialité
+        </h1>
+        <p style="color: rgba(255,255,255,0.6); margin-top: 0.75rem; font-size: 0.95rem;">
+          Dernière mise à jour : 6 juin 2026
+        </p>
+      </div>
+    </header>
+
+    <article class="py-16 md:py-20">
+      <div class="container prose prose-slate prose-lg max-w-none" style="max-width: var(--container-narrow);">
+
+        <h2>1. Identification du responsable</h2>
+        <p>
+          SEO Pharma Montréal est exploité par <strong>Soulimane Farah</strong>, consultant SEO/GEO indépendant,
+          domicilié à Laval, Québec, Canada.<br />
+          Courriel : <a href="mailto:soulimane@seopharmamontreal.com">soulimane@seopharmamontreal.com</a><br />
+          Téléphone : +1 438 920 6377
+        </p>
+
+        <h2>2. Renseignements personnels collectés</h2>
+        <p>Nous collectons uniquement les renseignements que vous nous fournissez volontairement :</p>
+        <ul>
+          <li><strong>Formulaire de contact</strong> : nom, adresse courriel, nom de l'entreprise, message.</li>
+          <li><strong>Données de navigation</strong> : adresse IP anonymisée, pages visitées, durée de session (via Google Analytics 4, avec anonymisation des IP activée).</li>
+        </ul>
+        <p>Nous ne collectons pas de renseignements sensibles (données de santé, numéros de carte de crédit, etc.).</p>
+
+        <h2>3. Finalités de la collecte</h2>
+        <p>Vos renseignements sont utilisés exclusivement pour :</p>
+        <ul>
+          <li>Répondre à vos demandes de renseignements et de services ;</li>
+          <li>Établir un devis ou un contrat de services ;</li>
+          <li>Améliorer l'expérience utilisateur du site (données agrégées et anonymisées).</li>
+        </ul>
+        <p>Nous ne vendons, ne louons et ne partageons pas vos renseignements personnels avec des tiers à des fins commerciales.</p>
+
+        <h2>4. Base légale (Loi 25 — Québec)</h2>
+        <p>
+          Conformément à la <em>Loi modernisant des dispositions législatives en matière de protection des renseignements personnels</em>
+          (Loi 25, L.Q. 2021, c. 25), la collecte de vos renseignements repose sur votre consentement explicite,
+          exprimé lors de la soumission du formulaire de contact.
+        </p>
+
+        <h2>5. Conservation des données</h2>
+        <p>
+          Les renseignements soumis via le formulaire de contact sont conservés dans la boîte courriel sécurisée de
+          Zoho Mail (chiffrement en transit et au repos) pour la durée nécessaire à la relation d'affaires,
+          et au maximum <strong>3 ans</strong> après le dernier contact.
+          Les données Google Analytics sont conservées <strong>14 mois</strong> (paramètre par défaut réduit).
+        </p>
+
+        <h2>6. Tiers et sous-traitants</h2>
+        <table>
+          <thead><tr><th>Service</th><th>Finalité</th><th>Politique de confidentialité</th></tr></thead>
+          <tbody>
+            <tr><td>Netlify</td><td>Hébergement du site et traitement des formulaires</td><td><a href="https://www.netlify.com/privacy/" target="_blank" rel="noopener">netlify.com/privacy</a></td></tr>
+            <tr><td>Google Analytics 4</td><td>Statistiques de navigation anonymisées</td><td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></td></tr>
+            <tr><td>Zoho Mail</td><td>Réception des courriels du formulaire</td><td><a href="https://www.zoho.com/privacy.html" target="_blank" rel="noopener">zoho.com/privacy</a></td></tr>
+          </tbody>
+        </table>
+
+        <h2>7. Vos droits</h2>
+        <p>Conformément à la Loi 25, vous disposez des droits suivants :</p>
+        <ul>
+          <li><strong>Accès</strong> : obtenir copie des renseignements personnels vous concernant ;</li>
+          <li><strong>Rectification</strong> : faire corriger des renseignements inexacts ;</li>
+          <li><strong>Suppression</strong> : demander l'effacement de vos renseignements ;</li>
+          <li><strong>Portabilité</strong> : recevoir vos données dans un format technologique structuré.</li>
+        </ul>
+        <p>
+          Pour exercer ces droits, contactez : <a href="mailto:soulimane@seopharmamontreal.com">soulimane@seopharmamontreal.com</a>.
+          Nous répondrons dans un délai de <strong>30 jours</strong>.
+        </p>
+
+        <h2>8. Témoins (cookies)</h2>
+        <p>
+          Ce site utilise des témoins de session via Google Analytics 4 (témoins _ga, _gid).
+          Ces témoins sont anonymisés et ne permettent pas de vous identifier personnellement.
+          Vous pouvez désactiver les témoins dans les paramètres de votre navigateur ou via
+          l'extension <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analytics Opt-out</a>.
+        </p>
+
+        <h2>9. Sécurité</h2>
+        <p>
+          Le site est servi exclusivement en HTTPS (TLS 1.3). Les en-têtes de sécurité HTTP
+          (HSTS, X-Content-Type-Options, X-Frame-Options, Referrer-Policy) sont actifs.
+          Aucune donnée de carte de paiement n'est traitée ou stockée sur ce site.
+        </p>
+
+        <h2>10. Modifications</h2>
+        <p>
+          Cette politique peut être mise à jour pour refléter des changements législatifs ou opérationnels.
+          La date de mise à jour en haut de page sera modifiée en conséquence.
+        </p>
+
+        <h2>11. Contact et plainte</h2>
+        <p>
+          Pour toute question relative à cette politique :
+          <a href="mailto:soulimane@seopharmamontreal.com">soulimane@seopharmamontreal.com</a>
+        </p>
+        <p>
+          Vous pouvez également déposer une plainte auprès de la
+          <a href="https://www.cai.quebec.ca/" target="_blank" rel="noopener">Commission d'accès à l'information du Québec (CAI)</a>.
+        </p>
+
+      </div>
+    </article>
+  </main>
+  <Footer lang={lang} />
+</Layout>
