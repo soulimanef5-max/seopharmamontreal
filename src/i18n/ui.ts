@@ -17,7 +17,7 @@ export const ui = {
 
     hero: {
       badge:    'Consultant SEO/GEO | Pharma · PSN · Dispositifs Médicaux | Montréal',
-      title1:   'Le seul consultant SEO/GEO',
+      title1:   'Le consultant SEO/GEO',
       title2:   'à Montréal qui connaît',
       title3:   'vos SOPs',
       subtitle: 'Stratégie SEO/GEO sur mesure pour PME pharma, PSN et dispositifs médicaux. Conforme E-E-A-T, YMYL et Santé Canada — visible sur Google ET les LLMs (ChatGPT, Perplexity, Claude).',
