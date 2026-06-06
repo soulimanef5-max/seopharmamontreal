@@ -7,7 +7,6 @@ tags: ["consultant SEO", "SEO pharmaceutique", "Montréal", "PAAB", "GEO", "E-E-
 readingTime: 11
 author: Soulimane Farah
 modDate: 2026-06-05
-translationSlug: "pharma-seo-consultant-montreal-soulimane-farah-en"
 ---
 
 Si vous cherchez un consultant SEO spécialisé en industrie pharmaceutique à Montréal, vous vous heurtez rapidement au même constat : la plupart des agences SEO locales n'ont aucune expérience du cadre réglementaire canadien. Elles ne connaissent pas le [PAAB](https://www.paab.ca), ne comprennent pas pourquoi les pages produit Rx doivent rester volontairement pauvres, et ne savent pas comment structurer un contenu E-E-A-T conforme pour [Santé Canada](https://www.canada.ca/fr/sante-canada.html).
