@@ -18,12 +18,13 @@ const navLinks = [
   { label: tNav.contact,   href: '#contact'   },
 ];
 
+const seoPharmaHref = lang === 'en' ? '/en/seo-pharma/' : '/seo-pharma/';
 const serviceLinks = [
+  { label: lang === 'fr' ? 'SEO Pharmaceutique (PAAB)'   : 'Pharmaceutical SEO (PAAB)',    href: seoPharmaHref },
   { label: lang === 'fr' ? 'SEO Technique & YMYL'        : 'Technical SEO & YMYL',        href: '#services' },
   { label: lang === 'fr' ? 'GEO Local Montréal'          : 'GEO Local Montréal',           href: '#services' },
   { label: lang === 'fr' ? 'Contenu Médical Optimisé'    : 'Optimized Medical Content',    href: '#services' },
   { label: lang === 'fr' ? 'Audit SEO Santé'             : 'Health SEO Audit',             href: '#tarifs'   },
-  { label: lang === 'fr' ? 'Accompagnement Premium'      : 'Premium Support',              href: '#tarifs'   },
 ];
 ---
 

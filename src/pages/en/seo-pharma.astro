@@ -1,0 +1,203 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import Pricing from '../../components/Pricing.astro';
+import Booking from '../../components/Booking.astro';
+import ContactCTA from '../../components/ContactCTA.astro';
+import Footer from '../../components/Footer.astro';
+
+const lang = 'en';
+const title = 'Pharmaceutical SEO in Montréal — PAAB & Health Canada Specialist Consultant | SEO Pharma Montréal';
+const description = "Pharmaceutical SEO consultant in Montréal specialized in PAAB and Health Canada compliance. Unlike generalist agencies, real Canadian regulatory expertise (not HIPAA/FDA). Audit from CA$750.";
+
+const serviceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  '@id': 'https://seopharmamontreal.com/en/seo-pharma/#service',
+  name: 'Pharmaceutical SEO — PAAB & Health Canada Compliance',
+  serviceType: 'Pharmaceutical SEO Consulting',
+  provider: { '@type': 'Organization', '@id': 'https://seopharmamontreal.com/#business' },
+  areaServed: [
+    { '@type': 'City', name: 'Montréal' },
+    { '@type': 'City', name: 'Laval' },
+    { '@type': 'State', name: 'Québec' },
+    { '@type': 'Country', name: 'Canada' },
+  ],
+  description,
+  offers: {
+    '@type': 'Offer',
+    price: '750',
+    priceCurrency: 'CAD',
+    description: 'Pharmaceutical SEO + GEO compliance audit',
+  },
+};
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Why a pharmaceutical SEO consultant instead of a generalist agency?',
+      acceptedAnswer: { '@type': 'Answer', text: 'A generalist agency knows SEO but not the Canadian pharmaceutical regulatory framework. It risks optimizing Rx product pages (a PAAB violation) or applying US rules (HIPAA, FDA) that do not apply in Canada. A specialized consultant masters PAAB, Health Canada, the ban on direct-to-consumer (DTC) advertising, and the E-E-A-T requirements of YMYL content.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'What is the difference between PAAB (Canada) and FDA/HIPAA (United States) for SEO?',
+      acceptedAnswer: { '@type': 'Answer', text: 'In Canada, direct-to-consumer advertising of prescription drugs is banned and advertising to healthcare professionals is pre-approved by PAAB. In the US, DTC is legal and the FDA acts post-market. An SEO strategy designed for the US market (HIPAA, FDA) creates regulatory violations if applied as-is in Canada.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'How much does a pharmaceutical SEO audit cost?',
+      acceptedAnswer: { '@type': 'Answer', text: 'The SEO + GEO compliance audit starts at CA$750: technical audit, content audit, PAAB regulatory audit and AI visibility audit, with a score out of 100 and a prioritized action plan, delivered within 10 business days.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'Do you work in both French and English?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Yes. All reports, strategies and content are produced in both French and English, with an understanding of the regulatory nuances in each language — essential for the bilingual Canadian pharmaceutical market.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'Do you also optimize visibility in ChatGPT and Perplexity (GEO)?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Yes. GEO (Generative Engine Optimization) is built into every engagement: question/answer content structure, FAQ JSON-LD schemas, structured data and extractable passages to be cited in the generative AI answers used by healthcare professionals.' },
+    },
+  ],
+};
+---
+
+<Layout lang={lang} title={title} description={description}>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <Navbar lang={lang} />
+
+  <main id="main-content">
+
+    <section class="relative overflow-hidden py-24 md:py-32" style="background: var(--color-primary);" aria-labelledby="lp-title">
+      <div class="absolute inset-0 pointer-events-none" style="background: radial-gradient(ellipse 65% 60% at 70% 30%, rgba(202,138,4,0.14) 0%, transparent 65%);" aria-hidden="true"></div>
+      <div class="container relative">
+        <div class="max-w-3xl">
+          <div class="badge-authority">PAAB · Health Canada · E-E-A-T</div>
+          <h1 id="lp-title" class="text-white mb-6" style="font-size: clamp(2.25rem, 5.5vw, 3.5rem); line-height: 1.08; letter-spacing: -0.03em;">
+            Pharmaceutical SEO in Montréal,<br /><span style="color: var(--color-cta);">built for the Canadian framework.</span>
+          </h1>
+          <p class="mb-4" style="font-size: 0.9375rem; line-height: 1.65; color: rgba(255,255,255,0.55); font-style: italic;">
+            SEO Pharma Montréal is a SEO/GEO consulting service dedicated to the Canadian pharmaceutical industry, led by Soulimane Farah. Specialization: PAAB and Health Canada compliance, YMYL E-E-A-T content, and visibility in AI answer engines (ChatGPT, Perplexity, Google AI Overviews).
+          </p>
+          <p class="mb-10" style="font-size: clamp(1rem, 1.8vw, 1.125rem); line-height: 1.7; color: rgba(255,255,255,0.73);">
+            Most agencies apply US rules — HIPAA, FDA — that have no standing in Canada. Here, your SEO is built from the ground up within the <strong style="color: rgba(255,255,255,0.92);">PAAB</strong> and <strong style="color: rgba(255,255,255,0.92);">Health Canada</strong> framework, by someone who worked inside the industry (Roche, Galderma).
+          </p>
+          <div class="flex flex-wrap gap-4 items-center">
+            <a href="#contact" class="btn btn-primary btn-xl">Request an audit (from CA$750)</a>
+            <a href="#difference" class="btn btn-ghost btn-xl">The Canadian difference</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="difference" class="py-20 md:py-28" aria-labelledby="diff-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="overline">The regulatory trap</span>
+          <h2 class="section-title" id="diff-title">PAAB is not FDA. Most agencies miss it.</h2>
+          <p class="section-lead">A Canadian pharma site optimized using US rules creates both a regulatory violation and a Google YMYL penalty risk at once. Here is what changes at the border.</p>
+        </div>
+        <div class="overflow-x-auto">
+          <table style="width:100%; border-collapse:collapse; font-size:0.95rem;">
+            <thead>
+              <tr style="border-bottom:2px solid var(--color-border);">
+                <th style="text-align:left; padding:1rem; color:var(--color-primary);">Element</th>
+                <th style="text-align:left; padding:1rem; color:var(--color-text-muted);">🇺🇸 US framework (FDA / HIPAA)</th>
+                <th style="text-align:left; padding:1rem; color:var(--color-cta);">🇨🇦 Canadian framework (PAAB / Health Canada)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="border-bottom:1px solid var(--color-border);"><td style="padding:1rem; font-weight:600; color:var(--color-primary);">Direct-to-consumer ads (Rx)</td><td style="padding:1rem; color:var(--color-text-muted);">Allowed</td><td style="padding:1rem;">Banned</td></tr>
+              <tr style="border-bottom:1px solid var(--color-border);"><td style="padding:1rem; font-weight:600; color:var(--color-primary);">Keyword-rich product pages</td><td style="padding:1rem; color:var(--color-text-muted);">Possible</td><td style="padding:1rem;">Intentionally sparse</td></tr>
+              <tr style="border-bottom:1px solid var(--color-border);"><td style="padding:1rem; font-weight:600; color:var(--color-primary);">Review model</td><td style="padding:1rem; color:var(--color-text-muted);">Post-market</td><td style="padding:1rem;">Pre-approval (HCP)</td></tr>
+              <tr><td style="padding:1rem; font-weight:600; color:var(--color-primary);">Where SEO traffic flows</td><td style="padding:1rem; color:var(--color-text-muted);">Product pages</td><td style="padding:1rem;">Unbranded educational content</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="margin-top:1.5rem; font-size:0.95rem; color:var(--color-text-muted);">
+          → Further reading: <a href="/en/blog/pharma-seo-paab-compliance-guide-2026-en/" style="color:var(--color-cta); font-weight:600;">the practical PAAB compliance guide</a> and <a href="/en/blog/eeat-medical-seo-pharma-2025-en/" style="color:var(--color-cta); font-weight:600;">E-E-A-T for pharma websites</a>.
+        </p>
+      </div>
+    </section>
+
+    <section class="py-20 md:py-28" style="background: var(--color-surface, #f8fafc);" aria-labelledby="why-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="overline">Specialized consultant vs generalist agency</span>
+          <h2 class="section-title" id="why-title">What you won't get from a standard SEO agency</h2>
+        </div>
+        <div class="overflow-x-auto">
+          <table style="width:100%; border-collapse:collapse; font-size:0.95rem;">
+            <thead>
+              <tr style="border-bottom:2px solid var(--color-border);">
+                <th style="text-align:left; padding:1rem; color:var(--color-primary);">Criterion</th>
+                <th style="text-align:left; padding:1rem; color:var(--color-text-muted);">Generalist agency</th>
+                <th style="text-align:left; padding:1rem; color:var(--color-cta);">SEO Pharma Montréal</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="border-bottom:1px solid var(--color-border);"><td style="padding:1rem; font-weight:600; color:var(--color-primary);">PAAB knowledge</td><td style="padding:1rem; color:var(--color-text-muted);">Superficial or none</td><td style="padding:1rem;">Practical, field experience</td></tr>
+              <tr style="border-bottom:1px solid var(--color-border);"><td style="padding:1rem; font-weight:600; color:var(--color-primary);">Industry experience</td><td style="padding:1rem; color:var(--color-text-muted);">Occasional client</td><td style="padding:1rem;">Direct employee (Roche, Galderma)</td></tr>
+              <tr style="border-bottom:1px solid var(--color-border);"><td style="padding:1rem; font-weight:600; color:var(--color-primary);">Bilingual regulatory FR/EN</td><td style="padding:1rem; color:var(--color-text-muted);">Variable</td><td style="padding:1rem;">Mastered in both languages</td></tr>
+              <tr style="border-bottom:1px solid var(--color-border);"><td style="padding:1rem; font-weight:600; color:var(--color-primary);">AI visibility / GEO</td><td style="padding:1rem; color:var(--color-text-muted);">Rarely offered</td><td style="padding:1rem;">Built into every deliverable</td></tr>
+              <tr><td style="padding:1rem; font-weight:600; color:var(--color-primary);">Point of contact</td><td style="padding:1rem; color:var(--color-text-muted);">Account manager + junior</td><td style="padding:1rem;">The senior consultant, directly</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 md:py-28" aria-labelledby="svc-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="overline">Sectors covered</span>
+          <h2 class="section-title" id="svc-title">Expertise in regulated sectors</h2>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {[
+            { t: 'Pharmaceutical', d: 'Rx, OTC, generics. PAAB-compliant branded/unbranded separation and Canadian DTC constraints.' },
+            { t: 'Biotechnology', d: 'Clinical or commercial-stage companies, CROs, CDMOs. Topical authority over a technical vocabulary.' },
+            { t: 'Medical devices', d: 'Class I, II, III under SOR/98-282. Commercial vs regulatory content distinction.' },
+            { t: 'Natural health products', d: 'NPN, Health Canada-authorized claims, NHP database.' },
+          ].map((s) => (
+            <article style="background:white; border:1px solid var(--color-border); border-radius:1rem; padding:1.75rem;">
+              <h3 style="font-size:1.0625rem; color:var(--color-primary); margin-bottom:0.5rem;">{s.t}</h3>
+              <p style="font-size:0.9rem; color:var(--color-text-muted); line-height:1.65; margin:0;">{s.d}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <Pricing lang={lang} />
+    <Booking lang={lang} />
+
+    <section class="py-20 md:py-28" style="background: var(--color-surface, #f8fafc);" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="overline">FAQ</span>
+          <h2 class="section-title" id="faq-title">Frequently asked questions</h2>
+        </div>
+        <div class="max-w-3xl mx-auto">
+          {faqSchema.mainEntity.map((q) => (
+            <details style="border-bottom:1px solid var(--color-border); padding:1.25rem 0;">
+              <summary style="font-weight:600; color:var(--color-primary); cursor:pointer; font-size:1.0625rem;">{q.name}</summary>
+              <p style="margin-top:0.75rem; color:var(--color-text-muted); line-height:1.7; font-size:0.95rem;">{q.acceptedAnswer.text}</p>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <ContactCTA lang={lang} />
+  </main>
+
+  <Footer lang={lang} />
+</Layout>

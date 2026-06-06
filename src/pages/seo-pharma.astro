@@ -1,0 +1,209 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Pricing from '../components/Pricing.astro';
+import Booking from '../components/Booking.astro';
+import ContactCTA from '../components/ContactCTA.astro';
+import Footer from '../components/Footer.astro';
+
+const lang = 'fr';
+const title = 'SEO Pharmaceutique à Montréal — Consultant Spécialisé PAAB & Santé Canada | SEO Pharma Montréal';
+const description = "Consultant SEO pharmaceutique à Montréal spécialisé en conformité PAAB et Santé Canada. Contrairement aux agences généralistes, une expertise réglementaire canadienne réelle (pas HIPAA/FDA). Audit dès 750 $.";
+
+// ── Service + FAQ JSON-LD ──────────────────────────────────────────────────
+const serviceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  '@id': 'https://seopharmamontreal.com/seo-pharma/#service',
+  name: 'SEO Pharmaceutique — Conformité PAAB & Santé Canada',
+  serviceType: 'Pharmaceutical SEO Consulting',
+  provider: { '@type': 'Organization', '@id': 'https://seopharmamontreal.com/#business' },
+  areaServed: [
+    { '@type': 'City', name: 'Montréal' },
+    { '@type': 'City', name: 'Laval' },
+    { '@type': 'State', name: 'Québec' },
+    { '@type': 'Country', name: 'Canada' },
+  ],
+  description,
+  offers: {
+    '@type': 'Offer',
+    price: '750',
+    priceCurrency: 'CAD',
+    description: 'Audit de conformité SEO + GEO pharmaceutique',
+  },
+};
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Pourquoi un consultant SEO pharmaceutique plutôt qu’une agence généraliste ?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Une agence généraliste connaît le SEO mais pas le cadre réglementaire pharmaceutique canadien. Elle risque d’optimiser des pages produit Rx (violation PAAB) ou d’appliquer des règles américaines (HIPAA, FDA) qui ne s’appliquent pas au Canada. Un consultant spécialisé maîtrise le PAAB, Santé Canada, l’interdiction de la publicité directe aux consommateurs (DTC) et les exigences E-E-A-T des contenus YMYL.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'Quelle est la différence entre PAAB (Canada) et FDA/HIPAA (États-Unis) pour le SEO ?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Au Canada, la publicité directe aux consommateurs des médicaments d’ordonnance est interdite et la publicité destinée aux professionnels est pré-approuvée par le PAAB. Aux États-Unis, la DTC est légale et la FDA intervient en post-market. Une stratégie SEO conçue pour le marché américain (HIPAA, FDA) crée des violations réglementaires si elle est appliquée telle quelle au Canada.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'Combien coûte un audit SEO pharmaceutique ?',
+      acceptedAnswer: { '@type': 'Answer', text: 'L’audit de conformité SEO + GEO commence à 750 $ : audit technique, audit de contenu, audit réglementaire PAAB et audit de visibilité dans les IA, avec scoring sur 100 et plan d’action priorisé, livré en 10 jours ouvrables.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'Travaillez-vous en français et en anglais ?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Oui. Tous les rapports, stratégies et contenus sont produits en français et en anglais, avec une compréhension des nuances réglementaires dans les deux langues — essentiel pour le marché pharmaceutique canadien bilingue.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'Optimisez-vous aussi la visibilité dans ChatGPT et Perplexity (GEO) ?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Oui. Le GEO (Generative Engine Optimization) est intégré à chaque mandat : structure de contenu en questions/réponses, schémas FAQ JSON-LD, données structurées et passages extractibles pour être cité dans les réponses des IA génératives utilisées par les professionnels de santé.' },
+    },
+  ],
+};
+---
+
+<Layout lang={lang} title={title} description={description}>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <Navbar lang={lang} />
+
+  <main id="main-content">
+
+    <!-- HERO ─────────────────────────────────────────────────────────────── -->
+    <section class="relative overflow-hidden py-24 md:py-32" style="background: var(--color-primary);" aria-labelledby="lp-title">
+      <div class="absolute inset-0 pointer-events-none" style="background: radial-gradient(ellipse 65% 60% at 70% 30%, rgba(202,138,4,0.14) 0%, transparent 65%);" aria-hidden="true"></div>
+      <div class="container relative">
+        <div class="max-w-3xl">
+          <div class="badge-authority">PAAB · Santé Canada · E-E-A-T</div>
+          <h1 id="lp-title" class="text-white mb-6" style="font-size: clamp(2.25rem, 5.5vw, 3.5rem); line-height: 1.08; letter-spacing: -0.03em;">
+            SEO pharmaceutique à Montréal,<br /><span style="color: var(--color-cta);">conforme au cadre canadien.</span>
+          </h1>
+          <p class="mb-4" style="font-size: 0.9375rem; line-height: 1.65; color: rgba(255,255,255,0.55); font-style: italic;">
+            SEO Pharma Montréal est un service de conseil SEO/GEO dédié à l'industrie pharmaceutique canadienne, dirigé par Soulimane Farah. Spécialisation : conformité PAAB et Santé Canada, contenu YMYL E-E-A-T, et visibilité dans les moteurs de réponse IA (ChatGPT, Perplexity, Google AI Overviews).
+          </p>
+          <p class="mb-10" style="font-size: clamp(1rem, 1.8vw, 1.125rem); line-height: 1.7; color: rgba(255,255,255,0.73);">
+            La plupart des agences appliquent des règles américaines — HIPAA, FDA — qui n'ont aucune valeur au Canada. Ici, votre référencement est construit dès le départ dans le cadre du <strong style="color: rgba(255,255,255,0.92);">PAAB</strong> et de <strong style="color: rgba(255,255,255,0.92);">Santé Canada</strong>, par quelqu'un qui a travaillé à l'intérieur de l'industrie (Roche, Galderma).
+          </p>
+          <div class="flex flex-wrap gap-4 items-center">
+            <a href="#contact" class="btn btn-primary btn-xl">Demander un audit (dès 750 $)</a>
+            <a href="#difference" class="btn btn-ghost btn-xl">La différence canadienne</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LA DIFFÉRENCE CANADIENNE (le coin réglementaire) ───────────────────── -->
+    <section id="difference" class="py-20 md:py-28" aria-labelledby="diff-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="overline">Le piège réglementaire</span>
+          <h2 class="section-title" id="diff-title">PAAB n'est pas FDA. La plupart des agences l'ignorent.</h2>
+          <p class="section-lead">Un site pharma canadien optimisé selon les règles américaines crée simultanément une violation réglementaire et un risque de pénalité Google YMYL. Voici ce qui change à la frontière.</p>
+        </div>
+        <div class="overflow-x-auto">
+          <table style="width:100%; border-collapse:collapse; font-size:0.95rem;">
+            <thead>
+              <tr style="border-bottom:2px solid var(--color-border);">
+                <th style="text-align:left; padding:1rem; color:var(--color-primary);">Élément</th>
+                <th style="text-align:left; padding:1rem; color:var(--color-text-muted);">🇺🇸 Cadre US (FDA / HIPAA)</th>
+                <th style="text-align:left; padding:1rem; color:var(--color-cta);">🇨🇦 Cadre canadien (PAAB / Santé Canada)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="border-bottom:1px solid var(--color-border);"><td style="padding:1rem; font-weight:600; color:var(--color-primary);">Publicité directe aux consommateurs (Rx)</td><td style="padding:1rem; color:var(--color-text-muted);">Autorisée</td><td style="padding:1rem;">Interdite</td></tr>
+              <tr style="border-bottom:1px solid var(--color-border);"><td style="padding:1rem; font-weight:600; color:var(--color-primary);">Pages produit riches en mots-clés</td><td style="padding:1rem; color:var(--color-text-muted);">Possibles</td><td style="padding:1rem;">Volontairement pauvres</td></tr>
+              <tr style="border-bottom:1px solid var(--color-border);"><td style="padding:1rem; font-weight:600; color:var(--color-primary);">Modèle de révision</td><td style="padding:1rem; color:var(--color-text-muted);">Post-market</td><td style="padding:1rem;">Pré-approbation (HCP)</td></tr>
+              <tr><td style="padding:1rem; font-weight:600; color:var(--color-primary);">Où passe le trafic SEO</td><td style="padding:1rem; color:var(--color-text-muted);">Pages produit</td><td style="padding:1rem;">Contenu éducatif non brandé</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="margin-top:1.5rem; font-size:0.95rem; color:var(--color-text-muted);">
+          → Lecture approfondie : <a href="/blog/paab-vs-fda-seo-pharma-canada-2026/" style="color:var(--color-cta); font-weight:600;">PAAB vs FDA : ce qui change pour votre SEO</a> et <a href="/blog/seo-paab-conformite-guide-pratique-2026/" style="color:var(--color-cta); font-weight:600;">le guide pratique de conformité PAAB</a>.
+        </p>
+      </div>
+    </section>
+
+    <!-- POURQUOI MOI vs AGENCE GÉNÉRALISTE ─────────────────────────────────── -->
+    <section class="py-20 md:py-28" style="background: var(--color-surface, #f8fafc);" aria-labelledby="why-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="overline">Consultant spécialisé vs agence généraliste</span>
+          <h2 class="section-title" id="why-title">Ce que vous n'obtiendrez pas d'une agence SEO standard</h2>
+        </div>
+        <div class="overflow-x-auto">
+          <table style="width:100%; border-collapse:collapse; font-size:0.95rem;">
+            <thead>
+              <tr style="border-bottom:2px solid var(--color-border);">
+                <th style="text-align:left; padding:1rem; color:var(--color-primary);">Critère</th>
+                <th style="text-align:left; padding:1rem; color:var(--color-text-muted);">Agence généraliste</th>
+                <th style="text-align:left; padding:1rem; color:var(--color-cta);">SEO Pharma Montréal</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="border-bottom:1px solid var(--color-border);"><td style="padding:1rem; font-weight:600; color:var(--color-primary);">Connaissance du PAAB</td><td style="padding:1rem; color:var(--color-text-muted);">Superficielle ou nulle</td><td style="padding:1rem;">Pratique, expérience terrain</td></tr>
+              <tr style="border-bottom:1px solid var(--color-border);"><td style="padding:1rem; font-weight:600; color:var(--color-primary);">Expérience dans l'industrie</td><td style="padding:1rem; color:var(--color-text-muted);">Client ponctuel</td><td style="padding:1rem;">Employé direct (Roche, Galderma)</td></tr>
+              <tr style="border-bottom:1px solid var(--color-border);"><td style="padding:1rem; font-weight:600; color:var(--color-primary);">Bilinguisme réglementaire FR/EN</td><td style="padding:1rem; color:var(--color-text-muted);">Variable</td><td style="padding:1rem;">Maîtrisé dans les deux langues</td></tr>
+              <tr style="border-bottom:1px solid var(--color-border);"><td style="padding:1rem; font-weight:600; color:var(--color-primary);">Visibilité IA / GEO</td><td style="padding:1rem; color:var(--color-text-muted);">Rarement proposée</td><td style="padding:1rem;">Intégrée à chaque livrable</td></tr>
+              <tr><td style="padding:1rem; font-weight:600; color:var(--color-primary);">Interlocuteur</td><td style="padding:1rem; color:var(--color-text-muted);">Account manager + junior</td><td style="padding:1rem;">Le consultant senior, directement</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES PHARMA ────────────────────────────────────────────────────── -->
+    <section class="py-20 md:py-28" aria-labelledby="svc-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="overline">Domaines couverts</span>
+          <h2 class="section-title" id="svc-title">Une expertise des secteurs réglementés</h2>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {[
+            { t: 'Pharmaceutique', d: 'Rx, OTC, génériques. Séparation brandé/non brandé conforme PAAB et contraintes DTC canadiennes.' },
+            { t: 'Biotechnologie', d: 'Entreprises en phase clinique ou commerciale, CRO, CDMO. Autorité thématique sur un vocabulaire technique.' },
+            { t: 'Dispositifs médicaux', d: 'Classes I, II, III selon DORS/98-282. Distinction contenu commercial vs réglementaire.' },
+            { t: 'Produits de santé naturels', d: 'NPN, allégations autorisées par Santé Canada, base de données des PSN.' },
+          ].map((s) => (
+            <article style="background:white; border:1px solid var(--color-border); border-radius:1rem; padding:1.75rem;">
+              <h3 style="font-size:1.0625rem; color:var(--color-primary); margin-bottom:0.5rem;">{s.t}</h3>
+              <p style="font-size:0.9rem; color:var(--color-text-muted); line-height:1.65; margin:0;">{s.d}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <Pricing lang={lang} />
+    <Booking lang={lang} />
+
+    <!-- FAQ ────────────────────────────────────────────────────────────────── -->
+    <section class="py-20 md:py-28" style="background: var(--color-surface, #f8fafc);" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="overline">FAQ</span>
+          <h2 class="section-title" id="faq-title">Questions fréquentes</h2>
+        </div>
+        <div class="max-w-3xl mx-auto">
+          {faqSchema.mainEntity.map((q) => (
+            <details style="border-bottom:1px solid var(--color-border); padding:1.25rem 0;">
+              <summary style="font-weight:600; color:var(--color-primary); cursor:pointer; font-size:1.0625rem;">{q.name}</summary>
+              <p style="margin-top:0.75rem; color:var(--color-text-muted); line-height:1.7; font-size:0.95rem;">{q.acceptedAnswer.text}</p>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <ContactCTA lang={lang} />
+  </main>
+
+  <Footer lang={lang} />
+</Layout>
