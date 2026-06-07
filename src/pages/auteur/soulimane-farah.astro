@@ -1,0 +1,158 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import ContactCTA from '../../components/ContactCTA.astro';
+import Footer from '../../components/Footer.astro';
+
+const lang = 'fr';
+const title = 'Soulimane Farah — Consultant SEO/GEO Pharma à Montréal';
+const description = "Qui est Soulimane Farah ? Consultant SEO/GEO spécialisé en pharma et santé à Montréal. Parcours dans l'industrie (Roche, Galderma), expertise PAAB et Santé Canada, assurance qualité pharmaceutique.";
+
+const canonical = 'https://seopharmamontreal.com/auteur/soulimane-farah/';
+const altCanonical = 'https://seopharmamontreal.com/en/author/soulimane-farah/';
+
+const sameAs = [
+  'https://www.linkedin.com/in/soulimanefarah/',
+  'https://clutch.co/profile/seo-pharma-montr-al',
+  'https://share.google/bcFz3bP5Wg1jXdP2A',
+  'https://www.wikidata.org/wiki/Q140078557',
+];
+
+// ── ProfilePage + Person (entité canonique) ────────────────────────────────
+const profileSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfilePage',
+  '@id': `${canonical}#profilepage`,
+  url: canonical,
+  inLanguage: 'fr-CA',
+  name: title,
+  mainEntity: {
+    '@type': 'Person',
+    '@id': 'https://seopharmamontreal.com/#person',
+    name: 'Soulimane Farah',
+    url: canonical,
+    image: 'https://seopharmamontreal.com/images/soulimane-farah.webp',
+    jobTitle: 'Consultant SEO/GEO — Pharma & Santé',
+    description: 'Consultant SEO/GEO spécialisé en pharma et santé à Montréal. 10 ans chez Roche en marketing et ventes, puis assurance qualité pharmaceutique chez Pharmascience et Galderma. Expertise PAAB, Santé Canada et GEO.',
+    email: 'soulimane@seopharmamontreal.com',
+    telephone: '+14389206377',
+    worksFor: { '@type': 'Organization', '@id': 'https://seopharmamontreal.com/#business' },
+    knowsAbout: ['SEO', 'GEO', 'LLMO', 'YMYL', 'E-E-A-T', 'PAAB', 'Santé Canada', 'Pharma', 'GMP/BPF', 'Produits de santé naturels', 'Dispositifs médicaux'],
+    alumniOf: { '@type': 'CollegeOrUniversity', name: 'Collège Gérald-Godin', url: 'https://www.college-gerald-godin.qc.ca' },
+    hasCredential: [
+      { '@type': 'EducationalOccupationalCredential', name: 'AEC Assurance Qualité Pharmaceutique', credentialCategory: 'degree', recognizedBy: { '@type': 'CollegeOrUniversity', name: 'Collège Gérald-Godin' } },
+      { '@type': 'EducationalOccupationalCredential', name: 'Certifié Google Analytics 4', credentialCategory: 'certificate', recognizedBy: { '@type': 'Organization', name: 'Google' } },
+      { '@type': 'EducationalOccupationalCredential', name: 'Certifié AI-driven SEO', credentialCategory: 'certificate' },
+    ],
+    sameAs,
+  },
+};
+---
+
+<Layout lang={lang} title={title} description={description} canonical={canonical} suppressHreflang={true}>
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="fr-CA" href={canonical} />
+    <link rel="alternate" hreflang="en-CA" href={altCanonical} />
+    <link rel="alternate" hreflang="x-default" href={canonical} />
+    <script type="application/ld+json" set:html={JSON.stringify(profileSchema)} />
+  </Fragment>
+
+  <Navbar lang={lang} />
+
+  <main id="main-content">
+
+    <!-- HERO ─────────────────────────────────────────────────────────────── -->
+    <section class="relative overflow-hidden py-20 md:py-28" style="background: var(--color-primary);" aria-labelledby="author-title">
+      <div class="absolute inset-0 pointer-events-none" style="background: radial-gradient(ellipse 65% 60% at 75% 30%, rgba(202,138,4,0.14) 0%, transparent 65%);" aria-hidden="true"></div>
+      <div class="container relative">
+        <div class="grid lg:grid-cols-[auto_1fr] gap-10 items-center">
+          <img
+            src="/images/soulimane-farah.webp"
+            alt="Soulimane Farah, consultant SEO/GEO pharma à Montréal"
+            width="180" height="180"
+            class="rounded-2xl object-cover"
+            style="width:180px; height:180px; box-shadow: 0 20px 40px rgba(0,0,0,0.4); border:2px solid rgba(202,138,4,0.4);"
+            loading="eager" fetchpriority="high" decoding="async"
+          />
+          <div class="max-w-2xl">
+            <div class="badge-authority">Auteur · Consultant SEO/GEO Pharma</div>
+            <h1 id="author-title" class="text-white mb-4" style="font-size: clamp(2rem, 4.5vw, 3rem); line-height: 1.1; letter-spacing: -0.03em;">
+              Soulimane Farah
+            </h1>
+            <p style="font-size: clamp(1rem, 1.8vw, 1.125rem); line-height: 1.7; color: rgba(255,255,255,0.75);">
+              Consultant SEO/GEO spécialisé en pharma et santé à Montréal. Après <strong style="color:rgba(255,255,255,0.92);">10 ans chez Roche en marketing et ventes</strong>, puis l'assurance qualité chez <strong style="color:rgba(255,255,255,0.92);">Pharmascience</strong> et <strong style="color:rgba(255,255,255,0.92);">Galderma</strong>, je combine la compréhension du marketing pharma et la rigueur réglementaire avec le SEO et la visibilité dans les IA — une double expertise rare au Canada.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BIO / PARCOURS ─────────────────────────────────────────────────────── -->
+    <section class="py-16 md:py-24" aria-labelledby="bio-title">
+      <div class="container" style="max-width: var(--container-narrow);">
+        <h2 class="section-title" id="bio-title">Mon parcours</h2>
+        <div style="font-size:1.0625rem; line-height:1.8; color:var(--color-text); margin-top:1.5rem;">
+          <p style="margin-bottom:1.25rem;">
+            Mon parcours est doublement ancré dans la pharma. J'ai passé <strong>10 ans chez Roche, en marketing et ventes</strong> — j'ai donc vécu de l'intérieur le quotidien des équipes que j'accompagne aujourd'hui : lancements de produits, contraintes réglementaires, cycles d'approbation, pression sur la visibilité.
+          </p>
+          <p style="margin-bottom:1.25rem;">
+            Je me suis ensuite spécialisé en <strong>assurance qualité pharmaceutique</strong>, chez <strong>Pharmascience</strong> puis <strong>Galderma</strong>, où j'ai été formé à un niveau de rigueur — validation de contenu, conformité, gouvernance — que les agences SEO généralistes n'acquièrent jamais. Cette double perspective, <strong>marketing et qualité réglementaire</strong>, est mon avantage unique.
+          </p>
+          <p style="margin-bottom:1.25rem;">
+            Concrètement, je comprends nativement le cadre du <a href="https://www.paab.ca" target="_blank" rel="noopener" style="color:var(--color-cta); font-weight:600;">PAAB</a> et de <a href="https://www.canada.ca/fr/sante-canada.html" target="_blank" rel="noopener" style="color:var(--color-cta); font-weight:600;">Santé Canada</a>, la séparation entre contenu brandé et non brandé, l'interdiction de la publicité directe aux consommateurs (DTC) — et je structure les stratégies SEO en conséquence dès le départ.
+          </p>
+          <p>
+            Côté formation, je suis titulaire d'une <strong>AEC en Assurance Qualité Pharmaceutique</strong> (Collège Gérald-Godin), complétée par des certifications <strong>Google Analytics 4</strong> et <strong>AI-driven SEO</strong>. Aujourd'hui, j'accompagne les entreprises pharmaceutiques, biotech, de dispositifs médicaux et de produits de santé naturels dans leur visibilité sur Google et dans les IA génératives (ChatGPT, Perplexity, Google AI Overviews), en français et en anglais.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERTISE + CREDENTIALS ────────────────────────────────────────────── -->
+    <section class="py-16 md:py-24" style="background: var(--color-surface, #f8fafc);">
+      <div class="container">
+        <div class="grid md:grid-cols-2 gap-10">
+          <div>
+            <h2 class="section-title">Domaines d'expertise</h2>
+            <ul style="margin-top:1.25rem; line-height:2; color:var(--color-text); list-style:none; padding:0;">
+              <li>✓ SEO technique & contenu YMYL / E-E-A-T</li>
+              <li>✓ Conformité réglementaire PAAB & Santé Canada</li>
+              <li>✓ GEO — visibilité dans les IA génératives</li>
+              <li>✓ Produits de santé naturels (NPN) & dispositifs médicaux</li>
+              <li>✓ SEO local santé (Montréal / Québec)</li>
+              <li>✓ Stratégie bilingue FR / EN</li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="section-title">Formation & certifications</h2>
+            <ul style="margin-top:1.25rem; line-height:2; color:var(--color-text); list-style:none; padding:0;">
+              <li>🎓 AEC Assurance Qualité Pharmaceutique — Collège Gérald-Godin</li>
+              <li>📊 Certifié Google Analytics 4</li>
+              <li>🤖 Certifié AI-driven SEO</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROFILS EXTERNES (sameAs visibles) ─────────────────────────────────── -->
+    <section class="py-16 md:py-24">
+      <div class="container" style="max-width: var(--container-narrow);">
+        <h2 class="section-title">Me retrouver ailleurs</h2>
+        <div class="flex flex-wrap gap-4" style="margin-top:1.25rem;">
+          <a href="https://www.linkedin.com/in/soulimanefarah/" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
+          <a href="https://clutch.co/profile/seo-pharma-montr-al" target="_blank" rel="noopener" class="btn btn-ghost">Clutch</a>
+          <a href="https://share.google/bcFz3bP5Wg1jXdP2A" target="_blank" rel="noopener" class="btn btn-ghost">Google Business Profile</a>
+          <a href="https://www.wikidata.org/wiki/Q140078557" target="_blank" rel="noopener" class="btn btn-ghost">Wikidata</a>
+        </div>
+        <p style="margin-top:2rem; font-size:0.95rem; color:var(--color-text-muted);">
+          → Lire mes articles sur le <a href="/blog/" style="color:var(--color-cta); font-weight:600;">blog SEO Pharma Montréal</a>, ou découvrir mon <a href="/blog/consultant-seo-pharmaceutique-montreal-soulimane-farah/" style="color:var(--color-cta); font-weight:600;">approche complète de consultant</a>.
+        </p>
+      </div>
+    </section>
+
+    <ContactCTA lang={lang} />
+  </main>
+
+  <Footer lang={lang} />
+</Layout>

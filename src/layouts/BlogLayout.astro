@@ -40,6 +40,7 @@ const dateStr = pubDate.toLocaleDateString(lang === 'fr' ? 'fr-CA' : 'en-CA', {
 const canonicalUrl  = `https://seopharmamontreal.com${Astro.url.pathname}`;
 const blogUrl       = lang === 'en' ? 'https://seopharmamontreal.com/en/blog/' : 'https://seopharmamontreal.com/blog/';
 const homeUrl       = lang === 'en' ? 'https://seopharmamontreal.com/en/' : 'https://seopharmamontreal.com/';
+const authorUrl     = lang === 'en' ? '/en/author/soulimane-farah/' : '/auteur/soulimane-farah/';
 
 // Hreflang — utilise translationSlug explicite pour éviter les 404 sur slugs différents FR/EN
 const altLangCode   = lang === 'fr' ? 'en' : 'fr';
@@ -71,7 +72,7 @@ const articleSchema = JSON.stringify({
     '@type': 'Person',
     '@id':   'https://seopharmamontreal.com/#person',
     name:    author,
-    url:     'https://seopharmamontreal.com',
+    url:     `https://seopharmamontreal.com${authorUrl}`,
   },
   publisher: {
     '@type':  'Organization',
@@ -117,7 +118,7 @@ const breadcrumbSchema = JSON.stringify({
 });
 ---
 
-<Layout lang={lang} title={`${title} | SEO Pharma Montréal`} description={description} type="article" pubDate={pubDate} author={author} canonical={canonicalUrl} ogImage={ogImageUrl} suppressHreflang={true}>
+<Layout lang={lang} title={title} description={description} type="article" pubDate={pubDate} author={author} canonical={canonicalUrl} ogImage={ogImageUrl} suppressHreflang={true}>
   <Fragment slot="head">
     {altCanonical && (
       <>
@@ -183,7 +184,7 @@ const breadcrumbSchema = JSON.stringify({
           <span class="w-px h-4" style="background: rgba(255,255,255,0.2);" aria-hidden="true"></span>
           <time datetime={pubDate.toISOString()}>{dateStr}</time>
           <span class="w-px h-4" style="background: rgba(255,255,255,0.2);" aria-hidden="true"></span>
-          <span>{author}</span>
+          <a href={authorUrl} style="color:inherit; text-decoration:underline; text-underline-offset:3px;">{author}</a>
         </div>
       </div>
     </header>

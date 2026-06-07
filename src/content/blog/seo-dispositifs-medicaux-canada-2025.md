@@ -1,5 +1,5 @@
 ---
-title: "SEO pour fabricants et distributeurs de dispositifs médicaux au Canada : stratégie 2025"
+title: "SEO pour dispositifs médicaux au Canada : guide 2025"
 description: "Les fabricants de dispositifs médicaux au Canada sont invisibles sur Google. Stratégie SEO B2B conforme au Règlement sur les instruments médicaux de Santé Canada pour capter professionnels et acheteurs institutionnels."
 pubDate: 2026-05-20
 lang: fr

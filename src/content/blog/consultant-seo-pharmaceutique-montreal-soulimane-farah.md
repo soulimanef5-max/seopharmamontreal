@@ -1,6 +1,6 @@
 ---
 title: "Consultant SEO Pharmaceutique à Montréal — Soulimane Farah"
-description: "Consultant SEO pharmaceutique à Montréal : expertise PAAB et Santé Canada, double parcours pharma (Roche, Galderma) et SEO/GEO bilingue. Audit dès 750 $."
+description: "Consultant SEO pharmaceutique à Montréal : 10 ans en marketing chez Roche, puis qualité chez Pharmascience et Galderma. Expertise PAAB et SEO/GEO. Audit dès 750 $."
 pubDate: 2026-06-05
 lang: fr
 tags: ["consultant SEO", "SEO pharmaceutique", "Montréal", "PAAB", "GEO", "E-E-A-T", "Soulimane Farah", "pharma Canada"]
@@ -17,7 +17,7 @@ Je m'appelle **Soulimane Farah**. Je suis consultant SEO et GEO indépendant, ba
 
 ## Qui est Soulimane Farah — et pourquoi la spécialisation pharma change tout
 
-Mon parcours professionnel a été construit dans l'industrie pharma et de la santé, pas dans le SEO généraliste. J'ai travaillé directement au sein d'entreprises comme **Roche** et **Galderma** — deux multinationales dont les exigences en matière de conformité numérique, de validation de contenu et de gouvernance réglementaire m'ont formé à une rigueur que les agences SEO standard n'acquièrent jamais.
+Mon parcours professionnel a été construit dans l'industrie pharma et de la santé, pas dans le SEO généraliste. J'ai passé **10 ans chez Roche en marketing et ventes**, puis je me suis spécialisé en **assurance qualité pharmaceutique** chez **Pharmascience** et **Galderma** — un parcours dont les exigences de conformité, de validation de contenu et de gouvernance réglementaire m'ont formé à une rigueur que les agences SEO standard n'acquièrent jamais.
 
 Ce que ça signifie concrètement pour votre projet :
 
@@ -108,7 +108,7 @@ La plupart des agences SEO montréalaises — Digitad, ProStar SEO, Dialekta, Ca
 |---------|----------------------|----------------------------------------|
 | Connaissance du PAAB | Superficielle ou nulle | Pratique (expérience terrain pharma) |
 | Flux d'approbation contenu | Non intégré | Natif dans la méthode |
-| Expérience dans l'industrie | Client ponctuel | Employé direct (Roche, Galderma) |
+| Expérience dans l'industrie | Client ponctuel | Insider pharma : 10 ans Roche, puis Pharmascience/Galderma |
 | Bilinguisme réglementaire FR/EN | Variable | Maîtrisé dans les deux langues |
 | Spécialisation GEO / citations IA | Rarement proposé | Intégré à chaque livrable |
 | Interlocuteur | Account manager + junior | Vous parlez directement au consultant |
@@ -195,7 +195,7 @@ Oui — c'est même une composante centrale de ma méthode. Le GEO (Generative E
 
 ### Quelle est votre expérience directe dans l'industrie pharmaceutique ?
 
-J'ai travaillé directement au sein de **Roche** et **Galderma**, deux multinationales du secteur pharma/dermo-cosmétique. Cette expérience terrain m'a exposé aux processus de validation de contenu, aux contraintes réglementaires opérationnelles, et aux enjeux de communication des équipes marketing pharma. Ce n'est pas une expertise acquise en lisant des articles — c'est une compréhension de l'intérieur.
+J'ai passé **10 ans chez Roche, en marketing et ventes**, puis je me suis spécialisé en **assurance qualité pharmaceutique** chez **Pharmascience** et **Galderma**. Cette double expérience — le marketing pharma vécu de l'intérieur **et** la rigueur réglementaire — m'a exposé aux processus de validation de contenu, aux contraintes opérationnelles et aux enjeux des équipes marketing pharma. Ce n'est pas une expertise acquise en lisant des articles — c'est une compréhension de l'intérieur.
 
 ### Proposez-vous des audits en anglais pour des clients anglophones ?
 

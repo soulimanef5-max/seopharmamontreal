@@ -1,5 +1,5 @@
 ---
-title: "GEO Pharma : comment apparaître dans ChatGPT, Perplexity et Claude si vous êtes dans le secteur santé"
+title: "GEO Pharma : apparaître dans ChatGPT, Perplexity et Claude"
 description: "Le GEO (Generative Engine Optimization) change la façon dont les patients et professionnels trouvent l'information santé. Voici comment les PME pharma, PSN et dispositifs médicaux peuvent être cités par les IA en 2025."
 pubDate: 2026-05-28
 lang: fr

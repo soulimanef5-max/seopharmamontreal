@@ -1,5 +1,5 @@
 ---
-title: "Health Canada Compliance & SEO: A Guide for NHP and Pharma Companies in Canada"
+title: "Health Canada & SEO: A Guide for NHP and Pharma Companies"
 description: "Regulatory compliance and SEO are not opposites — they reinforce each other. A practical guide for Canadian natural health product brands, pharmaceutical companies and medical device manufacturers who want to rank without violating Health Canada's advertising rules."
 pubDate: 2026-05-22
 lang: en

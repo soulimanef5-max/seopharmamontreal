@@ -1,5 +1,5 @@
 ---
-title: "SEO pour pharmacies indépendantes au Québec : comment rivaliser avec Jean Coutu et Pharmaprix"
+title: "SEO pour pharmacies indépendantes au Québec"
 description: "Les pharmacies indépendantes peuvent battre les grandes chaînes sur Google grâce au SEO local et au contenu de proximité. Stratégie concrète pour les pharmaciens propriétaires au Québec."
 pubDate: 2026-05-24
 lang: fr

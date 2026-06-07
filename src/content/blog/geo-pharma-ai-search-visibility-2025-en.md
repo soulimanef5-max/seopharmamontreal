@@ -1,5 +1,5 @@
 ---
-title: "GEO for Pharma: How to Appear in ChatGPT, Perplexity and Claude as a Health Company"
+title: "GEO for Pharma: Appear in ChatGPT, Perplexity & Claude"
 description: "Generative Engine Optimization (GEO) is changing how patients and healthcare professionals find information. A practical guide for Canadian pharma, NHP and medical device companies to get cited by AI models in 2025."
 pubDate: 2026-05-27
 lang: en

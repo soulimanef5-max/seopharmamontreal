@@ -188,7 +188,7 @@ export const ui = {
     about: {
       overline: 'À propos',
       title:    'Le seul consultant SEO/GEO à Montréal qui connaît vos SOPs',
-      p1:       'Roche Pharmaceuticals (10 ans), Pharmascience, Galderma, Oral Science — BPF/GMP, PSN, dispositifs médicaux. Ensuite 10 ans en marketing stratégique digital. Bilingue FR/EN.',
+      p1:       'Roche Pharmaceuticals — 10 ans en marketing et ventes. Puis assurance qualité pharmaceutique (BPF/GMP, PSN, dispositifs médicaux) chez Pharmascience, Galderma et Oral Science. Bilingue FR/EN.',
       credentials: [
         'AEC Assurance Qualité Pharmaceutique — Collège Gérald-Godin',
         'Certifié Auditeur Qualité',
@@ -523,7 +523,7 @@ export const ui = {
     about: {
       overline: 'About',
       title:    'The only SEO/GEO consultant in Montréal who knows your SOPs',
-      p1:       'Roche Pharmaceuticals (10 years), Pharmascience, Galderma, Oral Science — GMP, NHP, medical devices. Then 10 years in strategic digital marketing. Bilingual FR/EN.',
+      p1:       'Roche Pharmaceuticals — 10 years in marketing and sales. Then pharmaceutical quality assurance (GMP, NHP, medical devices) at Pharmascience, Galderma and Oral Science. Bilingual FR/EN.',
       credentials: [
         'AEC Pharmaceutical Quality Assurance — Collège Gérald-Godin',
         'Certified Quality Auditor',
