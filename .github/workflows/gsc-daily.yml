@@ -1,0 +1,50 @@
+name: GSC daily snapshot
+
+# Récupère les stats Search Console et publie gsc.json sur la branche `seo-data`.
+# La routine "Récap SEO" (20h00 UTC) lit ce fichier via git — le sandbox de la
+# routine bloque le réseau HTTP, mais pas git. Cette Action, elle, a accès réseau.
+
+on:
+  schedule:
+    - cron: '45 18 * * *'   # 18h45 UTC = ~75 min avant la routine (marge anti-délai GitHub)
+  workflow_dispatch: {}      # permet un déclenchement manuel pour tester
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gsc-snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch GSC data
+        env:
+          GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
+        run: node scripts/fetch-gsc.mjs
+
+      - name: Publish gsc.json to seo-data branch
+        run: |
+          set -e
+          tmp="$(mktemp -d)"
+          cp gsc.json "$tmp/gsc.json"
+          git config user.name "GSC Bot"
+          git config user.email "gsc-bot@users.noreply.github.com"
+          # Branche orphan mono-commit (pas d'historique qui gonfle, ignorée par Netlify)
+          git checkout --orphan seo-data
+          git rm -rf . >/dev/null 2>&1 || true
+          cp "$tmp/gsc.json" gsc.json
+          git add gsc.json
+          git commit -m "data: GSC snapshot $(date -u +%F)"
+          git push origin seo-data --force
+          echo "Publié : branche seo-data / gsc.json"
