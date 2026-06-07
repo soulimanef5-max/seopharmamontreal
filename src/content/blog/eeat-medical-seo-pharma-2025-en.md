@@ -1,7 +1,7 @@
 ---
 title: "E-E-A-T and Medical SEO: What Google Requires from Pharma Websites in 2025"
 description: "Understanding Google's E-E-A-T criteria to optimize a pharmaceutical or health website in Québec. A practical guide for pharma SMEs looking to rank sustainably."
-pubDate: 2025-05-27
+pubDate: 2026-05-29
 lang: en
 tags: ["E-E-A-T", "YMYL", "Medical SEO", "pharma", "Montréal"]
 readingTime: 7
