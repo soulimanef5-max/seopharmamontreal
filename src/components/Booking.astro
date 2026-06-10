@@ -52,5 +52,30 @@ const t = useTranslations(lang).booking;
   </div>
 </section>
 
-<!-- defer: script loads after HTML parse → non render-blocking (FCP/FID improvement) -->
-<script defer src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>
+<!-- HubSpot chargé à l'approche de la section seulement : son bundle (~630 Ko JS)
+     plombait TBT/LCP mobile quand il partait dès le parse, même en defer -->
+<script>
+  const bookingSection = document.getElementById('rendez-vous');
+  let hsLoaded = false;
+  const loadHubSpot = () => {
+    if (hsLoaded) return;
+    hsLoaded = true;
+    const s = document.createElement('script');
+    s.src = 'https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js';
+    document.body.appendChild(s);
+  };
+  if (bookingSection && 'IntersectionObserver' in window) {
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((e) => e.isIntersecting)) {
+          io.disconnect();
+          loadHubSpot();
+        }
+      },
+      { rootMargin: '800px 0px' }
+    );
+    io.observe(bookingSection);
+  } else {
+    loadHubSpot();
+  }
+</script>
