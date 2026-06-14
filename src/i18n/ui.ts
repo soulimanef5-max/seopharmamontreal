@@ -352,9 +352,9 @@ export const ui = {
 
     hero: {
       badge:    'SEO/GEO Consultant | Pharma · NHP · Medical Devices | Montréal',
-      title1:   'Dominate Google',
-      title2:   'in pharma SEO',
-      title3:   'in Montréal',
+      title1:   'The SEO/GEO consultant',
+      title2:   'in Montréal who knows',
+      title3:   'your SOPs',
       subtitle: 'Custom SEO/GEO strategy for pharma SMEs, NHPs and medical devices. E-E-A-T, YMYL and Health Canada compliant — visible on Google AND LLMs (ChatGPT, Perplexity, Claude).',
       cta1:     'Get a Free Audit',
       cta2:     'View Services',
