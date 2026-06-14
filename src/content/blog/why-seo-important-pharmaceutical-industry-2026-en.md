@@ -44,6 +44,8 @@ Outside Canada, brands lean on paid channels. Here, those channels are structura
 
 This is the structural advantage Canadian regulation hands to whoever does SEO properly: a compliant, well-built organic presence is something competitors cannot buy their way past with ad spend.
 
+> Expanding into Canada from the US or Europe? The shift is even sharper — see why [your US SEO playbook becomes a liability here](/en/blog/canadian-pharma-market-entry-seo-2026-en/).
+
 ---
 
 ## 3. A Durable Asset, Not a Rented One
