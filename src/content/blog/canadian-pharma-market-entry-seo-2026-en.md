@@ -7,6 +7,15 @@ tags: ["market entry", "PAAB", "Health Canada", "pharma SEO", "Quebec", "complia
 readingTime: 10
 author: Soulimane Farah
 modDate: 2026-06-13
+faq:
+  - q: "Can a US pharma company reuse its existing website content in Canada?"
+    a: "Not safely. Claim-driven pages that are compliant in the US often violate Canadian rules: section C.01.044 limits public prescription-drug advertising to name, price and quantity, and PAAB reviews promotional content — including SEO metadata — before publication. A direct lift-and-shift can publish non-compliant material into a monitored market."
+  - q: "What is PAAB and how does it differ from the FDA?"
+    a: "The Pharmaceutical Advertising Advisory Board (PAAB) is the independent body that pre-clears pharmaceutical advertising in Canada. Unlike the FDA's 'fair balance' model, PAAB expects pre-clearance of branded promotional content and treats your title tags, meta descriptions and structured data as advertising."
+  - q: "Do I need French-language content to market a pharma product in Canada?"
+    a: "Yes, for the Quebec market. Quebec's Charter of the French Language requires commercial communications to be available in French, and English-only pages also leave French-language search demand uncaptured. A credible Canadian entry is bilingual by design."
+  - q: "Is paid advertising a viable market-entry channel for pharma in Canada?"
+    a: "Only in a limited role. Because regulation caps what you can say about prescription products and ad platforms gate pharma advertisers heavily, organic search and AI visibility are usually the primary durable channels for entering the Canadian market."
 ---
 
 If you run digital marketing for a pharmaceutical or biotech brand in the United States or Europe and you're expanding into Canada, here's the uncomfortable part: **the SEO and content playbook that works in your home market doesn't just underperform in Canada — it can become a regulatory liability the day your pages start ranking here.**

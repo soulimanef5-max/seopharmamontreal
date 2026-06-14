@@ -8,6 +8,15 @@ readingTime: 9
 author: Soulimane Farah
 modDate: 2026-06-13
 translationSlug: "why-seo-important-pharmaceutical-industry-2026-en"
+faq:
+  - q: "Pourquoi le SEO est-il important dans l'industrie pharmaceutique ?"
+    a: "Parce que la majorité des professionnels de santé, acheteurs B2B et patients commencent leur recherche sur Google, et qu'au Canada — où la publicité directe des médicaments d'ordonnance au public est restreinte par la loi — la recherche organique est souvent le seul canal d'acquisition numérique durable. Un SEO solide bâtit aussi les signaux de confiance (E-E-A-T) que Google exige du contenu médical (YMYL)."
+  - q: "Peut-on faire de la publicité payante pour un médicament d'ordonnance au Canada ?"
+    a: "De façon très limitée seulement. En vertu de l'article C.01.044 du Règlement sur les aliments et drogues, une publicité de médicament d'ordonnance au public ne peut mentionner que le nom, le prix et la quantité — aucune allégation thérapeutique. Les campagnes payantes axées sur les bénéfices sont donc largement impraticables, ce qui pousse vers le contenu organique conforme."
+  - q: "Le SEO est-il compatible avec la conformité PAAB ?"
+    a: "Oui. Le contenu éducatif non lié à une marque — expliquer une condition, une classe thérapeutique ou une réglementation — se situe hors des règles promotionnelles les plus strictes et peut être librement optimisé. La rigueur de sourcing exigée par le PAAB est exactement celle que Google récompense via le E-E-A-T."
+  - q: "Combien de temps faut-il pour obtenir des résultats en SEO pharmaceutique ?"
+    a: "Généralement plusieurs mois. Le SEO est un actif qui se capitalise plutôt qu'un canal instantané : un article conforme et bien structuré continue de se positionner et de générer des leads qualifiés pendant des mois ou des années, contrairement au payant qui s'arrête dès que le budget cesse."
 ---
 
 Posez la question « pourquoi le SEO est-il important en pharma ? » à une agence américaine, et vous obtiendrez une réponse générique sur Google, le trafic et la génération de leads. Posez-la au **Canada**, et la réponse devient beaucoup plus tranchée — parce qu'ici, la loi élimine la plupart des alternatives.
