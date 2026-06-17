@@ -331,9 +331,6 @@ const lcpPreloadUrl = '/images/soulimane-farah.webp';
     <!-- Preload LCP (image hero, desktop uniquement) -->
     <link rel="preload" as="image" href={lcpPreloadUrl} fetchpriority="high" media="(min-width: 1024px)" />
 
-    <!-- JSON-LD ─────────────────────────────────────────────────────────── -->
-    <script type="application/ld+json" set:html={schemas} />
-
     <!-- Google Analytics 4 ──────────────────────────────────────────────── -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-JSMZMY7YKT"></script>
     <script is:inline>
@@ -357,5 +354,8 @@ const lcpPreloadUrl = '/images/soulimane-farah.webp';
       {lang === 'fr' ? 'Passer au contenu principal' : 'Skip to main content'}
     </a>
     <slot />
+    <!-- JSON-LD en fin de body : Google le lit partout, et on réduit les octets
+         à télécharger/parser avant le 1er rendu visible (gain LCP/FCP mobile) -->
+    <script type="application/ld+json" set:html={schemas} />
   </body>
 </html>
