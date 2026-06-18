@@ -9,6 +9,7 @@ import { useTranslations } from '../i18n/utils';
 interface Props {
   lang?:            Lang;
   title:            string;
+  seoTitle?:        string;
   description:      string;
   pubDate:          Date;
   modDate?:         Date;
@@ -23,6 +24,7 @@ interface Props {
 const {
   lang            = 'fr',
   title,
+  seoTitle,
   description,
   pubDate,
   modDate,
@@ -133,7 +135,7 @@ const faqSchema = faq.length > 0 ? JSON.stringify({
 }) : null;
 ---
 
-<Layout lang={lang} title={title} description={description} type="article" pubDate={pubDate} author={author} canonical={canonicalUrl} ogImage={ogImageUrl} suppressHreflang={true}>
+<Layout lang={lang} title={seoTitle ?? title} description={description} type="article" pubDate={pubDate} author={author} canonical={canonicalUrl} ogImage={ogImageUrl} suppressHreflang={true}>
   <Fragment slot="head">
     {altCanonical && (
       <>
@@ -250,7 +252,7 @@ const faqSchema = faq.length > 0 ? JSON.stringify({
               : 'Get a free preliminary analysis of your site — response within 24h.'}
           </p>
           <a href={lang === 'en' ? '/en/#contact' : '/#contact'} class="btn btn-primary btn-lg">
-            {lang === 'fr' ? 'Demander un audit gratuit' : 'Request a free audit'}
+            {lang === 'fr' ? 'Analyse préliminaire gratuite (valeur 250 $)' : 'Free preliminary analysis ($250 value)'}
           </a>
         </div>
       </div>

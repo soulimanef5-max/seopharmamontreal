@@ -12,7 +12,7 @@ export const ui = {
       rdv:         'RDV',
       blog:        'Blog',
       contact:     'Contact',
-      cta:         'Audit gratuit',
+      cta:         'Analyse gratuite',
     },
 
     hero: {
@@ -21,7 +21,7 @@ export const ui = {
       title2:   'à Montréal qui connaît',
       title3:   'vos SOPs',
       subtitle: 'Stratégie SEO/GEO sur mesure pour PME pharma, PSN et dispositifs médicaux. Conforme E-E-A-T, YMYL et Santé Canada — visible sur Google ET les LLMs (ChatGPT, Perplexity, Claude).',
-      cta1:     'Obtenir un audit gratuit',
+      cta1:     'Obtenir une analyse gratuite',
       cta2:     'Voir les services',
       proof1:   '150+ points d\'audit vérifiés',
       proof2:   'Réponse garantie sous 24h',
@@ -289,7 +289,7 @@ export const ui = {
       phone:        '+1 438 920 6377',
       directLabel:  'Contact direct',
       form: {
-        title:       'Obtenir mon audit SEO gratuit',
+        title:       'Obtenir mon analyse préliminaire gratuite',
         subtitle:    'Remplissez ce formulaire — je vous contacte sous 24h.',
         prenom:      'Prénom',
         nom:         'Nom',
@@ -305,7 +305,7 @@ export const ui = {
         ],
         message:     'Votre situation actuelle',
         messagePh:   'Décrivez brièvement votre défi SEO ou vos objectifs de visibilité...',
-        submit:      'Obtenir mon audit gratuit',
+        submit:      'Obtenir mon analyse gratuite',
         privacy:     'Vos données sont confidentielles et ne seront jamais partagées.',
       },
     },
@@ -347,7 +347,7 @@ export const ui = {
       rdv:       'Book',
       blog:      'Blog',
       contact:   'Contact',
-      cta:       'Free Audit',
+      cta:       'Free Analysis',
     },
 
     hero: {
@@ -356,7 +356,7 @@ export const ui = {
       title2:   'in Montréal who knows',
       title3:   'your SOPs',
       subtitle: 'Custom SEO/GEO strategy for pharma SMEs, NHPs and medical devices. E-E-A-T, YMYL and Health Canada compliant — visible on Google AND LLMs (ChatGPT, Perplexity, Claude).',
-      cta1:     'Get a Free Audit',
+      cta1:     'Get a Free Analysis',
       cta2:     'View Services',
       proof1:   '150+ audit points verified',
       proof2:   '24h guaranteed response',
@@ -624,7 +624,7 @@ export const ui = {
       phone:        '+1 438 920 6377',
       directLabel:  'Direct contact',
       form: {
-        title:       'Get my free SEO audit',
+        title:       'Get my free preliminary analysis',
         subtitle:    'Fill out this form — I\'ll contact you within 24h.',
         prenom:      'First name',
         nom:         'Last name',
@@ -640,7 +640,7 @@ export const ui = {
         ],
         message:     'Your current situation',
         messagePh:   'Briefly describe your SEO challenge or visibility goals...',
-        submit:      'Get my free audit',
+        submit:      'Get my free analysis',
         privacy:     'Your data is confidential and will never be shared.',
       },
     },

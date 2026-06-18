@@ -1,12 +1,34 @@
 ---
-title: "Consultant SEO Pharmaceutique à Montréal — Soulimane Farah"
-description: "Consultant SEO pharmaceutique à Montréal : 10 ans en marketing chez Roche, puis qualité chez Pharmascience et Galderma. Expertise PAAB et SEO/GEO. Audit dès 750 $."
+title: "Consultant SEO pharmaceutique à Montréal"
+seoTitle: "Consultant SEO Pharmaceutique Montréal | PAAB & GEO"
+description: "Consultant SEO pharmaceutique à Montréal : 10 ans en marketing chez Roche, puis assurance qualité en industrie pharmaceutique. Expertise PAAB et SEO/GEO. Audit dès 997 $."
 pubDate: 2026-06-05
 lang: fr
 tags: ["consultant SEO", "SEO pharmaceutique", "Montréal", "PAAB", "GEO", "E-E-A-T", "Soulimane Farah", "pharma Canada"]
 readingTime: 11
 author: Soulimane Farah
-modDate: 2026-06-05
+modDate: 2026-06-18
+faq:
+  - q: "Quelle est la différence entre un consultant SEO pharma et une agence SEO généraliste ?"
+    a: "Un consultant SEO spécialisé en pharma connaît les contraintes réglementaires spécifiques à l'industrie : le cadre PAAB, l'interdiction de la publicité DTC au Canada, les exigences E-E-A-T pour les contenus YMYL, et les différences entre contenu brandé et non brandé. Une agence généraliste peut produire du bon SEO, mais risque de créer des contenus en violation du PAAB ou d'optimiser des pages qui ne peuvent légalement pas être optimisées de la même façon que dans d'autres secteurs."
+  - q: "Travaillez-vous avec des entreprises en dehors de Montréal ?"
+    a: "Oui. Je travaille avec des clients dans tout le Canada et des multinationales ayant des opérations canadiennes. La grande majorité de mes missions se fait à distance (partage d'écran, Google Meet, accès GSC). La localisation géographique du client n'est pas une contrainte."
+  - q: "Combien de temps faut-il pour voir des résultats SEO en pharma ?"
+    a: "Le SEO est un canal à moyen terme. Les premiers résultats mesurables (amélioration de positions, augmentation des impressions) apparaissent généralement en 6 à 12 semaines pour un site existant avec une base technique saine. Pour un nouveau domaine, comptez 3 à 6 mois pour atteindre des positions page 1 sur des requêtes cibles de niche. La construction d'autorité (backlinks sectoriels, citations IA) est un travail de 6 à 18 mois."
+  - q: "Pouvez-vous travailler avec notre agence SEO existante ?"
+    a: "Oui. Je peux intervenir en complément d'une agence généraliste : je fournis l'expertise réglementaire pharma, ils gèrent l'exécution technique. Ce modèle hybride est fréquent dans les grandes entreprises où une agence gère le site corporate pendant qu'un spécialiste gère la stratégie de contenu pharma."
+  - q: "Connaissez-vous le cadre PAAB pour les professionnels de santé (HCP) ?"
+    a: "Oui. Je distingue les deux cibles réglementaires principales du PAAB : le contenu destiné aux consommateurs (public général) et le contenu destiné aux professionnels de santé (HCP). Ces deux segments ont des règles différentes en matière d'allégations, de données cliniques et d'approbation. Je structure votre contenu en conséquence, avec des URLs et des accès distincts si nécessaire."
+  - q: "Travaillez-vous aussi sur la visibilité dans les IA (ChatGPT, Perplexity, Gemini) ?"
+    a: "Oui — c'est même une composante centrale de ma méthode. Le GEO (Generative Engine Optimization) est l'ensemble des techniques pour être cité dans les réponses des IA génératives. En pratique : structure de contenu en questions/réponses, schémas FAQ JSON-LD, passages extractibles, données structurées Schema.org, et présence dans des sources que les LLMs crawlent et citent (Wikipedia, Wikidata, annuaires sectoriels reconnus)."
+  - q: "Quelle est votre expérience directe dans l'industrie pharmaceutique ?"
+    a: "J'ai passé 10 ans chez Roche, en marketing et ventes, puis je me suis spécialisé en assurance qualité en industrie pharmaceutique. Cette double expérience — le marketing pharma vécu de l'intérieur et la rigueur réglementaire — m'a exposé aux processus de validation de contenu, aux contraintes opérationnelles et aux enjeux des équipes marketing pharma. Ce n'est pas une expertise acquise en lisant des articles — c'est une compréhension de l'intérieur."
+  - q: "Proposez-vous des audits en anglais pour des clients anglophones ?"
+    a: "Oui. Je livre tous mes rapports et stratégies en français ou en anglais selon la préférence du client. Les articles de blog sont produits dans les deux langues (bilingue FR/EN) avec des versions optimisées pour les requêtes spécifiques à chaque marché."
+  - q: "Comment se déroule la première prise de contact ?"
+    a: "Contactez-moi via le formulaire de contact du site ou directement à soulimane@seopharmamontreal.com. Je réponds sous 24h ouvrables. On commence par un appel de 30 minutes (sans engagement) pour cerner votre situation actuelle, vos objectifs et voir si une collaboration fait sens."
+  - q: "Pouvez-vous travailler sous NDA ?"
+    a: "Oui. Je signe un accord de confidentialité dès la phase d'audit si votre organisation l'exige. C'est une pratique standard dans l'industrie pharmaceutique et je l'applique sans friction."
 ---
 
 Si vous cherchez un consultant SEO spécialisé en industrie pharmaceutique à Montréal, vous vous heurtez rapidement au même constat : la plupart des agences SEO locales n'ont aucune expérience du cadre réglementaire canadien. Elles ne connaissent pas le [PAAB](https://www.paab.ca), ne comprennent pas pourquoi les pages produit Rx doivent rester volontairement pauvres, et ne savent pas comment structurer un contenu E-E-A-T conforme pour [Santé Canada](https://www.canada.ca/fr/sante-canada.html).
@@ -17,7 +39,7 @@ Je m'appelle **Soulimane Farah**. Je suis consultant SEO et GEO indépendant, ba
 
 ## Qui est Soulimane Farah — et pourquoi la spécialisation pharma change tout
 
-Mon parcours professionnel a été construit dans l'industrie pharma et de la santé, pas dans le SEO généraliste. J'ai passé **10 ans chez Roche en marketing et ventes**, puis je me suis spécialisé en **assurance qualité pharmaceutique** chez **Pharmascience** et **Galderma** — un parcours dont les exigences de conformité, de validation de contenu et de gouvernance réglementaire m'ont formé à une rigueur que les agences SEO standard n'acquièrent jamais.
+Mon parcours professionnel a été construit dans l'industrie pharma et de la santé, pas dans le SEO généraliste. J'ai passé **10 ans chez Roche en marketing et ventes**, puis je me suis spécialisé en **assurance qualité en industrie pharmaceutique** — un parcours dont les exigences de conformité, de validation de contenu et de gouvernance réglementaire m'ont formé à une rigueur que les agences SEO standard n'acquièrent jamais.
 
 Ce que ça signifie concrètement pour votre projet :
 
@@ -69,7 +91,7 @@ Le **GEO** (Generative Engine Optimization) — l'art de structurer son contenu 
 Avant toute stratégie, je cartographie l'existant :
 
 - **Audit réglementaire** : identification des pages en violation potentielle du PAAB (allégations, témoignages Rx, métadonnées non conformes)
-- **Audit technique SEO** : Core Web Vitals, indexation, architecture d'URL, schema structured data, `robots.txt`, `llms.txt`
+- **Audit technique SEO** : Core Web Vitals, indexation, architecture d'URL, schema structured data, `robots.txt`
 - **Audit de contenu** : couverture thématique actuelle, lacunes, cannibalisation, opportunités de mots-clés à faible concurrence
 - **Audit GEO** : présence dans ChatGPT, Perplexity, Gemini et Google AI Overviews pour vos requêtes cibles
 
@@ -108,11 +130,11 @@ La plupart des agences SEO montréalaises — Digitad, ProStar SEO, Dialekta, Ca
 |---------|----------------------|----------------------------------------|
 | Connaissance du PAAB | Superficielle ou nulle | Pratique (expérience terrain pharma) |
 | Flux d'approbation contenu | Non intégré | Natif dans la méthode |
-| Expérience dans l'industrie | Client ponctuel | Insider pharma : 10 ans Roche, puis Pharmascience/Galderma |
+| Expérience dans l'industrie | Client ponctuel | Insider pharma : 10 ans chez Roche, puis assurance qualité en industrie pharmaceutique |
 | Bilinguisme réglementaire FR/EN | Variable | Maîtrisé dans les deux langues |
 | Spécialisation GEO / citations IA | Rarement proposé | Intégré à chaque livrable |
 | Interlocuteur | Account manager + junior | Vous parlez directement au consultant |
-| Tarification | Retainer 3 000–8 000 $/mois | Audit 750 $ · Retainer 1 500–2 500 $/mois |
+| Tarification | Retainer 3 000–8 000 $/mois | Audit 997 $ · Retainer 1 500–2 500 $/mois |
 
 ---
 
@@ -135,18 +157,12 @@ Médecins, pharmaciens, cliniques de spécialité. J'applique les standards E-E-
 
 ---
 
-## Études de cas et résultats concrets
+## Résultats sur mon propre site (preuve de méthode)
 
-*Note : les noms de clients sont anonymisés à leur demande. Les données sont vérifiables sur demande via partage de Search Console.*
+Plutôt que d'afficher des résultats clients, voici ce que ma méthode a produit sur mon propre site — entièrement vérifiable.
 
-**Cas 1 — Site de consultant pharma (seopharmamontreal.com)**
+**seopharmamontreal.com**
 Site lancé en mai 2026 sur un marché à forte concurrence (Montréal SEO). En 3 semaines : indexation complète, position 1,2 sur requêtes de marque, Core Web Vitals au vert (LCP < 2,5s, CLS < 0,1), 13 articles bilingues publiés, score GSC à 70/100.
-
-**Cas 2 — PME biotech québécoise (segment PSN)**
-Audit initial : site techniquement déficient (LCP 6,8s, pas de schema, contenu mince). Après 3 mois : position moyenne passée de 62 à 28, trafic organique +180%, 4 articles classés page 1 sur des requêtes informationelles NPN.
-
-**Cas 3 — Clinique de spécialité Montréal**
-Absence totale de présence Google Maps. Après 6 semaines : Google Business Profile optimisé et vérifié, apparition dans le Pack 3 local sur « clinique [spécialité] Montréal », 12 appels organiques par mois générés via Maps.
 
 ---
 
@@ -154,7 +170,7 @@ Absence totale de présence Google Maps. Après 6 semaines : Google Business Pro
 
 Je pratique une tarification transparente, pensée pour les équipes marketing pharma qui ont des budgets alloués et des processus d'approbation.
 
-**Audit de conformité SEO + GEO — 750 $**
+**Audit de conformité SEO + GEO — 997 $**
 Rapport complet (audit technique, audit contenu, audit réglementaire PAAB, audit GEO/citations IA), scoring sur 100, plan d'action priorisé. Livraison en 10 jours ouvrables. Ce rapport peut être présenté à votre direction ou à vos partenaires agences.
 
 **Retainer mensuel — 1 500 $ à 2 500 $/mois**
@@ -164,50 +180,6 @@ Inclut : production de 2 à 4 articles bilingues FR/EN par mois, implémentation
 Refonte d'architecture de contenu, migration SEO, implémentation schema structured data, stratégie GEO ciblée. Devis sous 48h.
 
 > Toutes les prestations incluent un partage de l'accès Google Search Console pour que vous gardez la propriété de vos données à tout moment.
-
----
-
-## Foire aux questions (FAQ)
-
-### Quelle est la différence entre un consultant SEO pharma et une agence SEO généraliste ?
-
-Un consultant SEO spécialisé en pharma connaît les contraintes réglementaires spécifiques à l'industrie : le cadre PAAB, l'interdiction de la publicité DTC au Canada, les exigences E-E-A-T pour les contenus YMYL, et les différences entre contenu brandé et non brandé. Une agence généraliste peut produire du bon SEO, mais risque de créer des contenus en violation du PAAB ou d'optimiser des pages qui ne peuvent légalement pas être optimisées de la même façon que dans d'autres secteurs.
-
-### Travaillez-vous avec des entreprises en dehors de Montréal ?
-
-Oui. Je travaille avec des clients dans tout le Canada et des multinationales ayant des opérations canadiennes. La grande majorité de mes missions se fait à distance (partage de Screen, Google Meet, accès GSC). La localisation géographique du client n'est pas une contrainte.
-
-### Combien de temps faut-il pour voir des résultats SEO en pharma ?
-
-Le SEO est un canal à moyen terme. Les premiers résultats mesurables (amélioration de positions, augmentation des impressions) apparaissent généralement en **6 à 12 semaines** pour un site existant avec une base technique saine. Pour un nouveau domaine, comptez **3 à 6 mois** pour atteindre des positions page 1 sur des requêtes cibles de niche. La construction d'autorité (backlinks sectoriels, citations IA) est un travail de 6 à 18 mois.
-
-### Pouvez-vous travailler avec notre agence SEO existante ?
-
-Oui. Je peux intervenir en complément d'une agence généraliste : je fournis l'expertise réglementaire pharma, ils gèrent l'exécution technique. Ce modèle hybride est fréquent dans les grandes entreprises où une agence gère le site corporate pendant qu'un spécialiste gère la stratégie de contenu pharma.
-
-### Connaissez-vous le cadre PAAB pour les professionnels de santé (HCP) ?
-
-Oui. Je distingue les deux cibles réglementaires principales du PAAB : le contenu destiné aux **consommateurs** (public général) et le contenu destiné aux **professionnels de santé** (HCP). Ces deux segments ont des règles différentes en matière d'allégations, de données cliniques et d'approbation. Je structure votre contenu en conséquence, avec des URLs et des accès distincts si nécessaire.
-
-### Travaillez-vous aussi sur la visibilité dans les IA (ChatGPT, Perplexity, Gemini) ?
-
-Oui — c'est même une composante centrale de ma méthode. Le GEO (Generative Engine Optimization) est l'ensemble des techniques pour être cité dans les réponses des IA génératives. En pratique : structure de contenu en questions/réponses, schémas FAQ JSON-LD, passages extractibles, données structurées Schema.org, et présence dans des sources que les LLMs crawlent et citent (Wikipedia, Wikidata, annuaires sectoriels reconnus).
-
-### Quelle est votre expérience directe dans l'industrie pharmaceutique ?
-
-J'ai passé **10 ans chez Roche, en marketing et ventes**, puis je me suis spécialisé en **assurance qualité pharmaceutique** chez **Pharmascience** et **Galderma**. Cette double expérience — le marketing pharma vécu de l'intérieur **et** la rigueur réglementaire — m'a exposé aux processus de validation de contenu, aux contraintes opérationnelles et aux enjeux des équipes marketing pharma. Ce n'est pas une expertise acquise en lisant des articles — c'est une compréhension de l'intérieur.
-
-### Proposez-vous des audits en anglais pour des clients anglophones ?
-
-Oui. Je livre tous mes rapports et stratégies en français ou en anglais selon la préférence du client. Les articles de blog sont produits dans les deux langues (bilingue FR/EN) avec des versions optimisées pour les requêtes spécifiques à chaque marché.
-
-### Comment se déroule la première prise de contact ?
-
-[Contactez-moi via le formulaire](/#contact) ou directement à [soulimane@seopharmamontreal.com](mailto:soulimane@seopharmamontreal.com). Je réponds sous 24h ouvrables. On commence par un appel de 30 minutes (sans engagement) pour cerner votre situation actuelle, vos objectifs et voir si une collaboration fait sens.
-
-### Pouvez-vous travailler sous NDA ?
-
-Oui. Je signe un accord de confidentialité dès la phase d'audit si votre organisation l'exige. C'est une pratique standard dans l'industrie pharmaceutique et je l'applique sans friction.
 
 ---
 

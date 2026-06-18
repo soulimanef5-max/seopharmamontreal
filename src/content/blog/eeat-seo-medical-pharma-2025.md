@@ -118,4 +118,4 @@ Les PME pharma qui comprennent cela et adaptent leur stratégie de contenu en co
 
 ---
 
-*Vous souhaitez évaluer où en est votre site par rapport aux critères E-E-A-T ? [Demandez un audit SEO gratuit](/#contact) — je vous transmets une analyse préliminaire sous 24h.*
+*Vous souhaitez évaluer où en est votre site par rapport aux critères E-E-A-T ? [Demandez une analyse préliminaire gratuite](/#contact) — je vous transmets une analyse sous 24h.*

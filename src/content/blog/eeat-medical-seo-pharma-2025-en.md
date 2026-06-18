@@ -118,4 +118,4 @@ Pharma SMEs that understand this and adapt their content strategy accordingly fi
 
 ---
 
-*Want to evaluate where your site stands on E-E-A-T criteria? [Request a free SEO audit](/en/#contact) — I'll send you a preliminary analysis within 24h.*
+*Want to evaluate where your site stands on E-E-A-T criteria? [Request a free preliminary analysis](/en/#contact) — I'll send it to you within 24h.*
