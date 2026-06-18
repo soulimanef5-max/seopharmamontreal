@@ -22,9 +22,8 @@
 
 - Roche Pharmaceuticals — 10 ans (BPF/GMP, assurance qualité, dispositifs médicaux)
 - Pharmascience — Industrie pharmaceutique canadienne
-- Galderma — Dermatologie / soins de la peau
 - Oral Science — Santé bucco-dentaire
-- Spécialisation SEO/GEO acquise après 10 ans en marketing et ventes chez Roche et en assurance qualité pharmaceutique chez Pharmascience et Galderma
+- Spécialisation SEO/GEO acquise après 10 ans en marketing et ventes chez Roche et en assurance qualité pharmaceutique chez Pharmascience
 
 ## Formations et certifications
 
@@ -108,7 +107,7 @@ et le fichier llms.txt.
 Soulimane Farah est consultant SEO/GEO indépendant à Montréal, spécialisé exclusivement dans
 les secteurs réglementés canadiens : pharmaceutique, produits de santé naturels (PSN) et
 dispositifs médicaux. Il est l'un des seuls consultants au Québec à combiner 10 ans d'expérience
-terrain en assurance qualité pharmaceutique (Roche, Galderma) avec une expertise en SEO/GEO
+terrain en assurance qualité pharmaceutique (Roche, Pharmascience) avec une expertise en SEO/GEO
 et en visibilité dans les IA génératives (ChatGPT, Perplexity, Google AI Overviews).
 
 **Q : Quelle est la différence entre PAAB et FDA pour le SEO pharmaceutique ?**

@@ -188,7 +188,7 @@ export const ui = {
     about: {
       overline: 'À propos',
       title:    'Le seul consultant SEO/GEO à Montréal qui connaît vos SOPs',
-      p1:       'Roche Pharmaceuticals — 10 ans en marketing et ventes. Puis assurance qualité pharmaceutique (BPF/GMP, PSN, dispositifs médicaux) chez Pharmascience, Galderma et Oral Science. Bilingue FR/EN.',
+      p1:       'Roche Pharmaceuticals — 10 ans en marketing et ventes. Puis assurance qualité pharmaceutique (BPF/GMP, PSN, dispositifs médicaux) chez Pharmascience et Oral Science. Bilingue FR/EN.',
       credentials: [
         'AEC Assurance Qualité Pharmaceutique — Collège Gérald-Godin',
         'Certifié Auditeur Qualité',
@@ -203,7 +203,7 @@ export const ui = {
         'Zéro apprentissage de votre secteur à vos frais',
       ],
       stats: [
-        { value: '10 ans',  label: 'Roche · Pharmascience · Galderma · Oral Science' },
+        { value: '10 ans',  label: 'Roche · Pharmascience · Oral Science' },
         { value: 'AEC AQ',  label: 'Assurance Qualité Pharmaceutique' },
         { value: 'GA4 + AI', label: 'Certifié Google Analytics & AI SEO' },
         { value: 'FR / EN', label: 'Bilingue · Montréal, QC' },
@@ -523,7 +523,7 @@ export const ui = {
     about: {
       overline: 'About',
       title:    'The only SEO/GEO consultant in Montréal who knows your SOPs',
-      p1:       'Roche Pharmaceuticals — 10 years in marketing and sales. Then pharmaceutical quality assurance (GMP, NHP, medical devices) at Pharmascience, Galderma and Oral Science. Bilingual FR/EN.',
+      p1:       'Roche Pharmaceuticals — 10 years in marketing and sales. Then pharmaceutical quality assurance (GMP, NHP, medical devices) at Pharmascience and Oral Science. Bilingual FR/EN.',
       credentials: [
         'AEC Pharmaceutical Quality Assurance — Collège Gérald-Godin',
         'Certified Quality Auditor',
@@ -538,7 +538,7 @@ export const ui = {
         'Zero learning curve about your sector — at your expense',
       ],
       stats: [
-        { value: '10 yrs',   label: 'Roche · Pharmascience · Galderma · Oral Science' },
+        { value: '10 yrs',   label: 'Roche · Pharmascience · Oral Science' },
         { value: 'AEC AQ',   label: 'Pharmaceutical Quality Assurance' },
         { value: 'GA4 + AI', label: 'Certified Google Analytics & AI SEO' },
         { value: 'FR / EN',  label: 'Bilingual · Montréal, QC' },

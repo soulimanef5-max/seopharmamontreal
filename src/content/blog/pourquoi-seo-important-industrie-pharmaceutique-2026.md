@@ -25,7 +25,7 @@ La publicité directe aux consommateurs (DTC) des médicaments d'ordonnance au p
 
 Conséquence concrète : **la recherche organique devient le canal d'acquisition numérique le plus stratégique — et souvent le seul durable** — pour les entreprises pharmaceutiques et de santé qui opèrent au Canada. Voilà la vraie raison pour laquelle le SEO compte ici, et c'est une raison que la plupart des agences généralistes ne mentionnent jamais.
 
-Après dix ans en marketing et ventes pharmaceutiques chez Roche, puis des postes en assurance qualité chez Pharmascience et Galderma, j'ai vu cette contrainte façonner la manière dont les marques pharma canadiennes se font réellement trouver. Voici ce que cela implique en pratique.
+Après dix ans en marketing et ventes pharmaceutiques chez Roche, puis des postes en assurance qualité chez Pharmascience, j'ai vu cette contrainte façonner la manière dont les marques pharma canadiennes se font réellement trouver. Voici ce que cela implique en pratique.
 
 ---
 

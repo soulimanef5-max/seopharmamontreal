@@ -22,7 +22,7 @@ If you run digital marketing for a pharmaceutical or biotech brand in the United
 
 Canada looks familiar. Same language (mostly), similar search behaviour, Google dominance. That surface similarity is exactly the trap. The rules governing what you can say about a drug — and therefore what you can *publish, optimize and rank* — are fundamentally different north of the border.
 
-I've spent ten years inside pharma marketing and sales at Roche, then in pharmaceutical quality assurance at Pharmascience and Galderma. I've watched foreign brands arrive in Canada with a US content strategy and walk straight into avoidable problems. This article maps what actually changes — and why organic search, not paid, is your real entry lever.
+I've spent ten years inside pharma marketing and sales at Roche, then in pharmaceutical quality assurance at Pharmascience. I've watched foreign brands arrive in Canada with a US content strategy and walk straight into avoidable problems. This article maps what actually changes — and why organic search, not paid, is your real entry lever.
 
 ---
 
