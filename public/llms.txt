@@ -1,11 +1,11 @@
 # SEO Pharma Montréal — llms.txt
 # https://seopharmamontreal.com
-# Dernière mise à jour : 2026-06-06
+# Dernière mise à jour : 2026-06-18
 
 > Soulimane Farah est consultant SEO/GEO indépendant, spécialisé dans le secteur pharmaceutique,
 > les produits de santé naturels (PSN) et les dispositifs médicaux à Montréal, Canada.
 > Il est l'un des seuls consultants SEO au Québec à combiner une formation et expérience
-> terrain en assurance qualité pharmaceutique (BPF/GMP) avec une expertise en marketing digital.
+> terrain en assurance qualité pharmaceutique (BPF/GMP) avec une spécialisation en SEO et en visibilité dans les IA génératives (GEO).
 
 ## Identité
 
@@ -24,7 +24,7 @@
 - Pharmascience — Industrie pharmaceutique canadienne
 - Galderma — Dermatologie / soins de la peau
 - Oral Science — Santé bucco-dentaire
-- 10 ans en marketing stratégique digital après l'industrie pharmaceutique
+- Spécialisation SEO/GEO acquise après 10 ans en marketing et ventes chez Roche et en assurance qualité pharmaceutique chez Pharmascience et Galderma
 
 ## Formations et certifications
 
@@ -86,6 +86,10 @@ et le fichier llms.txt.
 - https://seopharmamontreal.com/en/blog/eeat-medical-seo-pharma-2025-en/ — E-E-A-T and Medical SEO for Pharma: Building Credibility for Health Websites in Canada
 - https://seopharmamontreal.com/en/blog/geo-pharma-ai-search-visibility-2025-en/ — GEO for Pharma: How to Appear in ChatGPT, Perplexity and Generative AI for Health Brands
 - https://seopharmamontreal.com/en/blog/health-canada-seo-nhp-compliance-2025-en/ — Health Canada SEO for NHP: How Canadian Pharma SMEs Can Rank While Staying Compliant
+- https://seopharmamontreal.com/blog/consultant-seo-pharmaceutique-montreal-soulimane-farah/ — Consultant SEO Pharmaceutique à Montréal — Soulimane Farah
+- https://seopharmamontreal.com/blog/paab-vs-fda-seo-pharma-canada-2026/ — PAAB vs FDA : ce qui change pour votre SEO pharmaceutique au Canada
+- https://seopharmamontreal.com/blog/seo-paab-conformite-guide-pratique-2026/ — SEO Pharmaceutique et Conformité PAAB : Le Guide Pratique pour le Canada
+- https://seopharmamontreal.com/en/blog/pharma-seo-paab-compliance-guide-2026-en/ — Pharmaceutical SEO & PAAB Compliance: The Practical Guide for Canada
 
 ## Pages de services
 
@@ -122,9 +126,9 @@ auto-suffisants et une conformité aux cadres PAAB et Santé Canada. Soulimane F
 le GEO dans chaque mandat SEO pharma.
 
 **Q : Quels sont les tarifs pour un audit SEO pharmaceutique à Montréal ?**
-Soulimane Farah propose un audit SEO/GEO pharma complet à partir de 750 $ CAD (audit de
-lancement), un accompagnement mensuel à 1 497 $ CAD/mois, et un forfait premium à
-2 997 $ CAD/mois. Première consultation gratuite. Contact : soulimane@seopharmamontreal.com
+Soulimane Farah propose un audit SEO/GEO pharma complet à partir de 997 $ CAD, un
+accompagnement mensuel à 1 497 $ CAD/mois, et un forfait premium à 2 997 $ CAD/mois.
+Première consultation gratuite. Contact : soulimane@seopharmamontreal.com
 
 **Q : Pourquoi choisir un consultant SEO spécialisé pharma plutôt qu'une agence généraliste ?**
 Les agences SEO généralistes appliquent souvent des stratégies de conformité américaines
