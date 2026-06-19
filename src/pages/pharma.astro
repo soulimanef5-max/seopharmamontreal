@@ -1,0 +1,125 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Booking from '../components/Booking.astro';
+import ContactCTA from '../components/ContactCTA.astro';
+import Footer from '../components/Footer.astro';
+
+const lang = 'fr';
+const title = 'SEO/GEO Pharmaceutique conforme PAAB | Montréal';
+const description = "SEO et GEO pour la pharma au Canada : la recherche organique et les réponses d'IA sont votre seul canal d'acquisition légal. Conforme PAAB et Santé Canada, par un insider pharma.";
+---
+
+<Layout lang={lang} title={title} description={description} suppressHreflang={true}>
+  <Navbar lang={lang} />
+
+  <main id="main-content">
+
+    <!-- HERO ─────────────────────────────────────────────────────────────── -->
+    <section class="relative overflow-hidden py-24 md:py-32" style="background: var(--color-primary);" aria-labelledby="ph-title">
+      <div class="absolute inset-0 pointer-events-none" style="background: radial-gradient(ellipse 65% 60% at 70% 30%, rgba(202,138,4,0.14) 0%, transparent 65%);" aria-hidden="true"></div>
+      <div class="container relative">
+        <div class="max-w-3xl">
+          <div class="badge-authority">PAAB · Santé Canada · Insider pharma</div>
+          <h1 id="ph-title" class="text-white mb-6" style="font-size: clamp(2rem, 5vw, 3.25rem); line-height: 1.1; letter-spacing: -0.03em;">
+            Le SEO/GEO pharma, conforme PAAB —<br /><span style="color: var(--color-cta);">par quelqu'un qui connaît vos SOPs.</span>
+          </h1>
+          <p class="mb-4" style="font-size: 0.9375rem; line-height: 1.65; color: rgba(255,255,255,0.55); font-style: italic;">
+            Service de conseil SEO/GEO dédié à l'industrie pharmaceutique canadienne, dirigé par Soulimane Farah : conformité PAAB et Santé Canada, contenu YMYL E-E-A-T, et visibilité dans les moteurs de réponse IA (ChatGPT, Perplexity, Google AI Overviews).
+          </p>
+          <p class="mb-10" style="font-size: clamp(1rem, 1.8vw, 1.125rem); line-height: 1.7; color: rgba(255,255,255,0.73);">
+            La pharma est le secteur le plus contraint du web. Au Canada, la publicité des médicaments d'ordonnance au grand public est <strong style="color: rgba(255,255,255,0.92);">restreinte par la loi</strong> — ce qui fait de la recherche organique et des réponses d'IA votre <strong style="color: rgba(255,255,255,0.92);">seul canal d'acquisition réellement légal</strong>. Encore faut-il y être présent sans enfreindre le PAAB. C'est exactement cette intersection que je maîtrise : 10 ans dans l'industrie (Roche, puis assurance qualité BPF) + SEO/GEO. Je ne découvre pas vos contraintes à vos frais — je les connais de l'intérieur.
+          </p>
+          <div class="flex flex-wrap gap-4 items-center">
+            <a href="#contact" class="btn btn-primary btn-xl">Analyse préliminaire gratuite (valeur 250 $)</a>
+            <a href="#douleurs" class="btn btn-ghost btn-xl">Les enjeux pharma</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ENCADRÉ FORT — GEO Rx ──────────────────────────────────────────────── -->
+    <section class="py-20 md:py-28" aria-labelledby="geo-rx-title">
+      <div class="container">
+        <div class="max-w-3xl mx-auto rounded-2xl p-8 md:p-10" style="background: var(--color-surface-alt); border: 1px solid var(--color-border);">
+          <h2 id="geo-rx-title" class="mb-4" style="font-size: clamp(1.4rem, 3vw, 1.875rem); color: var(--color-primary); line-height: 1.2;">
+            La pub Rx grand public est interdite. La recherche par IA est votre seule vitrine légale.
+          </h2>
+          <p class="m-0" style="font-size: 1.0625rem; line-height: 1.75; color: var(--color-text-muted);">
+            Quand un prescripteur ou un patient interroge ChatGPT, Perplexity ou Google AI sur une molécule, une indication, un parcours de soin — c'est là que se joue votre présence. Si vous n'y êtes pas cité, vous n'existez pas dans la décision. Et y apparaître exige un contenu à la fois <strong>conforme PAAB</strong> et <strong>structuré pour être extrait par les modèles</strong>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- LES DOULEURS PHARMA ────────────────────────────────────────────────── -->
+    <section id="douleurs" class="py-20 md:py-28" style="background: var(--color-surface-alt);" aria-labelledby="ph-pains-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="overline">Le défi pharma — différent du PSN</span>
+          <h2 class="section-title" id="ph-pains-title">Trois enjeux que seul un insider réglementaire résout</h2>
+        </div>
+        <div class="grid md:grid-cols-3 gap-6">
+          {[
+            { t: 'L\'organique et l\'IA sont votre seul canal légal — et vous y êtes invisible', d: 'La restriction de la pub Rx ne vous laisse que la recherche. Si votre contenu n\'est ni bien classé sur Google ni cité par les LLMs, votre molécule est absente au moment exact où l\'on décide.' },
+            { t: 'Une agence généraliste vous met en risque réglementaire', d: 'Un contenu qui promeut une indication non approuvée ou viole le code PAAB n\'est pas juste « mauvais SEO » — c\'est une infraction. La plupart des agences ignorent où passe la ligne. Moi, je la connais.' },
+            { t: 'Votre contenu doit passer la revue sans devenir illisible pour Google', d: 'Concilier exigences PAAB/médicales et structure E-E-A-T extractible par les IA est un métier d\'équilibriste. C\'est précisément le mien : conformité ET visibilité, pas l\'un au détriment de l\'autre.' },
+          ].map((p) => (
+            <article class="card-service">
+              <h3 class="mb-3" style="font-size: 1.0625rem; color: var(--color-primary);">{p.t}</h3>
+              <p class="m-0" style="font-size: 0.9375rem; line-height: 1.7; color: var(--color-text-muted);">{p.d}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- CE QUE JE FAIS POUR LA PHARMA ──────────────────────────────────────── -->
+    <section class="py-20 md:py-28" aria-labelledby="ph-do-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="overline">Mon intervention</span>
+          <h2 class="section-title" id="ph-do-title">Ce que je fais pour la pharma</h2>
+        </div>
+        <div class="max-w-3xl mx-auto">
+          <ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 1rem;">
+            {[
+              'Contenu conforme PAAB et structuré pour la citation par les IA (passages auto-suffisants, sources, entités nommées)',
+              'Architecture E-E-A-T / YMYL : auteurs identifiés, preuves, signaux de confiance réglementaires',
+              'Revue réglementaire intégrée au process éditorial (pas un add-on)',
+              'Visibilité LLM (ChatGPT, Perplexity, Claude, Gemini) + Google AI Overviews',
+            ].map((item) => (
+              <li class="flex items-start gap-3" style="font-size: 1.0625rem; line-height: 1.6; color: var(--color-text);">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--color-cta)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" class="shrink-0" style="margin-top: 3px;" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOUS-BLOC PONT (liens seulement) ───────────────────────────────────── -->
+    <section class="py-16 md:py-20" style="background: var(--color-surface-alt);" aria-labelledby="ph-bridge-title">
+      <div class="container">
+        <div class="max-w-3xl mx-auto">
+          <h2 id="ph-bridge-title" class="mb-3" style="font-size: clamp(1.3rem, 2.6vw, 1.625rem); color: var(--color-primary); line-height: 1.25;">
+            Vous opérez des deux côtés de la frontière ?
+          </h2>
+          <p class="mb-5" style="font-size: 1.0625rem; line-height: 1.75; color: var(--color-text-muted);">
+            Vous entrez sur le marché canadien depuis les US ou l'Europe ? La conformité change de cadre : <strong>PAAB (Canada) ≠ FDA (US)</strong>. J'ai écrit là-dessus :
+          </p>
+          <ul style="margin: 0; padding-left: 1.25rem; display: flex; flex-direction: column; gap: 0.75rem;">
+            <li><a href="/blog/paab-vs-fda-seo-pharma-canada-2026/" style="color: var(--color-cta); font-weight: 600;">PAAB vs FDA : ce qui change pour votre SEO pharmaceutique au Canada</a></li>
+            <li><a href="/blog/pourquoi-seo-important-industrie-pharmaceutique-2026/" style="color: var(--color-cta); font-weight: 600;">Pourquoi le SEO est important dans l'industrie pharmaceutique (vue canadienne)</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <Booking lang={lang} />
+    <ContactCTA lang={lang} />
+  </main>
+
+  <Footer lang={lang} />
+</Layout>

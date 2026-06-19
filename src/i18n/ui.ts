@@ -17,11 +17,11 @@ export const ui = {
 
     hero: {
       badge:    'Consultant SEO/GEO | Pharma · PSN · Dispositifs Médicaux | Montréal',
-      title1:   'Le consultant SEO/GEO',
-      title2:   'à Montréal qui connaît',
-      title3:   'vos SOPs',
-      subtitle: 'Stratégie SEO/GEO sur mesure pour PME pharma, PSN et dispositifs médicaux. Conforme E-E-A-T, YMYL et Santé Canada — visible sur Google ET les LLMs (ChatGPT, Perplexity, Claude).',
-      cta1:     'Obtenir une analyse gratuite',
+      title1:   'Trouvé sur Google.',
+      title2:   'Conforme à Santé Canada.',
+      title3:   'Cité par ChatGPT.',
+      subtitle: 'J\'aide les marques de santé réglementées — pharma, produits de santé naturels, dispositifs médicaux — à être trouvées sur Google et citées par les IA (ChatGPT, Perplexity, Claude). 10 ans dans l\'industrie, du marketing à l\'assurance qualité : je connais vos contraintes Santé Canada / PAAB de l\'intérieur.',
+      cta1:     'Analyse préliminaire gratuite (valeur 250 $)',
       cta2:     'Voir les services',
       proof1:   '150+ points d\'audit vérifiés',
       proof2:   'Réponse garantie sous 24h',
@@ -31,19 +31,19 @@ export const ui = {
     problem: {
       overline: 'Le défi que vous connaissez bien',
       title:    'Pourquoi votre site santé stagne — et comment y remédier',
-      lead:     'Le secteur pharma est l\'un des plus exigeants pour Google. Voici les trois obstacles rencontrés systématiquement par les PME pharmaceutiques.',
+      lead:     'Que vous vendiez des produits de santé naturels, des dispositifs médicaux ou des médicaments, trois obstacles reviennent systématiquement quand Google et les IA décident à qui accorder leur confiance.',
       pains: [
         {
-          title: 'Votre contenu santé est pénalisé',
-          body:  'Google applique ses critères YMYL (Your Money Your Life) avec une sévérité accrue au secteur médical. Sans expertise E-E-A-T démontrée, vos pages perdent en autorité — même avec un bon contenu.',
+          title: 'Invisible quand un client demande conseil à une IA',
+          body:  'Demandez à ChatGPT quel supplément ou produit de santé québécois acheter : ce sont des marques génériques qui sortent, rarement la vôtre. Vos clients délèguent ce choix à l\'IA — et l\'IA ne vous voit pas.',
         },
         {
-          title: 'Vous perdez face aux grandes chaînes',
-          body:  'Jean Coutu, Pharmaprix et les grandes enseignes dominent les résultats avec des budgets SEO massifs. Les PME pharma ont besoin d\'une stratégie locale et de niche pour s\'imposer durablement.',
+          title: '45 % des ventes PSN passent par l\'e-commerce — et votre trafic plafonne',
+          body:  'Chaque jour où vous êtes invisible sur les recherches d\'achat de votre catégorie, ce sont des ventes qui partent chez un concurrent mieux référencé. Le SEO n\'est pas un coût marketing : c\'est votre canal d\'acquisition le plus rentable.',
         },
         {
-          title: 'Votre présence GEO locale est invisible',
-          body:  'Le Pack 3 de Google Maps génère 44 % des clics locaux. Sans optimisation Google Business Profile et stratégie GEO, vos clients cibles à Montréal ne vous trouvent tout simplement pas.',
+          title: 'Votre meilleur atout — votre conformité — est invisible',
+          body:  'NPN, BPF, preuves scientifiques : vous les avez. Mais s\'ils ne sont pas structurés (schema, fiches produits, auteurs identifiés), ni Google ni les IA ne les lisent comme un signal de confiance. Votre crédibilité réglementaire reste enfermée.',
         },
       ],
     },
@@ -83,12 +83,12 @@ export const ui = {
         {
           tag:   'LLM / GEO',
           title: 'Visibilité LLM (GEO/LLMO)',
-          desc:  'Optimisation pour ChatGPT, Perplexity, Claude, Gemini. Structure extractible, FAQ schema, llms.txt.',
+          desc:  'Optimisation pour ChatGPT, Perplexity, Claude, Gemini. Structure extractible, FAQ schema, entités nommées.',
           features: [
             'Optimisation ChatGPT, Perplexity, Claude, Gemini',
             'Structure de contenu extractible',
             'FAQ schema markup (JSON-LD)',
-            'Création du fichier llms.txt',
+            'Passages extractibles & entités nommées',
             'Brand mentions & signaux d\'autorité LLM',
             'Rapport de visibilité LLM mensuel',
           ],
@@ -102,7 +102,7 @@ export const ui = {
       lead:     'Des chiffres sectoriels qui expliquent pourquoi une stratégie YMYL spécialisée fait toute la différence.',
       items: [
         { value: '150+', label: 'points contrôlés lors de chaque audit SEO technique' },
-        { value: '44 %', label: 'des clics locaux vont au Pack 3 Google Maps (source : Google)' },
+        { value: '45 %', label: 'des ventes de produits de santé naturels passent par l\'e-commerce — un canal piloté par le SEO' },
         { value: '3–6',  label: 'mois pour des résultats organiques significatifs et durables' },
         { value: '24h',  label: 'délai de réponse garanti pour chaque demande de client' },
       ],
@@ -160,7 +160,7 @@ export const ui = {
         },
         {
           q: 'Qu\'est-ce que le GEO (Generative Engine Optimization) ?',
-          a: 'Le GEO est l\'optimisation de la présence d\'une entreprise dans les réponses des intelligences artificielles génératives — ChatGPT, Perplexity, Google AI Overviews, Claude, Gemini. Contrairement au SEO traditionnel qui cible des liens cliquables dans Google, le GEO vise à être cité ou recommandé directement dans la réponse d\'un modèle de langage. En contexte pharma canadien, cela implique du contenu factuel structuré, des passages auto-suffisants, un fichier llms.txt et une conformité aux cadres PAAB et Santé Canada.',
+          a: 'Le GEO est l\'optimisation de la présence d\'une entreprise dans les réponses des intelligences artificielles génératives — ChatGPT, Perplexity, Google AI Overviews, Claude, Gemini. Contrairement au SEO traditionnel qui cible des liens cliquables dans Google, le GEO vise à être cité ou recommandé directement dans la réponse d\'un modèle de langage. En contexte pharma canadien, cela implique du contenu factuel structuré, des passages auto-suffisants et une conformité aux cadres PAAB et Santé Canada.',
         },
         {
           q: 'Comment Santé Canada affecte-t-il le SEO d\'un site pharmaceutique ?',
@@ -176,7 +176,7 @@ export const ui = {
         },
         {
           q: 'Comment une entreprise pharma peut-elle apparaître dans ChatGPT ou Perplexity ?',
-          a: 'Pour être cité par les LLMs (ChatGPT, Perplexity, Claude), votre contenu doit répondre à plusieurs critères : un auteur identifié avec des credentials vérifiables, des passages auto-suffisants qui répondent directement à une question, des données factuelles sourcées (numéros NPN, références réglementaires), une structure avec définitions, listes et tableaux, et un fichier llms.txt qui guide les modèles vers vos contenus clés. Les modèles de langage appliquent eux-mêmes un filtre YMYL : ils préfèrent citer des sources conformes aux cadres réglementaires comme Santé Canada ou le PAAB.',
+          a: 'Pour être cité par les LLMs (ChatGPT, Perplexity, Claude), votre contenu doit répondre à plusieurs critères : un auteur identifié avec des credentials vérifiables, des passages auto-suffisants qui répondent directement à une question, des données factuelles sourcées (numéros NPN, références réglementaires), une structure avec définitions, listes et tableaux. Les modèles de langage appliquent eux-mêmes un filtre YMYL : ils préfèrent citer des sources conformes aux cadres réglementaires comme Santé Canada ou le PAAB.',
         },
         {
           q: 'Pourquoi le E-E-A-T est-il plus strict pour les sites de santé ?',
@@ -305,7 +305,7 @@ export const ui = {
         ],
         message:     'Votre situation actuelle',
         messagePh:   'Décrivez brièvement votre défi SEO ou vos objectifs de visibilité...',
-        submit:      'Obtenir mon analyse gratuite',
+        submit:      'Analyse préliminaire gratuite (valeur 250 $)',
         privacy:     'Vos données sont confidentielles et ne seront jamais partagées.',
       },
     },
@@ -352,11 +352,11 @@ export const ui = {
 
     hero: {
       badge:    'SEO/GEO Consultant | Pharma · NHP · Medical Devices | Montréal',
-      title1:   'The SEO/GEO consultant',
-      title2:   'in Montréal who knows',
-      title3:   'your SOPs',
-      subtitle: 'Custom SEO/GEO strategy for pharma SMEs, NHPs and medical devices. E-E-A-T, YMYL and Health Canada compliant — visible on Google AND LLMs (ChatGPT, Perplexity, Claude).',
-      cta1:     'Get a Free Analysis',
+      title1:   'Found on Google.',
+      title2:   'Health Canada–compliant.',
+      title3:   'Cited by ChatGPT.',
+      subtitle: 'I help regulated health brands — pharma, natural health products, medical devices — get found on Google and cited by AI (ChatGPT, Perplexity, Claude). 10 years in the industry, from marketing to quality assurance: I know your Health Canada / PAAB constraints from the inside.',
+      cta1:     'Free preliminary analysis ($250 value)',
       cta2:     'View Services',
       proof1:   '150+ audit points verified',
       proof2:   '24h guaranteed response',
@@ -366,19 +366,19 @@ export const ui = {
     problem: {
       overline: 'A challenge you know well',
       title:    'Why your health website stagnates — and how to fix it',
-      lead:     'The pharma sector is one of the most demanding for Google. Here are the three obstacles consistently faced by pharmaceutical SMEs.',
+      lead:     'Whether you sell natural health products, medical devices or drugs, three obstacles come up again and again when Google and AI decide who to trust.',
       pains: [
         {
-          title: 'Your health content is penalized',
-          body:  'Google applies its YMYL (Your Money Your Life) criteria with heightened scrutiny in the medical sector. Without demonstrated E-E-A-T expertise, your pages lose authority — even with good content.',
+          title: 'Invisible when a customer asks an AI for advice',
+          body:  'Ask ChatGPT which Canadian supplement or health product to buy — generic brands come up, rarely yours. Your customers increasingly hand that decision to AI, and AI doesn\'t see you.',
         },
         {
-          title: 'You\'re losing to large pharmacy chains',
-          body:  'Jean Coutu, Pharmaprix and large chains dominate results with massive SEO budgets. Pharma SMEs need a local and niche strategy to establish lasting presence.',
+          title: '45% of NHP sales run through e-commerce — and your organic traffic has plateaued',
+          body:  'Every day you\'re invisible on the buying searches in your category, a sale goes to a better-ranked competitor. SEO isn\'t a marketing cost — it\'s your most profitable acquisition channel.',
         },
         {
-          title: 'Your local GEO presence is invisible',
-          body:  'Google Maps Pack 3 generates 44% of local clicks. Without Google Business Profile optimization and a GEO strategy, your target customers in Montréal simply can\'t find you.',
+          title: 'Your biggest asset — your compliance — is invisible',
+          body:  'NPN, GMP, scientific evidence: you have them. But unless they\'re structured (schema, product pages, named authors), neither Google nor AI reads them as a trust signal. Your regulatory credibility stays locked away.',
         },
       ],
     },
@@ -418,12 +418,12 @@ export const ui = {
         {
           tag:   'LLM / GEO',
           title: 'LLM Visibility (GEO/LLMO)',
-          desc:  'Optimization for ChatGPT, Perplexity, Claude, Gemini. Extractable structure, FAQ schema, llms.txt.',
+          desc:  'Optimization for ChatGPT, Perplexity, Claude, Gemini. Extractable structure, FAQ schema, named entities.',
           features: [
             'ChatGPT, Perplexity, Claude, Gemini optimization',
             'Extractable content structure',
             'FAQ schema markup (JSON-LD)',
-            'llms.txt file creation',
+            'Extractable passages & named entities',
             'Brand mentions & LLM authority signals',
             'Monthly LLM visibility report',
           ],
@@ -437,7 +437,7 @@ export const ui = {
       lead:     'Industry figures that explain why a specialized YMYL strategy makes all the difference.',
       items: [
         { value: '150+', label: 'points checked in every technical SEO audit' },
-        { value: '44%',  label: 'of local clicks go to Google Maps Pack 3 (source: Google)' },
+        { value: '45%',  label: 'of natural health product sales run through e-commerce — a channel driven by SEO' },
         { value: '3–6',  label: 'months to significant, lasting organic results' },
         { value: '24h',  label: 'guaranteed response time for every client request' },
       ],
@@ -495,7 +495,7 @@ export const ui = {
         },
         {
           q: 'What is GEO (Generative Engine Optimization)?',
-          a: 'GEO is the optimization of a company\'s presence in generative AI responses — ChatGPT, Perplexity, Google AI Overviews, Claude, Gemini. Unlike traditional SEO that targets clickable links in Google, GEO aims to be cited or recommended directly in a language model\'s response. In a Canadian pharma context, this requires factual structured content, self-sufficient passages, a llms.txt file, and compliance with PAAB and Health Canada frameworks.',
+          a: 'GEO is the optimization of a company\'s presence in generative AI responses — ChatGPT, Perplexity, Google AI Overviews, Claude, Gemini. Unlike traditional SEO that targets clickable links in Google, GEO aims to be cited or recommended directly in a language model\'s response. In a Canadian pharma context, this requires factual structured content, self-sufficient passages, and compliance with PAAB and Health Canada frameworks.',
         },
         {
           q: 'How does Health Canada regulation affect my website\'s SEO?',
@@ -511,7 +511,7 @@ export const ui = {
         },
         {
           q: 'How can a pharma company appear in ChatGPT or Perplexity responses?',
-          a: 'To be cited by LLMs (ChatGPT, Perplexity, Claude), your content must meet several criteria: an identified author with verifiable credentials, self-sufficient passages that directly answer a question, factual data with sources (NPN numbers, regulatory references), a structure with definitions, lists and tables, and a llms.txt file guiding models to your key content. Language models apply their own YMYL filter: they prefer to cite sources that comply with regulatory frameworks like Health Canada or PAAB.',
+          a: 'To be cited by LLMs (ChatGPT, Perplexity, Claude), your content must meet several criteria: an identified author with verifiable credentials, self-sufficient passages that directly answer a question, factual data with sources (NPN numbers, regulatory references), a structure with definitions, lists and tables. Language models apply their own YMYL filter: they prefer to cite sources that comply with regulatory frameworks like Health Canada or PAAB.',
         },
         {
           q: 'Why is E-E-A-T stricter for health websites?',
@@ -640,7 +640,7 @@ export const ui = {
         ],
         message:     'Your current situation',
         messagePh:   'Briefly describe your SEO challenge or visibility goals...',
-        submit:      'Get my free analysis',
+        submit:      'Free preliminary analysis ($250 value)',
         privacy:     'Your data is confidential and will never be shared.',
       },
     },
