@@ -1,0 +1,219 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import Pricing from '../../components/Pricing.astro';
+import Booking from '../../components/Booking.astro';
+import ContactCTA from '../../components/ContactCTA.astro';
+import Footer from '../../components/Footer.astro';
+
+const lang = 'en';
+const title = 'Natural Health Product (NHP) SEO Consultant — Canada';
+const description = "SEO/GEO for natural health product and supplement brands in Canada: e-commerce growth that stays compliant with the NHPR and Health Canada claims. Audit from CA$997.";
+
+const canonical = 'https://seopharmamontreal.com/en/seo-nhp/';
+const altCanonical = 'https://seopharmamontreal.com/seo-psn/';
+
+// ── Service + FAQ JSON-LD ──────────────────────────────────────────────────
+const serviceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  '@id': 'https://seopharmamontreal.com/en/seo-nhp/#service',
+  name: 'Natural Health Product SEO — NHPR & Health Canada compliance',
+  serviceType: 'Natural Health Product SEO Consulting',
+  provider: { '@type': 'Organization', '@id': 'https://seopharmamontreal.com/#business' },
+  areaServed: [
+    { '@type': 'City', name: 'Montréal' },
+    { '@type': 'City', name: 'Laval' },
+    { '@type': 'State', name: 'Québec' },
+    { '@type': 'Country', name: 'Canada' },
+  ],
+  description,
+  offers: {
+    '@type': 'Offer',
+    price: '997',
+    priceCurrency: 'CAD',
+    description: 'SEO + GEO growth audit for a natural health product brand',
+  },
+};
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Can SEO actually increase my natural health product sales?',
+      acceptedAnswer: { '@type': 'Answer', text: "Yes. Unlike prescription drugs, direct-to-consumer sales of natural health products (NHPs) are permitted in Canada. Google search is therefore a direct e-commerce acquisition channel: a shopper searching for \"probiotic for digestion\" or \"fish-oil-free omega-3\" can land on your product page and convert. Well-structured SEO captures that buying intent durably, without paying for every click." },
+    },
+    {
+      '@type': 'Question',
+      name: 'Are my health claims compliant on my website? (NHPR / NPN)',
+      acceptedAnswer: { '@type': 'Answer', text: "In Canada, a natural health product carries an NPN (Natural Product Number) and may only display claims authorized under the Natural Health Products Regulations and Ad Standards Canada. A non-compliant claim risks ad disapproval and regulatory exposure. I align your SEO content with the claims permitted for your NPN — growth and compliance, not one at the expense of the other." },
+    },
+    {
+      '@type': 'Question',
+      name: 'SEO or Google Ads for an NHP brand?',
+      acceptedAnswer: { '@type': 'Answer', text: "Health brands' Google Ads accounts are frequently disapproved or suspended for non-compliant claims. SEO sidesteps that risk: compliant educational content builds a durable asset that compounds over time, earns trust (E-E-A-T, a key YMYL signal) and becomes citable by AI engines. Both can coexist, but SEO/GEO is the most defensible foundation for an NHP." },
+    },
+    {
+      '@type': 'Question',
+      name: 'Do you work with sports nutrition and supplement brands?',
+      acceptedAnswer: { '@type': 'Answer', text: "Yes: vitamins, minerals, probiotics, omega-3, digestive health, sleep and sports nutrition. I focus on non-dermatological natural health products. I don't take skincare or cosmetic mandates, to avoid any conflict of interest." },
+    },
+    {
+      '@type': 'Question',
+      name: 'Do you optimize visibility in ChatGPT and Perplexity (GEO)?',
+      acceptedAnswer: { '@type': 'Answer', text: "Yes. GEO (Generative Engine Optimization) is built into every mandate: question/answer content structure, FAQ structured data and extractable factual passages, so your brand is cited in the answers of generative AI engines when a consumer researches an ingredient or a benefit." },
+    },
+  ],
+};
+---
+
+<Layout lang={lang} title={title} description={description} canonical={canonical} suppressHreflang={true}>
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="fr-CA" href={altCanonical} />
+    <link rel="alternate" hreflang="en-CA" href={canonical} />
+    <link rel="alternate" hreflang="x-default" href={altCanonical} />
+    <script type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <Navbar lang={lang} />
+
+  <main id="main-content">
+
+    <!-- HERO ─────────────────────────────────────────────────────────────── -->
+    <section class="relative overflow-hidden py-24 md:py-32" style="background: var(--color-primary);" aria-labelledby="nhp-title">
+      <div class="absolute inset-0 pointer-events-none" style="background: radial-gradient(ellipse 65% 60% at 70% 30%, rgba(202,138,4,0.14) 0%, transparent 65%);" aria-hidden="true"></div>
+      <div class="container relative">
+        <div class="max-w-3xl">
+          <div class="badge-authority">NHPR · NPN · E-commerce · GEO</div>
+          <h1 id="nhp-title" class="text-white mb-6" style="font-size: clamp(2.25rem, 5.5vw, 3.5rem); line-height: 1.08; letter-spacing: -0.03em;">
+            SEO for natural health product brands —<br /><span style="color: var(--color-cta);">sell more, stay compliant.</span>
+          </h1>
+          <p class="mb-4" style="font-size: 0.9375rem; line-height: 1.65; color: rgba(255,255,255,0.55); font-style: italic;">
+            SEO Pharma Montréal is an SEO/GEO consulting service for Canadian natural health product (NHP) brands, led by Soulimane Farah. Focus: e-commerce growth, compliance with the NHPR and Health Canada claims, and visibility in AI answer engines.
+          </p>
+          <p class="mb-10" style="font-size: clamp(1rem, 1.8vw, 1.125rem); line-height: 1.7; color: rgba(255,255,255,0.73);">
+            For an NHP, Google search is a <strong style="color: rgba(255,255,255,0.92);">direct sales channel</strong> — not just awareness. I help vitamin, probiotic, omega and sports-nutrition brands grow their e-commerce without crossing the line on permitted claims (<strong style="color: rgba(255,255,255,0.92);">NHPR</strong>, Health Canada, Ad Standards Canada).
+          </p>
+          <div class="flex flex-wrap gap-4 items-center">
+            <a href="#contact" class="btn btn-primary btn-xl">Free preliminary analysis ($250 value)</a>
+            <a href="#difference" class="btn btn-ghost btn-xl">The NHP difference</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY SEO BEATS GOOGLE ADS FOR NHPs ──────────────────────────────────── -->
+    <section id="difference" class="py-20 md:py-28" aria-labelledby="diff-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="overline">The right channel</span>
+          <h2 class="section-title" id="diff-title">Why SEO beats Google Ads for an NHP brand</h2>
+          <p class="section-lead">Health ads are fragile: an account can be suspended overnight over a claim deemed non-compliant. Compliant SEO builds a durable asset that you own.</p>
+        </div>
+        <div class="overflow-x-auto">
+          <table style="width:100%; border-collapse:collapse; font-size:0.95rem;">
+            <thead>
+              <tr style="border-bottom:2px solid var(--color-border);">
+                <th style="text-align:left; padding:1rem; color:var(--color-primary);">Criterion</th>
+                <th style="text-align:left; padding:1rem; color:var(--color-text-muted);">Health Google Ads</th>
+                <th style="text-align:left; padding:1rem; color:var(--color-cta);">Compliant SEO / GEO</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="border-bottom:1px solid var(--color-border);"><td style="padding:1rem; font-weight:600; color:var(--color-primary);">Health claims</td><td style="padding:1rem; color:var(--color-text-muted);">Ads often disapproved or suspended</td><td style="padding:1rem;">Durable, compliant educational content</td></tr>
+              <tr style="border-bottom:1px solid var(--color-border);"><td style="padding:1rem; font-weight:600; color:var(--color-primary);">Cost over time</td><td style="padding:1rem; color:var(--color-text-muted);">You pay for every click</td><td style="padding:1rem;">An asset that compounds</td></tr>
+              <tr style="border-bottom:1px solid var(--color-border);"><td style="padding:1rem; font-weight:600; color:var(--color-primary);">Trust (YMYL)</td><td style="padding:1rem; color:var(--color-text-muted);">Low</td><td style="padding:1rem;">E-E-A-T: author, sources, transparency</td></tr>
+              <tr><td style="padding:1rem; font-weight:600; color:var(--color-primary);">AI citations (ChatGPT, Perplexity)</td><td style="padding:1rem; color:var(--color-text-muted);">None</td><td style="padding:1rem;">Extractable factual passages</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="margin-top:1.5rem; font-size:0.95rem; color:var(--color-text-muted);">
+          → Go deeper: <a href="/en/blog/health-canada-seo-nhp-compliance-2025-en/" style="color:var(--color-cta); font-weight:600;">Health Canada & SEO: a guide for NHP and pharma companies</a>.
+        </p>
+      </div>
+    </section>
+
+    <!-- WHY ME vs GENERALIST AGENCY ────────────────────────────────────────── -->
+    <section class="py-20 md:py-28" style="background: var(--color-surface, #f8fafc);" aria-labelledby="why-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="overline">Health specialist vs generalist agency</span>
+          <h2 class="section-title" id="why-title">What a standard SEO agency misses about NHPs</h2>
+        </div>
+        <div class="overflow-x-auto">
+          <table style="width:100%; border-collapse:collapse; font-size:0.95rem;">
+            <thead>
+              <tr style="border-bottom:2px solid var(--color-border);">
+                <th style="text-align:left; padding:1rem; color:var(--color-primary);">Criterion</th>
+                <th style="text-align:left; padding:1rem; color:var(--color-text-muted);">Generalist agency</th>
+                <th style="text-align:left; padding:1rem; color:var(--color-cta);">SEO Pharma Montréal</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="border-bottom:1px solid var(--color-border);"><td style="padding:1rem; font-weight:600; color:var(--color-primary);">NHPR / NPN claims</td><td style="padding:1rem; color:var(--color-text-muted);">Unknown</td><td style="padding:1rem;">Aligned with what your NPN permits</td></tr>
+              <tr style="border-bottom:1px solid var(--color-border);"><td style="padding:1rem; font-weight:600; color:var(--color-primary);">Industry experience</td><td style="padding:1rem; color:var(--color-text-muted);">Occasional client</td><td style="padding:1rem;">Pharma insider (Roche, Pharmascience)</td></tr>
+              <tr style="border-bottom:1px solid var(--color-border);"><td style="padding:1rem; font-weight:600; color:var(--color-primary);">E-commerce SEO</td><td style="padding:1rem; color:var(--color-text-muted);">Generic</td><td style="padding:1rem;">Health product & category pages</td></tr>
+              <tr style="border-bottom:1px solid var(--color-border);"><td style="padding:1rem; font-weight:600; color:var(--color-primary);">AI visibility / GEO</td><td style="padding:1rem; color:var(--color-text-muted);">Rarely offered</td><td style="padding:1rem;">Built into every deliverable</td></tr>
+              <tr><td style="padding:1rem; font-weight:600; color:var(--color-primary);">Who you work with</td><td style="padding:1rem; color:var(--color-text-muted);">Account manager + junior</td><td style="padding:1rem;">The senior consultant, directly</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- NHP SERVICES ───────────────────────────────────────────────────────── -->
+    <section class="py-20 md:py-28" aria-labelledby="svc-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="overline">What's covered</span>
+          <h2 class="section-title" id="svc-title">SEO built for natural health products and supplements</h2>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {[
+            { t: 'E-commerce SEO', d: 'Product pages, category pages and site architecture optimized for buying intent.' },
+            { t: 'Claims compliance', d: 'Content aligned with permitted claims (NHPR, NPN, Ad Standards Canada).' },
+            { t: 'Educational content', d: 'Ingredients, benefits, health journeys: capture upstream search without over-promising.' },
+            { t: 'GEO / AI visibility', d: 'Get cited by ChatGPT, Perplexity and AI Overviews on your product categories.' },
+          ].map((s) => (
+            <article style="background:white; border:1px solid var(--color-border); border-radius:1rem; padding:1.75rem;">
+              <h3 style="font-size:1.0625rem; color:var(--color-primary); margin-bottom:0.5rem;">{s.t}</h3>
+              <p style="font-size:0.9rem; color:var(--color-text-muted); line-height:1.65; margin:0;">{s.d}</p>
+            </article>
+          ))}
+        </div>
+        <h3 style="margin-top:2rem; font-size:1.0625rem; color:var(--color-primary);">Categories served: probiotics, omega-3, vitamins and sports nutrition</h3>
+        <p style="margin-top:0.5rem; font-size:0.9rem; color:var(--color-text-muted);">
+          Also: minerals, digestive health, sleep. Skincare and cosmetics excluded.
+        </p>
+      </div>
+    </section>
+
+    <Pricing lang={lang} title="SEO/GEO Pricing — Flexible plans, no commitment" />
+
+    <!-- FAQ ────────────────────────────────────────────────────────────────── -->
+    <section class="py-20 md:py-28" style="background: var(--color-surface, #f8fafc);" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="overline">FAQ</span>
+          <h2 class="section-title" id="faq-title">Frequently asked questions</h2>
+        </div>
+        <div class="max-w-3xl mx-auto">
+          {faqSchema.mainEntity.map((q) => (
+            <details style="border-bottom:1px solid var(--color-border); padding:1.25rem 0;">
+              <summary style="font-weight:600; color:var(--color-primary); cursor:pointer; font-size:1.0625rem;">{q.name}</summary>
+              <p style="margin-top:0.75rem; color:var(--color-text-muted); line-height:1.7; font-size:0.95rem;">{q.acceptedAnswer.text}</p>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <Booking lang={lang} />
+    <ContactCTA lang={lang} />
+  </main>
+
+  <Footer lang={lang} />
+</Layout>

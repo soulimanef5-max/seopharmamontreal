@@ -17,6 +17,7 @@ const links = [
   { href: `${base}#rendez-vous`, label: t.nav.rdv, highlight: true },
   { href: lang === 'en' ? '/en/blog/' : '/blog/', label: t.nav.blog },
   ...(lang === 'fr' ? [{ href: '/pharma/', label: 'Pharma' }, { href: '/seo-psn/', label: 'PSN' }] : []),
+  ...(lang === 'en' ? [{ href: '/en/seo-nhp/', label: 'NHP' }] : []),
   { href: `${base}#contact`,     label: t.nav.contact   },
 ];
 ---

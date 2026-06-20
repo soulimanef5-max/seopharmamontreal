@@ -10,6 +10,9 @@ const lang = 'fr';
 const title = 'Consultant SEO produits de santé naturels (PSN) — Canada';
 const description = "SEO/GEO pour les produits de santé naturels et suppléments au Canada : croissance e-commerce conforme au RPSN et aux allégations Santé Canada. Audit dès 997 $.";
 
+const canonical = 'https://seopharmamontreal.com/seo-psn/';
+const altCanonical = 'https://seopharmamontreal.com/en/seo-nhp/';
+
 // ── Service + FAQ JSON-LD ──────────────────────────────────────────────────
 const serviceSchema = {
   '@context': 'https://schema.org',
@@ -66,8 +69,11 @@ const faqSchema = {
 };
 ---
 
-<Layout lang={lang} title={title} description={description} suppressHreflang={true}>
+<Layout lang={lang} title={title} description={description} canonical={canonical} suppressHreflang={true}>
   <Fragment slot="head">
+    <link rel="alternate" hreflang="fr-CA" href={canonical} />
+    <link rel="alternate" hreflang="en-CA" href={altCanonical} />
+    <link rel="alternate" hreflang="x-default" href={canonical} />
     <script type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
     <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
   </Fragment>
