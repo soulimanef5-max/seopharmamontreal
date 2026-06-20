@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Récap SEO — 20 juin 2026 — seopharmamontreal.com</title>
+<title>Récap SEO — 2026-06-20 — seopharmamontreal.com</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -15,20 +15,18 @@
   .brand-sub { font-size: 12px; color: var(--slate); margin-top: 3px; }
   .header-right { text-align: right; }
   .header-date { font-size: 12px; color: #64748b; margin-bottom: 8px; }
-  .score-wrap { display: flex; align-items: center; gap: 12px; justify-content: flex-end; }
-  .score-num { font-size: 48px; font-weight: 800; color: var(--slate); line-height: 1; }
-  .score-label { font-size: 12px; color: #64748b; margin-top: 4px; font-style: italic; }
+  .score-wrap { display: flex; align-items: center; gap: 12px; }
+  .score-num { font-size: 48px; font-weight: 800; color: var(--gold); line-height: 1; }
   .score-denom { font-size: 22px; font-weight: 400; color: var(--slate); }
-  .score-badge { color: #fff; font-weight: 700; font-size: 11px; padding: 3px 10px; border-radius: 4px; letter-spacing: 0.06em; text-transform: uppercase; background: #64748b; }
+  .score-badge { color: #fff; font-weight: 700; font-size: 11px; padding: 3px 10px; border-radius: 4px; letter-spacing: 0.06em; text-transform: uppercase; }
   .container { max-width: 920px; margin: 0 auto; padding: 28px 20px 0; }
   .card { background: var(--navy-card); border: 1px solid var(--navy-border); border-radius: 8px; padding: 22px 24px; margin-bottom: 20px; }
   .section-title { font-size: 13px; font-weight: 700; color: var(--gold); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 18px; }
   .kpi-row { display: flex; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; }
-  .kpi { flex: 1 1 140px; background: var(--navy-deep); border-radius: 6px; padding: 10px 14px; border-left-width: 3px; border-left-style: solid; }
+  .kpi { flex: 1 1 120px; background: var(--navy-deep); border-radius: 6px; padding: 10px 14px; border-left-width: 3px; border-left-style: solid; }
   .kpi-label { font-size: 11px; color: #64748b; margin-bottom: 4px; }
-  .kpi-val { font-size: 20px; font-weight: 800; }
-  .kpi-note { font-size: 10px; color: #64748b; margin-top: 2px; font-style: italic; }
-  .chart-wrap { position: relative; height: 220px; }
+  .kpi-val { font-size: 22px; font-weight: 800; }
+  .chart-wrap { position: relative; height: 270px; }
   table { width: 100%; border-collapse: collapse; font-size: 13px; }
   thead th { text-align: left; padding: 8px 10px; color: #64748b; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; border-bottom: 1px solid var(--navy-border); }
   tbody tr { border-bottom: 1px solid #0d1e38; }
@@ -37,187 +35,166 @@
   .ia-card { background: var(--navy-deep); border-radius: 6px; padding: 12px 16px; border-width: 1px; border-style: solid; }
   .ia-query { font-size: 12px; color: var(--slate); margin-bottom: 8px; line-height: 1.4; }
   .ia-statut { font-weight: 700; font-size: 13px; }
-  .ia-rank { font-size: 11px; color: var(--slate); margin-top: 4px; }
   .alerte { border-radius: 6px; padding: 10px 16px; font-size: 13px; border-left-width: 4px; border-left-style: solid; border-width: 1px; border-style: solid; margin-bottom: 10px; line-height: 1.5; }
-  .alerte-info { border-color: #1e3a5f; border-left-color: var(--blue); background: #0d1e38; color: var(--slate); }
-  .alerte-warn { border-color: #2d2000; border-left-color: #f59e0b; background: #1c1500; color: #fbbf24; }
   .reco { background: var(--navy-deep); border-radius: 6px; padding: 14px 18px; border-left-width: 4px; border-left-style: solid; display: flex; gap: 14px; align-items: flex-start; margin-bottom: 12px; }
   .prio-badge { font-weight: 800; font-size: 11px; padding: 3px 8px; border-radius: 4px; color: #fff; flex-shrink: 0; }
-  .prio-haute { background: var(--red); }
-  .prio-med { background: #f59e0b; }
   .reco-title { font-weight: 700; color: #fff; margin-bottom: 4px; font-size: 14px; }
   .reco-action { font-size: 13px; color: var(--slate); line-height: 1.5; }
-  .email-item { background: var(--navy-deep); border-radius: 6px; padding: 14px 18px; border-left: 3px solid; margin-bottom: 10px; }
-  .email-meta { font-size: 11px; color: #64748b; margin-bottom: 6px; }
-  .email-subject { font-weight: 700; color: #fff; margin-bottom: 8px; font-size: 14px; }
-  .email-bullets { font-size: 13px; color: var(--slate); line-height: 1.6; }
-  .email-bullets li { margin-left: 16px; margin-bottom: 4px; }
-  .email-prio { display: inline-block; font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 4px; margin-left: 8px; vertical-align: middle; }
-  .prio-h { background: #dc262633; color: #f87171; border: 1px solid #dc2626; }
-  .prio-m { background: #f59e0b33; color: #fbbf24; border: 1px solid #f59e0b; }
-  .prio-i { background: #1e3a5f; color: #93c5fd; border: 1px solid #3b82f6; }
   .footer { text-align: center; font-size: 11px; color: #334155; margin-top: 32px; }
-  .notice { background: #071828; border: 1px solid #1e3a5f; border-left: 3px solid var(--gold); border-radius: 6px; padding: 10px 16px; font-size: 12px; color: var(--slate); margin-bottom: 12px; line-height: 1.5; }
-  .tag-cite { background: #16a34a22; color: #4ade80; border: 1px solid #16a34a; border-radius: 4px; font-size: 11px; font-weight: 700; padding: 2px 7px; }
-  .tag-nc { background: #64748b22; color: #94a3b8; border: 1px solid #475569; border-radius: 4px; font-size: 11px; font-weight: 700; padding: 2px 7px; }
+  .email-card { background: var(--navy-deep); border-radius: 6px; padding: 14px 18px; margin-bottom: 12px; border-left: 3px solid var(--navy-border); }
+  .email-meta { font-size: 11px; color: #64748b; margin-bottom: 6px; }
+  .email-subject { font-weight: 700; font-size: 14px; color: #fff; margin-bottom: 8px; }
+  .email-bullets { font-size: 13px; color: var(--slate); line-height: 1.6; }
+  .prio-haute { background: #7f1d1d; border-left-color: var(--red) !important; }
+  .prio-info { background: #0f2240; border-left-color: var(--blue) !important; }
+  .na-overlay { display: flex; align-items: center; justify-content: center; height: 200px; color: #64748b; font-size: 14px; flex-direction: column; gap: 8px; }
 </style>
 </head>
 <body>
 
 <div class="header">
   <div>
-    <div class="brand">SEO<span>Pharma</span>Montréal</div>
-    <div class="brand-sub">seopharmamontreal.com · Consultant Soulimane Farah</div>
+    <div class="brand">SEO<span>Pharma</span> Montréal</div>
+    <div class="brand-sub">seopharmamontreal.com — Soulimane Farah</div>
   </div>
   <div class="header-right">
-    <div class="header-date">Récap quotidien — Vendredi 20 juin 2026</div>
+    <div class="header-date">Rapport du 20 juin 2026 · Généré automatiquement</div>
     <div class="score-wrap">
       <div>
-        <div style="font-size:13px;color:#64748b;font-weight:600;">SCORE DU JOUR</div>
-        <div style="font-size:32px;font-weight:800;color:#f59e0b;">N/A</div>
-        <div class="score-label">données GSC indisponibles</div>
+        <div style="font-size:13px;color:#64748b;margin-bottom:4px;">Score global</div>
+        <div style="font-size:18px;font-weight:800;color:#64748b;">N/A</div>
+        <div style="font-size:10px;color:#475569;margin-top:2px;">GSC indisponible</div>
       </div>
-      <span class="score-badge">Essai Supermetrics expiré</span>
+      <span class="score-badge" style="background:#475569;">GSC expiré</span>
     </div>
   </div>
 </div>
 
 <div class="container">
 
-  <!-- NOTICE CRITIQUE -->
-  <div class="notice">
-    ⚠️ <strong>Données GSC indisponibles</strong> — L'essai Supermetrics a expiré le 7 juin 2026. Les métriques Google Search Console (clics, impressions, CTR, position) ne peuvent pas être récupérées automatiquement. Le score global est donc marqué N/A. <strong>Action requise : renouveler l'abonnement Supermetrics</strong> pour rétablir la collecte automatique.
+  <!-- ALERTE CRITIQUE -->
+  <div class="alerte" style="background:#1c0a0a;border-left-color:#dc2626;border-color:#7f1d1d;">
+    🔴 <strong>Action requise :</strong> Le trial Supermetrics a expiré le 07/06/2026. Les données Google Search Console sont indisponibles ce jour. Renouvelez l'abonnement sur supermetrics.com/pricing pour restaurer le suivi GSC.
   </div>
 
-  <!-- KPIs GSC -->
+  <div class="alerte" style="background:#0a1f0a;border-left-color:#16a34a;border-color:#14532d;">
+    🟢 <strong>Excellente nouvelle :</strong> Score HubSpot Website Grader <strong>100/100</strong> — Performance, SEO, Mobile et Sécurité tous parfaits (30/30 chacun). Site techniquement impeccable.
+  </div>
+
+  <!-- STATS GSC -->
   <div class="card">
-    <div class="section-title">📈 Stats Google Search Console — Hier (19 juin 2026)</div>
-    <div class="notice" style="margin-bottom:16px;">Données GSC indisponibles — abonnement Supermetrics requis. Les KPIs ci-dessous ne peuvent pas être affichés ce jour.</div>
+    <div class="section-title">📈 Stats Google Search Console — 20 juin 2026</div>
     <div class="kpi-row">
-      <div class="kpi" style="border-color:#64748b;">
-        <div class="kpi-label">Clics (hier)</div>
-        <div class="kpi-val" style="color:#64748b;">—</div>
-        <div class="kpi-note">GSC indisponible</div>
+      <div class="kpi" style="border-left-color:#475569;">
+        <div class="kpi-label">Clics</div>
+        <div class="kpi-val" style="color:#64748b;font-size:14px;">N/A</div>
       </div>
-      <div class="kpi" style="border-color:#64748b;">
-        <div class="kpi-label">Impressions (hier)</div>
-        <div class="kpi-val" style="color:#64748b;">—</div>
-        <div class="kpi-note">GSC indisponible</div>
+      <div class="kpi" style="border-left-color:#475569;">
+        <div class="kpi-label">Impressions</div>
+        <div class="kpi-val" style="color:#64748b;font-size:14px;">N/A</div>
       </div>
-      <div class="kpi" style="border-color:#64748b;">
-        <div class="kpi-label">Position moy.</div>
-        <div class="kpi-val" style="color:#64748b;">—</div>
-        <div class="kpi-note">GSC indisponible</div>
-      </div>
-      <div class="kpi" style="border-color:#64748b;">
+      <div class="kpi" style="border-left-color:#475569;">
         <div class="kpi-label">CTR moyen</div>
-        <div class="kpi-val" style="color:#64748b;">—</div>
-        <div class="kpi-note">GSC indisponible</div>
+        <div class="kpi-val" style="color:#64748b;font-size:14px;">N/A</div>
+      </div>
+      <div class="kpi" style="border-left-color:#475569;">
+        <div class="kpi-label">Position moy.</div>
+        <div class="kpi-val" style="color:#64748b;font-size:14px;">N/A</div>
       </div>
     </div>
-    <div class="chart-wrap" style="display:flex;align-items:center;justify-content:center;">
-      <div style="text-align:center;color:#334155;">
-        <div style="font-size:32px;margin-bottom:8px;">📊</div>
-        <div style="font-size:13px;">Graphique 7 jours indisponible<br><span style="font-size:11px;color:#475569;">Renouveler Supermetrics pour activer le suivi automatique</span></div>
+    <div class="na-overlay">
+      <span style="font-size:32px;">📊</span>
+      <span>Données GSC indisponibles — Trial Supermetrics expiré le 07/06/2026</span>
+      <span style="font-size:12px;">Renouveler sur supermetrics.com/pricing pour réactiver le suivi</span>
+    </div>
+  </div>
+
+  <!-- CHART 7 JOURS -->
+  <div class="card">
+    <div class="section-title">📉 Évolution 7 jours — Clics & Impressions</div>
+    <div class="na-overlay">
+      <span style="font-size:32px;">📉</span>
+      <span>Graphique indisponible — Données GSC non accessibles</span>
+    </div>
+  </div>
+
+  <!-- VISIBILITÉ IA -->
+  <div class="card">
+    <div class="section-title">🤖 Visibilité IA — Citations Google (proxy)</div>
+    <p style="font-size:12px;color:#64748b;margin-bottom:16px;">Méthode : recherche Google via Apify RAG Web Browser (proxy des moteurs IA). Statut : présence dans le top 3 des résultats Google pour chaque requête cible.</p>
+    <div style="margin-bottom:16px;padding:10px 14px;background:var(--navy-deep);border-radius:6px;">
+      <span style="font-size:18px;font-weight:800;color:#16a34a;">5</span><span style="font-size:14px;color:#64748b;">/5 requêtes citées</span>
+      <span style="margin-left:16px;font-size:12px;background:#14532d;color:#4ade80;padding:2px 8px;border-radius:4px;">EXCELLENT</span>
+    </div>
+    <div class="ia-grid">
+      <div class="ia-card" style="border-color:#14532d;">
+        <div class="ia-query">consultant SEO pharmaceutique Montréal</div>
+        <div class="ia-statut" style="color:#4ade80;">✅ Cité</div>
+        <div style="font-size:11px;color:#64748b;margin-top:4px;">seopharmamontreal.com #1</div>
+      </div>
+      <div class="ia-card" style="border-color:#14532d;">
+        <div class="ia-query">SEO industrie pharmaceutique Canada</div>
+        <div class="ia-statut" style="color:#4ade80;">✅ Cité</div>
+        <div style="font-size:11px;color:#64748b;margin-top:4px;">seopharmamontreal.com #1 et #2</div>
+      </div>
+      <div class="ia-card" style="border-color:#14532d;">
+        <div class="ia-query">référencement naturel santé Québec</div>
+        <div class="ia-statut" style="color:#4ade80;">✅ Cité</div>
+        <div style="font-size:11px;color:#64748b;margin-top:4px;">seopharmamontreal.com #1 et #2</div>
+      </div>
+      <div class="ia-card" style="border-color:#14532d;">
+        <div class="ia-query">PAAB SEO conformité</div>
+        <div class="ia-statut" style="color:#4ade80;">✅ Cité</div>
+        <div style="font-size:11px;color:#64748b;margin-top:4px;">seopharmamontreal.com #1 et #2</div>
+      </div>
+      <div class="ia-card" style="border-color:#14532d;">
+        <div class="ia-query">pharma SEO consultant Montreal</div>
+        <div class="ia-statut" style="color:#4ade80;">✅ Cité</div>
+        <div style="font-size:11px;color:#64748b;margin-top:4px;">seopharmamontreal.com #1 et #2</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- EMAILS -->
+  <div class="card">
+    <div class="section-title">📬 Actualités &amp; tendances SEO — Emails 24h</div>
+    <p style="font-size:12px;color:#64748b;margin-bottom:16px;">2 emails pertinents identifiés dans les dernières 24h</p>
+
+    <div class="email-card prio-info">
+      <div class="email-meta">📩 neil@ubersuggest.com — 20 juin 2026, 19h31</div>
+      <div class="email-subject">Elevate Your SEO Game with Ubersuggest!</div>
+      <div style="margin-bottom:6px;"><span style="font-size:11px;background:#1e3a5f;color:#60a5fa;padding:2px 8px;border-radius:4px;">PRIORITÉ : Info</span></div>
+      <div class="email-bullets">
+        • Email commercial de Neil Patel / Ubersuggest — relance d'inscription non finalisée<br>
+        • Met en avant : keyword insights, site audit, backlink tracking, competitive analysis<br>
+        • Pertinence pharma : faible (outil généraliste, pas spécialisé santé/réglementaire)
+      </div>
+    </div>
+
+    <div class="email-card" style="border-left-color:#16a34a;background:#0a1f12;">
+      <div class="email-meta">📩 thehubspotteam@hubspot.com — 20 juin 2026, 00h24</div>
+      <div class="email-subject">Here's your website score, Soulimane 🙂 — Score : 100/100</div>
+      <div style="margin-bottom:6px;"><span style="font-size:11px;background:#14532d;color:#4ade80;padding:2px 8px;border-radius:4px;">PRIORITÉ : Haute</span></div>
+      <div class="email-bullets">
+        • HubSpot Website Grader attribue un score parfait 100/100 à seopharmamontreal.com<br>
+        • Détail : Performance 30/30 · SEO 30/30 · Mobile 30/30 · Sécurité 10/10<br>
+        • Pertinence pharma : haute — preuve sociale exploitable (vitesse, accessibilité, conformité technique)
       </div>
     </div>
   </div>
 
   <!-- ALERTES -->
   <div class="card">
-    <div class="section-title">🚨 Alertes automatiques</div>
-    <div class="alerte alerte-warn">
-      <strong>⚠️ Abonnement Supermetrics expiré</strong> — Sans données GSC, aucune alerte de régression de position ou de baisse d'impressions ne peut être générée automatiquement. Action requise avant la prochaine routine.
-    </div>
-    <div class="alerte alerte-info">
-      <strong>ℹ️ Aucune alerte de régression détectable</strong> — Les alertes rouge (perte > 5 positions) et jaune (impressions -20%) nécessitent les données GSC pour être calculées.
-    </div>
-  </div>
+    <div class="section-title">🚨 Alertes à traiter</div>
 
-  <!-- VISIBILITÉ IA -->
-  <div class="card">
-    <div class="section-title">🤖 Visibilité IA / GEO — 5 requêtes cibles (via Google Search)</div>
-    <div class="notice" style="margin-bottom:16px;">
-      <strong>Méthode :</strong> Vérification via l'outil Apify RAG Web Browser (recherche Google + scraping top résultats). Ces résultats confirment la visibilité sur Google pour ces requêtes — proxy fort de citabilité IA. Pour une vérification directe dans ChatGPT/Perplexity/Gemini, une validation manuelle complémentaire est recommandée.
+    <div class="alerte" style="background:#1c0a0a;border-left-color:#dc2626;border-color:#7f1d1d;">
+      🔴 <strong>CRITIQUE — Supermetrics expiré :</strong> Le suivi automatique GSC est coupé depuis le 07/06/2026 (13 jours sans données). Impossible de détecter des chutes de position ou de trafic. Renouveler immédiatement.
     </div>
-    <div class="ia-grid">
-      <div class="ia-card" style="border-color:#16a34a;">
-        <div class="ia-query">consultant SEO pharmaceutique Montréal</div>
-        <div><span class="tag-cite">VISIBLE</span></div>
-        <div class="ia-rank">seopharmamontreal.com — pos. #1 (EN) & #3 (FR)<br>Soulimane Farah LinkedIn — pos. #2</div>
-      </div>
-      <div class="ia-card" style="border-color:#16a34a;">
-        <div class="ia-query">SEO industrie pharmaceutique Canada</div>
-        <div><span class="tag-cite">VISIBLE</span></div>
-        <div class="ia-rank">seopharmamontreal.com — pos. #2 & #3<br>LinkedIn Soulimane Farah — pos. #1</div>
-      </div>
-      <div class="ia-card" style="border-color:#16a34a;">
-        <div class="ia-query">référencement naturel santé Québec</div>
-        <div><span class="tag-cite">VISIBLE</span></div>
-        <div class="ia-rank">seopharmamontreal.com — pos. #1, #2 & #3<br>Domination totale des résultats</div>
-      </div>
-      <div class="ia-card" style="border-color:#16a34a;">
-        <div class="ia-query">PAAB SEO conformité</div>
-        <div><span class="tag-cite">VISIBLE</span></div>
-        <div class="ia-rank">seopharmamontreal.com/blog — pos. #1<br>seopharmamontreal.com/blog — pos. #3</div>
-      </div>
-      <div class="ia-card" style="border-color:#16a34a;">
-        <div class="ia-query">pharma SEO consultant Montreal</div>
-        <div><span class="tag-cite">VISIBLE</span></div>
-        <div class="ia-rank">seopharmamontreal.com/en/ — pos. #1<br>seopharmamontreal.com/en/author — pos. #3</div>
-      </div>
+    <div class="alerte" style="background:#0a1f0a;border-left-color:#16a34a;border-color:#14532d;">
+      🟢 <strong>OPPORTUNITÉ — Score technique parfait :</strong> HubSpot Website Grader 100/100 est un signal fort. À exploiter dans les argumentaires commerciaux et le contenu "E-E-A-T".
     </div>
-    <div style="margin-top:14px;text-align:center;">
-      <span style="font-size:13px;color:#4ade80;font-weight:700;">✅ 5/5 requêtes — Présence Google confirmée sur toutes les cibles</span><br>
-      <span style="font-size:11px;color:#64748b;">Vérification directe LLM (ChatGPT/Perplexity/Gemini) recommandée pour confirmer les citations IA</span>
-    </div>
-  </div>
-
-  <!-- ACTUALITÉS GMAIL -->
-  <div class="card">
-    <div class="section-title">📧 Actualités & Tendances SEO — Dernières 24h</div>
-
-    <div class="email-item" style="border-color:#dc2626;">
-      <div class="email-meta">Search Engine Journal · 19 juin 2026 19:27</div>
-      <div class="email-subject">Google Research Shows How AI Spam Can Be Detected <span class="email-prio prio-h">HAUTE</span></div>
-      <ul class="email-bullets">
-        <li>Google Research montre que le spam IA se détecte mieux par <strong>identification des réseaux sources</strong> (origine des contenus générés) que par analyse contenu par contenu — méthode réseau vs. contenu seul.</li>
-        <li><strong>Bing lance AI Citation Share</strong> : nouvel outil de suivi des citations IA ; données fraîches montrent que les fichiers LLMS.txt sont ignorés par les LLMs.</li>
-        <li><strong>AI Mode génère un visiteur différent</strong> : les sites actuels ne sont pas conçus pour ces profils — recommandation de réviser les landing pages AI-referred dans les 30s.</li>
-        <li>Google et Microsoft soutiennent la spec <em>Agentic Resource Discovery</em> — coalition pour standardiser comment les agents IA trouvent et vérifient des outils en ligne.</li>
-      </ul>
-      <div style="margin-top:8px;font-size:11px;color:#f87171;">Pertinence pharma : GEO/IA · YMYL · Détection spam · Architecture contenu pour AI visitors</div>
-    </div>
-
-    <div class="email-item" style="border-color:#dc2626;">
-      <div class="email-meta">Semrush Newsletter · 19 juin 2026 10:38</div>
-      <div class="email-subject">The GEO reality check <span class="email-prio prio-h">HAUTE</span></div>
-      <ul class="email-bullets">
-        <li><strong>Les raccourcis GEO ne fonctionnent pas</strong> — Google pousse en arrière contre le content chunking artificiel et les mentions de marque forcées. Les fondamentaux SEO restent la base.</li>
-        <li><strong>Ghost citations : 62% des citations IA</strong> n'incluent pas le nom de marque — l'IA cite le contenu sans mentionner l'auteur ou le site source.</li>
-        <li>Requêtes courtes → <strong>30x–50x plus de mentions de marque</strong> que requêtes longues ; contenu comparatif → <strong>2,4x plus de mentions</strong> que contenu informationnel.</li>
-      </ul>
-      <div style="margin-top:8px;font-size:11px;color:#f87171;">Pertinence pharma : Critique pour la stratégie GEO — les contenus de comparaison (vs. agences générales) maximisent les citations IA avec nom de marque</div>
-    </div>
-
-    <div class="email-item" style="border-color:#3b82f6;">
-      <div class="email-meta">Search Engine Journal · 19 juin 2026 19:06</div>
-      <div class="email-subject">[Survey] Help Shape the State of SEO Report <span class="email-prio prio-m">Moyenne</span></div>
-      <ul class="email-bullets">
-        <li>6e rapport annuel State of SEO — enquête ouverte jusqu'au 23 juin 2026.</li>
-        <li>Questions sur : opportunités SEO 2026, défis liés à l'IA, mesure des résultats, workflows en évolution.</li>
-        <li>Compléter en ~6 min, chance de gagner un des 3 gift cards de 50 $.</li>
-      </ul>
-      <div style="margin-top:8px;font-size:11px;color:#93c5fd;">À faire avant le 23 juin si pertinent pour votre veille sectorielle</div>
-    </div>
-
-    <div class="email-item" style="border-color:#475569;">
-      <div class="email-meta">Neil Patel (Ubersuggest/AnswerThePublic) · 19 juin 2026 19:44</div>
-      <div class="email-subject">3 days left <span class="email-prio prio-i">Info</span></div>
-      <ul class="email-bullets">
-        <li>Email promotionnel — fin de l'offre Ubersuggest : crédits boostés et 4 mois gratuits expirent le 22 juin 2026.</li>
-        <li>Contenu purement commercial, pas d'information SEO editoriale.</li>
-      </ul>
+    <div class="alerte" style="background:#0f2240;border-left-color:#60a5fa;border-color:#1e3a5f;">
+      🔵 <strong>INFO — Visibilité IA maximale :</strong> 5/5 requêtes cibles retournent seopharmamontreal.com dans le top Google. Signal GEO positif — maintenir la cadence de publication de contenu.
     </div>
   </div>
 
@@ -225,42 +202,50 @@
   <div class="card">
     <div class="section-title">💡 Recommandations du jour</div>
 
-    <div class="reco" style="border-color:#dc2626;">
+    <div class="reco" style="border-left-color:#dc2626;">
+      <span class="prio-badge" style="background:#dc2626;">🔴 URGENT</span>
       <div>
-        <span class="prio-badge prio-haute">URGENT</span>
-      </div>
-      <div>
-        <div class="reco-title">Renouveler l'abonnement Supermetrics pour rétablir le suivi GSC</div>
-        <div class="reco-action">L'essai Supermetrics a expiré le 7 juin 2026. Sans abonnement actif, aucun KPI Google Search Console (clics, impressions, CTR, position, requêtes top) ne peut être collecté automatiquement. Cette routine quotidienne est aveugle sur les métriques de performance réelles. Renouveler dès aujourd'hui sur supermetrics.com/pricing — plan à partir de ~99€/mois pour GSC.</div>
+        <div class="reco-title">Renouveler l'abonnement Supermetrics (GSC)</div>
+        <div class="reco-action">13 jours sans données GSC = angle mort total sur le trafic organique. Aller sur supermetrics.com/pricing et choisir le plan incluant Google Search Console. Sans ça, impossible de détecter une perte de positions ou un problème d'indexation.</div>
       </div>
     </div>
 
-    <div class="reco" style="border-color:#f59e0b;">
+    <div class="reco" style="border-left-color:#c9a84c;">
+      <span class="prio-badge" style="background:#c9a84c;color:#0a1628;">🟡 MOYEN</span>
       <div>
-        <span class="prio-badge prio-med">PRIORITÉ</span>
-      </div>
-      <div>
-        <div class="reco-title">Lutter contre les "ghost citations" : injecter le nom de marque dans les passages extractibles</div>
-        <div class="reco-action">D'après Semrush (newsletter d'hier), 62% des citations IA n'incluent pas le nom de marque. Pour seopharmamontreal.com et Soulimane Farah, cela signifie que même si le contenu est cité par ChatGPT/Perplexity, l'attribution peut être absente. Action : réviser les passages en FAQ, introductions et conclusions des articles pour y inclure explicitement "Soulimane Farah, consultant SEO/GEO pharma à Montréal" comme entité nommée extractible.</div>
+        <div class="reco-title">Créer 1 page pilier GEO sur PAAB + conformité SEO</div>
+        <div class="reco-action">La requête "PAAB SEO conformité" est l'une des 5 où vous apparaissez, mais c'est une niche très spécifique avec peu de concurrents. Un guide complet "SEO pharma conforme PAAB" renforcerait votre autorité IA sur cette requête à haute valeur.</div>
       </div>
     </div>
 
-    <div class="reco" style="border-color:#60a5fa;">
+    <div class="reco" style="border-left-color:#60a5fa;">
+      <span class="prio-badge" style="background:#60a5fa;color:#0a1628;">🔵 INFO</span>
       <div>
-        <span class="prio-badge" style="background:#1d4ed8;">INFO</span>
-      </div>
-      <div>
-        <div class="reco-title">Vérifier manuellement les citations IA directes (ChatGPT, Perplexity, Gemini)</div>
-        <div class="reco-action">La vérification automatique via Apify confirme la visibilité sur Google (5/5 requêtes en top 3), mais ne simule pas directement les outputs LLM. Tester manuellement dans ChatGPT, Perplexity et Google AI Overviews : "consultant SEO pharmaceutique Montréal", "PAAB SEO conformité", "pharma SEO consultant Montreal". Documenter les réponses pour mesurer le delta Google vs. IA générative.</div>
+        <div class="reco-title">Publier le score HubSpot 100/100 comme preuve sociale</div>
+        <div class="reco-action">Ajouter un badge ou une section "Site audité 100/100" sur la page d'accueil et la page services. Dans le pharma, la crédibilité technique est un différenciateur clé. Peut aussi être mentionné dans les propositions commerciales.</div>
       </div>
     </div>
+  </div>
+
+  <!-- SOURCES -->
+  <div class="card">
+    <div class="section-title">📋 Sources consultées</div>
+    <table>
+      <thead><tr><th>Source</th><th>Statut</th><th>Note</th></tr></thead>
+      <tbody>
+        <tr><td>Gmail (dernières 24h)</td><td style="color:#4ade80;">✅ 2 emails analysés</td><td style="color:#64748b;">Neil Patel/Ubersuggest + HubSpot</td></tr>
+        <tr><td>Supermetrics GSC</td><td style="color:#f87171;">❌ Trial expiré</td><td style="color:#64748b;">Expiré le 07/06/2026</td></tr>
+        <tr><td>Apify RAG Web Browser</td><td style="color:#4ade80;">✅ 5/5 requêtes</td><td style="color:#64748b;">Proxy Google pour visibilité IA</td></tr>
+        <tr><td>HubSpot Website Grader</td><td style="color:#4ade80;">✅ Score 100/100</td><td style="color:#64748b;">Performance, SEO, Mobile, Sécurité</td></tr>
+      </tbody>
+    </table>
   </div>
 
   <div class="footer">
-    Rapport généré automatiquement le 20 juin 2026 à 00:10 UTC · seopharmamontreal.com · Agent SEO Recap<br>
-    Score global : N/A (données GSC indisponibles — essai Supermetrics expiré le 07/06/2026)
+    Récap SEO automatique · seopharmamontreal.com · Soulimane Farah · 20 juin 2026<br>
+    Généré par agent SEO · Données IA via Apify · GSC via Supermetrics (inactif)
   </div>
-</div>
 
+</div>
 </body>
 </html>
