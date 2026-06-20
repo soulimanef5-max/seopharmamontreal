@@ -160,4 +160,4 @@ Le SEO pour les PSN n'est pas simplement du référencement standard appliqué �
 
 Les marques qui maîtrisent ces trois dimensions construisent une visibilité organique durable — et une relation de confiance avec leurs clients qu'aucun budget publicitaire ne peut acheter.
 
-Vous avez une marque PSN et vous voulez évaluer votre potentiel SEO ? [Contactez-moi pour une analyse préliminaire gratuite](/#contact).
+Vous avez une marque PSN et vous voulez évaluer votre potentiel SEO ? Découvrez mon [accompagnement SEO dédié aux produits de santé naturels](/seo-psn/), ou [contactez-moi pour une analyse préliminaire gratuite](/#contact).

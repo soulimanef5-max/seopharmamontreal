@@ -2,8 +2,8 @@
 import type { Lang } from '../i18n/ui';
 import { useTranslations } from '../i18n/utils';
 
-interface Props { lang?: Lang }
-const { lang = 'fr' } = Astro.props;
+interface Props { lang?: Lang; title?: string }
+const { lang = 'fr', title } = Astro.props;
 const t = useTranslations(lang).pricing;
 ---
 
@@ -11,7 +11,7 @@ const t = useTranslations(lang).pricing;
   <div class="container">
     <div class="section-header">
       <span class="overline">{t.overline}</span>
-      <h2 class="section-title" id="pricing-title">{t.title}</h2>
+      <h2 class="section-title" id="pricing-title">{title ?? t.title}</h2>
       <p class="section-lead">{t.lead}</p>
     </div>
 

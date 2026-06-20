@@ -1,0 +1,213 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Pricing from '../components/Pricing.astro';
+import Booking from '../components/Booking.astro';
+import ContactCTA from '../components/ContactCTA.astro';
+import Footer from '../components/Footer.astro';
+
+const lang = 'fr';
+const title = 'Consultant SEO produits de santé naturels (PSN) — Canada';
+const description = "SEO/GEO pour les produits de santé naturels et suppléments au Canada : croissance e-commerce conforme au RPSN et aux allégations Santé Canada. Audit dès 997 $.";
+
+// ── Service + FAQ JSON-LD ──────────────────────────────────────────────────
+const serviceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  '@id': 'https://seopharmamontreal.com/seo-psn/#service',
+  name: 'SEO produits de santé naturels — Conformité RPSN & Santé Canada',
+  serviceType: 'Natural Health Product SEO Consulting',
+  provider: { '@type': 'Organization', '@id': 'https://seopharmamontreal.com/#business' },
+  areaServed: [
+    { '@type': 'City', name: 'Montréal' },
+    { '@type': 'City', name: 'Laval' },
+    { '@type': 'State', name: 'Québec' },
+    { '@type': 'Country', name: 'Canada' },
+  ],
+  description,
+  offers: {
+    '@type': 'Offer',
+    price: '997',
+    priceCurrency: 'CAD',
+    description: 'Audit de croissance SEO + GEO pour marque de produits de santé naturels',
+  },
+};
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Le SEO peut-il réellement augmenter mes ventes de produits de santé naturels ?',
+      acceptedAnswer: { '@type': 'Answer', text: "Oui. Contrairement aux médicaments d'ordonnance, la vente directe au consommateur de produits de santé naturels (PSN) est permise au Canada. La recherche Google est donc un canal d'acquisition et de vente e-commerce direct : un acheteur qui cherche « probiotique pour la digestion » ou « oméga-3 sans goût de poisson » peut atterrir sur votre fiche et convertir. Un SEO bien structuré capte cette intention d'achat de façon durable, sans payer chaque clic." },
+    },
+    {
+      '@type': 'Question',
+      name: 'Mes allégations santé sont-elles conformes sur mon site ? (RPSN / NPN)',
+      acceptedAnswer: { '@type': 'Answer', text: "Au Canada, un produit de santé naturel porte un NPN (numéro de produit naturel) et ne peut afficher que les allégations autorisées dans le cadre du Règlement sur les produits de santé naturels et des Normes canadiennes de la publicité. Une allégation non conforme expose au refus de publicité et à un risque réglementaire. J'aligne votre contenu SEO sur les allégations permises pour votre NPN — croissance et conformité, pas l'un au détriment de l'autre." },
+    },
+    {
+      '@type': 'Question',
+      name: 'SEO ou Google Ads pour une marque de PSN ?',
+      acceptedAnswer: { '@type': 'Answer', text: "Les comptes Google Ads des marques santé sont fréquemment refusés ou suspendus pour allégations non conformes. Le SEO contourne ce risque : un contenu éducatif conforme construit un actif durable qui compose dans le temps, gagne la confiance (E-E-A-T, signal clé en YMYL) et devient citable par les moteurs IA. Les deux peuvent coexister, mais le SEO/GEO est la fondation la plus défendable pour un PSN." },
+    },
+    {
+      '@type': 'Question',
+      name: 'Travaillez-vous les marques de nutrition sportive et de suppléments ?',
+      acceptedAnswer: { '@type': 'Answer', text: "Oui : vitamines, minéraux, probiotiques, oméga-3, santé digestive, sommeil et nutrition sportive. Je me concentre sur les produits de santé naturels non dermatologiques. Je n'accepte pas de mandats en soin de la peau ou cosmétique pour éviter tout conflit d'intérêts." },
+    },
+    {
+      '@type': 'Question',
+      name: 'Optimisez-vous la visibilité dans ChatGPT et Perplexity (GEO) ?',
+      acceptedAnswer: { '@type': 'Answer', text: "Oui. Le GEO (Generative Engine Optimization) est intégré à chaque mandat : contenu structuré en questions/réponses, données structurées FAQ et passages factuels extractibles, pour que votre marque soit citée dans les réponses des IA génératives quand un consommateur s'y renseigne sur un ingrédient ou un bénéfice." },
+    },
+  ],
+};
+---
+
+<Layout lang={lang} title={title} description={description} suppressHreflang={true}>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <Navbar lang={lang} />
+
+  <main id="main-content">
+
+    <!-- HERO ─────────────────────────────────────────────────────────────── -->
+    <section class="relative overflow-hidden py-24 md:py-32" style="background: var(--color-primary);" aria-labelledby="psn-title">
+      <div class="absolute inset-0 pointer-events-none" style="background: radial-gradient(ellipse 65% 60% at 70% 30%, rgba(202,138,4,0.14) 0%, transparent 65%);" aria-hidden="true"></div>
+      <div class="container relative">
+        <div class="max-w-3xl">
+          <div class="badge-authority">RPSN · NPN · E-commerce · GEO</div>
+          <h1 id="psn-title" class="text-white mb-6" style="font-size: clamp(2.25rem, 5.5vw, 3.5rem); line-height: 1.08; letter-spacing: -0.03em;">
+            SEO pour marques de produits de santé naturels —<br /><span style="color: var(--color-cta);">vendre plus, rester conforme.</span>
+          </h1>
+          <p class="mb-4" style="font-size: 0.9375rem; line-height: 1.65; color: rgba(255,255,255,0.55); font-style: italic;">
+            SEO Pharma Montréal est un service de conseil SEO/GEO pour les marques canadiennes de produits de santé naturels (PSN), dirigé par Soulimane Farah. Spécialisation : croissance e-commerce, conformité au RPSN et aux allégations de Santé Canada, et visibilité dans les moteurs de réponse IA.
+          </p>
+          <p class="mb-10" style="font-size: clamp(1rem, 1.8vw, 1.125rem); line-height: 1.7; color: rgba(255,255,255,0.73);">
+            Pour un PSN, la recherche Google est un <strong style="color: rgba(255,255,255,0.92);">canal de vente direct</strong> — pas seulement de la notoriété. J'aide les marques de vitamines, probiotiques, oméga et nutrition sportive à croître en e-commerce sans franchir la ligne des allégations permises (<strong style="color: rgba(255,255,255,0.92);">RPSN</strong>, Santé Canada, Normes canadiennes de la publicité).
+          </p>
+          <div class="flex flex-wrap gap-4 items-center">
+            <a href="#contact" class="btn btn-primary btn-xl">Analyse préliminaire gratuite (valeur 250 $)</a>
+            <a href="#difference" class="btn btn-ghost btn-xl">La différence PSN</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LE SEO BAT GOOGLE ADS POUR LES PSN ─────────────────────────────────── -->
+    <section id="difference" class="py-20 md:py-28" aria-labelledby="diff-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="overline">Le bon canal</span>
+          <h2 class="section-title" id="diff-title">Pourquoi le SEO bat Google Ads pour une marque PSN</h2>
+          <p class="section-lead">Les annonces santé sont fragiles : un compte peut être suspendu du jour au lendemain pour une allégation jugée non conforme. Le SEO conforme construit un actif durable que vous possédez.</p>
+        </div>
+        <div class="overflow-x-auto">
+          <table style="width:100%; border-collapse:collapse; font-size:0.95rem;">
+            <thead>
+              <tr style="border-bottom:2px solid var(--color-border);">
+                <th style="text-align:left; padding:1rem; color:var(--color-primary);">Critère</th>
+                <th style="text-align:left; padding:1rem; color:var(--color-text-muted);">Google Ads santé</th>
+                <th style="text-align:left; padding:1rem; color:var(--color-cta);">SEO / GEO conforme</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="border-bottom:1px solid var(--color-border);"><td style="padding:1rem; font-weight:600; color:var(--color-primary);">Allégations santé</td><td style="padding:1rem; color:var(--color-text-muted);">Annonces souvent refusées ou suspendues</td><td style="padding:1rem;">Contenu éducatif durable et conforme</td></tr>
+              <tr style="border-bottom:1px solid var(--color-border);"><td style="padding:1rem; font-weight:600; color:var(--color-primary);">Coût dans le temps</td><td style="padding:1rem; color:var(--color-text-muted);">Vous payez chaque clic</td><td style="padding:1rem;">Un actif qui compose</td></tr>
+              <tr style="border-bottom:1px solid var(--color-border);"><td style="padding:1rem; font-weight:600; color:var(--color-primary);">Confiance (YMYL)</td><td style="padding:1rem; color:var(--color-text-muted);">Faible</td><td style="padding:1rem;">E-E-A-T : auteur, sources, transparence</td></tr>
+              <tr><td style="padding:1rem; font-weight:600; color:var(--color-primary);">Citations IA (ChatGPT, Perplexity)</td><td style="padding:1rem; color:var(--color-text-muted);">Aucune</td><td style="padding:1rem;">Passages factuels extractibles</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="margin-top:1.5rem; font-size:0.95rem; color:var(--color-text-muted);">
+          → Pour approfondir : <a href="/blog/seo-produits-sante-naturels-psn-canada-2025/" style="color:var(--color-cta); font-weight:600;">le guide complet du SEO pour les PSN au Canada</a> et <a href="/blog/sante-canada-seo-pme-pharma-quebec-2025/" style="color:var(--color-cta); font-weight:600;">SEO et conformité Santé Canada</a>.
+        </p>
+      </div>
+    </section>
+
+    <!-- POURQUOI MOI vs AGENCE GÉNÉRALISTE ─────────────────────────────────── -->
+    <section class="py-20 md:py-28" style="background: var(--color-surface, #f8fafc);" aria-labelledby="why-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="overline">Spécialiste santé vs agence généraliste</span>
+          <h2 class="section-title" id="why-title">Ce qu'une agence SEO standard ignore sur les PSN</h2>
+        </div>
+        <div class="overflow-x-auto">
+          <table style="width:100%; border-collapse:collapse; font-size:0.95rem;">
+            <thead>
+              <tr style="border-bottom:2px solid var(--color-border);">
+                <th style="text-align:left; padding:1rem; color:var(--color-primary);">Critère</th>
+                <th style="text-align:left; padding:1rem; color:var(--color-text-muted);">Agence généraliste</th>
+                <th style="text-align:left; padding:1rem; color:var(--color-cta);">SEO Pharma Montréal</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="border-bottom:1px solid var(--color-border);"><td style="padding:1rem; font-weight:600; color:var(--color-primary);">Allégations RPSN / NPN</td><td style="padding:1rem; color:var(--color-text-muted);">Méconnues</td><td style="padding:1rem;">Alignées sur ce qui est permis pour votre NPN</td></tr>
+              <tr style="border-bottom:1px solid var(--color-border);"><td style="padding:1rem; font-weight:600; color:var(--color-primary);">Expérience dans l'industrie</td><td style="padding:1rem; color:var(--color-text-muted);">Client ponctuel</td><td style="padding:1rem;">Insider pharma (Roche, Pharmascience)</td></tr>
+              <tr style="border-bottom:1px solid var(--color-border);"><td style="padding:1rem; font-weight:600; color:var(--color-primary);">SEO e-commerce</td><td style="padding:1rem; color:var(--color-text-muted);">Générique</td><td style="padding:1rem;">Fiches produits & catégories santé</td></tr>
+              <tr style="border-bottom:1px solid var(--color-border);"><td style="padding:1rem; font-weight:600; color:var(--color-primary);">Visibilité IA / GEO</td><td style="padding:1rem; color:var(--color-text-muted);">Rarement proposée</td><td style="padding:1rem;">Intégrée à chaque livrable</td></tr>
+              <tr><td style="padding:1rem; font-weight:600; color:var(--color-primary);">Interlocuteur</td><td style="padding:1rem; color:var(--color-text-muted);">Account manager + junior</td><td style="padding:1rem;">Le consultant senior, directement</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES PSN ───────────────────────────────────────────────────────── -->
+    <section class="py-20 md:py-28" aria-labelledby="svc-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="overline">Domaines couverts</span>
+          <h2 class="section-title" id="svc-title">Un SEO pensé pour les produits de santé naturels et les suppléments</h2>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {[
+            { t: 'SEO e-commerce', d: 'Fiches produits, pages catégories et architecture de site optimisées pour l’intention d’achat.' },
+            { t: 'Conformité des allégations', d: 'Contenu aligné sur les allégations permises (RPSN, NPN, Normes canadiennes de la publicité).' },
+            { t: 'Contenu éducatif', d: 'Ingrédients, bénéfices, parcours santé : capter la recherche en amont sans sur-promesse.' },
+            { t: 'GEO / visibilité IA', d: 'Être cité par ChatGPT, Perplexity et les AI Overviews sur vos catégories de produits.' },
+          ].map((s) => (
+            <article style="background:white; border:1px solid var(--color-border); border-radius:1rem; padding:1.75rem;">
+              <h3 style="font-size:1.0625rem; color:var(--color-primary); margin-bottom:0.5rem;">{s.t}</h3>
+              <p style="font-size:0.9rem; color:var(--color-text-muted); line-height:1.65; margin:0;">{s.d}</p>
+            </article>
+          ))}
+        </div>
+        <h3 style="margin-top:2rem; font-size:1.0625rem; color:var(--color-primary);">Catégories servies : probiotiques, oméga-3, vitamines et nutrition sportive</h3>
+        <p style="margin-top:0.5rem; font-size:0.9rem; color:var(--color-text-muted);">
+          Aussi : minéraux, santé digestive, sommeil. Soin de la peau et cosmétique exclus.
+        </p>
+      </div>
+    </section>
+
+    <Pricing lang={lang} title="Tarifs SEO/GEO — Forfaits flexibles sans engagement" />
+
+    <!-- FAQ ────────────────────────────────────────────────────────────────── -->
+    <section class="py-20 md:py-28" style="background: var(--color-surface, #f8fafc);" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="overline">FAQ</span>
+          <h2 class="section-title" id="faq-title">Questions fréquentes</h2>
+        </div>
+        <div class="max-w-3xl mx-auto">
+          {faqSchema.mainEntity.map((q) => (
+            <details style="border-bottom:1px solid var(--color-border); padding:1.25rem 0;">
+              <summary style="font-weight:600; color:var(--color-primary); cursor:pointer; font-size:1.0625rem;">{q.name}</summary>
+              <p style="margin-top:0.75rem; color:var(--color-text-muted); line-height:1.7; font-size:0.95rem;">{q.acceptedAnswer.text}</p>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <Booking lang={lang} />
+    <ContactCTA lang={lang} />
+  </main>
+
+  <Footer lang={lang} />
+</Layout>
