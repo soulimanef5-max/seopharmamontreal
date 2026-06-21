@@ -1,6 +1,7 @@
 ---
 title: "Entering the Canadian Pharma Market? Your US SEO Playbook Is Now a Liability"
-description: "Expanding a US or EU pharma brand into Canada? The digital strategy that works at home becomes a compliance risk here. What changes under PAAB, Health Canada and Quebec's Law 25 — and why organic search is your real entry lever."
+seoTitle: "Canadian Pharma Market-Entry SEO: PAAB for US Brands"
+description: "Expanding a US/EU pharma brand into Canada? Your home SEO becomes a compliance risk under PAAB & Health Canada — why organic search is your entry lever."
 pubDate: 2026-06-13
 lang: en
 tags: ["market entry", "PAAB", "Health Canada", "pharma SEO", "Quebec", "compliance", "GEO"]

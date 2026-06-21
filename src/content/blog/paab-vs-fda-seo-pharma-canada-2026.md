@@ -1,6 +1,7 @@
 ---
 title: "PAAB vs FDA : ce qui change pour votre SEO pharmaceutique au Canada"
-description: "Vous opérez des deux côtés de la frontière ? Voici les différences concrètes entre la réglementation PAAB (Canada) et FDA (États-Unis) qui transforment votre stratégie SEO pharma."
+seoTitle: "PAAB vs FDA : ce qui change pour votre SEO pharma"
+description: "Vous opérez des deux côtés de la frontière ? Les différences concrètes entre PAAB (Canada) et FDA (USA) qui transforment votre stratégie SEO pharma."
 pubDate: 2026-06-04
 lang: fr
 tags: ["PAAB", "FDA", "conformité", "SEO pharma", "Canada", "États-Unis", "DTC"]
