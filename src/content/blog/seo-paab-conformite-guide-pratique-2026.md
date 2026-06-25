@@ -10,7 +10,7 @@ modDate: 2026-06-01
 translationSlug: "pharma-seo-paab-compliance-guide-2026-en"
 ---
 
-La recherche organique est le **seul canal d'acquisition numérique légal** pour les médicaments d'ordonnance au Canada. La publicité directe aux consommateurs (DTC) est interdite. Le référencement payant pour les Rx est sévèrement restreint. Résultat : le SEO devient stratégique — mais il doit se faire dans le cadre strict du [PAAB](https://www.paab.ca) et de [Santé Canada](https://www.canada.ca/fr/sante-canada.html).
+La recherche organique est le **seul canal d'acquisition numérique légal** pour les médicaments d'ordonnance au Canada. La publicité directe aux consommateurs (DTC) est [interdite](/blog/publicite-pharmaceutique-canada-2026/). Le référencement payant pour les Rx est sévèrement restreint. Résultat : le SEO devient stratégique — mais il doit se faire dans le cadre strict du [PAAB](https://www.paab.ca) et de [Santé Canada](https://www.canada.ca/fr/sante-canada.html).
 
 Ce guide ne répète pas les règles — il vous montre **comment les appliquer concrètement** à votre stratégie SEO, page par page.
 

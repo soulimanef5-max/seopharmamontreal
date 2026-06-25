@@ -2,10 +2,12 @@
 import type { Lang } from '../i18n/ui';
 import { useTranslations, getAlternateUrl } from '../i18n/utils';
 
-interface Props { lang?: Lang }
-const { lang = 'fr' } = Astro.props;
+interface Props { lang?: Lang; altUrl?: string }
+const { lang = 'fr', altUrl: altUrlProp } = Astro.props;
 const t = useTranslations(lang);
-const altUrl = getAlternateUrl(Astro.url);
+// Pages avec slugs FR/EN différents (ex. blog) passent l'URL du jumeau ;
+// sinon, swap de préfixe par défaut.
+const altUrl = altUrlProp ?? getAlternateUrl(Astro.url);
 const altLabel = lang === 'fr' ? 'EN' : 'FR';
 
 const base  = lang === 'en' ? '/en/' : '/';

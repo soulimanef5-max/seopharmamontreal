@@ -27,7 +27,7 @@ The federal body that governs the marketing, manufacturing and promotion of:
 - **Medical Devices** (Medical Devices Regulations — MDR)
 
 ### [PAAB (Pharmaceutical Advertising Advisory Board)](https://www.paab.ca)
-The self-regulatory body that reviews and accredits prescription drug advertising directed at healthcare professionals. Its code applies to digital promotional content, including websites.
+The self-regulatory body that reviews and accredits prescription drug advertising directed at healthcare professionals. Its code applies to digital promotional content, including websites. For the full picture of what you can and can't advertise, see our guide to [pharmaceutical advertising rules in Canada](/en/blog/pharmaceutical-advertising-rules-canada-2026-en/).
 
 ### [Advertising Standards Canada (ASC)](https://adstandards.ca)
 Governs consumer-directed advertising, including for NHPs and over-the-counter drugs.

@@ -51,6 +51,11 @@ const altLangCode   = lang === 'fr' ? 'en' : 'fr';
 const altBlogBase   = lang === 'fr' ? 'https://seopharmamontreal.com/en/blog/' : 'https://seopharmamontreal.com/blog/';
 const altCanonical  = translationSlug ? `${altBlogBase}${translationSlug}/` : null;
 
+// URL du sélecteur de langue (Navbar) : jumeau si dispo, sinon index blog de l'autre langue
+// (évite une 404 sur les articles aux slugs FR/EN différents ou sans jumeau).
+const altBlogBaseRel = lang === 'fr' ? '/en/blog/' : '/blog/';
+const navAltUrl = translationSlug ? `${altBlogBaseRel}${translationSlug}/` : altBlogBaseRel;
+
 // Slug extrait du pathname → /blog/mon-article/ → "mon-article"
 const slugFromPath  = Astro.url.pathname.split('/').filter(Boolean).pop() ?? 'home';
 const ogImageUrl    = `https://seopharmamontreal.com/og/${lang}/${slugFromPath}.png`;
@@ -152,7 +157,7 @@ const faqSchema = faq.length > 0 ? JSON.stringify({
     <script type="application/ld+json" set:html={breadcrumbSchema} />
     {faqSchema && <script type="application/ld+json" set:html={faqSchema} />}
   </Fragment>
-  <Navbar lang={lang} />
+  <Navbar lang={lang} altUrl={navAltUrl} />
   <main id="main-content">
     <!-- Fil d'Ariane (breadcrumb visible) -->
     <nav aria-label={lang === 'fr' ? 'Fil d\'ariane' : 'Breadcrumb'} class="py-3" style="background: var(--color-surface-alt); border-bottom: 1px solid var(--color-border);">

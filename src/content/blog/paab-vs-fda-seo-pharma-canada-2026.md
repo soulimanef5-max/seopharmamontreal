@@ -23,7 +23,7 @@ faq:
 
 Si votre entreprise pharmaceutique opère aux États-Unis et s'étend au Canada — ou l'inverse — vous ne pouvez pas simplement traduire votre site et republier. Le cadre réglementaire qui gouverne ce que vous pouvez écrire, indexer et optimiser change radicalement à la frontière.
 
-La différence la plus lourde de conséquences : aux États-Unis, la publicité directe aux consommateurs (DTC) de médicaments d'ordonnance est **légale**. Au Canada, elle est **interdite**. Cette seule distinction réécrit votre stratégie SEO de fond en comble.
+La différence la plus lourde de conséquences : aux États-Unis, la publicité directe aux consommateurs (DTC) de médicaments d'ordonnance est **légale**. Au Canada, elle est **interdite** (voir nos [règles de publicité de médicaments au Canada](/blog/publicite-pharmaceutique-canada-2026/)). Cette seule distinction réécrit votre stratégie SEO de fond en comble.
 
 Ce n'est pas un détail juridique réservé aux équipes réglementaires. C'est une contrainte qui détermine quelles pages vous pouvez publier, quels mots-clés vous pouvez cibler, et même quel contenu une intelligence artificielle a le droit de citer à votre place. Une équipe marketing qui traite le Canada comme un simple « marché traduit » des États-Unis produit, presque mécaniquement, du contenu non conforme — et le découvre souvent trop tard, après indexation. Comprendre la fracture PAAB / FDA en amont, c'est éviter de reconstruire toute une architecture de contenu sous la pression d'un avis de non-conformité.
 

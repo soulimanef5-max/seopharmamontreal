@@ -19,7 +19,7 @@ Résultat : des positions dominées par Amazon, iHerb et quelques grands distrib
 
 Les produits de santé naturels occupent une position unique dans le paysage réglementaire canadien — et dans la façon dont Google les évalue.
 
-**Côté réglementaire :** un PSN possède un [numéro de produit naturel (NPN)](https://health-products.canada.ca/lnhpd-bdpsnh/index-fra.jsp) ou un numéro de médicament homéopathique (DIN-HM) délivré par [Santé Canada](https://www.canada.ca/fr/sante-canada/services/medicaments-produits-sante/produits-sante-naturels.html). Ses allégations sont approuvées, ses ingrédients listés, ses conditions d'utilisation définies.
+**Côté réglementaire :** un PSN possède un [numéro de produit naturel (NPN)](https://health-products.canada.ca/lnhpd-bdpsnh/index-fra.jsp) ou un numéro de médicament homéopathique (DIN-HM) délivré par [Santé Canada](https://www.canada.ca/fr/sante-canada/services/medicaments-produits-sante/produits-sante-naturels.html). Ses allégations sont approuvées, ses ingrédients listés, ses conditions d'utilisation définies. Chaque allégation publiée doit respecter ces limites — voir nos [règles de publicité de médicaments et PSN au Canada](/blog/publicite-pharmaceutique-canada-2026/).
 
 **Côté Google :** les pages PSN sont classées YMYL (*Your Money or Your Life*). Elles sont évaluées avec des critères d'expertise, d'autorité et de fiabilité (E-E-A-T) bien plus stricts qu'une page de vêtements ou d'électronique.
 
