@@ -191,6 +191,8 @@ Je suis consultant SEO/GEO pharmaceutique basé à **Laval (Grand Montréal), Qu
 **Téléphone :** +1 438 920 6377
 **LinkedIn :** [Soulimane Farah](https://www.linkedin.com/in/soulimane-farah/)
 
+Vous voulez voir concrètement comment j'accompagne les entreprises pharma au Canada ? Découvrez [mon offre de SEO pharmaceutique conforme PAAB](/seo-pharma/).
+
 Vous avez une question précise sur votre situation ? [Écrivez-moi directement](/#contact) — je réponds à chaque message personnellement.
 
 ---

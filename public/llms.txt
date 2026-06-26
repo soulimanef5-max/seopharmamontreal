@@ -1,6 +1,6 @@
 # SEO Pharma Montréal — llms.txt
 # https://seopharmamontreal.com
-# Dernière mise à jour : 2026-06-18
+# Dernière mise à jour : 2026-06-23
 
 > Soulimane Farah est consultant SEO/GEO indépendant, spécialisé dans le secteur pharmaceutique,
 > les produits de santé naturels (PSN) et les dispositifs médicaux à Montréal, Canada.
@@ -11,10 +11,10 @@
 
 - Nom : Soulimane Farah
 - Titre : Consultant SEO/GEO | Pharma · PSN · Dispositifs Médicaux | Montréal
-- Site : https://seopharmamontreal.com
+- Site : [seopharmamontreal.com](https://seopharmamontreal.com)
 - Email : soulimane@seopharmamontreal.com
 - Téléphone : +1 438 920 6377
-- LinkedIn : https://www.linkedin.com/in/soulimanefarah/
+- LinkedIn : [linkedin.com/in/soulimanefarah](https://www.linkedin.com/in/soulimanefarah/)
 - Localisation : Montréal, Québec, Canada
 - Langues : Français, English
 
@@ -68,38 +68,38 @@ et le fichier llms.txt.
 
 ## Pages principales du site
 
-- Accueil (FR) : https://seopharmamontreal.com/
-- Accueil (EN) : https://seopharmamontreal.com/en/
-- Blog (FR) : https://seopharmamontreal.com/blog/
-- Blog (EN) : https://seopharmamontreal.com/en/blog/
+- [Accueil (FR)](https://seopharmamontreal.com/)
+- [Accueil (EN)](https://seopharmamontreal.com/en/)
+- [Blog (FR)](https://seopharmamontreal.com/blog/)
+- [Blog (EN)](https://seopharmamontreal.com/en/blog/)
 
 ## Articles de blog
 
-- https://seopharmamontreal.com/blog/eeat-seo-medical-pharma-2025/ — E-E-A-T et SEO médical pharma : pourquoi la crédibilité est essentielle pour les sites de santé au Canada
-- https://seopharmamontreal.com/blog/geo-pharma-chatgpt-perplexity-sante-2025/ — GEO pharma : comment apparaître dans ChatGPT, Perplexity et les IA génératives pour les marques de santé
-- https://seopharmamontreal.com/blog/sante-canada-seo-pme-pharma-quebec-2025/ — Santé Canada et SEO : comment les PME pharma québécoises peuvent se conformer et bien se classer
-- https://seopharmamontreal.com/blog/seo-pharmacies-independantes-quebec-2025/ — SEO pour pharmacies indépendantes au Québec : stratégies locales et contenu conforme
-- https://seopharmamontreal.com/blog/seo-produits-sante-naturels-psn-canada-2025/ — SEO pour produits de santé naturels (PSN) : visibilité en ligne dans un marché réglementé
-- https://seopharmamontreal.com/blog/seo-local-cliniques-professionnels-sante-montreal-2025/ — SEO local pour cliniques et professionnels de santé à Montréal : dominer le Pack Local Google
-- https://seopharmamontreal.com/blog/seo-dispositifs-medicaux-canada-2025/ — SEO pour dispositifs médicaux au Canada : conformité Santé Canada et visibilité numérique
-- https://seopharmamontreal.com/en/blog/eeat-medical-seo-pharma-2025-en/ — E-E-A-T and Medical SEO for Pharma: Building Credibility for Health Websites in Canada
-- https://seopharmamontreal.com/en/blog/geo-pharma-ai-search-visibility-2025-en/ — GEO for Pharma: How to Appear in ChatGPT, Perplexity and Generative AI for Health Brands
-- https://seopharmamontreal.com/en/blog/health-canada-seo-nhp-compliance-2025-en/ — Health Canada SEO for NHP: How Canadian Pharma SMEs Can Rank While Staying Compliant
-- https://seopharmamontreal.com/blog/consultant-seo-pharmaceutique-montreal-soulimane-farah/ — Consultant SEO Pharmaceutique à Montréal — Soulimane Farah
-- https://seopharmamontreal.com/blog/paab-vs-fda-seo-pharma-canada-2026/ — PAAB vs FDA : ce qui change pour votre SEO pharmaceutique au Canada
-- https://seopharmamontreal.com/blog/seo-paab-conformite-guide-pratique-2026/ — SEO Pharmaceutique et Conformité PAAB : Le Guide Pratique pour le Canada
-- https://seopharmamontreal.com/en/blog/pharma-seo-paab-compliance-guide-2026-en/ — Pharmaceutical SEO & PAAB Compliance: The Practical Guide for Canada
+- [E-E-A-T et SEO médical pharma : pourquoi la crédibilité est essentielle pour les sites de santé au Canada](https://seopharmamontreal.com/blog/eeat-seo-medical-pharma-2025/)
+- [GEO pharma : comment apparaître dans ChatGPT, Perplexity et les IA génératives pour les marques de santé](https://seopharmamontreal.com/blog/geo-pharma-chatgpt-perplexity-sante-2025/)
+- [Santé Canada et SEO : comment les PME pharma québécoises peuvent se conformer et bien se classer](https://seopharmamontreal.com/blog/sante-canada-seo-pme-pharma-quebec-2025/)
+- [SEO pour pharmacies indépendantes au Québec : stratégies locales et contenu conforme](https://seopharmamontreal.com/blog/seo-pharmacies-independantes-quebec-2025/)
+- [SEO pour produits de santé naturels (PSN) : visibilité en ligne dans un marché réglementé](https://seopharmamontreal.com/blog/seo-produits-sante-naturels-psn-canada-2025/)
+- [SEO local pour cliniques et professionnels de santé à Montréal : dominer le Pack Local Google](https://seopharmamontreal.com/blog/seo-local-cliniques-professionnels-sante-montreal-2025/)
+- [SEO pour dispositifs médicaux au Canada : conformité Santé Canada et visibilité numérique](https://seopharmamontreal.com/blog/seo-dispositifs-medicaux-canada-2025/)
+- [E-E-A-T and Medical SEO for Pharma: Building Credibility for Health Websites in Canada](https://seopharmamontreal.com/en/blog/eeat-medical-seo-pharma-2025-en/)
+- [GEO for Pharma: How to Appear in ChatGPT, Perplexity and Generative AI for Health Brands](https://seopharmamontreal.com/en/blog/geo-pharma-ai-search-visibility-2025-en/)
+- [Health Canada SEO for NHP: How Canadian Pharma SMEs Can Rank While Staying Compliant](https://seopharmamontreal.com/en/blog/health-canada-seo-nhp-compliance-2025-en/)
+- [Consultant SEO Pharmaceutique à Montréal — Soulimane Farah](https://seopharmamontreal.com/blog/consultant-seo-pharmaceutique-montreal-soulimane-farah/)
+- [PAAB vs FDA : ce qui change pour votre SEO pharmaceutique au Canada](https://seopharmamontreal.com/blog/paab-vs-fda-seo-pharma-canada-2026/)
+- [SEO Pharmaceutique et Conformité PAAB : Le Guide Pratique pour le Canada](https://seopharmamontreal.com/blog/seo-paab-conformite-guide-pratique-2026/)
+- [Pharmaceutical SEO & PAAB Compliance: The Practical Guide for Canada](https://seopharmamontreal.com/en/blog/pharma-seo-paab-compliance-guide-2026-en/)
 
 ## Pages de services
 
-- SEO Pharma (FR) : https://seopharmamontreal.com/seo-pharma/
-- SEO Pharma (EN) : https://seopharmamontreal.com/en/seo-pharma/
+- [SEO Pharma (FR)](https://seopharmamontreal.com/seo-pharma/)
+- [SEO Pharma (EN)](https://seopharmamontreal.com/en/seo-pharma/)
 
 ## Profils externes vérifiés
 
-- LinkedIn : https://www.linkedin.com/in/soulimanefarah/
-- Clutch : https://clutch.co/profile/seo-pharma-montr-al
-- Google Business : https://share.google/bcFz3bP5Wg1jXdP2A
+- [LinkedIn](https://www.linkedin.com/in/soulimanefarah/)
+- [Clutch](https://clutch.co/profile/seo-pharma-montr-al)
+- [Google Business](https://share.google/bcFz3bP5Wg1jXdP2A)
 
 ## Questions / Réponses — Faits citables directement
 
@@ -115,7 +115,7 @@ Au Canada, la publicité directe aux consommateurs (DTC) pour les médicaments d
 interdite sous le cadre réglementaire du PAAB (Pharmaceutical Advertising Advisory Board).
 Aux États-Unis, elle est légale sous supervision de la FDA. Une stratégie SEO pharma conçue
 pour le marché américain crée des violations réglementaires si elle est appliquée telle quelle
-au Canada. Source : https://www.paab.ca
+au Canada. Source : [paab.ca](https://www.paab.ca)
 
 **Q : Qu'est-ce que le GEO (Generative Engine Optimization) en contexte pharma ?**
 Le GEO est l'optimisation de la présence d'un site dans les réponses des IA génératives

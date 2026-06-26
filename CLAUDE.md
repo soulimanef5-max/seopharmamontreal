@@ -1,5 +1,7 @@
 # Principes de travail (agent)
 
+> Ces principes privilégient la prudence sur la vitesse. Pour une tâche triviale, utiliser son jugement plutôt que d'appliquer la procédure à la lettre.
+
 ## 1. Réfléchir avant de coder
 - Expliciter les hypothèses au lieu de choisir en silence entre plusieurs interprétations.
 - Si une demande est ambiguë (URL FR `/` vs `/fr/`, paire hreflang inexistante…), poser la question AVANT d'écrire.

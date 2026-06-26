@@ -9,7 +9,12 @@ const description = 'Terms of use for seopharmamontreal.com — rules of use, in
 const canonical = 'https://seopharmamontreal.com/en/terms/';
 ---
 
-<Layout lang={lang} title={title} description={description} canonical={canonical}>
+<Layout lang={lang} title={title} description={description} canonical={canonical} suppressHreflang={true}>
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="en-CA" href={canonical} />
+    <link rel="alternate" hreflang="fr-CA" href="https://seopharmamontreal.com/conditions/" />
+    <link rel="alternate" hreflang="x-default" href="https://seopharmamontreal.com/conditions/" />
+  </Fragment>
   <Navbar lang={lang} />
   <main id="main-content">
     <header class="py-16 md:py-20" style="background: var(--color-primary);">
