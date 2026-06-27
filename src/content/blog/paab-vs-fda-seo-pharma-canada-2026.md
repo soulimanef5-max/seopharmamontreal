@@ -7,7 +7,8 @@ lang: fr
 tags: ["PAAB", "FDA", "conformité", "SEO pharma", "Canada", "États-Unis", "DTC"]
 readingTime: 11
 author: Soulimane Farah
-modDate: 2026-06-13
+modDate: 2026-06-26
+translationSlug: "paab-vs-fda-seo-pharma-canada-2026-en"
 faq:
   - q: "Quelle est la principale différence entre PAAB et FDA pour le SEO pharmaceutique ?"
     a: "Le timing et le périmètre. La FDA (États-Unis) fonctionne en post-market : vous publiez, et l'agence peut intervenir après coup. Le PAAB (Canada) fonctionne en pré-approbation pour le contenu brandé destiné aux professionnels de santé : vous soumettez avant de publier. Surtout, la publicité directe au consommateur (DTC) des médicaments d'ordonnance est autorisée aux États-Unis mais interdite au Canada — ce qui rend une grande partie du SEO « product-led » américain illégale au nord de la frontière."
