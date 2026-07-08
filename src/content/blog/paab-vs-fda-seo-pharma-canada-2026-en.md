@@ -153,6 +153,6 @@ Before deploying pharma content across both markets:
 
 PAAB and FDA are not two versions of the same framework — they are two opposing logics. The FDA reacts, the PAAB pre-clears. The FDA permits DTC, the PAAB prohibits it. A cross-border pharmaceutical SEO strategy that ignores this divide ends up producing content that is either non-compliant in Canada or under-optimized in the United States.
 
-The competitive advantage belongs to companies that design, from the outset, **two distinct architectures linked by a common foundation of educational content**. It is more demanding — and that is precisely why your non-specialized competitors do not follow.
+The competitive advantage belongs to companies that design, from the outset, **two distinct architectures linked by a common foundation of educational content**. It is more demanding — and that is precisely why your non-specialized competitors do not follow. This is exactly the kind of cross-border architecture a [PAAB-specialized SEO consultant](/en/seo-pharma/) builds — instead of a generalist agency applying US playbooks north of the border.
 
-Do you manage pharma content on both sides of the border? [Let's talk about your bilingual SEO architecture](/en/#contact).
+Do you manage pharma content on both sides of the border? [Let's talk about your bilingual SEO architecture](/en/seo-pharma/#contact).

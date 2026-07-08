@@ -26,6 +26,8 @@ For most marketing teams, the PAAB is a black box: you hear "everything has to g
 
 This is a plain-English walkthrough of the [PAAB](https://www.paab.ca/) review for people who run websites, not regulatory affairs departments.
 
+> **In short:** PAAB approval is *technically voluntary but practically mandatory* — medical publishers require an approval number before they will run an ad, and Health Canada relies on the system. A first review takes about **10 business days**, plus shorter revision rounds, so plan for several weeks end-to-end. Crucially, the PAAB reviews **branded** promotional material aimed at healthcare professionals — **not** unbranded educational content, which you can publish and optimize freely.
+
 ---
 
 ## Is PAAB approval mandatory or voluntary?
@@ -75,10 +77,10 @@ A practical split:
 - **Educational hub (no PAAB):** condition guides, treatment-category explainers, regulatory content. Optimize aggressively.
 - **Branded layer (PAAB):** lean product pages and professional campaigns. Submit early, keep claims tight.
 
-Done well, the unbranded layer does most of the ranking and AI-citation work, while the branded layer stays compliant. For US brands planning this for the first time, our guide on [entering the Canadian pharma market](/en/blog/canadian-pharma-market-entry-seo-2026-en/) shows how the architecture differs from a US site.
+Done well, the unbranded layer does most of the ranking and AI-citation work, while the branded layer stays compliant. Structuring that split correctly — without either stalling in the review queue or drifting into a violation — is the core of [PAAB-specialized SEO consulting](/en/seo-pharma/). For US brands planning this for the first time, our guide on [entering the Canadian pharma market](/en/blog/canadian-pharma-market-entry-seo-2026-en/) shows how the architecture differs from a US site.
 
 ---
 
 > This article is educational information about the PAAB review process. It names no branded prescription product in connection with its use.
 
-Want a content architecture that ranks without waiting on the review queue? [Get a free preliminary analysis](/en/#contact) of your site.
+Want a content architecture that ranks without waiting on the review queue? [Get a free preliminary analysis](/en/seo-pharma/#contact) from a PAAB-specialized SEO consultant.
