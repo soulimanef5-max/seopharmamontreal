@@ -15,6 +15,23 @@ const t = useTranslations(lang).pricing;
       <p class="section-lead">{t.lead}</p>
     </div>
 
+    <!-- Porte d'entrée : Flash Diagnostic 297 $ -->
+    <div class="mb-8" style="background: white; border: 1.5px solid var(--color-cta); border-radius: 1rem; padding: 1.5rem 1.75rem;">
+      <div class="flex flex-wrap items-center justify-between gap-4">
+        <div>
+          <h3 style="font-size: 1.0625rem; color: var(--color-primary); margin-bottom: 0.35rem;">
+            {lang === 'fr' ? 'Pas prêt pour l’audit complet ? Commencez par le Flash Diagnostic — 297 $' : 'Not ready for the full audit? Start with the Flash Diagnostic — $297'}
+          </h3>
+          <p class="m-0" style="font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
+            {lang === 'fr' ? 'Votre visibilité Google + IA en une page : 3 opportunités priorisées, 1 action immédiate. Montant déductible de l’audit complet.' : 'Your Google + AI visibility on one page: 3 prioritized opportunities, 1 immediate action. Amount credited toward the full audit.'}
+          </p>
+        </div>
+        <a href={lang === 'en' ? '/en/diagnostic/' : '/diagnostic/'} class="btn btn-outline" style="white-space: nowrap;">
+          {lang === 'fr' ? 'Voir le Flash Diagnostic' : 'See the Flash Diagnostic'}
+        </a>
+      </div>
+    </div>
+
     <div class="grid md:grid-cols-3 gap-6 lg:gap-8 items-stretch">
       {t.plans.map((plan) => (
         <article class={`card-pricing ${plan.featured ? 'featured' : ''}`} aria-label={`${lang === 'fr' ? 'Forfait' : 'Plan'} ${plan.name}`}>

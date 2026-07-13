@@ -1,0 +1,197 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import Booking from '../../components/Booking.astro';
+import ContactCTA from '../../components/ContactCTA.astro';
+import Footer from '../../components/Footer.astro';
+
+const lang = 'en';
+const title = 'Flash Diagnostic: Google + AI Visibility — $297 | NHP & Health';
+const description = "Flash Diagnostic, $297 CAD: where does your health brand stand on Google and in AI answers (ChatGPT, Perplexity)? 3 prioritized opportunities + 1 immediate action, on one page.";
+
+const canonical = 'https://seopharmamontreal.com/en/diagnostic/';
+
+// ── Service + FAQ JSON-LD ──────────────────────────────────────────────────
+const serviceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  '@id': 'https://seopharmamontreal.com/en/diagnostic/#service',
+  name: 'Flash Diagnostic — Google + AI Visibility for Health Brands',
+  serviceType: 'SEO & GEO Visibility Diagnostic',
+  provider: { '@type': 'Organization', '@id': 'https://seopharmamontreal.com/#business' },
+  areaServed: [
+    { '@type': 'City', name: 'Montréal' },
+    { '@type': 'State', name: 'Québec' },
+    { '@type': 'Country', name: 'Canada' },
+  ],
+  description,
+  offers: {
+    '@type': 'Offer',
+    price: '297',
+    priceCurrency: 'CAD',
+    description: 'Google + AI visibility diagnostic: 3 prioritized opportunities and 1 immediate action, delivered on one page.',
+  },
+};
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'What exactly is the Flash Diagnostic?',
+      acceptedAnswer: { '@type': 'Answer', text: "A focused diagnostic of your online visibility, delivered on a single page: 3 prioritized opportunities and 1 immediate action your team can apply the following week. It covers three areas — your Google presence (indexation, category queries, structured data, E-E-A-T signals), your presence in AI answers (ChatGPT, Perplexity, AI Overviews: can AI crawlers access your site, and is your content citable?) and the vigilance points specific to health products (NPN display, claims, site language)." },
+    },
+    {
+      '@type': 'Question',
+      name: 'How is this different from the full $997 audit?',
+      acceptedAnswer: { '@type': 'Answer', text: "The Flash Diagnostic is a fast starting point: it identifies where your biggest opportunities are, without covering everything. The full YMYL audit at $997 examines the entire site in depth (content, technical, E-E-A-T, compliance, GEO) and delivers a detailed report with an action plan. The Flash often helps you decide, with data in hand, whether the full audit is worth the investment — its price is credited toward the full audit if you continue." },
+    },
+    {
+      '@type': 'Question',
+      name: 'How do you check visibility in ChatGPT and Perplexity?',
+      acceptedAnswer: { '@type': 'Answer', text: "Through real technical verification, not guesswork: your site's access is tested with the actual crawlers used by AI engines (GPTBot, ClaudeBot, PerplexityBot), and I analyze your structured data (JSON-LD), robots.txt and llms.txt files, and how citable your content is (factual passages an AI can extract and attribute). Every finding in the deliverable is verified and reproducible." },
+    },
+    {
+      '@type': 'Question',
+      name: 'Is this a regulatory opinion on my claims?',
+      acceptedAnswer: { '@type': 'Answer', text: "No. The compliance portion of the diagnostic flags marketing vigilance points — an NPN missing from product pages, a claim that appears to exceed the authorized use, a site configured for the wrong country or language — so you can have them validated. It is neither legal nor regulatory advice, and it does not replace your regulatory affairs function." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What kinds of companies is it for?',
+      acceptedAnswer: { '@type': 'Answer', text: "Canadian natural health product brands (vitamins, probiotics, omega-3, sports nutrition), medical device companies outside dermatology, and pharmaceutical companies. I do not accept mandates in dermatology, cosmetics or skincare, to avoid any conflict of interest." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What happens after the diagnostic?',
+      acceptedAnswer: { '@type': 'Answer', text: "You walk away with an actionable document and no obligation. If you want to go further, the logical next step is the full YMYL audit ($997) and, if needed, monthly support. Many companies simply apply the quick win themselves — that's fine too: the diagnostic is designed to be useful on its own." },
+    },
+  ],
+};
+---
+
+<Layout lang={lang} title={title} description={description} canonical={canonical}>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <Navbar lang={lang} />
+
+  <main id="main-content">
+
+    <!-- HERO ─────────────────────────────────────────────────────────────── -->
+    <section class="relative overflow-hidden py-24 md:py-32" style="background: var(--color-primary);" aria-labelledby="diag-title">
+      <div class="absolute inset-0 pointer-events-none" style="background: radial-gradient(ellipse 65% 60% at 70% 30%, rgba(202,138,4,0.14) 0%, transparent 65%);" aria-hidden="true"></div>
+      <div class="container relative">
+        <div class="max-w-3xl">
+          <div class="badge-authority">$297 CAD · Delivered within 7 business days · No commitment</div>
+          <h1 id="diag-title" class="text-white mb-6" style="font-size: clamp(2.25rem, 5.5vw, 3.5rem); line-height: 1.08; letter-spacing: -0.03em;">
+            Flash Diagnostic —<br /><span style="color: var(--color-cta);">your Google + AI visibility, on one page.</span>
+          </h1>
+          <p class="mb-4" style="font-size: 0.9375rem; line-height: 1.65; color: rgba(255,255,255,0.55); font-style: italic;">
+            The Flash Diagnostic is an online visibility diagnostic for Canadian health brands: Google, AI answers, and NHP vigilance points, in a one-page deliverable.
+          </p>
+          <p class="mb-10" style="font-size: clamp(1rem, 1.8vw, 1.125rem); line-height: 1.7; color: rgba(255,255,255,0.73);">
+            When a consumer searches your product category — on Google <em>or</em> in ChatGPT — are you what they find? This diagnostic answers that question with <strong style="color: rgba(255,255,255,0.92);">verified findings</strong>, then gives you <strong style="color: rgba(255,255,255,0.92);">3 prioritized opportunities and 1 immediate action</strong>. Not a 40-page report: one useful page.
+          </p>
+          <div class="flex flex-wrap gap-4 items-center">
+            <a href="#contact" class="btn btn-primary btn-xl">Book my Flash Diagnostic — $297</a>
+            <a href="#scope" class="btn btn-ghost btn-xl">What gets checked</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCOPE: THE 3 AXES ──────────────────────────────────────────────────── -->
+    <section id="scope" class="py-20 md:py-28" aria-labelledby="scope-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="overline">The scope</span>
+          <h2 class="section-title" id="scope-title">Three areas verified, zero guesswork</h2>
+          <p class="section-lead">Every finding in the deliverable is technically verified and reproducible — never an impression, never an invented number.</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-6">
+          {[
+            { t: '1. Your Google presence', d: "Real indexation of your key pages, rankings on your category queries, structured data (JSON-LD), E-E-A-T trust signals — the fundamentals that decide whether Google shows you." },
+            { t: '2. Your presence in AI answers', d: "Can AI engine crawlers (GPTBot, ClaudeBot, PerplexityBot) access your site? Is your content citable when a consumer asks ChatGPT or Perplexity about your category? Tested with the real agents, not estimated." },
+            { t: '3. Health product vigilance', d: "NPN displayed (or not) on your product pages, claims that appear to exceed the authorized use, a site configured for the wrong country or language — the frequent blind spots of NHP brands, flagged for validation." },
+          ].map((s) => (
+            <article style="background:white; border:1px solid var(--color-border); border-radius:1rem; padding:1.75rem;">
+              <h3 style="font-size:1.0625rem; color:var(--color-primary); margin-bottom:0.5rem;">{s.t}</h3>
+              <p style="font-size:0.9rem; color:var(--color-text-muted); line-height:1.65; margin:0;">{s.d}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- THE DELIVERABLE ────────────────────────────────────────────────────── -->
+    <section class="py-20 md:py-28" style="background: var(--color-surface, #f8fafc);" aria-labelledby="deliv-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="overline">The deliverable</span>
+          <h2 class="section-title" id="deliv-title">One page. Three opportunities. One immediate action.</h2>
+          <p class="section-lead">Built for an executive or marketing lead who doesn't have time to read a 40-page report.</p>
+        </div>
+        <div class="max-w-3xl mx-auto">
+          <ul class="list-none m-0 p-0 flex flex-col gap-5">
+            {[
+              { t: '3 prioritized opportunities', d: "The three gaps that, once fixed, have the biggest impact on your visibility — ranked by effort-to-result ratio, with the evidence behind each finding." },
+              { t: '1 actionable quick win', d: "One concrete action your team can apply the following week, without me." },
+              { t: '20-minute walkthrough (optional)', d: "I present the diagnostic over video or phone and answer your questions. No sales pitch." },
+            ].map((item) => (
+              <li style="background:white; border:1px solid var(--color-border); border-radius:1rem; padding:1.5rem 1.75rem;">
+                <h3 style="font-size:1.0625rem; color:var(--color-primary); margin-bottom:0.4rem;">{item.t}</h3>
+                <p style="font-size:0.9rem; color:var(--color-text-muted); line-height:1.65; margin:0;">{item.d}</p>
+              </li>
+            ))}
+          </ul>
+          <p style="margin-top:1.5rem; font-size:0.95rem; color:var(--color-text-muted);">
+            The Flash Diagnostic fee is <strong style="color:var(--color-primary);">credited toward the full YMYL audit ($997)</strong> if you decide to go further. → See <a href="/en/seo-nhp/" style="color:var(--color-cta); font-weight:600;">SEO for NHP brands</a> and <a href="/en/seo-pharma/" style="color:var(--color-cta); font-weight:600;">compliant pharma SEO</a>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- LAUNCH OFFER ───────────────────────────────────────────────────────── -->
+    <section class="py-16 md:py-20" aria-labelledby="launch-title">
+      <div class="container">
+        <div class="max-w-3xl mx-auto" style="background: var(--color-primary); border-radius: 1.25rem; padding: 2.5rem;">
+          <span class="overline" style="color: #FCD34D;">Launch offer</span>
+          <h2 id="launch-title" style="color: white; font-size: clamp(1.5rem, 3vw, 2rem); line-height: 1.2; margin-bottom: 0.75rem;">
+            $197 for the first 2 brands
+          </h2>
+          <p style="color: rgba(255,255,255,0.73); line-height: 1.7; font-size: 1rem; margin-bottom: 1.5rem;">
+            The first two companies to book get the Flash Diagnostic at <strong style="color: white;">$197 instead of $297</strong>, in exchange for an honest testimonial and the right to publish an anonymized case study. Same deliverable, same rigour.
+          </p>
+          <a href="#contact" class="btn btn-primary btn-xl">Claim one of the 2 spots</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ ────────────────────────────────────────────────────────────────── -->
+    <section class="py-20 md:py-28" style="background: var(--color-surface, #f8fafc);" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="overline">FAQ</span>
+          <h2 class="section-title" id="faq-title">Frequently asked questions</h2>
+        </div>
+        <div class="max-w-3xl mx-auto">
+          {faqSchema.mainEntity.map((q) => (
+            <details style="border-bottom:1px solid var(--color-border); padding:1.25rem 0;">
+              <summary style="font-weight:600; color:var(--color-primary); cursor:pointer; font-size:1.0625rem;">{q.name}</summary>
+              <p style="margin-top:0.75rem; color:var(--color-text-muted); line-height:1.7; font-size:0.95rem;">{q.acceptedAnswer.text}</p>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <Booking lang={lang} />
+    <ContactCTA lang={lang} />
+  </main>
+
+  <Footer lang={lang} />
+</Layout>
