@@ -16,9 +16,9 @@
   .header-right { text-align: right; }
   .header-date { font-size: 12px; color: #64748b; margin-bottom: 8px; }
   .score-wrap { display: flex; align-items: center; gap: 12px; }
-  .score-num { font-size: 48px; font-weight: 800; color: var(--gold); line-height: 1; }
-  .score-denom { font-size: 22px; font-weight: 400; color: var(--slate); }
-  .score-badge { color: #fff; font-weight: 700; font-size: 11px; padding: 3px 10px; border-radius: 4px; letter-spacing: 0.06em; text-transform: uppercase; }
+  .score-num { font-size: 38px; font-weight: 800; color: #64748b; line-height: 1; }
+  .score-denom { font-size: 18px; font-weight: 400; color: var(--slate); }
+  .score-badge { color: #fff; font-weight: 700; font-size: 11px; padding: 3px 10px; border-radius: 4px; letter-spacing: 0.06em; text-transform: uppercase; background: #374151; }
   .container { max-width: 920px; margin: 0 auto; padding: 28px 20px 0; }
   .card { background: var(--navy-card); border: 1px solid var(--navy-border); border-radius: 8px; padding: 22px 24px; margin-bottom: 20px; }
   .section-title { font-size: 13px; font-weight: 700; color: var(--gold); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 18px; }
@@ -26,7 +26,10 @@
   .kpi { flex: 1 1 120px; background: var(--navy-deep); border-radius: 6px; padding: 10px 14px; border-left-width: 3px; border-left-style: solid; }
   .kpi-label { font-size: 11px; color: #64748b; margin-bottom: 4px; }
   .kpi-val { font-size: 22px; font-weight: 800; }
-  .chart-wrap { position: relative; height: 270px; }
+  .kpi-na { font-size: 14px; font-weight: 600; color: #64748b; }
+  .chart-wrap { position: relative; height: 270px; display: flex; align-items: center; justify-content: center; }
+  .chart-placeholder { text-align: center; color: #64748b; }
+  .chart-placeholder p { font-size: 13px; margin-top: 8px; }
   table { width: 100%; border-collapse: collapse; font-size: 13px; }
   thead th { text-align: left; padding: 8px 10px; color: #64748b; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; border-bottom: 1px solid var(--navy-border); }
   tbody tr { border-bottom: 1px solid #0d1e38; }
@@ -36,164 +39,179 @@
   .ia-query { font-size: 12px; color: var(--slate); margin-bottom: 8px; line-height: 1.4; }
   .ia-statut { font-weight: 700; font-size: 13px; }
   .alerte { border-radius: 6px; padding: 10px 16px; font-size: 13px; border-left-width: 4px; border-left-style: solid; border-width: 1px; border-style: solid; margin-bottom: 10px; line-height: 1.5; }
-  .alerte-info { border-color: #334155; border-left-color: var(--slate); background: #0d1e38; color: var(--slate); }
-  .alerte-orange { border-color: #92400e; border-left-color: #f59e0b; background: #1c1208; color: #fde68a; }
+  .alerte-info { border-left-color: #64748b; border-color: #1e3a5f; background: rgba(30,58,95,0.3); }
   .reco { background: var(--navy-deep); border-radius: 6px; padding: 14px 18px; border-left-width: 4px; border-left-style: solid; display: flex; gap: 14px; align-items: flex-start; margin-bottom: 12px; }
+  .reco-h { border-left-color: var(--red); }
+  .reco-m { border-left-color: var(--gold); }
+  .reco-l { border-left-color: var(--blue); }
   .prio-badge { font-weight: 800; font-size: 11px; padding: 3px 8px; border-radius: 4px; color: #fff; flex-shrink: 0; }
+  .prio-h { background: var(--red); }
+  .prio-m { background: #92400e; }
+  .prio-l { background: #1e3a5f; }
   .reco-title { font-weight: 700; color: #fff; margin-bottom: 4px; font-size: 14px; }
   .reco-action { font-size: 13px; color: var(--slate); line-height: 1.5; }
+  .email-item { background: var(--navy-deep); border-radius: 6px; padding: 14px 18px; margin-bottom: 10px; border-left: 3px solid var(--gold); }
+  .email-meta { font-size: 11px; color: #64748b; margin-bottom: 6px; }
+  .email-subject { font-weight: 700; font-size: 14px; color: #fff; margin-bottom: 8px; }
+  .email-bullets { font-size: 13px; color: var(--slate); line-height: 1.6; }
+  .email-bullets li { margin-left: 16px; margin-bottom: 2px; }
+  .prio-tag { display: inline-block; font-size: 10px; font-weight: 700; padding: 2px 7px; border-radius: 3px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .prio-haute { background: rgba(220,38,38,0.2); color: #fca5a5; border: 1px solid rgba(220,38,38,0.3); }
+  .prio-moyenne { background: rgba(201,168,76,0.2); color: #fde68a; border: 1px solid rgba(201,168,76,0.3); }
+  .prio-info { background: rgba(96,165,250,0.2); color: #93c5fd; border: 1px solid rgba(96,165,250,0.3); }
+  .warning-box { background: rgba(201,168,76,0.1); border: 1px solid rgba(201,168,76,0.3); border-left: 4px solid var(--gold); border-radius: 6px; padding: 12px 16px; margin-bottom: 16px; font-size: 13px; line-height: 1.5; color: #fde68a; }
   .footer { text-align: center; font-size: 11px; color: #334155; margin-top: 32px; }
-  .email-item { border-bottom: 1px solid #0d1e38; padding: 14px 0; }
-  .email-item:last-child { border-bottom: none; }
-  .email-sender { font-size: 11px; color: #64748b; margin-bottom: 4px; }
-  .email-subject { font-weight: 700; color: #fff; margin-bottom: 8px; font-size: 14px; }
-  .email-bullets { list-style: none; padding: 0; }
-  .email-bullets li { font-size: 13px; color: var(--slate); padding: 2px 0 2px 16px; position: relative; line-height: 1.5; }
-  .email-bullets li::before { content: "→"; position: absolute; left: 0; color: var(--gold); }
-  .prio-tag { display: inline-block; font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 4px; margin-left: 8px; vertical-align: middle; }
-  .prio-haute { background: #7f1d1d; color: #fca5a5; }
-  .prio-moyenne { background: #78350f; color: #fde68a; }
-  .prio-info { background: #1e3a5f; color: var(--slate); }
-  .indispo-banner { background: #1c1208; border: 1px solid #92400e; border-left: 4px solid #f59e0b; border-radius: 6px; padding: 14px 18px; font-size: 13px; color: #fde68a; line-height: 1.6; margin-bottom: 16px; }
-  .indispo-banner strong { color: #f59e0b; }
+  canvas { max-width: 100%; }
 </style>
 </head>
 <body>
 
 <div class="header">
   <div>
-    <div class="brand">SEO<span>Pharma</span>Montréal</div>
-    <div class="brand-sub">seopharmamontreal.com — Rapport automatique quotidien</div>
+    <div class="brand">SEO<span>Pharma</span>Montreal <span style="font-size:13px; font-weight:400; color:var(--slate);">— seopharmamontreal.com</span></div>
+    <div class="brand-sub">Rapport automatique quotidien — Soulimane Farah, Consultant SEO/GEO Pharma</div>
   </div>
   <div class="header-right">
-    <div class="header-date">Rapport du 16 juillet 2026 • Généré le 2026-07-16</div>
+    <div class="header-date">Jeudi 16 juillet 2026 — généré 19:10 UTC</div>
     <div class="score-wrap">
       <div>
-        <div style="font-size:11px;color:#64748b;margin-bottom:4px;">Score global</div>
-        <div style="display:flex;align-items:baseline;gap:6px;">
-          <span class="score-num" style="font-size:32px;color:#64748b;">N/A</span>
-        </div>
+        <div class="score-num">N/A</div>
+        <div style="font-size:11px; color:#64748b; margin-top:2px;">/100</div>
       </div>
-      <span class="score-badge" style="background:#78350f;color:#fde68a;">GSC INDISPO</span>
+      <span class="score-badge">GSC indisponible</span>
     </div>
   </div>
 </div>
 
 <div class="container">
 
-  <!-- ALERTE DONNÉES GSC -->
-  <div class="indispo-banner">
-    <strong>⚠️ Données GSC indisponibles ce jour</strong> — L'essai gratuit Supermetrics (Team soulimanef5) a expiré le <strong>7 juin 2026</strong>. Les statistiques Search Console (clics, impressions, CTR, position) ne peuvent pas être récupérées automatiquement. <br>Action requise : renouveler l'abonnement Supermetrics sur supermetrics.com/pricing ou contacter sales@supermetrics.com.
-  </div>
-
-  <!-- ALERTES AUTO -->
-  <div class="card">
-    <div class="section-title">🚨 Alertes du jour</div>
-    <div class="alerte alerte-orange">
-      <strong>Supermetrics expiré</strong> — L'abonnement Supermetrics a expiré le 7 juin 2026. Sans données GSC, il est impossible de détecter les pertes de position ou les chutes d'impressions. Priorité : renouveler immédiatement pour retrouver la visibilité SEO en temps réel.
-    </div>
-    <div class="alerte alerte-info">
-      <strong>Visibilité IA non collectée</strong> — Les vérifications de citations IA (ChatGPT, Perplexity, Gemini, Google AI Overviews) n'ont pas pu être réalisées automatiquement ce jour. Les requêtes Apify ont retourné 0 résultat scrapable. Vérification manuelle recommandée sur les 5 requêtes cibles.
-    </div>
+  <!-- ALERTE DONNÉES -->
+  <div class="warning-box">
+    ⚠️ <strong>Données GSC indisponibles :</strong> L'essai Supermetrics a expiré le 2026-06-07. Le score global et les métriques GSC (clics, impressions, CTR, position) ne sont pas disponibles ce jour. Renouvelez l'abonnement Supermetrics pour restaurer les données.
   </div>
 
   <!-- STATS GSC -->
   <div class="card">
-    <div class="section-title">📈 Stats Google Search Console — Hier (15 juillet 2026)</div>
-    <div class="indispo-banner" style="margin-bottom:0;">
-      <strong>Données indisponibles</strong> — Abonnement Supermetrics expiré. Aucune valeur de clics, impressions, CTR ou position ne peut être affichée. Les chiffres ne seront pas inventés.<br><br>
-      <strong>Pour retrouver ces données manuellement :</strong> Connectez-vous à <em>Google Search Console → Performance → Résultats de recherche</em> et sélectionnez la période « Hier ».
-    </div>
-  </div>
-
-  <!-- GRAPHIQUE 7 JOURS -->
-  <div class="card">
-    <div class="section-title">📊 Tendance sur 7 jours — Données GSC</div>
-    <div class="indispo-banner" style="margin-bottom:16px;">
-      Le graphique ci-dessous est affiché à titre illustratif uniquement. Les vraies données 7 jours ne sont pas disponibles (Supermetrics expiré). Les valeurs affichées sont à ZÉRO pour éviter toute confusion.
+    <div class="section-title">📈 Stats Google Search Console</div>
+    <div class="kpi-row">
+      <div class="kpi" style="border-left-color:#64748b;">
+        <div class="kpi-label">Clics (hier)</div>
+        <div class="kpi-na">Indisponible</div>
+      </div>
+      <div class="kpi" style="border-left-color:#64748b;">
+        <div class="kpi-label">Impressions (hier)</div>
+        <div class="kpi-na">Indisponible</div>
+      </div>
+      <div class="kpi" style="border-left-color:#64748b;">
+        <div class="kpi-label">CTR moyen</div>
+        <div class="kpi-na">Indisponible</div>
+      </div>
+      <div class="kpi" style="border-left-color:#64748b;">
+        <div class="kpi-label">Position moy.</div>
+        <div class="kpi-na">Indisponible</div>
+      </div>
     </div>
     <div class="chart-wrap">
-      <canvas id="trendChart"></canvas>
+      <div class="chart-placeholder">
+        <svg width="60" height="60" viewBox="0 0 60 60" fill="none"><rect x="8" y="30" width="8" height="22" rx="2" fill="#1e3a5f"/><rect x="22" y="20" width="8" height="32" rx="2" fill="#1e3a5f"/><rect x="36" y="10" width="8" height="42" rx="2" fill="#1e3a5f"/><rect x="50" y="25" width="8" height="27" rx="2" fill="#1e3a5f"/></svg>
+        <p>Graphique 7 jours indisponible<br><span style="font-size:11px; color:#475569;">Données GSC requièrent un abonnement Supermetrics actif</span></p>
+      </div>
+    </div>
+    <div style="font-size:12px; color:#64748b; text-align:center; margin-top:8px;">
+      Compte connecté : <strong style="color:var(--slate);">sc-domain:seopharmamontreal.com</strong> (soulimanef5@gmail.com) — authentification OK, mais essai expiré
     </div>
   </div>
 
   <!-- VISIBILITÉ IA -->
   <div class="card">
-    <div class="section-title">🤖 Visibilité IA (GEO) — Citations</div>
-    <div class="indispo-banner" style="margin-bottom:16px;">
-      <strong>Non collectée automatiquement ce jour</strong> — Le connecteur Apify (rag-web-browser) a retourné 0 résultat pour les requêtes de vérification. Les moteurs IA bloquent le scraping direct de leurs interfaces. <br><br>
-      <strong>Vérification manuelle recommandée sur :</strong> ChatGPT / Perplexity / Gemini / Google AI Overviews
+    <div class="section-title">🤖 Visibilité IA — Citations GEO</div>
+    <div class="alerte alerte-info" style="margin-bottom: 16px;">
+      Résultat : <strong>0 citation confirmée sur 5 requêtes</strong> vérifiées via Apify RAG Web Browser (recherche Google + scraping top pages). Aucune mention de seopharmamontreal.com ou « Soulimane Farah » détectée dans les résultats organiques pour ces requêtes cibles.
     </div>
     <div class="ia-grid">
-      <div class="ia-card" style="border-color:#334155;">
+      <div class="ia-card" style="border-color: rgba(220,38,38,0.4);">
         <div class="ia-query">consultant SEO pharmaceutique Montréal</div>
-        <div class="ia-statut" style="color:#64748b;">⏳ À vérifier manuellement</div>
+        <div class="ia-statut" style="color:var(--red);">✗ Non-cité</div>
+        <div style="font-size:11px; color:#64748b; margin-top:4px;">Top résultats : LinkedIn jobs, pharma-seo.com</div>
       </div>
-      <div class="ia-card" style="border-color:#334155;">
+      <div class="ia-card" style="border-color: rgba(220,38,38,0.4);">
         <div class="ia-query">SEO industrie pharmaceutique Canada</div>
-        <div class="ia-statut" style="color:#64748b;">⏳ À vérifier manuellement</div>
+        <div class="ia-statut" style="color:var(--red);">✗ Non-cité</div>
+        <div style="font-size:11px; color:#64748b; margin-top:4px;">Top résultats : annonces emploi, pharma-seo.com US</div>
       </div>
-      <div class="ia-card" style="border-color:#334155;">
+      <div class="ia-card" style="border-color: rgba(220,38,38,0.4);">
         <div class="ia-query">référencement naturel santé Québec</div>
-        <div class="ia-statut" style="color:#64748b;">⏳ À vérifier manuellement</div>
+        <div class="ia-statut" style="color:var(--red);">✗ Non-cité</div>
+        <div style="font-size:11px; color:#64748b; margin-top:4px;">Aucune mention détectée</div>
       </div>
-      <div class="ia-card" style="border-color:#334155;">
+      <div class="ia-card" style="border-color: rgba(220,38,38,0.4);">
         <div class="ia-query">PAAB SEO conformité</div>
-        <div class="ia-statut" style="color:#64748b;">⏳ À vérifier manuellement</div>
+        <div class="ia-statut" style="color:var(--red);">✗ Non-cité</div>
+        <div style="font-size:11px; color:#64748b; margin-top:4px;">Aucune mention détectée</div>
       </div>
-      <div class="ia-card" style="border-color:#334155;">
+      <div class="ia-card" style="border-color: rgba(220,38,38,0.4);">
         <div class="ia-query">pharma SEO consultant Montreal</div>
-        <div class="ia-statut" style="color:#64748b;">⏳ À vérifier manuellement</div>
+        <div class="ia-statut" style="color:var(--red);">✗ Non-cité</div>
+        <div style="font-size:11px; color:#64748b; margin-top:4px;">Concurrents US dominants dans les résultats</div>
       </div>
+    </div>
+    <div style="font-size:11px; color:#64748b; margin-top:12px;">
+      Vérification manuelle recommandée sur : ChatGPT, Perplexity AI, Gemini, Google AI Overviews — les moteurs IA peuvent avoir des sources différentes des résultats organiques.
     </div>
   </div>
 
-  <!-- ACTUALITÉS SEO -->
+  <!-- EMAILS SEO DU JOUR -->
   <div class="card">
-    <div class="section-title">📰 Actualités & Tendances SEO — Emails du 16 juillet 2026</div>
+    <div class="section-title">📨 Actualités SEO reçues aujourd'hui (3 emails)</div>
 
     <div class="email-item">
-      <div class="email-sender">Search Engine Journal (loren@searchenginejournal.com) • 14h16</div>
-      <div class="email-subject">AI SEO : Writing That's Specific May Get Cited More <span class="prio-tag prio-haute">HAUTE</span></div>
+      <div class="email-meta">
+        Search Engine Journal · loren@searchenginejournal.com · 14h16 UTC
+        <span class="prio-tag prio-haute" style="margin-left:8px;">Haute priorité</span>
+      </div>
+      <div class="email-subject">AI SEO : Writing That's Specific May Get Cited More</div>
       <ul class="email-bullets">
-        <li>Le contenu <strong>spécifique</strong> (données chiffrées, exemples précis, niche définie) est davantage cité par les moteurs IA — opportunité directe pour le secteur pharma/santé qui regorge de données réglementaires et cliniques.</li>
-        <li>Google utilise maintenant les <strong>signaux des réseaux sociaux</strong> dans Search Console pour masquer la perte de clics liée à l'IA (Social Tracking) — surveiller l'impact sur les profils vérifiés.</li>
-        <li>Les moteurs IA conservent les signaux de classement Google ("fingerprint") — le travail SEO traditionnel reste fondateur pour la visibilité dans les réponses IA.</li>
-        <li><strong>ChatGPT génère des leads de meilleure qualité</strong> que les autres canaux (rapport Invoca) — les appels issus de ChatGPT convertissent mieux.</li>
+        <li>Roger Montti (SEJ) : le contenu <strong>spécifique et précis</strong> est davantage cité par les moteurs de recherche IA (ChatGPT, Perplexity, Gemini).</li>
+        <li>Implication directe pour la stratégie GEO : privilégier les données chiffrées, les exemples concrets et les spécificités réglementaires (PAAB, Santé Canada) dans les contenus pharma.</li>
+        <li>Pertinence pharma : <strong>très élevée</strong> — la précision clinique et réglementaire est un avantage compétitif naturel pour seopharmamontreal.com.</li>
       </ul>
-      <div style="margin-top:10px;font-size:12px;color:#64748b;font-style:italic;">Pertinence pharma : Élevée. Le contenu réglementaire PAAB et les guides conformité sont des candidats parfaits pour les citations IA.</div>
     </div>
 
     <div class="email-item">
-      <div class="email-sender">Search Engine Journal (loren@searchenginejournal.com) • 17h10</div>
-      <div class="email-subject">Local AEO 2026 : The AI Visibility Masterclass — 4 sessions le 30 juillet <span class="prio-tag prio-haute">HAUTE</span></div>
+      <div class="email-meta">
+        Search Engine Journal · loren@searchenginejournal.com · 17h10 UTC
+        <span class="prio-tag prio-moyenne" style="margin-left:8px;">Moyenne</span>
+      </div>
+      <div class="email-subject">[Jul 30] 4 Live Sessions : Local AEO in 2026</div>
       <ul class="email-bullets">
-        <li>Webinaire gratuit le <strong>30 juillet 2026</strong> (4 sessions de 10h à 14h PT) avec Search Engine Journal × Duda.</li>
-        <li>Session clé : <em>"Inside 68 Million AI Crawler Visits: What Actually Drives AI Search Visibility"</em> — données propriétaires sur le comportement des crawlers IA.</li>
-        <li>Session pratique : <em>"Selling & Delivering AI Search Visibility"</em> — workflow reproductible pour transformer les données internes en contenu cité par l'IA.</li>
+        <li>Webinar SEJ + Duda le 30 juillet : « Local AEO 2026: The AI Visibility Masterclass » — 4 sessions d'experts sur l'optimisation pour les moteurs de réponse locaux.</li>
+        <li>Thèmes couverts : comportement des AI crawlers (68M visites analysées), priorisation des requêtes locales par les answer engines, workflow pour que l'IA surface le contenu.</li>
+        <li>Pertinence pharma : la visibilité locale sur IA est stratégique pour attirer des clients pharma au Québec/Canada — inscription gratuite recommandée.</li>
       </ul>
-      <div style="margin-top:10px;font-size:12px;color:#64748b;font-style:italic;">Pertinence pharma : Haute. Applicable directement à la stratégie GEO de seopharmamontreal.com.</div>
     </div>
 
     <div class="email-item">
-      <div class="email-sender">Neil Patel (np@neilpatel.com) • 15h07</div>
-      <div class="email-subject">AI is changing email marketing <span class="prio-tag prio-moyenne">MOYENNE</span></div>
+      <div class="email-meta">
+        HeyTony · matt@heytony.ca · 12h38 UTC
+        <span class="prio-tag prio-info" style="margin-left:8px;">Info</span>
+      </div>
+      <div class="email-subject">Can't access your website — Accessibilité & SEO</div>
       <ul class="email-bullets">
-        <li>Webinaire NP Digital le <strong>28 juillet 2026 à 8h PDT</strong> : "Email Marketing in the AI Era: Personalization, Automation & Deliverability".</li>
-        <li>Les gagnants ne seront pas ceux qui envoient plus d'emails, mais ceux qui livrent les expériences les plus pertinentes grâce à l'IA.</li>
-        <li>Focus : compréhension de l'intention client, automatisation intelligente, délivrabilité dans une inbox pilotée par l'IA.</li>
+        <li>Matt Diamante (HeyTony) : l'accessibilité web pour les malvoyants impacte directement les rankings Google, car les fondations sont identiques (structure HTML, balises alt, navigation au clavier).</li>
+        <li>Podcast de 15 min recommandé avec David D'Arcangelo, expert accessibilité.</li>
+        <li>Pertinence pharma : l'accessibilité est un enjeu légal en santé numérique et un signal SEO à ne pas négliger.</li>
       </ul>
-      <div style="margin-top:10px;font-size:12px;color:#64748b;font-style:italic;">Pertinence pharma : Moyenne. Utile pour les campagnes de nurturing HCP si applicable.</div>
     </div>
+  </div>
 
-    <div class="email-item">
-      <div class="email-sender">matt@heytony.ca • 12h38</div>
-      <div class="email-subject">Can't access your website (Accessibilité web) <span class="prio-tag prio-info">INFO</span></div>
-      <ul class="email-bullets">
-        <li>L'accessibilité web (compatibilité pour les personnes malvoyantes) impacte directement les rankings Google.</li>
-        <li>Les critères WCAG sont de plus en plus pris en compte par les algorithmes de pertinence.</li>
-      </ul>
-      <div style="margin-top:10px;font-size:12px;color:#64748b;font-style:italic;">Pertinence pharma : Faible (email commercial). À vérifier uniquement si l'audit accessibilité n'a pas été réalisé récemment.</div>
+  <!-- ALERTES -->
+  <div class="card">
+    <div class="section-title">🚨 Alertes</div>
+    <div class="alerte alerte-info">
+      <strong>Alertes automatiques indisponibles</strong> — Les alertes (chute de position, baisse d'impressions, entrée dans le top 10) nécessitent des données GSC comparatives. Données indisponibles ce jour (Supermetrics expiré).
+    </div>
+    <div class="alerte alerte-info" style="margin-top:8px;">
+      <strong>Alerte Citations IA :</strong> 0/5 requêtes cibles génèrent des citations de seopharmamontreal.com dans les résultats web. Cela signifie que les moteurs IA (ChatGPT, Perplexity) sont peu susceptibles de citer le site sur ces requêtes — action requise.
     </div>
   </div>
 
@@ -201,40 +219,40 @@
   <div class="card">
     <div class="section-title">💡 Recommandations du jour</div>
 
-    <div class="reco" style="border-left-color:#dc2626;">
+    <div class="reco reco-h">
       <div>
-        <span class="prio-badge" style="background:#7f1d1d;">🔴 URGENT</span>
+        <span class="prio-badge prio-h">URGENT</span>
       </div>
       <div>
-        <div class="reco-title">Renouveler l'abonnement Supermetrics</div>
-        <div class="reco-action">L'essai Supermetrics a expiré le 7 juin 2026. Sans cet accès, le rapport quotidien ne peut pas afficher les stats GSC (clics, impressions, CTR, position). Action immédiate : aller sur supermetrics.com/pricing et souscrire au plan qui inclut Google Search Console. Cela débloque aussi la détection automatique des alertes de position.</div>
-      </div>
-    </div>
-
-    <div class="reco" style="border-left-color:#c9a84c;">
-      <div>
-        <span class="prio-badge" style="background:#78350f;">🟡 CETTE SEMAINE</span>
-      </div>
-      <div>
-        <div class="reco-title">Enrichir le contenu avec des données spécifiques pour booster les citations IA</div>
-        <div class="reco-action">Selon la newsletter SEJ du jour (Roger Montti), le contenu le plus cité par les moteurs IA est celui qui contient des données précises et spécifiques à une niche. Opportunité : ajouter des statistiques PAAB, des chiffres sur le marché pharma canadien, et des exemples de cas conformité dans les pages clés de seopharmamontreal.com. Cela augmentera la probabilité de citations dans ChatGPT, Perplexity et Google AIO.</div>
+        <div class="reco-title">Renouveler l'abonnement Supermetrics GSC</div>
+        <div class="reco-action">L'essai Supermetrics a expiré le 7 juin 2026. Sans données GSC, il est impossible de surveiller les performances organiques, détecter les chutes de rankings ou mesurer l'impact des actions SEO. Aller sur supermetrics.com/pricing pour renouveler. Trace ID erreur : 6170195cd08b04c0b081a5c0ecae097f</div>
       </div>
     </div>
 
-    <div class="reco" style="border-left-color:#16a34a;">
+    <div class="reco reco-m">
       <div>
-        <span class="prio-badge" style="background:#14532d;">🟢 CETTE SEMAINE</span>
+        <span class="prio-badge prio-m">GEO</span>
       </div>
       <div>
-        <div class="reco-title">S'inscrire au webinaire "Local AEO 2026" du 30 juillet (gratuit)</div>
-        <div class="reco-action">Search Engine Journal organise un masterclass AEO le 30 juillet (4 sessions). La session sur 68 millions de visites de crawlers IA et celle sur la livraison de la visibilité IA search sont directement applicables à la stratégie GEO de seopharmamontreal.com. Inscription gratuite via le lien dans la newsletter SEJ.</div>
+        <div class="reco-title">Créer des contenus ultra-spécifiques pour améliorer les citations IA</div>
+        <div class="reco-action">Selon SEJ aujourd'hui : le contenu spécifique est davantage cité par les AI. Créer des pages avec des données chiffrées uniques : « Le SEO pharma au Canada : statistiques 2025-2026 », « Guide PAAB + SEO : 10 règles de conformité », « Coût moyen d'un audit SEO pharma à Montréal ». Ces formats sont exactement ce que ChatGPT/Perplexity citent.</div>
+      </div>
+    </div>
+
+    <div class="reco reco-l">
+      <div>
+        <span class="prio-badge prio-l">LOCAL AEO</span>
+      </div>
+      <div>
+        <div class="reco-title">S'inscrire au webinar « Local AEO 2026 » du 30 juillet (gratuit)</div>
+        <div class="reco-action">Le webinar SEJ + Duda du 30 juillet (4 sessions, 10AM-4PM PT) couvre exactement les enjeux de visibilité locale sur les moteurs IA — comportement des AI crawlers, priorisation des requêtes locales, workflow actionnable. Inscription gratuite, enregistrements disponibles. Pertinent pour développer la stratégie GEO local de seopharmamontreal.com.</div>
       </div>
     </div>
   </div>
 
   <!-- SOURCES -->
   <div class="card">
-    <div class="section-title">📋 Sources consultées</div>
+    <div class="section-title">📚 Sources consultées</div>
     <table>
       <thead>
         <tr>
@@ -244,64 +262,35 @@
         </tr>
       </thead>
       <tbody>
-        <tr><td>Gmail (soulimanef5@gmail.com)</td><td>Emails SEO 24h</td><td style="color:#16a34a;">✓ 4 emails analysés</td></tr>
-        <tr><td>Supermetrics → Google Search Console</td><td>Stats GSC</td><td style="color:#dc2626;">✗ Essai expiré (07/06/2026)</td></tr>
-        <tr><td>Apify RAG Web Browser</td><td>Citations IA</td><td style="color:#f59e0b;">⚠ 0 résultat (scraping bloqué)</td></tr>
-        <tr><td>Search Engine Journal Newsletter</td><td>Tendances SEO</td><td style="color:#16a34a;">✓ Analysé</td></tr>
-        <tr><td>Neil Patel Newsletter</td><td>Tendances marketing IA</td><td style="color:#16a34a;">✓ Analysé</td></tr>
-        <tr><td>Search Engine Journal (SEJ AEO Webinar)</td><td>Événement SEO</td><td style="color:#16a34a;">✓ Analysé</td></tr>
+        <tr>
+          <td>Gmail — 3 threads (24h)</td>
+          <td>Newsletters SEO</td>
+          <td style="color:#16a34a;">✓ Collecté</td>
+        </tr>
+        <tr>
+          <td>Supermetrics GSC (sc-domain:seopharmamontreal.com)</td>
+          <td>Données Search Console</td>
+          <td style="color:var(--red);">✗ Essai expiré</td>
+        </tr>
+        <tr>
+          <td>Apify RAG Web Browser (5 requêtes)</td>
+          <td>Citations IA / GEO</td>
+          <td style="color:var(--gold);">⚠ 0/5 citations trouvées</td>
+        </tr>
+        <tr>
+          <td>GitHub Pages</td>
+          <td>Publication rapport</td>
+          <td id="gh-status">En cours…</td>
+        </tr>
       </tbody>
     </table>
   </div>
 
-  <div class="footer">
-    Rapport généré automatiquement le 2026-07-16 par l'agent SEO Pharma Montréal •
-    seopharmamontreal.com • soulimanef5@gmail.com
-  </div>
 </div>
 
-<script>
-const ctx = document.getElementById('trendChart').getContext('2d');
-new Chart(ctx, {
-  type: 'line',
-  data: {
-    labels: ['10 juil.', '11 juil.', '12 juil.', '13 juil.', '14 juil.', '15 juil.', '16 juil.'],
-    datasets: [
-      {
-        label: 'Clics (indisponibles)',
-        data: [null, null, null, null, null, null, null],
-        borderColor: '#c9a84c',
-        backgroundColor: 'rgba(201,168,76,0.08)',
-        tension: 0.3, fill: true, pointRadius: 4
-      },
-      {
-        label: 'Impressions /100 (indisponibles)',
-        data: [null, null, null, null, null, null, null],
-        borderColor: '#60a5fa',
-        backgroundColor: 'rgba(96,165,250,0.06)',
-        tension: 0.3, fill: true, pointRadius: 4
-      }
-    ]
-  },
-  options: {
-    responsive: true,
-    maintainAspectRatio: false,
-    plugins: {
-      legend: { labels: { color: '#94a3b8', font: { size: 11 } } },
-      tooltip: { mode: 'index', intersect: false },
-      title: {
-        display: true,
-        text: 'Données GSC indisponibles — Abonnement Supermetrics expiré',
-        color: '#f59e0b',
-        font: { size: 12 }
-      }
-    },
-    scales: {
-      x: { ticks: { color: '#64748b' }, grid: { color: '#0d1e38' } },
-      y: { ticks: { color: '#64748b' }, grid: { color: '#0d1e38' } }
-    }
-  }
-});
-</script>
+<div class="footer">
+  Rapport généré automatiquement le 16/07/2026 — Agent SEO Pharma Montréal — seopharmamontreal.com
+</div>
+
 </body>
 </html>
