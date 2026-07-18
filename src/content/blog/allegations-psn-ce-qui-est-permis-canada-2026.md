@@ -5,9 +5,9 @@ description: "Quelles allégations pour un produit de santé naturel au Canada ?
 pubDate: 2026-06-25
 lang: fr
 tags: ["PSN", "Santé Canada", "allégations", "conformité", "SEO", "produits de santé naturels"]
-readingTime: 8
+readingTime: 10
 author: Soulimane Farah
-modDate: 2026-06-25
+modDate: 2026-07-16
 translationSlug: "nhp-claims-what-you-can-say-canada-2026-en"
 faq:
   - q: "Quelles allégations peut-on faire pour un produit de santé naturel au Canada ?"
@@ -20,6 +20,10 @@ faq:
     a: "Les allégations qui dépassent l'usage autorisé, qui sont fausses, trompeuses ou mensongères, qui promettent de traiter des maladies graves sans autorisation, ou qui laissent entendre des résultats garantis. Les allégations comparatives ou de traitement de maladie au-delà de l'homologation sont une source fréquente de sanctions et de problèmes de crédibilité YMYL avec Google."
   - q: "En quoi les allégations PSN influencent-elles le SEO ?"
     a: "Vos allégations permises constituent en pratique la borne de vos mots-clés : elles définissent le langage autour duquel vous pouvez optimiser. Un bon SEO PSN se classe dans ces limites tout en satisfaisant les critères YMYL et E-E-A-T de Google. Sur-promettre risque à la fois une sanction réglementaire et signale un contenu non fiable à Google."
+  - q: "D'où viennent les conditions d'utilisation permises d'un PSN ?"
+    a: "Pour la plupart des ingrédients courants, du Compendium des monographies de Santé Canada. Chaque monographie fixe les conditions d'utilisation acceptées — usage ou fin recommandés, dose, durée et mentions de risque obligatoires. Une demande de licence compendiale doit rester à l'intérieur de ces conditions pré-autorisées. Si votre ingrédient n'a pas de monographie publiée, vous devez plutôt soumettre vos propres preuves d'innocuité et d'efficacité."
+  - q: "Que signifie une condition d'utilisation « non permise » pour un PSN ?"
+    a: "Cela signifie que l'usage, la dose, la population ou la durée que vous tentez de revendiquer sort de la monographie publiée. Une demande de classe I (compendiale) doit correspondre exactement à la monographie, sans modification. Vos options : ramener l'allégation à l'intérieur de la monographie, ou déposer une demande non compendiale appuyée par vos propres preuves — une voie plus longue. Une condition jamais autorisée ne peut être ajoutée après coup par du contenu marketing."
 ---
 
 Le fait le plus important du marketing des produits de santé naturels au Canada est aussi le plus négligé : **vos allégations ne vous appartiennent pas.** Elles sont définies par Santé Canada lors de l'homologation de votre produit — et chaque mot de votre site doit rester à l'intérieur de cette borne.
@@ -41,6 +45,25 @@ Un PSN doit porter **au moins une allégation santé**, et cette allégation doi
 Chaque PSN autorisé porte un **NPN (numéro de produit naturel)** — un numéro d'homologation à huit chiffres de Santé Canada (les produits homéopathiques portent un DIN-HM). Le NPN confirme les ingrédients, conditions d'utilisation et allégations approuvés du produit, et est consultable dans la [base de données des produits de santé naturels homologués](https://health-products.canada.ca/lnhpd-bdpsnh/index-fra.jsp).
 
 Pour les marketeurs, le NPN n'est pas qu'un sceau de conformité — c'est la **borne de votre message**. Les allégations permises liées à cette homologation définissent exactement ce que vous pouvez dire.
+
+---
+
+## Conditions d'utilisation : là où vos allégations sont réellement fixées
+
+Si le NPN est la borne, le **[Compendium des monographies](https://www.canada.ca/en/health-canada/services/drugs-health-products/natural-non-prescription/applications-submissions/product-licensing/compendium-monographs.html)** est l'endroit où cette borne est tracée. Pour la plupart des ingrédients courants, Santé Canada a déjà publié une monographie qui fixe les **conditions d'utilisation** acceptées. Une monographie précise généralement :
+
+- l'**usage ou la fin recommandés** — l'allégation santé elle-même
+- la **dose** — quantité, forme et fréquence
+- la **durée** d'utilisation
+- les **mentions de risque** obligatoires — précautions, mises en garde, contre-indications
+
+Chacun de ces éléments fait partie de l'autorisation, et chacun encadre ce que votre marketing peut dire.
+
+Lorsque vous déposez une demande de licence de mise en marché **compendiale** — la voie rapide examinée en 60 jours — vous attestez que votre produit reste **à l'intérieur** de ces conditions pré-autorisées. C'est précisément pourquoi les demandeurs se heurtent à un mur quand une **condition d'utilisation n'est pas permise** : si vous tentez de revendiquer un usage, une dose, une population ou une durée que la monographie publiée ne couvre pas, la demande sort de la voie compendiale. Santé Canada est explicite : une demande de classe I (compendiale) doit correspondre **exactement** à la monographie, sans aucune modification.
+
+À partir de là, deux options : ramener l'allégation à l'intérieur de la monographie, ou déposer une demande **non compendiale** appuyée par vos propres preuves d'innocuité et d'efficacité — une voie plus longue et exigeante en données. Et si aucune monographie n'existe pour votre ingrédient, la voie compendiale n'est tout simplement pas disponible.
+
+Pour le marketing, la leçon se situe en amont de toute rédaction : **votre univers de mots-clés est décidé au moment de l'homologation.** Les conditions d'utilisation permises deviennent le vocabulaire exact autour duquel vous pouvez optimiser. Un bénéfice qui n'a jamais été autorisé comme condition d'utilisation ne peut être rattrapé par une page produit habilement tournée — c'est une lacune de conformité, et sur une page YMYL, Google la lit ainsi lui aussi.
 
 ---
 
@@ -77,6 +100,6 @@ Pour la carte réglementaire d'ensemble, voir notre guide des [règles de public
 
 ---
 
-> Cet article est une information éducative sur les règles d'allégation des PSN au Canada et ne fait la promotion d'aucun produit précis.
+> **Avis :** Cet article fournit une information éducative générale sur les règles d'allégation des PSN au Canada. Il ne constitue pas un avis réglementaire, juridique ou médical et ne fait la promotion d'aucun produit précis. Validez toujours vos allégations auprès de vos conditions d'autorisation de mise en marché et d'un professionnel qualifié avant publication.
 
 Vous vendez des produits de santé naturels et voulez vous classer sans franchir la ligne de conformité ? [Obtenez une analyse préliminaire gratuite](/#contact) de votre site.
