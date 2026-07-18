@@ -39,3 +39,6 @@ pnpm-debug.log*
 # Assets marketing (carrousels LinkedIn) + tooling local — hors repo public
 /linkedin-carousel/
 .claude/skills/
+
+# Audits/stratégie — JAMAIS dans le repo public (règle hygiène n°4)
+/audits/
