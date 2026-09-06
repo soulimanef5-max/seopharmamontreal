@@ -185,7 +185,7 @@ Refonte d'architecture de contenu, migration SEO, implémentation schema structu
 
 ## Me contacter
 
-Je suis consultant SEO/GEO pharmaceutique basé à **Laval (Grand Montréal), Québec, Canada**. Je travaille avec des clients dans l'ensemble du Canada et des filiales canadiennes de multinationales pharmaceutiques.
+Je suis consultant SEO/GEO pharmaceutique basé à **Montréal, Québec, Canada**. Je travaille avec des clients dans l'ensemble du Canada et des filiales canadiennes de multinationales pharmaceutiques.
 
 **Email :** [soulimane@seopharmamontreal.com](mailto:soulimane@seopharmamontreal.com)
 **Téléphone :** +1 438 920 6377
