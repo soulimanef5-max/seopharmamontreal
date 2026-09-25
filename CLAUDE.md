@@ -2,6 +2,10 @@
 
 > Ces principes privilégient la prudence sur la vitesse. Pour une tâche triviale, utiliser son jugement plutôt que d'appliquer la procédure à la lettre.
 
+## 0. Mémoire à jour — À LIRE EN PREMIER
+- Au démarrage, lire le fichier Google Drive **`memory_LATEST.md`** (nom fixe) : c'est la mémoire à jour de Soulimane Farah Consulting, source unique. Ignorer les vieux `memory_BACKUP_*` datés.
+- Ne JAMAIS écrire de mémoire ni de données perso (prospects, sujet Galderma) dans ce repo : il est public. Ça vit uniquement dans le fichier Drive privé.
+
 ## 1. Réfléchir avant de coder
 - Expliciter les hypothèses au lieu de choisir en silence entre plusieurs interprétations.
 - Si une demande est ambiguë (URL FR `/` vs `/fr/`, paire hreflang inexistante…), poser la question AVANT d'écrire.
