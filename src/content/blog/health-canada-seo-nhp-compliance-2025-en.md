@@ -52,7 +52,7 @@ Health claim regulations create constraints that non-specialized marketing and S
 ### The Most Common Mistakes
 
 **1. Unauthorized therapeutic claims for NHPs**
-An NHP can only claim what's approved by Health Canada in its product licence (Natural Product Number — NPN or DIN-HM). Writing "relieves joint pain" for an NHP whose licence doesn't authorize it, even in a meta tag or page title, is a regulatory violation.
+An NHP can only claim what's approved by Health Canada in its product licence (Natural Product Number — NPN or DIN-HM). Writing "relieves joint pain" for an NHP whose licence doesn't authorize it, even in a meta tag or page title, is a regulatory violation. See [what an NPN lets you say](/en/blog/nhp-claims-what-you-can-say-canada-2026-en/).
 
 **2. Direct-to-consumer advertising of prescription drugs**
 In Canada, direct-to-consumer advertising (DTCA) for prescription drugs is strictly limited. A blog post that, even indirectly, recommends or highlights a specific drug for a particular indication may contravene the Food and Drugs Act.
@@ -154,4 +154,4 @@ Health Canada compliance, well-documented on your website, is exactly the reliab
 
 The question isn't "how do we work around regulation to rank better" — it's "how do we transform our industry's regulatory rigor into a lasting SEO advantage."
 
-Want to assess whether your site meets both Health Canada requirements and Google's SEO criteria? [Request a free preliminary analysis](/en/#contact).
+Want to assess whether your site meets both Health Canada requirements and Google's SEO criteria? See [NHP SEO consulting](/en/seo-nhp/), or [request a free preliminary analysis](/en/#contact).

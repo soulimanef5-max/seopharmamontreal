@@ -102,4 +102,4 @@ Pour la carte réglementaire d'ensemble, voir notre guide des [règles de public
 
 > **Avis :** Cet article fournit une information éducative générale sur les règles d'allégation des PSN au Canada. Il ne constitue pas un avis réglementaire, juridique ou médical et ne fait la promotion d'aucun produit précis. Validez toujours vos allégations auprès de vos conditions d'autorisation de mise en marché et d'un professionnel qualifié avant publication.
 
-Vous vendez des produits de santé naturels et voulez vous classer sans franchir la ligne de conformité ? [Obtenez une analyse préliminaire gratuite](/#contact) de votre site.
+Vous vendez des produits de santé naturels et voulez vous classer sans franchir la ligne de conformité ? Découvrez l'[accompagnement SEO dédié aux PSN](/seo-psn/), ou [obtenez une analyse préliminaire gratuite](/#contact) de votre site.

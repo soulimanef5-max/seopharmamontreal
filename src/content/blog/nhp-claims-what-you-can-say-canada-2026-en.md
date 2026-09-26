@@ -44,7 +44,7 @@ An NHP must carry **at least one health claim**, and that claim must have a genu
 
 Every authorized NHP carries an **NPN (Natural Product Number)** — an eight-digit licence number from Health Canada (homeopathic products carry a DIN-HM). The NPN confirms the product's approved ingredients, conditions of use, and permitted claims, and is searchable in the [Licensed Natural Health Products Database](https://health-products.canada.ca/lnhpd-bdpsnh/index-eng.jsp).
 
-For marketers, the NPN is not just a compliance stamp — it is the **boundary of your messaging**. The permitted claims attached to that licence define exactly what you can say.
+For marketers, the NPN is not just a compliance stamp — it is the **boundary of your messaging**. The permitted claims attached to that licence define exactly what you can say. For the wider regulatory picture, see [Health Canada and SEO for NHP companies](/en/blog/health-canada-seo-nhp-compliance-2025-en/).
 
 ---
 
@@ -102,4 +102,4 @@ For the broader regulatory map, see our guide to [pharmaceutical and health prod
 
 > **Disclaimer:** This article provides general educational information about NHP claim rules in Canada. It is not regulatory, legal or medical advice and does not promote any specific product. Always validate your claims against your product's Terms of Market Authorization and a qualified professional before publishing.
 
-Selling natural health products and want to rank without crossing a compliance line? [Get a free preliminary analysis](/en/#contact) of your site.
+Selling natural health products and want to rank without crossing a compliance line? See [NHP SEO consulting](/en/seo-nhp/), or [get a free preliminary analysis](/en/#contact) of your site.
