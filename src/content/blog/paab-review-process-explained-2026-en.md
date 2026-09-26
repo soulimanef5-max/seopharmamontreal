@@ -34,7 +34,7 @@ This is a plain-English walkthrough of the [PAAB](https://www.paab.ca/) review f
 
 **Technically voluntary. Practically mandatory.** The Pharmaceutical Advertising Advisory Board is an independent, not-for-profit body recognized by Health Canada to preclear prescription-drug advertising aimed at healthcare professionals. Nothing in the law forces you to submit — but medical publishers and platforms require a PAAB approval number before they will run your ad, and Health Canada relies on the system. ([PAAB's own Q&A confirms the practical obligation.](https://www.paab.ca/question-733))
 
-In other words: if you want your branded promotion to actually run, PAAB clearance is the price of entry.
+In other words: if you want your branded promotion to actually run, PAAB clearance is the price of entry. Note that PAAB reviews advertising, not agencies: see [is there a PAAB-certified agency?](/en/blog/paab-certified-agency-what-paab-reviews-2026-en/) before choosing a partner.
 
 ---
 
