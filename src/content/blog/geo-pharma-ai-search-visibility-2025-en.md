@@ -6,8 +6,19 @@ lang: en
 tags: ["GEO", "LLMO", "ChatGPT", "Perplexity", "pharma", "health", "Montreal"]
 readingTime: 8
 author: Soulimane Farah
-modDate: 2026-05-30
+modDate: 2026-09-26
 translationSlug: "geo-pharma-chatgpt-perplexity-sante-2025"
+faq:
+  - q: "What is GEO (Generative Engine Optimization)?"
+    a: "GEO is the work of getting your content cited as a source in AI-generated answers from tools like ChatGPT, Perplexity, Claude, Gemini and Google AI Overviews. SEO aims for a ranked link; GEO aims for a citation or mention inside the answer."
+  - q: "Does GEO replace SEO?"
+    a: "No. They are complementary. Several AI tools, Perplexity in particular, search the web in real time, so crawlable, well-ranked and well-sourced pages are also the ones most likely to be cited."
+  - q: "How do you make health content easier for AI to cite?"
+    a: "Use direct definitions, numbered lists, comparison tables and short answer blocks of two or three sentences, and publish under an identified author with verifiable credentials."
+  - q: "Should a pharma website allow AI crawlers?"
+    a: "If you want to be cited, make sure robots.txt does not block crawlers such as GPTBot, PerplexityBot and ClaudeBot. Blocking them should be a deliberate decision, not an accident."
+  - q: "What is an llms.txt file?"
+    a: "llms.txt is a proposed standard (llmstxt.org): a plain-text file at the root of a site that summarizes who you are, what you offer and which pages matter most, in a format language models can read quickly. Not every AI system uses it yet."
 ---
 
 In 2025, a quiet but major shift is reshaping how healthcare decision-makers find suppliers, solutions and experts: they're asking AI directly.

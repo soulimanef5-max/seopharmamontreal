@@ -6,7 +6,7 @@ lang: fr
 tags: ["Santé Canada", "PSN", "NPN", "PAAB", "SEO pharma", "réglementation", "Québec"]
 readingTime: 9
 author: Soulimane Farah
-modDate: 2026-05-30
+modDate: 2026-09-26
 translationSlug: "health-canada-seo-nhp-compliance-2025-en"
 ---
 
@@ -27,7 +27,7 @@ L'organisme fédéral qui encadre la mise en marché, la fabrication et la promo
 - **Instruments médicaux** (Règlement sur les instruments médicaux — RIM)
 
 ### Le [PAAB (Pharmaceutical Advertising Advisory Board)](https://www.paab.ca)
-L'organisme d'autoréglementation qui examine et accrédite la publicité sur les médicaments d'ordonnance destinée aux professionnels de santé. Son code s'applique aux contenus promotionnels numériques, y compris les sites web.
+L'organisme indépendant dont Santé Canada reconnaît la préapprobation pour la publicité destinée aux professionnels de la santé : médicaments d'ordonnance et en vente libre, produits biologiques et produits de santé naturels. Son code s'applique aux contenus promotionnels numériques, y compris les sites web. Le PAAB examine la publicité ; il ne certifie pas les agences.
 
 ### Les Normes canadiennes de la publicité (NCP)
 Elles encadrent la publicité destinée aux consommateurs, y compris pour les PSN et les médicaments sans ordonnance.
