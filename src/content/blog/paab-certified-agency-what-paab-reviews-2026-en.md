@@ -71,7 +71,7 @@ The same page sets out a few rules worth knowing before you budget. Fees go up e
 
 On timing, PAAB's [Services page](https://www.paab.ca/about-services.htm) lists a first review in 10 days for standard material and 3 days for each revision. The fastest paid option, ARO-2, targets a first response within 2 business days for smaller submissions.
 
-In my experience the fee is rarely what hurts. The time your branded material spends in review is. That's why the way you structure your content matters more than which speed option you buy.
+For most campaigns the fee is a small line in the budget. The bigger cost is the calendar: every revision round adds days before a branded piece can run. That's why the way you structure your content matters more than which speed option you buy.
 
 ---
 
@@ -91,7 +91,7 @@ Whether you're looking at a full-service agency, a medical writer or an SEO cons
 
 PAAB review and search visibility are different jobs, but they touch the same pages. What works for Canadian pharma brands is to separate two layers. The first is an unbranded educational hub: condition guides, category explainers, regulatory content. It carries most of the search demand, and it's the kind of page ChatGPT, Perplexity and Google AI Overviews tend to cite. The second is a lean branded layer, meaning product pages and professional campaigns, submitted to PAAB early and kept tight.
 
-Set up that way, you keep publishing at a normal pace without sliding into regulated promotion. Helping pharma, natural health product and medical device companies build that structure is most of what I do as a [PAAB-aware SEO consultant](/en/seo-pharma/).
+Set up that way, you keep publishing at a normal pace without sliding into regulated promotion. Building that structure for pharmaceutical, natural health product and medical device companies is the focus of [PAAB-aware SEO consulting](/en/seo-pharma/).
 
 ---
 
