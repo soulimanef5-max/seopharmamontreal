@@ -110,8 +110,8 @@ AI models "read" the entire indexed web to build their responses. The more your 
 
 For Canadian pharma, the mentions to target first:
 - Professional associations (AQPP, CPEQ, Pharmabio Développement, MEDEC)
-- Sector media (Drug Store News Canada, Canadian Healthcare Technology)
-- Certified directories (BioTalent Canada, Invest in Canada)
+- Sector media (Canadian Healthcare Technology, the Canadian Pharmacists Journal)
+- Sector directories (for example, the [Montreal InVivo business directory](https://www.montreal-invivo.com/en/ressources/toolbox/business-directory/))
 - Interviews and podcasts in the health sector
 
 ### 5. Directly Answer Questions Your Clients Ask AI Models

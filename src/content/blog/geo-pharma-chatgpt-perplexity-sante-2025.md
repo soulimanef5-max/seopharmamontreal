@@ -6,8 +6,19 @@ lang: fr
 tags: ["GEO", "LLMO", "ChatGPT", "Perplexity", "pharma", "santé", "Montréal"]
 readingTime: 8
 author: Soulimane Farah
-modDate: 2026-05-31
+modDate: 2026-09-26
 translationSlug: "geo-pharma-ai-search-visibility-2025-en"
+faq:
+  - q: "Qu'est-ce que le GEO (Generative Engine Optimization) ?"
+    a: "Le GEO consiste à faire citer votre contenu comme source dans les réponses générées par des outils comme ChatGPT, Perplexity, Claude, Gemini ou les AI Overviews de Google. Le SEO vise un lien bien classé ; le GEO vise une citation ou une mention dans la réponse."
+  - q: "Le GEO remplace-t-il le SEO ?"
+    a: "Non, les deux se complètent. Plusieurs outils d'IA, Perplexity en particulier, cherchent sur le web en temps réel : les pages explorables, bien classées et bien sourcées sont aussi celles qui ont le plus de chances d'être citées."
+  - q: "Comment rendre un contenu santé plus facile à citer par une IA ?"
+    a: "Utilisez des définitions directes, des listes numérotées, des tableaux comparatifs et de courts blocs de réponse de deux ou trois phrases, et publiez sous un auteur identifié aux qualifications vérifiables."
+  - q: "Un site pharma doit-il autoriser les robots d'IA ?"
+    a: "Si vous voulez être cité, vérifiez que votre robots.txt ne bloque pas des robots comme GPTBot, PerplexityBot et ClaudeBot. Les bloquer doit être une décision réfléchie, pas un accident."
+  - q: "Qu'est-ce qu'un fichier llms.txt ?"
+    a: "Le llms.txt est une norme proposée (llmstxt.org) : un fichier texte à la racine du site qui résume qui vous êtes, ce que vous offrez et quelles pages comptent le plus, dans un format que les modèles de langage lisent rapidement. Tous les systèmes d'IA ne l'utilisent pas encore."
 ---
 
 **40 millions de personnes posent des questions de santé à ChatGPT chaque jour** (OpenAI, 2026). 48,7 % des requêtes santé sur la première page de Google déclenchent désormais un AI Overview — une réponse générée avant le moindre lien organique. En 2026, une tendance discrète mais majeure transforme la façon dont les décideurs du secteur santé cherchent des fournisseurs, des solutions et des experts : ils demandent directement à une intelligence artificielle.
@@ -99,8 +110,8 @@ Les IA « lisent » l'ensemble du web indexé pour construire leurs réponses. P
 
 Pour le secteur pharma au Québec, les mentions à cibler en priorité :
 - Associations professionnelles (AQPP, CPEQ, Pharmabio Développement)
-- Médias sectoriels (Drug Store News Canada, Québec Pharmacie)
-- Répertoires certifiés (BioTalent Canada, Investissement Québec)
+- Médias sectoriels (Québec Pharmacie)
+- Répertoires sectoriels (par exemple, le répertoire d'entreprises de Montréal InVivo)
 - Interviews et podcasts dans le secteur santé
 
 ### 5. Répondre directement aux questions que posent vos clients aux IA

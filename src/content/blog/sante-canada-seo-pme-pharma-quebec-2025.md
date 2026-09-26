@@ -8,6 +8,17 @@ readingTime: 9
 author: Soulimane Farah
 modDate: 2026-09-26
 translationSlug: "health-canada-seo-nhp-compliance-2025-en"
+faq:
+  - q: "Qui encadre la publicité des produits de santé au Canada ?"
+    a: "Santé Canada fixe les règles avec la Loi sur les aliments et drogues, le Règlement sur les produits de santé naturels et le Règlement sur les instruments médicaux. Le PAAB préapprouve la publicité destinée aux professionnels de la santé, et Normes de la publicité examine la publicité grand public des produits de santé naturels et des médicaments en vente libre."
+  - q: "Un site de PSN peut-il utiliser des allégations absentes de sa licence ?"
+    a: "Non. Un produit de santé naturel ne peut faire que les allégations autorisées dans sa licence de mise en marché (NPN ou DIN-HM). Cela vaut pour les balises title, les meta descriptions et les pages produits autant que pour l'emballage."
+  - q: "Que doit contenir une page produit PSN conforme ?"
+    a: "Le NPN ou le DIN, idéalement relié à la base de données de Santé Canada, les ingrédients médicinaux et non médicinaux, les seules allégations approuvées, les mises en garde et contre-indications requises, et l'information sur le fabricant, dont les BPF s'il y a lieu."
+  - q: "Les témoignages de clients sont-ils permis pour les produits de santé ?"
+    a: "Les témoignages qui décrivent des résultats de santé sont encadrés pour les PSN et interdits pour les médicaments d'ordonnance. Évitez de les injecter dans un balisage d'avis ou de schema, où ils sont aussi visibles que sur la page."
+  - q: "La conformité réglementaire aide-t-elle le classement sur Google ?"
+    a: "Indirectement. Les numéros NPN, les références aux BPF, la citation des règlements applicables et des auteurs identifiés sont le genre de signaux de fiabilité que les lignes directrices de Google demandent d'évaluer sur les sites santé."
 ---
 
 Si vous gérez le site web d'une entreprise pharmaceutique, d'une marque de produits de santé naturels (PSN) ou d'un fabricant de dispositifs médicaux au Québec, vous naviguez en permanence entre deux exigences apparemment contradictoires : **être visible sur Google** et **respecter les cadres réglementaires de Santé Canada**.

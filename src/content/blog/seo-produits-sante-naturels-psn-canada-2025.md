@@ -6,7 +6,18 @@ lang: fr
 tags: ["PSN", "NPN", "produits de santé naturels", "SEO", "RPSN", "Santé Canada", "e-commerce santé"]
 readingTime: 8
 author: Soulimane Farah
-modDate: 2026-05-30
+modDate: 2026-09-26
+faq:
+  - q: "Pourquoi les pages de PSN sont-elles évaluées plus sévèrement par Google ?"
+    a: "Parce qu'elles touchent à la santé : Google les classe YMYL et les évalue selon des critères d'expertise, d'autorité et de fiabilité (E-E-A-T) plus stricts que pour la plupart des produits de consommation."
+  - q: "Que doit contenir une page produit PSN optimisée ?"
+    a: "Les allégations exactement telles qu'approuvées, les ingrédients médicinaux avec leur dosage, les ingrédients non médicinaux, la posologie, les mises en garde, le NPN relié à la base de données de Santé Canada et, s'il y a lieu, les certifications du fabricant."
+  - q: "Quel balisage Schema.org utiliser pour un PSN ?"
+    a: "Le type DietarySupplement, avec des propriétés comme activeIngredient, safetyConsideration, recommendedIntake et manufacturer, et le balisage Offer (prix, disponibilité) si vous vendez en ligne."
+  - q: "Peut-on nommer ses produits dans un article comparatif ?"
+    a: "Seulement si leur NPN leur accorde les allégations dont parle l'article. Évitez toute allégation non approuvée, même implicite, y compris dans les comparatifs."
+  - q: "Que faire si Google Ads refuse les annonces de vos PSN ?"
+    a: "C'est fréquent en raison des politiques publicitaires de Google sur les produits de santé. Le référencement naturel devient alors le principal canal de recherche : contenu éducatif, pages produits complètes et autorité de marque."
 ---
 
 Le marché canadien des produits de santé naturels (PSN) représente plus de 13 milliards de dollars annuellement — et la majorité des consommateurs commencent leur parcours d'achat sur Google. Pourtant, la plupart des marques PSN canadiennes sous-investissent massivement dans leur référencement naturel.

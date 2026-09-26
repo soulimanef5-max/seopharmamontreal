@@ -6,7 +6,18 @@ lang: fr
 tags: ["SEO local", "clinique", "médecin", "Montréal", "Google Business Profile", "santé", "patients"]
 readingTime: 7
 author: Soulimane Farah
-modDate: 2026-05-30
+modDate: 2026-09-26
+faq:
+  - q: "Qu'est-ce qui encadre la publicité d'une clinique au Québec ?"
+    a: "Les ordres professionnels : le Collège des médecins, l'Ordre des dentistes, l'Ordre des pharmaciens, l'OPPQ, etc. Leurs codes limitent notamment les allégations de compétence et l'usage de témoignages de patients. Vérifiez les règles de votre ordre avant de publier."
+  - q: "Comment optimiser la fiche Google Business d'une clinique ?"
+    a: "Choisissez une catégorie principale précise, rédigez une description qui dit qui vous êtes, quels services vous offrez et pourquoi vous choisir, activez les attributs pertinents (accessibilité, stationnement, langues) et tenez vos horaires à jour, jours fériés compris."
+  - q: "Peut-on demander des avis Google à ses patients ?"
+    a: "Un simple message de suivi après la visite est courant, mais votre ordre professionnel peut encadrer la sollicitation d'avis. Consultez votre code de déontologie, et ne divulguez jamais d'information sur un patient en répondant à un avis."
+  - q: "Faut-il une fiche Google Business par praticien ?"
+    a: "Pour une clinique, une seule fiche est généralement préférable. Des fiches séparées se justifient surtout si les praticiens exercent des spécialités très différentes sur des zones distinctes. Créez plutôt une page par praticien sur le site."
+  - q: "Comment mesurer les résultats du SEO local d'une clinique ?"
+    a: "Suivez les appels et les demandes d'itinéraire reçus par la fiche Google Business, le rapport entre vues de la fiche et clics vers le site, votre position dans le bloc local de Google et l'évolution du nombre et de la note des avis."
 ---
 
 Un médecin de famille à Rosemont. Une clinique dentaire à Laval. Un physiothérapeute à Verdun. Chaque jour, des centaines de Montréalais cherchent sur Google un professionnel de santé près de chez eux — et la majorité clique sur l'un des trois premiers résultats.
@@ -33,7 +44,7 @@ Ces cadres réglementaires imposent des limites sur ce que vous pouvez et ne pou
 
 ### Fondation 1 — Le profil Google Business Profile comme priorité absolue
 
-Votre fiche GBP est votre vitrine numérique principale. 78 % des recherches locales de santé passent par [Google Maps](https://business.google.com) ou le Local Pack — le bloc de trois établissements affiché en haut des résultats.
+Votre fiche GBP est votre vitrine numérique principale. Une grande partie des recherches locales de santé se joue dans [Google Maps](https://business.google.com) et le Local Pack, le bloc de trois établissements affiché en haut des résultats.
 
 **Configuration optimale pour une clinique :**
 

@@ -6,7 +6,18 @@ lang: fr
 tags: ["SEO local", "pharmacie", "Québec", "Google Business Profile", "AQPP", "pharmacien propriétaire"]
 readingTime: 7
 author: Soulimane Farah
-modDate: 2026-05-30
+modDate: 2026-09-26
+faq:
+  - q: "Une pharmacie indépendante peut-elle battre les grandes chaînes sur Google ?"
+    a: "Sur les recherches de proximité, souvent oui. Les pages de succursales des chaînes sont généralement génériques, alors qu'une pharmacie indépendante peut publier du contenu propre à son quartier, concentrer ses avis sur une seule fiche et répondre personnellement à ses patients."
+  - q: "Quels mots-clés une pharmacie indépendante devrait-elle cibler ?"
+    a: "Des requêtes de quartier et de service plutôt que « pharmacie Montréal » : « pharmacie Rosemont », « pharmacie ouverte le soir Plateau-Mont-Royal », « livraison de médicaments Outremont ». Le volume est plus faible, mais la concurrence aussi, et l'intention est forte."
+  - q: "Comment optimiser la fiche Google Business d'une pharmacie ?"
+    a: "Horaires à jour, jours fériés compris, catégorie principale « Pharmacie » avec les bonnes catégories secondaires, photos réelles de l'équipe et de l'officine, publications régulières et questions-réponses sur les services (livraison, assurances, vaccination)."
+  - q: "Quels services mettre en avant sur le site d'une pharmacie ?"
+    a: "Ceux qui la distinguent : livraison à domicile, piluliers, vaccination, disponibilité en soirée, conseils personnalisés. Donnez à chacun sa propre page, avec du contenu informatif, une FAQ et un appel à l'action clair."
+  - q: "Quelles citations locales sont prioritaires pour une pharmacie ?"
+    a: "Le répertoire de l'AQPP, Pages Jaunes, Yelp, les répertoires municipaux, la chambre de commerce locale et le répertoire du CIUSSS ou CISSS. Le nom, l'adresse et le téléphone doivent être strictement identiques partout."
 ---
 
 Jean Coutu. Pharmaprix. Uniprix. Metro Pharmacy. Ces chaînes dépensent des millions en marketing numérique et occupent les premières positions sur Google pour des centaines de mots-clés liés à la pharmacie.

@@ -6,8 +6,19 @@ lang: fr
 tags: ["E-E-A-T", "YMYL", "SEO médical", "pharma", "Montréal"]
 readingTime: 7
 author: Soulimane Farah
-modDate: 2026-05-30
+modDate: 2026-09-26
 translationSlug: "eeat-medical-seo-pharma-2025-en"
+faq:
+  - q: "Qu'est-ce que l'E-E-A-T ?"
+    a: "E-E-A-T signifie Experience, Expertise, Authoritativeness et Trustworthiness (expérience, expertise, autorité, fiabilité). Les évaluateurs de qualité de Google utilisent ces critères pour juger un contenu, et les appliquent le plus strictement aux sujets santé et YMYL."
+  - q: "Pourquoi le contenu pharmaceutique est-il considéré comme YMYL ?"
+    a: "YMYL (Your Money or Your Life) désigne les pages qui peuvent influer sur la santé, les finances ou la sécurité du lecteur. Une information inexacte sur un médicament, un produit de santé naturel ou une interaction peut causer un tort réel : le contenu pharma entre donc pleinement dans cette catégorie."
+  - q: "Quand Google a-t-il ajouté l'Expérience à l'E-A-T ?"
+    a: "Google a ajouté le premier E, pour Experience, en décembre 2022. Il renvoie à l'expérience directe de l'auteur avec le sujet traité."
+  - q: "Qu'est-ce qui affaiblit le plus l'E-E-A-T d'un site pharma ?"
+    a: "Des articles sans auteur identifié, l'absence de pages auteur, du contenu médical jamais mis à jour, des avertissements absents ou mal placés, et des liens entrants venant d'annuaires ou de blogues sans rapport avec la santé."
+  - q: "Par où commencer pour améliorer l'E-E-A-T ?"
+    a: "Créer des pages auteur avec les qualifications, afficher les dates de publication et de mise à jour, sourcer chaque affirmation médicale, ajouter des avertissements clairs et, pour les entreprises locales, renforcer la fiche Google Business avec de vrais avis."
 ---
 
 Si vous gérez le site d'une pharmacie indépendante, d'une marque de produits de santé naturels ou d'un distributeur de dispositifs médicaux au Québec, vous êtes concerné par l'un des aspects les plus méconnus — et les plus déterminants — du référencement naturel : les critères **E-E-A-T**.
