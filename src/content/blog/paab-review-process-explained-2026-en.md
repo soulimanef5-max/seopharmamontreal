@@ -1,7 +1,7 @@
 ---
 title: "PAAB Review: Is Approval Mandatory? Process and Timelines"
-seoTitle: "PAAB Review: Is Approval Mandatory? Process & Timelines"
-description: "Is PAAB approval mandatory? How long does it take, what gets reviewed, and how to structure content so the PAAB never becomes a bottleneck."
+seoTitle: "What Is PAAB? Review Process, Timelines & Is It Mandatory"
+description: "What is PAAB and is its review mandatory? What gets reviewed, how long it takes, what it costs your calendar, and how to plan content around it."
 pubDate: 2026-06-25
 lang: en
 tags: ["PAAB", "Health Canada", "compliance", "pharma", "advertising", "process"]

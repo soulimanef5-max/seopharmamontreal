@@ -242,26 +242,26 @@ const faqSchema = faq.length > 0 ? JSON.stringify({
           </section>
         )}
 
-        <!-- Articles connexes -->
-        <RelatedPosts lang={lang} currentSlug={slugFromPath} currentTags={tags} />
-
         <!-- CTA bas d'article -->
         <div
           class="mt-14 rounded-2xl p-8 text-center"
           style="background: var(--color-primary);"
         >
           <p class="font-bold mb-2" style="font-family: var(--font-family-heading); font-size: 1.25rem; color: white;">
-            {lang === 'fr' ? 'Prêt à améliorer votre SEO santé ?' : 'Ready to improve your health SEO?'}
+            {lang === 'fr' ? 'Votre site santé a-t-il des points de vigilance ?' : 'Does your health website have regulatory blind spots?'}
           </p>
           <p class="mb-6 text-sm" style="color: rgba(255,255,255,0.65);">
             {lang === 'fr'
-              ? 'Obtenez une analyse préliminaire gratuite de votre site — réponse sous 24h.'
-              : 'Get a free preliminary analysis of your site — response within 24h.'}
+              ? 'Analyse préliminaire gratuite : visibilité Google et IA, et points de vigilance Santé Canada / PAAB. Réponse sous 24 h ouvrables.'
+              : 'Free preliminary review: Google and AI visibility, plus Health Canada / PAAB watch points. Reply within 1 business day.'}
           </p>
           <a href={lang === 'en' ? '/en/#contact' : '/#contact'} class="btn btn-primary btn-lg">
             {lang === 'fr' ? 'Analyse préliminaire gratuite (valeur 250 $)' : 'Free preliminary analysis ($250 value)'}
           </a>
         </div>
+
+        <!-- Articles connexes -->
+        <RelatedPosts lang={lang} currentSlug={slugFromPath} currentTags={tags} />
       </div>
     </article>
   </main>

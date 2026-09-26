@@ -1,7 +1,7 @@
 ---
 title: "NHP Claims in Canada: What You Can (and Can't) Say"
-seoTitle: "NHP Claims in Canada: What You Can (and Can't) Say"
-description: "What claims can you make for a natural health product in Canada? How the NPN and Terms of Market Authorization shape your copy — and your SEO."
+seoTitle: "NHP Claims in Canada: What Your NPN Lets You Say"
+description: "Which claims can a natural health product make in Canada? How your NPN and conditions of use set the limits, and where brands get flagged."
 pubDate: 2026-06-25
 lang: en
 tags: ["NHP", "Health Canada", "claims", "compliance", "SEO", "natural health products"]
