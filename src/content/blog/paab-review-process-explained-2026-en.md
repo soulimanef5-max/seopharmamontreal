@@ -1,7 +1,7 @@
 ---
 title: "PAAB Review: Is Approval Mandatory? Process and Timelines"
-seoTitle: "PAAB Review: Is Approval Mandatory? Process & Timelines"
-description: "Is PAAB approval mandatory? How long does it take, what gets reviewed, and how to structure content so the PAAB never becomes a bottleneck."
+seoTitle: "What Is PAAB? Review Process, Timelines & Is It Mandatory"
+description: "What is PAAB and is its review mandatory? What gets reviewed, how long it takes, what it costs your calendar, and how to plan content around it."
 pubDate: 2026-06-25
 lang: en
 tags: ["PAAB", "Health Canada", "compliance", "pharma", "advertising", "process"]
@@ -34,7 +34,7 @@ This is a plain-English walkthrough of the [PAAB](https://www.paab.ca/) review f
 
 **Technically voluntary. Practically mandatory.** The Pharmaceutical Advertising Advisory Board is an independent, not-for-profit body recognized by Health Canada to preclear prescription-drug advertising aimed at healthcare professionals. Nothing in the law forces you to submit — but medical publishers and platforms require a PAAB approval number before they will run your ad, and Health Canada relies on the system. ([PAAB's own Q&A confirms the practical obligation.](https://www.paab.ca/question-733))
 
-In other words: if you want your branded promotion to actually run, PAAB clearance is the price of entry.
+In other words: if you want your branded promotion to actually run, PAAB clearance is the price of entry. Note that PAAB reviews advertising, not agencies: see [is there a PAAB-certified agency?](/en/blog/paab-certified-agency-what-paab-reviews-2026-en/) before choosing a partner.
 
 ---
 
@@ -56,6 +56,8 @@ A typical PAAB submission follows a predictable rhythm:
 1. **First review** — roughly **10 business days** for the initial submission.
 2. **Revision rounds** — shorter follow-up reviews (commonly around 3 business days each) as you address comments.
 3. **Acceptance** — once the material meets the PAAB Code, you receive an approval number.
+
+These turnaround targets come from PAAB's own [Services page](https://www.paab.ca/about-services.htm), which also lists 4 days for direct-to-consumer and opinion requests and 15 days for pre-NOC submissions.
 
 Most submissions go through **at least one revision cycle**, so the realistic end-to-end timeline is several weeks, not a few days. The teams that move fastest are the ones that submit clean, well-referenced material the first time.
 

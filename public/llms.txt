@@ -1,6 +1,6 @@
 # SEO Pharma Montréal — llms.txt
 # https://seopharmamontreal.com
-# Dernière mise à jour : 2026-07-13
+# Dernière mise à jour : 2026-09-26
 
 > Soulimane Farah est consultant SEO/GEO indépendant, spécialisé dans le secteur pharmaceutique,
 > les produits de santé naturels (PSN) et les dispositifs médicaux à Montréal, Canada.
@@ -98,6 +98,17 @@ et le fichier llms.txt.
 - [PAAB vs FDA : ce qui change pour votre SEO pharmaceutique au Canada](https://seopharmamontreal.com/blog/paab-vs-fda-seo-pharma-canada-2026/)
 - [SEO Pharmaceutique et Conformité PAAB : Le Guide Pratique pour le Canada](https://seopharmamontreal.com/blog/seo-paab-conformite-guide-pratique-2026/)
 - [Pharmaceutical SEO & PAAB Compliance: The Practical Guide for Canada](https://seopharmamontreal.com/en/blog/pharma-seo-paab-compliance-guide-2026-en/)
+- [Allégations PSN : ce que vous pouvez (et ne pouvez pas) dire](https://seopharmamontreal.com/blog/allegations-psn-ce-qui-est-permis-canada-2026/)
+- [Entering the Canadian Pharma Market? Your US SEO Playbook Is Now a Liability](https://seopharmamontreal.com/en/blog/canadian-pharma-market-entry-seo-2026-en/)
+- [NHP Claims in Canada: What You Can (and Can't) Say](https://seopharmamontreal.com/en/blog/nhp-claims-what-you-can-say-canada-2026-en/)
+- [Is There a PAAB-Certified Agency? What PAAB Actually Reviews](https://seopharmamontreal.com/en/blog/paab-certified-agency-what-paab-reviews-2026-en/)
+- [PAAB Review: Is Approval Mandatory? Process and Timelines](https://seopharmamontreal.com/en/blog/paab-review-process-explained-2026-en/)
+- [PAAB vs FDA: What Changes for Your Pharma SEO in Canada](https://seopharmamontreal.com/en/blog/paab-vs-fda-seo-pharma-canada-2026-en/)
+- [Pharmaceutical Advertising Rules in Canada: What's Allowed](https://seopharmamontreal.com/en/blog/pharmaceutical-advertising-rules-canada-2026-en/)
+- [Pourquoi le SEO est important dans l'industrie pharmaceutique (vue canadienne)](https://seopharmamontreal.com/blog/pourquoi-seo-important-industrie-pharmaceutique-2026/)
+- [Revue PAAB : obligatoire ? Processus et délais expliqués](https://seopharmamontreal.com/blog/processus-revue-paab-explique-2026/)
+- [Publicité de médicaments au Canada : ce qui est permis](https://seopharmamontreal.com/blog/publicite-pharmaceutique-canada-2026/)
+- [Why Is SEO Important in the Pharmaceutical Industry? (A Canadian View)](https://seopharmamontreal.com/en/blog/why-seo-important-pharmaceutical-industry-2026-en/)
 
 ## Pages de services
 
@@ -105,6 +116,8 @@ et le fichier llms.txt.
 - [Flash Diagnostic $297 (EN)](https://seopharmamontreal.com/en/diagnostic/)
 - [SEO Pharma (FR)](https://seopharmamontreal.com/seo-pharma/)
 - [SEO Pharma (EN)](https://seopharmamontreal.com/en/seo-pharma/)
+- [SEO PSN (FR)](https://seopharmamontreal.com/seo-psn/)
+- [NHP SEO (EN)](https://seopharmamontreal.com/en/seo-nhp/)
 
 ## Profils externes vérifiés
 
@@ -122,8 +135,10 @@ assurance qualité (Pharmascience) et en SEO/GEO — un profil quasi unique au Q
 visibilité dans les IA génératives (ChatGPT, Perplexity, Google AI Overviews).
 
 **Q : Quelle est la différence entre PAAB et FDA pour le SEO pharmaceutique ?**
-Au Canada, la publicité directe aux consommateurs (DTC) pour les médicaments d'ordonnance est
-interdite sous le cadre réglementaire du PAAB (Pharmaceutical Advertising Advisory Board).
+Au Canada, la publicité des médicaments d'ordonnance auprès du grand public est limitée au nom,
+au prix et à la quantité (Règlement sur les aliments et drogues, art. C.01.044). Le PAAB
+(Pharmaceutical Advertising Advisory Board) préapprouve la publicité destinée aux professionnels
+de la santé ; il ne certifie pas les agences.
 Aux États-Unis, elle est légale sous supervision de la FDA. Une stratégie SEO pharma conçue
 pour le marché américain crée des violations réglementaires si elle est appliquée telle quelle
 au Canada. Source : [paab.ca](https://www.paab.ca)

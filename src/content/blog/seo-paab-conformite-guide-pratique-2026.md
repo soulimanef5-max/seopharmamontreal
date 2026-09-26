@@ -6,7 +6,7 @@ lang: fr
 tags: ["PAAB", "conformité", "SEO pharma", "E-E-A-T", "YMYL", "Santé Canada", "Québec"]
 readingTime: 9
 author: Soulimane Farah
-modDate: 2026-06-01
+modDate: 2026-09-25
 translationSlug: "pharma-seo-paab-compliance-guide-2026-en"
 ---
 
@@ -157,7 +157,7 @@ Avant de publier ou de modifier une page web pharmaceutique, parcourez cette lis
 |---------|----------------|------------|
 | Title tag page produit Rx | « Marque X — traite efficacement le diabète » | « Marque X — médicament d'ordonnance » |
 | Meta description | « Marque X soulage la douleur en 15 minutes » | « Marque X : information pour professionnels de santé » |
-| Corps de texte | « Cliniquement prouvé pour réduire les symptômes » | « Approuvé par Santé Canada pour le traitement de [condition] » |
+| Corps de texte | « Cliniquement prouvé pour réduire les symptômes » | Grand public : nom, prix et quantité seulement (art. C.01.044) ; l'information thérapeutique va dans une section réservée aux professionnels |
 | Témoignage | « Marie, 54 ans : Marque X a changé ma vie » | « [Témoignage B2B sur la qualité du service, sans allégation Rx] » |
 | Schema Drug | `description: "réduit la douleur de 50%"` | `description: "médicament d'ordonnance, forme comprimé"` |
 

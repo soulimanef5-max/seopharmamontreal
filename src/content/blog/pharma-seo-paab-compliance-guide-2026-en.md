@@ -6,7 +6,7 @@ lang: en
 tags: ["PAAB", "compliance", "pharma SEO", "E-E-A-T", "YMYL", "Health Canada", "Quebec"]
 readingTime: 9
 author: Soulimane Farah
-modDate: 2026-06-01
+modDate: 2026-09-25
 translationSlug: "seo-paab-conformite-guide-pratique-2026"
 ---
 
@@ -157,7 +157,7 @@ Before publishing or modifying a pharmaceutical web page, run through this list:
 |---------|----------------|-------------|
 | Rx product title tag | "Brand X — effectively treats diabetes" | "Brand X — prescription medication" |
 | Meta description | "Brand X relieves pain in 15 minutes" | "Brand X: information for healthcare professionals" |
-| Body copy | "Clinically proven to reduce symptoms" | "Approved by Health Canada for the treatment of [condition]" |
+| Body copy | "Clinically proven to reduce symptoms" | Public-facing: name, price and quantity only (s. C.01.044); therapeutic information goes in a section reserved for healthcare professionals |
 | Testimonial | "Mary, 54: Brand X changed my life" | "[B2B service quality testimonial, no Rx claims]" |
 | Drug schema | `description: "reduces pain by 50%"` | `description: "prescription drug, tablet form"` |
 

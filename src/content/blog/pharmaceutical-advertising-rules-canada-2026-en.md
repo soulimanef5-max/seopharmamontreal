@@ -1,6 +1,6 @@
 ---
 title: "Pharmaceutical Advertising Rules in Canada: What's Allowed"
-seoTitle: "Pharma Advertising Rules in Canada: What's Allowed (2026)"
+seoTitle: "Prescription Drug Advertising Rules in Canada (2026)"
 description: "Can you advertise prescription drugs in Canada? A plain-English guide to PAAB, Health Canada and DTC rules — and what they mean for your website."
 pubDate: 2026-06-25
 lang: en

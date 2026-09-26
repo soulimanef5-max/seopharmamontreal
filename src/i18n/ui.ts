@@ -24,7 +24,7 @@ export const ui = {
       cta1:     'Analyse préliminaire gratuite (valeur 250 $)',
       cta2:     'Voir les services',
       proof1:   '150+ points d\'audit vérifiés',
-      proof2:   'Réponse garantie sous 24h',
+      proof2:   'Réponse sous 24 h ouvrables',
       proof3:   'Sans engagement',
     },
 
@@ -104,7 +104,7 @@ export const ui = {
         { value: '150+', label: 'points contrôlés lors de chaque audit SEO technique' },
         { value: '45 %', label: 'des ventes de produits de santé naturels passent par l\'e-commerce — un canal piloté par le SEO' },
         { value: '3–6',  label: 'mois pour des résultats organiques significatifs et durables' },
-        { value: '24h',  label: 'délai de réponse garanti pour chaque demande de client' },
+        { value: '24h',  label: 'délai de réponse (jours ouvrables) à chaque demande de client' },
       ],
     },
 
@@ -116,7 +116,7 @@ export const ui = {
         {
           number:      '01',
           title:       'Audit SEO complet',
-          duration:    '2 jours ouvrables',
+          duration:    '7 jours ouvrables',
           desc:        'Analyse approfondie de votre site : technique, contenu, autorité, profil de liens et positionnement local. Vous recevez un rapport priorisé avec un plan d\'action clair.',
           deliverable: 'Rapport d\'audit + feuille de route',
         },
@@ -267,8 +267,8 @@ export const ui = {
             'Stratégie de netlinking santé',
             'Optimisation complète du site',
             'Veille concurrentielle active',
-            'Support prioritaire 48h',
-            'Accès consultant illimité',
+            'Support prioritaire',
+            'Appel stratégique mensuel dédié',
           ],
           cta:      'Demander un devis',
           featured: false,
@@ -281,7 +281,7 @@ export const ui = {
       title:     'Prêt à dominer Google dans votre secteur santé ?',
       subtitle:  'Partagez votre situation en 2 minutes. Je vous reviens avec une analyse préliminaire et des recommandations concrètes — sans engagement.',
       promises: [
-        'Réponse garantie sous 24h ouvrables',
+        'Réponse sous 24 h ouvrables',
         'Analyse préliminaire offerte (valeur 250 $)',
         'Aucun engagement contractuel dès le départ',
         'Confidentialité totale de vos données',
@@ -359,7 +359,7 @@ export const ui = {
       cta1:     'Free preliminary analysis ($250 value)',
       cta2:     'View Services',
       proof1:   '150+ audit points verified',
-      proof2:   '24h guaranteed response',
+      proof2:   'Reply within 1 business day',
       proof3:   'No commitment',
     },
 
@@ -439,7 +439,7 @@ export const ui = {
         { value: '150+', label: 'points checked in every technical SEO audit' },
         { value: '45%',  label: 'of natural health product sales run through e-commerce — a channel driven by SEO' },
         { value: '3–6',  label: 'months to significant, lasting organic results' },
-        { value: '24h',  label: 'guaranteed response time for every client request' },
+        { value: '24h',  label: 'response time (business days) for every client request' },
       ],
     },
 
@@ -451,7 +451,7 @@ export const ui = {
         {
           number:      '01',
           title:       'Full SEO Audit',
-          duration:    '2 business days',
+          duration:    '7 business days',
           desc:        'In-depth analysis of your site: technical, content, authority, link profile and local positioning. You receive a prioritized report with a clear action plan.',
           deliverable: 'Audit report + roadmap',
         },
@@ -602,8 +602,8 @@ export const ui = {
             'Health link building strategy',
             'Complete site optimization',
             'Active competitive monitoring',
-            'Priority support 48h',
-            'Unlimited consultant access',
+            'Priority support',
+            'Dedicated monthly strategy call',
           ],
           cta:      'Request a quote',
           featured: false,
@@ -616,7 +616,7 @@ export const ui = {
       title:     'Ready to dominate Google in your health sector?',
       subtitle:  'Share your situation in 2 minutes. I\'ll get back to you with a preliminary analysis and concrete recommendations — no commitment.',
       promises: [
-        '24h guaranteed response (business hours)',
+        'Reply within 1 business day',
         'Complimentary preliminary analysis (value $250)',
         'No contractual commitment from the start',
         'Total confidentiality of your data',
