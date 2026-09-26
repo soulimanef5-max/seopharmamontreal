@@ -8,9 +8,20 @@ readingTime: 9
 author: Soulimane Farah
 modDate: 2026-09-26
 translationSlug: "pharma-seo-paab-compliance-guide-2026-en"
+faq:
+  - q: "Un article de blogue pharma doit-il passer par le PAAB ?"
+    a: "En général non, s'il est non brandé et éducatif : il traite d'une maladie, d'une catégorie de traitement ou de la réglementation sans promouvoir un produit précis. Le PAAB examine le matériel promotionnel brandé destiné aux professionnels de la santé. Dès qu'une page associe un nom de marque à un bénéfice thérapeutique, elle devient du contenu promotionnel."
+  - q: "Que peut dire un site canadien sur un médicament d'ordonnance au grand public ?"
+    a: "Pour la publicité d'un médicament d'ordonnance auprès du public, le Règlement sur les aliments et drogues (art. C.01.044) permet seulement le nom, le prix et la quantité. Les allégations thérapeutiques, les comparaisons et les témoignages de patients liés à un médicament précis restent hors des pages destinées au public."
+  - q: "Les balises title et meta description comptent-elles comme du contenu promotionnel ?"
+    a: "Traitez-les comme tel. Une balise title ou une meta description qui associe un nom de marque à un bénéfice comporte le même risque que le texte de la page. Sur les pages brandées, gardez des métadonnées factuelles : nom, forme et, s'il y a lieu, l'indication générique, sans superlatif ni comparaison."
+  - q: "Les données structurées peuvent-elles poser un problème de conformité ?"
+    a: "Oui. Le balisage Schema.org est lu et indexé par les moteurs : une description Drug ou Product qui contient une allégation non approuvée est exposée comme n'importe quel texte. Limitez le balisage d'un médicament aux champs factuels comme le nom, le fabricant et la forme."
+  - q: "En quoi la conformité PAAB aide-t-elle le SEO ?"
+    a: "Un contenu conforme est sourcé, factuel et signé par des experts identifiés. Ce sont les signaux que Google recherche quand il évalue du contenu santé : bien gérer la conformité soutient donc le classement au lieu de le freiner."
 ---
 
-La recherche organique est le **seul canal d'acquisition numérique légal** pour les médicaments d'ordonnance au Canada. La publicité directe aux consommateurs (DTC) est [interdite](/blog/publicite-pharmaceutique-canada-2026/). Le référencement payant pour les Rx est sévèrement restreint. Résultat : le SEO devient stratégique — mais il doit se faire dans le cadre strict du [PAAB](https://www.paab.ca) et de [Santé Canada](https://www.canada.ca/fr/sante-canada.html).
+La recherche organique est l'un des rares **canaux d'acquisition numériques** encore utilisables pour les médicaments d'ordonnance au Canada. Leur [publicité auprès du public](/blog/publicite-pharmaceutique-canada-2026/) se limite au nom, au prix et à la quantité, ce qui laisse peu de place aux campagnes payantes. Résultat : le SEO devient stratégique — mais il doit se faire dans le cadre strict du [PAAB](https://www.paab.ca) et de [Santé Canada](https://www.canada.ca/fr/sante-canada.html).
 
 Ce guide ne répète pas les règles — il vous montre **comment les appliquer concrètement** à votre stratégie SEO, page par page.
 
@@ -39,7 +50,7 @@ Le PAAB impose une séparation stricte entre :
 
 **Impact SEO concret :** vos pages de blog éducatives (non brandées) peuvent être optimisées librement. Vos pages produit brandées doivent être soumises au PAAB avant publication — et leur contenu est structurellement limité.
 
-**Erreur fréquente :** associer le nom d'un médicament Rx à un témoignage patient ou à un bénéfice spécifique dans une balise meta description. C'est une violation PAAB qui peut aussi déclencher un signal YMYL négatif chez Google.
+**Erreur fréquente :** associer le nom d'un médicament Rx à un témoignage patient ou à un bénéfice spécifique dans une balise meta description. Sur une page destinée au public, cela enfreint les règles sur la publicité des médicaments d'ordonnance, et peut aussi envoyer un signal YMYL négatif à Google.
 
 ### 2. Ce que vous pouvez écrire sur un médicament Rx
 
@@ -57,13 +68,13 @@ Au-delà, auprès des consommateurs, évitez :
 
 ### 3. Les métadonnées sont du contenu promotionnel
 
-Une erreur que commettent même les agences expérimentées : oublier que les **balises title, meta description et balises alt** sont considérées comme du contenu promotionnel par le PAAB si elles contiennent un nom de marque associé à un bénéfice.
+Une erreur que commettent même les agences expérimentées : oublier que les **balises title, meta description et balises alt** font partie de ce que les gens voient. Si elles associent un nom de marque à un bénéfice, traitez-les comme du contenu promotionnel, avec le même risque que le texte de la page.
 
 **Règle pratique :** pour toute page brandée, vérifiez que vos métadonnées ne contiennent que le nom + la forme + éventuellement l'indication générique. Pas de superlatif, pas d'allégation, pas de comparaison.
 
 ### 4. Le schema structured data est soumis aux mêmes règles
 
-Les données structurées (Schema.org) que vous injectez dans vos pages sont indexées et lisibles par les moteurs. Un schema `Product` avec une propriété `description` contenant une allégation non approuvée est une violation PAAB potentielle.
+Les données structurées (Schema.org) que vous injectez dans vos pages sont indexées et lisibles par les moteurs. Un schema `Product` avec une propriété `description` contenant une allégation non approuvée comporte le même risque réglementaire que le texte visible.
 
 Pour les pages médicament, limitez votre schema `Drug` ou `Product` aux champs factuels : nom, fabricant, forme. Laissez les allégations thérapeutiques aux pages approuvées par le PAAB.
 
@@ -85,8 +96,8 @@ Google traite les sites pharmaceutiques comme du contenu YMYL (*Your Money Your 
 
 ### Autorité (A)
 - Backlinks depuis des organisations sectorielles : AQPP, CPEQ, BIOTECanada, MEDEC
-- Mentions dans des médias spécialisés : Québec Pharmacie, Drug Store News Canada
-- Présence dans des répertoires certifiés : Pharmabio Développement, Investissement Québec
+- Mentions dans des médias spécialisés comme Québec Pharmacie
+- Présence dans des répertoires sectoriels comme le répertoire d'entreprises de Montréal InVivo
 
 ### Fiabilité (T)
 - Politique éditoriale visible (qui rédige, qui valide, qui publie)

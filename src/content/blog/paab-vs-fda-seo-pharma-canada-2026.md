@@ -13,7 +13,7 @@ faq:
   - q: "Quelle est la principale différence entre PAAB et FDA pour le SEO pharmaceutique ?"
     a: "Le timing et le périmètre. La FDA (États-Unis) fonctionne en post-market : vous publiez, et l'agence peut intervenir après coup. Le PAAB (Canada) fonctionne en pré-approbation pour le contenu brandé destiné aux professionnels de santé : vous soumettez avant de publier. Surtout, la publicité directe au consommateur (DTC) des médicaments d'ordonnance est autorisée aux États-Unis mais interdite au Canada — ce qui rend une grande partie du SEO « product-led » américain illégale au nord de la frontière."
   - q: "Peut-on cloner une page produit américaine sur un site canadien ?"
-    a: "Non. Une page produit américaine optimisée autour de « [médicament] pour [condition] » constitue une violation PAAB si elle est publiée ou simplement indexable au Canada, car elle associe une marque d'ordonnance à une indication thérapeutique destinée au public. Au Canada, les pages produit brandées doivent se limiter au nom, à la forme et au prix."
+    a: "Non. Une page produit américaine optimisée autour de « [médicament] pour [condition] » enfreint les règles canadiennes sur la publicité des médicaments d'ordonnance si elle vise les consommateurs canadiens, car elle associe une marque d'ordonnance à une indication thérapeutique. Auprès du public, le Règlement sur les aliments et drogues (art. C.01.044) limite cette publicité au nom, au prix et à la quantité."
   - q: "Comment les moteurs de recherche IA (AI Overviews, ChatGPT, Perplexity) traitent-ils le contenu pharma transfrontalier ?"
     a: "Ils ignorent votre ciblage géographique. Un moteur génératif peut synthétiser ou citer votre page américaine brandée en réponse à la question d'un utilisateur canadien, exposant un contenu non conforme à un public où il est interdit. Le seul contenu sûr à être cité des deux côtés de la frontière est le contenu éducatif non brandé — qui est aussi celui que les IA préfèrent extraire."
   - q: "Faut-il relier la page américaine et la page canadienne par un hreflang ?"
@@ -52,7 +52,7 @@ Cette différence de timing — réaction *vs* pré-approbation — change tout 
 | Témoignages patients sur un Rx | Permis (avec divulgation) | Interdit |
 | Modèle de révision | Post-market | Pré-approbation (HCP) |
 
-**Conséquence SEO directe :** une page produit américaine optimisée autour de « [médicament X] pour [condition] » — un mot-clé à fort volume — n'a aucun équivalent légal au Canada. Si vous clonez cette page sur votre domaine canadien, vous créez une violation PAAB *et* un risque [YMYL](/blog/eeat-seo-medical-pharma-2025/) chez Google.
+**Conséquence SEO directe :** une page produit américaine optimisée autour de « [médicament X] pour [condition] » — un mot-clé à fort volume — n'a aucun équivalent légal au Canada. Si vous clonez cette page sur votre domaine canadien, vous créez un manquement réglementaire *et* un risque [YMYL](/blog/eeat-seo-medical-pharma-2025/) chez Google.
 
 ---
 

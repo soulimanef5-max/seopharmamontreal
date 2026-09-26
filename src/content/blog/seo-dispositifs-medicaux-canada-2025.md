@@ -6,7 +6,18 @@ lang: fr
 tags: ["dispositifs médicaux", "instruments médicaux", "SEO B2B", "Santé Canada", "RIM", "Canada"]
 readingTime: 8
 author: Soulimane Farah
-modDate: 2026-05-30
+modDate: 2026-09-26
+faq:
+  - q: "Comment Santé Canada classe-t-il les instruments médicaux ?"
+    a: "Le Règlement sur les instruments médicaux classe les instruments en quatre classes selon le risque, de la classe I (risque faible) à la classe IV (risque élevé). Plus la classe est élevée, plus les exigences d'homologation sont lourdes, et plus vos acheteurs attendent de rigueur et de documentation sur votre site."
+  - q: "Que doit contenir la page produit d'un instrument médical ?"
+    a: "Le numéro d'homologation relié à la base de données des instruments médicaux de Santé Canada, la classe de l'instrument, les indications d'utilisation approuvées, les spécifications techniques, les certifications comme ISO 13485 et la documentation disponible sur demande."
+  - q: "Quels mots-clés cibler pour vendre des instruments médicaux en B2B ?"
+    a: "Les termes que tapent les acheteurs institutionnels : requêtes de découverte (« fournisseur [type d'instrument] homologué Canada »), de comparaison (« [type d'instrument] classe II Canada ») et réglementaires (« instrument homologué Santé Canada [indication] »)."
+  - q: "Le SEO peut-il aider à décrocher des appels d'offres publics ?"
+    a: "Il aide en amont. Avant de publier un appel d'offres sur SEAO, les équipes cliniques et les acheteurs des établissements de santé font souvent des recherches de marché. Des pages qui répondent aux besoins exprimés dans les appels d'offres récurrents de votre secteur vous rendent visible à ce moment-là."
+  - q: "Quels signaux de confiance comptent pour un fabricant d'instruments médicaux ?"
+    a: "Des études de cas clients autorisées, les profils des experts techniques et réglementaires, des certifications ISO vérifiables, des numéros d'homologation cliquables, une politique qualité visible et des coordonnées canadiennes complètes."
 ---
 
 Le marché des dispositifs médicaux au Canada représente plus de 10 milliards de dollars annuellement. Pourtant, si vous tapez « fabricant dispositifs médicaux Canada » dans Google, vous trouverez essentiellement des répertoires génériques et quelques grandes multinationales.

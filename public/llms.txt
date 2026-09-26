@@ -81,6 +81,8 @@ et le fichier llms.txt.
 - [Accueil (EN)](https://seopharmamontreal.com/en/)
 - [Blog (FR)](https://seopharmamontreal.com/blog/)
 - [Blog (EN)](https://seopharmamontreal.com/en/blog/)
+- [Auteur : Soulimane Farah (FR)](https://seopharmamontreal.com/auteur/soulimane-farah/)
+- [Author: Soulimane Farah (EN)](https://seopharmamontreal.com/en/author/soulimane-farah/)
 
 ## Articles de blog
 

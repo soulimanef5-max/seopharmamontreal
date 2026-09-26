@@ -13,7 +13,7 @@ faq:
   - q: "What is the main difference between PAAB and FDA for pharmaceutical SEO?"
     a: "Timing and scope. The FDA (United States) operates post-market: you publish, and the agency can step in afterward. The PAAB (Canada) operates on pre-clearance for branded content aimed at healthcare professionals: you submit before publishing. Above all, direct-to-consumer (DTC) advertising of prescription drugs is permitted in the United States but prohibited in Canada — which makes a large share of US 'product-led' SEO illegal north of the border."
   - q: "Can you clone a US product page onto a Canadian site?"
-    a: "No. A US product page optimized around '[drug] for [condition]' is a PAAB violation if it is published or even indexable in Canada, because it ties a prescription brand to a therapeutic indication aimed at the public. In Canada, branded product pages must be limited to name, form and price."
+    a: "No. A US product page optimized around '[drug] for [condition]' breaches Canada's rules for prescription drug advertising if it is aimed at Canadian consumers, because it ties a prescription brand to a therapeutic indication. For the public, the Food and Drug Regulations (s. C.01.044) limit that advertising to the name, price and quantity."
   - q: "How do AI search engines (AI Overviews, ChatGPT, Perplexity) handle cross-border pharma content?"
     a: "They ignore your geographic targeting. A generative engine can synthesize or cite your US branded page in answer to a Canadian user's question, exposing non-compliant content to an audience where it is prohibited. The only content that is safe to be cited on both sides of the border is unbranded educational content — which is also what AI engines prefer to extract."
   - q: "Should you link the US page and the Canadian page with hreflang?"
@@ -52,7 +52,7 @@ This difference in timing — reaction *vs* pre-clearance — changes your entir
 | Patient testimonials about an Rx | Allowed (with disclosure) | Prohibited |
 | Review model | Post-market | Pre-clearance (HCP) |
 
-**Direct SEO consequence:** a US product page optimized around "[drug X] for [condition]" — a high-volume keyword — has no legal equivalent in Canada. If you clone that page onto your Canadian domain, you create a PAAB violation *and* a [YMYL](/en/blog/eeat-medical-seo-pharma-2025-en/) risk with Google.
+**Direct SEO consequence:** a US product page optimized around "[drug X] for [condition]" — a high-volume keyword — has no legal equivalent in Canada. If you clone that page onto your Canadian domain, you create a regulatory breach *and* a [YMYL](/en/blog/eeat-medical-seo-pharma-2025-en/) risk with Google.
 
 ---
 
