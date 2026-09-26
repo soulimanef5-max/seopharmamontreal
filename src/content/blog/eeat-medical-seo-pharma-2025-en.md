@@ -6,8 +6,19 @@ lang: en
 tags: ["E-E-A-T", "YMYL", "Medical SEO", "pharma", "Montréal"]
 readingTime: 7
 author: Soulimane Farah
-modDate: 2026-05-30
+modDate: 2026-09-26
 translationSlug: "eeat-seo-medical-pharma-2025"
+faq:
+  - q: "What is E-E-A-T?"
+    a: "E-E-A-T stands for Experience, Expertise, Authoritativeness and Trustworthiness. Google's quality raters use these criteria to assess content, and they apply them most strictly to health and other YMYL topics."
+  - q: "Why is pharmaceutical content considered YMYL?"
+    a: "YMYL (Your Money or Your Life) covers pages that could affect a reader's health, finances or safety. Inaccurate information about a drug, a natural health product or an interaction can cause real harm, so pharma content falls squarely in that category."
+  - q: "When did Google add Experience to E-A-T?"
+    a: "Google added the first E, for Experience, in December 2022. It refers to the author's first-hand experience with the topic."
+  - q: "What most often weakens E-E-A-T on pharma websites?"
+    a: "Articles with no identified author, no author pages, medical content that is never updated, missing or poorly placed disclaimers, and backlinks from directories or blogs unrelated to health."
+  - q: "Where should a pharma company start to improve E-E-A-T?"
+    a: "Create author pages with credentials, show publication and update dates, source every medical claim, add clear disclaimers, and for local businesses, strengthen the Google Business Profile with genuine reviews."
 ---
 
 If you manage the website of an independent pharmacy, a natural health product brand, or a medical device distributor in Québec, you're affected by one of the most overlooked — and most decisive — aspects of organic search: **E-E-A-T** criteria.

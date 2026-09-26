@@ -6,8 +6,19 @@ lang: en
 tags: ["PAAB", "compliance", "pharma SEO", "E-E-A-T", "YMYL", "Health Canada", "Quebec"]
 readingTime: 9
 author: Soulimane Farah
-modDate: 2026-09-25
+modDate: 2026-09-26
 translationSlug: "seo-paab-conformite-guide-pratique-2026"
+faq:
+  - q: "Does a pharma blog post need PAAB review?"
+    a: "Generally not, if it is unbranded and educational: it discusses a condition, a treatment category or the regulations without promoting a specific product. PAAB reviews branded promotional material aimed at healthcare professionals. Once a page pairs a brand name with a therapeutic benefit, it becomes promotional content."
+  - q: "What can a Canadian website say about a prescription drug to consumers?"
+    a: "For advertising a prescription drug to the general public, the Food and Drug Regulations (s. C.01.044) allow only the name, the price and the quantity. Therapeutic claims, comparisons with other drugs and patient testimonials tied to a specific drug stay out of consumer-facing pages."
+  - q: "Do title tags and meta descriptions count as promotional content?"
+    a: "Treat them that way. A title tag or meta description that pairs a brand name with a benefit carries the same risk as body copy. On branded pages, keep metadata factual: name, form and, where appropriate, the generic indication, with no superlatives or comparisons."
+  - q: "Can structured data create a compliance problem?"
+    a: "Yes. Schema markup is read and indexed by search engines, so a Drug or Product description that contains an unapproved claim is exposed like any other text. Keep drug schema to factual fields such as name, manufacturer and form."
+  - q: "How does PAAB compliance help SEO?"
+    a: "Compliant content is sourced, factual and written by identified experts. Those are the signals Google looks for when it evaluates health content, so doing compliance well also supports rankings instead of limiting them."
 ---
 
 Organic search is the **only legal digital acquisition channel** for prescription drugs in Canada. Direct-to-consumer (DTC) advertising is banned. Paid search for Rx products is severely restricted. The result: SEO becomes strategic — but it must operate within the strict framework of [PAAB](https://www.paab.ca) and [Health Canada](https://www.canada.ca/en/health-canada.html).
@@ -43,12 +54,12 @@ PAAB enforces strict separation between:
 
 ### 2. What You Can Write About an Rx Drug
 
-PAAB permits, for consumer-facing content:
+For consumer-facing advertising of a prescription drug, the Food and Drug Regulations (s. C.01.044) allow only:
 - ✅ The drug name
-- ✅ Price and quantity
-- ✅ Pharmaceutical form (tablet, injection, etc.)
+- ✅ Price
+- ✅ Quantity
 
-PAAB prohibits, for consumers:
+Beyond that, for consumers, avoid:
 - ❌ Therapeutic claims ("treats", "cures", "relieves")
 - ❌ Comparisons with other drugs
 - ❌ Patient testimonials linked to a specific Rx drug
@@ -118,7 +129,7 @@ Homepage / Services
     └── Contact + LocalBusiness schema
 ```
 
-This architecture protects your branded pages from PAAB risk while creating a volume of unbranded educational content that captures informational traffic — where 80% of B2B pharma searches happen.
+This architecture protects your branded pages from PAAB risk while creating a volume of unbranded educational content that captures informational traffic.
 
 ---
 

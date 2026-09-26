@@ -6,7 +6,7 @@ lang: fr
 tags: ["PAAB", "conformité", "SEO pharma", "E-E-A-T", "YMYL", "Santé Canada", "Québec"]
 readingTime: 9
 author: Soulimane Farah
-modDate: 2026-09-25
+modDate: 2026-09-26
 translationSlug: "pharma-seo-paab-compliance-guide-2026-en"
 ---
 
@@ -43,12 +43,12 @@ Le PAAB impose une séparation stricte entre :
 
 ### 2. Ce que vous pouvez écrire sur un médicament Rx
 
-Le PAAB autorise, pour les contenus destinés aux consommateurs :
+Pour la publicité d'un médicament d'ordonnance destinée au grand public, le Règlement sur les aliments et drogues (art. C.01.044) permet seulement :
 - ✅ Le nom du médicament
-- ✅ Le prix et la quantité
-- ✅ La forme pharmaceutique (comprimé, injection, etc.)
+- ✅ Le prix
+- ✅ La quantité
 
-Le PAAB interdit, pour les consommateurs :
+Au-delà, auprès des consommateurs, évitez :
 - ❌ Les allégations thérapeutiques (« traite », « guérit », « soulage »)
 - ❌ Les comparaisons avec d'autres médicaments
 - ❌ Les témoignages de patients associés à un médicament Rx
@@ -118,7 +118,7 @@ Page d'accueil / Services
     └── Contact + schema LocalBusiness
 ```
 
-Cette architecture protège vos pages brandées du risque PAAB tout en créant un volume de contenu éducatif non brandé qui capte le trafic informationnel — là où se jouent 80% des recherches pharma B2B.
+Cette architecture protège vos pages brandées du risque PAAB tout en créant un volume de contenu éducatif non brandé qui capte le trafic informationnel.
 
 ---
 

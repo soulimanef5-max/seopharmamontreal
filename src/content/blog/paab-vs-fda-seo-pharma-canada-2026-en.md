@@ -7,7 +7,7 @@ lang: en
 tags: ["PAAB", "FDA", "compliance", "pharma SEO", "Canada", "United States", "DTC"]
 readingTime: 11
 author: Soulimane Farah
-modDate: 2026-06-26
+modDate: 2026-09-26
 translationSlug: "paab-vs-fda-seo-pharma-canada-2026"
 faq:
   - q: "What is the main difference between PAAB and FDA for pharmaceutical SEO?"
@@ -64,7 +64,7 @@ A cross-border company cannot run a single content structure. Here is the practi
 
 **On the Canadian side**, you must separate:
 - **minimal branded product pages** (name, form, price — nothing more), not designed to capture traffic;
-- an **unbranded educational content hub** that captures 80% of informational searches without ever tying an Rx brand to a benefit.
+- an **unbranded educational content hub** that captures informational searches without ever tying an Rx brand to a benefit.
 
 This asymmetry has a technical implication: do not share your `title` tags, `meta description` and structured data across the two markets. An FDA-compliant metadata field can be a PAAB violation.
 

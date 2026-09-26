@@ -6,8 +6,19 @@ lang: en
 tags: ["Health Canada", "NHP", "NPN", "PAAB", "pharma SEO", "regulation", "Canada"]
 readingTime: 9
 author: Soulimane Farah
-modDate: 2026-05-30
+modDate: 2026-09-26
 translationSlug: "sante-canada-seo-pme-pharma-quebec-2025"
+faq:
+  - q: "Who regulates health product advertising in Canada?"
+    a: "Health Canada sets the rules through the Food and Drugs Act, the Natural Health Products Regulations and the Medical Devices Regulations. PAAB preclears advertising directed at healthcare professionals, and Ad Standards reviews consumer advertising for natural health products and over-the-counter drugs."
+  - q: "Can a natural health product website use claims that are not in its licence?"
+    a: "No. A natural health product can only make the claims authorized in its product licence (NPN or DIN-HM). That applies to title tags, meta descriptions and product pages as much as to packaging."
+  - q: "What should a compliant NHP product page include?"
+    a: "The NPN or DIN, ideally linked to Health Canada's database, the medicinal and non-medicinal ingredients, the approved claims only, the required warnings and contraindications, and manufacturer information including GMP details where relevant."
+  - q: "Are customer testimonials allowed for health products?"
+    a: "Testimonials that describe health outcomes are regulated for natural health products and not allowed for prescription drugs. Avoid feeding them into review markup or schema, where they are just as visible as on the page."
+  - q: "Does regulatory compliance help Google rankings?"
+    a: "It helps indirectly. NPN numbers, GMP references, citations of the applicable regulations and identified authors are the kind of reliability signals Google's guidelines ask raters to look for on health websites."
 ---
 
 If you manage the website of a pharmaceutical company, a natural health product (NHP) brand, or a medical device manufacturer in Canada, you're constantly navigating what feels like a contradiction: **ranking on Google** while **respecting Health Canada's regulatory frameworks**.
@@ -27,7 +38,7 @@ The federal body that governs the marketing, manufacturing and promotion of:
 - **Medical Devices** (Medical Devices Regulations — MDR)
 
 ### [PAAB (Pharmaceutical Advertising Advisory Board)](https://www.paab.ca)
-The self-regulatory body that reviews and accredits prescription drug advertising directed at healthcare professionals. Its code applies to digital promotional content, including websites. For the full picture of what you can and can't advertise, see our guide to [pharmaceutical advertising rules in Canada](/en/blog/pharmaceutical-advertising-rules-canada-2026-en/).
+The independent body whose preclearance review Health Canada recognizes for advertising directed at healthcare professionals, covering prescription, non-prescription, biologic and natural health products. Its code applies to digital promotional content, including websites. PAAB reviews advertising; it does not certify agencies. For the full picture of what you can and can't advertise, see our guide to [pharmaceutical advertising rules in Canada](/en/blog/pharmaceutical-advertising-rules-canada-2026-en/).
 
 ### [Advertising Standards Canada (ASC)](https://adstandards.ca)
 Governs consumer-directed advertising, including for NHPs and over-the-counter drugs.
@@ -41,7 +52,7 @@ Health claim regulations create constraints that non-specialized marketing and S
 ### The Most Common Mistakes
 
 **1. Unauthorized therapeutic claims for NHPs**
-An NHP can only claim what's approved by Health Canada in its product licence (Natural Product Number — NPN or DIN-HM). Writing "relieves joint pain" for an NHP whose licence doesn't authorize it, even in a meta tag or page title, is a regulatory violation.
+An NHP can only claim what's approved by Health Canada in its product licence (Natural Product Number — NPN or DIN-HM). Writing "relieves joint pain" for an NHP whose licence doesn't authorize it, even in a meta tag or page title, is a regulatory violation. See [what an NPN lets you say](/en/blog/nhp-claims-what-you-can-say-canada-2026-en/).
 
 **2. Direct-to-consumer advertising of prescription drugs**
 In Canada, direct-to-consumer advertising (DTCA) for prescription drugs is strictly limited. A blog post that, even indirectly, recommends or highlights a specific drug for a particular indication may contravene the Food and Drugs Act.
@@ -143,4 +154,4 @@ Health Canada compliance, well-documented on your website, is exactly the reliab
 
 The question isn't "how do we work around regulation to rank better" — it's "how do we transform our industry's regulatory rigor into a lasting SEO advantage."
 
-Want to assess whether your site meets both Health Canada requirements and Google's SEO criteria? [Request a free preliminary analysis](/en/#contact).
+Want to assess whether your site meets both Health Canada requirements and Google's SEO criteria? See [NHP SEO consulting](/en/seo-nhp/), or [request a free preliminary analysis](/en/#contact).
