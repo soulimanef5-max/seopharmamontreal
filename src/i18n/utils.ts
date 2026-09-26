@@ -19,5 +19,5 @@ export function getAlternateUrl(url: URL): string {
     return path.replace(/^\/en/, '') || '/';
   }
   // Add /en prefix
-  return `/en${path === '/' ? '' : path}`;
+  return `/en${path}`;
 }
