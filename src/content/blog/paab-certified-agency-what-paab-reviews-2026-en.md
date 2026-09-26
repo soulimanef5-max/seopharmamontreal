@@ -80,7 +80,7 @@ A few rules from the same page are worth knowing:
 - Long submissions (more than 10 pages or 15 references) and files needing three or more resubmissions carry extra fees.
 - Once a piece has its approval number, any later revision is a **new file with a new fee**.
 
-The fastest option, **ARO-2**, targets a first response within 2 business days for smaller submissions. In practice, the bigger cost is rarely the fee. It is the calendar time that branded material spends in review, which is why content architecture matters more than speed options.
+On timing, PAAB's [Services page](https://www.paab.ca/about-services.htm) lists a first review in 10 days for standard material and 3 days for each revision. The fastest paid option, **ARO-2**, targets a first response within 2 business days for smaller submissions. In practice, the bigger cost is rarely the fee. It is the calendar time that branded material spends in review, which is why content architecture matters more than speed options.
 
 ---
 

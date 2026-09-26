@@ -57,6 +57,8 @@ A typical PAAB submission follows a predictable rhythm:
 2. **Revision rounds** — shorter follow-up reviews (commonly around 3 business days each) as you address comments.
 3. **Acceptance** — once the material meets the PAAB Code, you receive an approval number.
 
+These turnaround targets come from PAAB's own [Services page](https://www.paab.ca/about-services.htm), which also lists 4 days for direct-to-consumer and opinion requests and 15 days for pre-NOC submissions.
+
 Most submissions go through **at least one revision cycle**, so the realistic end-to-end timeline is several weeks, not a few days. The teams that move fastest are the ones that submit clean, well-referenced material the first time.
 
 ---
