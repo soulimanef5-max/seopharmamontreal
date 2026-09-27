@@ -6,7 +6,7 @@ lang: fr
 tags: ["SEO local", "clinique", "médecin", "Montréal", "Google Business Profile", "santé", "patients"]
 readingTime: 7
 author: Soulimane Farah
-modDate: 2026-09-26
+modDate: 2026-09-27
 faq:
   - q: "Qu'est-ce qui encadre la publicité d'une clinique au Québec ?"
     a: "Les ordres professionnels : le Collège des médecins, l'Ordre des dentistes, l'Ordre des pharmaciens, l'OPPQ, etc. Leurs codes limitent notamment les allégations de compétence et l'usage de témoignages de patients. Vérifiez les règles de votre ordre avant de publier."
@@ -112,8 +112,6 @@ En santé, les citations (mentions de votre nom + adresse + téléphone) sur des
 - Répertoire de l'Ordre professionnel (votre fiche publique)
 - Réseau local de services (RLS) du CIUSSS correspondant
 - Répertoire de la Ville de Montréal
-- Doctissimo Canada (si applicable)
-- Healthgrades Canada
 - [RateMDs.com](https://www.ratemds.com)
 - Clinique.ca
 

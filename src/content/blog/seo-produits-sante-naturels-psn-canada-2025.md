@@ -6,21 +6,21 @@ lang: fr
 tags: ["PSN", "NPN", "produits de santé naturels", "SEO", "RPSN", "Santé Canada", "e-commerce santé"]
 readingTime: 8
 author: Soulimane Farah
-modDate: 2026-09-26
+modDate: 2026-09-27
 faq:
   - q: "Pourquoi les pages de PSN sont-elles évaluées plus sévèrement par Google ?"
     a: "Parce qu'elles touchent à la santé : Google les classe YMYL et les évalue selon des critères d'expertise, d'autorité et de fiabilité (E-E-A-T) plus stricts que pour la plupart des produits de consommation."
   - q: "Que doit contenir une page produit PSN optimisée ?"
     a: "Les allégations exactement telles qu'approuvées, les ingrédients médicinaux avec leur dosage, les ingrédients non médicinaux, la posologie, les mises en garde, le NPN relié à la base de données de Santé Canada et, s'il y a lieu, les certifications du fabricant."
   - q: "Quel balisage Schema.org utiliser pour un PSN ?"
-    a: "Le type DietarySupplement, avec des propriétés comme activeIngredient, safetyConsideration, recommendedIntake et manufacturer, et le balisage Offer (prix, disponibilité) si vous vendez en ligne."
+    a: "Le type DietarySupplement, avec des propriétés comme activeIngredient, safetyConsideration, recommendedIntake et manufacturer. Si vous vendez en ligne, déclarez aussi la fiche comme Product avec un balisage Offer (prix, disponibilité) : c'est ce qui la rend admissible aux extraits produits de Google."
   - q: "Peut-on nommer ses produits dans un article comparatif ?"
     a: "Seulement si leur NPN leur accorde les allégations dont parle l'article. Évitez toute allégation non approuvée, même implicite, y compris dans les comparatifs."
   - q: "Que faire si Google Ads refuse les annonces de vos PSN ?"
     a: "C'est fréquent en raison des politiques publicitaires de Google sur les produits de santé. Le référencement naturel devient alors le principal canal de recherche : contenu éducatif, pages produits complètes et autorité de marque."
 ---
 
-Le marché canadien des produits de santé naturels (PSN) représente plus de 13 milliards de dollars annuellement — et la majorité des consommateurs commencent leur parcours d'achat sur Google. Pourtant, la plupart des marques PSN canadiennes sous-investissent massivement dans leur référencement naturel.
+Au Canada, les produits de santé naturels (PSN) se vendent de plus en plus en ligne, et le parcours d'achat commence souvent par une recherche Google. Pourtant, la plupart des marques PSN canadiennes sous-investissent massivement dans leur référencement naturel.
 
 Résultat : des positions dominées par Amazon, iHerb et quelques grands distributeurs, pendant que des centaines de marques locales de qualité restent invisibles.
 
@@ -62,11 +62,11 @@ Le type `DietarySupplement` de Schema.org est conçu exactement pour vos produit
 - `manufacturer` : le fabricant avec certifications BPF
 - `recognizingAuthority` : Santé Canada comme autorité de reconnaissance
 
-Ce balisage génère des rich results dans Google et envoie des signaux de confiance forts aux algorithmes.
+Soyons précis : Google ne propose pas de résultat enrichi propre à `DietarySupplement`. Ce balisage sert surtout à décrire le produit sans ambiguïté pour Google et les IA. Pour viser les extraits produits (prix, disponibilité, avis), déclarez la fiche à la fois comme `Product` et `DietarySupplement`.
 
 ### Données d'inventaire et disponibilité
 
-Si vous vendez en ligne, le balisage `Offer` avec les propriétés `availability`, `price` et `priceCurrency` active les résultats enrichis e-commerce dans Google Shopping — une visibilité supplémentaire sans coût publicitaire.
+Si vous vendez en ligne, le balisage `Offer` (propriétés `availability`, `price` et `priceCurrency`) rend vos fiches admissibles aux extraits produits dans Google. Pour apparaître gratuitement dans l'onglet Shopping, il faut en plus un compte Google Merchant Center.
 
 ---
 
@@ -151,9 +151,9 @@ Pour une marque PSN, la transparence sur les fondateurs, leur parcours et leurs 
 
 ---
 
-## Cas pratique : repositionnement SEO d'une marque PSN québécoise
+## Calendrier type : à quoi s'attendre sur 12 mois
 
-Voici le type de résultats que génère une stratégie SEO bien exécutée pour une marque PSN en 12 mois :
+Voici comment se déroule habituellement une stratégie SEO pour une marque PSN la première année :
 
 **Mois 1-3 :** audit technique, restructuration des URLs, implémentation du balisage Schema.org, optimisation des fiches produits existantes.
 
@@ -161,7 +161,7 @@ Voici le type de résultats que génère une stratégie SEO bien exécutée pour
 
 **Mois 7-9 :** montée en classement sur les mots-clés informationnels, premiers articles atteignant le top 10 Google.
 
-**Mois 10-12 :** pages produits remontant sur les mots-clés transactionnels, trafic organique multiplié par 3 à 4, premier retour sur investissement mesurable.
+**Mois 10-12 :** les pages produits commencent à remonter sur les mots-clés transactionnels. C'est souvent là que le retour sur investissement devient mesurable. L'ampleur des gains dépend du point de départ, de la concurrence et du rythme de publication : personne ne peut la garantir d'avance.
 
 ---
 

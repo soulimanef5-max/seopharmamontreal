@@ -6,7 +6,7 @@ lang: fr
 tags: ["Santé Canada", "PSN", "NPN", "PAAB", "SEO pharma", "réglementation", "Québec"]
 readingTime: 9
 author: Soulimane Farah
-modDate: 2026-09-26
+modDate: 2026-09-27
 translationSlug: "health-canada-seo-nhp-compliance-2025-en"
 faq:
   - q: "Qui encadre la publicité des produits de santé au Canada ?"
@@ -111,7 +111,7 @@ Ces contenus attirent des prospects qualifiés (professionnels de santé, respon
 
 ### Pilier 4 — Schéma de données structurées adapté au secteur santé
 
-Le balisage Schema.org `MedicalOrganization`, `Drug`, `MedicalDevice` ou `DietarySupplement` permet à Google de comprendre précisément la nature de vos produits et services — et de les afficher correctement dans les résultats enrichis.
+Le balisage Schema.org `MedicalOrganization`, `Drug`, `MedicalDevice` ou `DietarySupplement` aide Google et les IA à comprendre précisément la nature de vos produits et services. Aucun de ces types ne déclenche à lui seul un résultat enrichi ; pour les extraits produits (prix, disponibilité), la page doit aussi porter un balisage `Product` avec une `Offer`.
 
 Pour les PSN : le balisage `DietarySupplement` avec les propriétés `activeIngredient`, `safetyConsideration` et `recognizingAuthority` renforce la crédibilité aux yeux de Google et des IA.
 

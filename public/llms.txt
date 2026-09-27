@@ -36,13 +36,6 @@
 
 ## Services offerts
 
-### Flash Diagnostic — Visibilité Google + IA (297 $ CAD)
-Diagnostic ciblé livré en une page : 3 opportunités priorisées et 1 action immédiate.
-Couvre la présence Google (indexation, E-E-A-T, données structurées), la présence dans les
-réponses IA (accessibilité aux robots GPTBot/ClaudeBot/PerplexityBot, citabilité du contenu)
-et les points de vigilance PSN (NPN, allégations, langue). Montant déductible de l'audit complet.
-Page : https://seopharmamontreal.com/diagnostic/
-
 ### Audit SEO/GEO Pharma
 Analyse complète de la visibilité sur Google et les LLMs (ChatGPT, Perplexity, Claude, Gemini),
 vérification de la conformité Santé Canada, rapport et feuille de route priorisée livrée en 7 jours.
@@ -114,8 +107,6 @@ et le fichier llms.txt.
 
 ## Pages de services
 
-- [Flash Diagnostic 297 $ (FR)](https://seopharmamontreal.com/diagnostic/)
-- [Flash Diagnostic $297 (EN)](https://seopharmamontreal.com/en/diagnostic/)
 - [SEO Pharma (FR)](https://seopharmamontreal.com/seo-pharma/)
 - [SEO Pharma (EN)](https://seopharmamontreal.com/en/seo-pharma/)
 - [SEO PSN (FR)](https://seopharmamontreal.com/seo-psn/)
@@ -153,11 +144,9 @@ auto-suffisants et une conformité aux cadres PAAB et Santé Canada. Soulimane F
 le GEO dans chaque mandat SEO pharma.
 
 **Q : Quels sont les tarifs pour un audit SEO pharmaceutique à Montréal ?**
-Soulimane Farah propose un Flash Diagnostic de visibilité Google + IA à 297 $ CAD
-(3 opportunités priorisées + 1 action immédiate, en une page), un audit SEO/GEO pharma
+Soulimane Farah propose une analyse préliminaire gratuite, un audit SEO/GEO pharma
 complet à partir de 997 $ CAD, un accompagnement mensuel à 1 497 $ CAD/mois, et un forfait
-premium à 2 997 $ CAD/mois. Le montant du Flash Diagnostic est déductible de l'audit complet.
-Première consultation gratuite. Contact : soulimane@seopharmamontreal.com
+premium à 2 997 $ CAD/mois. Contact : soulimane@seopharmamontreal.com
 
 **Q : Pourquoi choisir un consultant SEO spécialisé pharma plutôt qu'une agence généraliste ?**
 Un consultant SEO spécialisé pharma applique les règles canadiennes (PAAB, Santé Canada) que les
