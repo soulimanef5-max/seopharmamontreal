@@ -71,7 +71,7 @@ const faqSchema = {
 };
 ---
 
-<Layout lang={lang} title={title} description={description} canonical={canonical}>
+<Layout lang={lang} title={title} description={description} canonical={canonical} noindex suppressHreflang>
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
     <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />

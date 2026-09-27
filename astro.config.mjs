@@ -15,7 +15,7 @@ export default defineConfig({
           en: 'en-CA',
         },
       },
-      filter: (page) => !page.includes('/404') && !page.includes('/og/'),
+      filter: (page) => !page.includes('/404') && !page.includes('/og/') && !page.includes('/diagnostic/'),
       lastmod: new Date(),
       serialize(item) {
         item.lastmod = new Date().toISOString().slice(0, 10);
