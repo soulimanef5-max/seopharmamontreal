@@ -7,7 +7,7 @@ lang: en
 tags: ["PAAB", "agency", "Health Canada", "pharma", "advertising", "compliance"]
 readingTime: 7
 author: Soulimane Farah
-modDate: 2026-09-26
+modDate: 2026-09-27
 faq:
   - q: "Is there such a thing as a PAAB-certified agency?"
     a: "No. PAAB is a review body: it preclears advertising and gives approved materials the PAAB logo. Its own website describes agencies as clients that submit advertising on behalf of sponsoring companies, and it lists no certification or accreditation program for agencies. An agency can have a long track record of PAAB submissions, but no agency is 'PAAB-certified'."
@@ -21,7 +21,7 @@ faq:
     a: "Look for verifiable PAAB submission experience, a clear line between branded promotion and unbranded education, fluency in the Health Canada framework rather than FDA habits, and honesty about what they cannot promise. Be wary of anyone claiming a PAAB certification, since PAAB does not certify agencies."
 ---
 
-"PAAB-certified agency" shows up often in the searches that bring people to this site. I understand why: if every piece of branded pharma advertising in Canada goes through PAAB, it seems natural that the agencies producing it would carry some PAAB credential. They don't. PAAB reviews advertising. It does not certify the agencies that make it.
+Look for a pharma marketing partner in Canada and, sooner or later, you'll wonder whether the agency should be "PAAB-certified." The assumption makes sense: if every piece of branded pharma advertising in Canada goes through PAAB, it seems natural that the agencies producing it would carry some PAAB credential. They don't. PAAB reviews advertising. It does not certify the agencies that make it.
 
 That matters when you pick a partner, because it changes which claims you should trust and which questions you should ask.
 
