@@ -18,7 +18,7 @@ export const ui = {
     hero: {
       badge:    'Consultant SEO/GEO | Pharma · PSN · Dispositifs Médicaux | Montréal',
       title1:   'Trouvé sur Google.',
-      title2:   'Conforme à Santé Canada.',
+      title2:   'Dans les règles de Santé Canada.',
       title3:   'Cité par ChatGPT.',
       subtitle: 'J\'aide les marques de santé réglementées — pharma, produits de santé naturels, dispositifs médicaux — à être trouvées sur Google et citées par les IA (ChatGPT, Perplexity, Claude). 10 ans dans l\'industrie, du marketing à l\'assurance qualité : je connais vos contraintes Santé Canada / PAAB de l\'intérieur.',
       cta1:     'Analyse préliminaire gratuite (valeur 250 $)',
@@ -38,7 +38,7 @@ export const ui = {
           body:  'Demandez à ChatGPT quel supplément ou produit de santé québécois acheter : ce sont des marques génériques qui sortent, rarement la vôtre. Vos clients délèguent ce choix à l\'IA — et l\'IA ne vous voit pas.',
         },
         {
-          title: '45 % des ventes PSN passent par l\'e-commerce — et votre trafic plafonne',
+          title: 'Vos clients comparent en ligne — et votre trafic plafonne',
           body:  'Chaque jour où vous êtes invisible sur les recherches d\'achat de votre catégorie, ce sont des ventes qui partent chez un concurrent mieux référencé. Le SEO n\'est pas un coût marketing : c\'est votre canal d\'acquisition le plus rentable.',
         },
         {
@@ -102,7 +102,7 @@ export const ui = {
       lead:     'Des chiffres sectoriels qui expliquent pourquoi une stratégie YMYL spécialisée fait toute la différence.',
       items: [
         { value: '150+', label: 'points contrôlés lors de chaque audit SEO technique' },
-        { value: '45 %', label: 'des ventes de produits de santé naturels passent par l\'e-commerce — un canal piloté par le SEO' },
+        { value: 'FR/EN', label: 'livrables bilingues, pensés pour le marché canadien' },
         { value: '3–6',  label: 'mois pour des résultats organiques significatifs et durables' },
         { value: '24h',  label: 'délai de réponse (jours ouvrables) à chaque demande de client' },
       ],
@@ -353,7 +353,7 @@ export const ui = {
     hero: {
       badge:    'SEO/GEO Consultant | Pharma · NHP · Medical Devices | Montréal',
       title1:   'Found on Google.',
-      title2:   'Health Canada–compliant.',
+      title2:   'Within Health Canada rules.',
       title3:   'Cited by ChatGPT.',
       subtitle: 'I help regulated health brands — pharma, natural health products, medical devices — get found on Google and cited by AI (ChatGPT, Perplexity, Claude). 10 years in the industry, from marketing to quality assurance: I know your Health Canada / PAAB constraints from the inside.',
       cta1:     'Free preliminary analysis ($250 value)',
@@ -373,7 +373,7 @@ export const ui = {
           body:  'Ask ChatGPT which Canadian supplement or health product to buy — generic brands come up, rarely yours. Your customers increasingly hand that decision to AI, and AI doesn\'t see you.',
         },
         {
-          title: '45% of NHP sales run through e-commerce — and your organic traffic has plateaued',
+          title: 'Your customers compare online — and your organic traffic has plateaued',
           body:  'Every day you\'re invisible on the buying searches in your category, a sale goes to a better-ranked competitor. SEO isn\'t a marketing cost — it\'s your most profitable acquisition channel.',
         },
         {
@@ -437,7 +437,7 @@ export const ui = {
       lead:     'Industry figures that explain why a specialized YMYL strategy makes all the difference.',
       items: [
         { value: '150+', label: 'points checked in every technical SEO audit' },
-        { value: '45%',  label: 'of natural health product sales run through e-commerce — a channel driven by SEO' },
+        { value: 'FR/EN', label: 'bilingual deliverables, built for the Canadian market' },
         { value: '3–6',  label: 'months to significant, lasting organic results' },
         { value: '24h',  label: 'response time (business days) for every client request' },
       ],

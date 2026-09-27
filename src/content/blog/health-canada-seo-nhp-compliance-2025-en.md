@@ -6,7 +6,7 @@ lang: en
 tags: ["Health Canada", "NHP", "NPN", "PAAB", "pharma SEO", "regulation", "Canada"]
 readingTime: 9
 author: Soulimane Farah
-modDate: 2026-09-26
+modDate: 2026-09-27
 translationSlug: "sante-canada-seo-pme-pharma-quebec-2025"
 faq:
   - q: "Who regulates health product advertising in Canada?"
@@ -111,7 +111,7 @@ This content attracts qualified prospects (healthcare professionals, purchasing 
 
 ### Pillar 4 — Health-Sector Structured Data Markup
 
-Schema.org's `MedicalOrganization`, `Drug`, `MedicalDevice`, or `DietarySupplement` markup allows Google to precisely understand the nature of your products and services — and display them correctly in rich results.
+Schema.org's `MedicalOrganization`, `Drug`, `MedicalDevice`, or `DietarySupplement` markup helps Google and AI models understand exactly what your products and services are. None of these types triggers a dedicated rich result on its own; for product snippets (price, availability), the page also needs `Product` markup with an `Offer`.
 
 For NHPs: the `DietarySupplement` markup with `activeIngredient`, `safetyConsideration` and `recognizingAuthority` properties strengthens credibility in Google's and AI models' eyes.
 

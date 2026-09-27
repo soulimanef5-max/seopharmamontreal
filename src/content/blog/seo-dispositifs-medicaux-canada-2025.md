@@ -6,7 +6,7 @@ lang: fr
 tags: ["dispositifs médicaux", "instruments médicaux", "SEO B2B", "Santé Canada", "RIM", "Canada"]
 readingTime: 8
 author: Soulimane Farah
-modDate: 2026-09-26
+modDate: 2026-09-27
 faq:
   - q: "Comment Santé Canada classe-t-il les instruments médicaux ?"
     a: "Le Règlement sur les instruments médicaux classe les instruments en quatre classes selon le risque, de la classe I (risque faible) à la classe IV (risque élevé). Plus la classe est élevée, plus les exigences d'homologation sont lourdes, et plus vos acheteurs attendent de rigueur et de documentation sur votre site."
@@ -20,7 +20,7 @@ faq:
     a: "Des études de cas clients autorisées, les profils des experts techniques et réglementaires, des certifications ISO vérifiables, des numéros d'homologation cliquables, une politique qualité visible et des coordonnées canadiennes complètes."
 ---
 
-Le marché des dispositifs médicaux au Canada représente plus de 10 milliards de dollars annuellement. Pourtant, si vous tapez « fabricant dispositifs médicaux Canada » dans Google, vous trouverez essentiellement des répertoires génériques et quelques grandes multinationales.
+Le Canada compte des centaines de fabricants et de distributeurs de dispositifs médicaux. Pourtant, si vous tapez « fabricant dispositifs médicaux Canada » dans Google, vous trouverez essentiellement des répertoires génériques et quelques grandes multinationales.
 
 Les centaines de PME canadiennes qui fabriquent et distribuent des instruments médicaux — des dispositifs de diagnostic aux équipements chirurgicaux en passant par les orthèses sur mesure — sont pratiquement absentes des résultats organiques.
 
