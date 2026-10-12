@@ -1,6 +1,6 @@
 ---
 title: "Santé Canada et SEO : le guide des PME pharma et PSN"
-description: "Réglementation Santé Canada et référencement naturel ne s'opposent pas — ils se renforcent. Guide pratique pour les entreprises québécoises qui veulent ranker sans violer les règles d'allégations santé."
+description: "Réglementation Santé Canada et SEO se renforcent. Guide pratique pour les entreprises québécoises qui veulent se positionner sans enfreindre les règles."
 pubDate: 2026-05-26
 lang: fr
 tags: ["Santé Canada", "PSN", "NPN", "PAAB", "SEO pharma", "réglementation", "Québec"]

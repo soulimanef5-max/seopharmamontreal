@@ -1,7 +1,7 @@
 ---
 title: "Consultant SEO pharmaceutique à Montréal"
 seoTitle: "Consultant SEO Pharmaceutique Montréal | PAAB & GEO"
-description: "Consultant SEO pharmaceutique à Montréal : 10 ans en marketing chez Roche, puis assurance qualité en industrie pharmaceutique. Expertise PAAB et SEO/GEO. Audit dès 997 $."
+description: "Consultant SEO pharmaceutique à Montréal : 10 ans en marketing chez Roche, puis assurance qualité pharma. Expertise PAAB et SEO/GEO. Audit dès 997 $."
 pubDate: 2026-06-05
 lang: fr
 tags: ["consultant SEO", "SEO pharmaceutique", "Montréal", "PAAB", "GEO", "E-E-A-T", "Soulimane Farah", "pharma Canada"]

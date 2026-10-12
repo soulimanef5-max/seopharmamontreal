@@ -1,6 +1,6 @@
 ---
 title: "SEO Pharmaceutique et Conformité PAAB : Le Guide Pratique pour le Canada"
-description: "Comment faire du SEO pharmaceutique en respectant le PAAB et Santé Canada ? Checklist complète, exemples concrets et stratégie E-E-A-T pour les entreprises pharma au Québec."
+description: "Faire du SEO pharmaceutique dans le cadre du PAAB et de Santé Canada : checklist, exemples concrets et stratégie E-E-A-T pour la pharma au Québec."
 pubDate: 2026-06-01
 lang: fr
 tags: ["PAAB", "conformité", "SEO pharma", "E-E-A-T", "YMYL", "Santé Canada", "Québec"]

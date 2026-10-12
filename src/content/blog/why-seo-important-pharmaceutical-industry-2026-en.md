@@ -1,6 +1,6 @@
 ---
 title: "Why Is SEO Important in the Pharmaceutical Industry? (A Canadian View)"
-description: "In Canada, prescription-drug advertising to the public is restricted by law — which makes organic search the most strategic acquisition channel in pharma. Here's why SEO matters, through a PAAB and Health Canada lens."
+description: "In Canada, Rx advertising to the public is restricted by law, which makes organic search pharma's key channel. Why SEO matters, through a PAAB lens."
 pubDate: 2026-06-13
 lang: en
 tags: ["pharma SEO", "PAAB", "Health Canada", "E-E-A-T", "YMYL", "GEO", "Quebec"]

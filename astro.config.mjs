@@ -16,11 +16,6 @@ export default defineConfig({
         },
       },
       filter: (page) => !page.includes('/404') && !page.includes('/og/') && !page.includes('/diagnostic/'),
-      lastmod: new Date(),
-      serialize(item) {
-        item.lastmod = new Date().toISOString().slice(0, 10);
-        return item;
-      },
     }),
   ],
   vite: {
