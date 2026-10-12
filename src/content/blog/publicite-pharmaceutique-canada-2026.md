@@ -5,9 +5,9 @@ description: "Peut-on annoncer un médicament d'ordonnance au Canada ? Guide cla
 pubDate: 2026-06-25
 lang: fr
 tags: ["PAAB", "Santé Canada", "publicité", "conformité", "DTC", "pharma", "PSN"]
-readingTime: 9
+readingTime: 10
 author: Soulimane Farah
-modDate: 2026-06-25
+modDate: 2026-10-12
 translationSlug: "pharmaceutical-advertising-rules-canada-2026-en"
 faq:
   - q: "Peut-on faire de la publicité de médicaments d'ordonnance au Canada ?"
@@ -22,6 +22,8 @@ faq:
     a: "Oui, mais uniquement dans les limites de l'autorisation de Santé Canada. Un PSN doit porter un numéro de produit naturel (NPN) et chaque allégation doit correspondre à ses conditions d'autorisation de mise en marché. Les allégations fausses, trompeuses ou qui dépassent l'usage autorisé sont interdites."
   - q: "En quoi les règles canadiennes diffèrent-elles des États-Unis ?"
     a: "Les États-Unis permettent la publicité directe aux consommateurs de médicaments d'ordonnance sous supervision de la FDA ; le Canada l'interdit. Une stratégie marketing ou SEO conçue pour les États-Unis et appliquée telle quelle au Canada crée des violations réglementaires. La conformité canadienne relève de la Loi sur les aliments et drogues, de Santé Canada et du PAAB — pas de la FDA ni de HIPAA."
+  - q: "Peut-on faire de la publicité pour les médicaments GLP-1 comme le sémaglutide au Canada ?"
+    a: "Pas sous forme de promotion de marque. Les agonistes des récepteurs du GLP-1, comme le sémaglutide, sont des médicaments d'ordonnance au Canada : les règles Rx s'appliquent. Un message destiné au public ne peut pas nommer le produit et décrire son usage. L'éducation non liée à une marque reste possible, mais si elle pointe de fait vers un seul produit, elle peut être considérée comme de la publicité."
 ---
 
 La plupart des conseils marketing sur les médicaments sont écrits pour les États-Unis — où l'on peut montrer un médicament d'ordonnance de marque à la télévision. Au Canada, c'est interdit. Si vous faites la promotion de médicaments, de produits de santé naturels ou de dispositifs médicaux auprès des Canadiens, les règles sont différentes, plus strictes, et appliquées **avant** publication, pas après.
@@ -86,6 +88,17 @@ Si un fournisseur cite **HIPAA ou la FDA** comme votre cadre de conformité, il 
 
 ---
 
+## Le cas des GLP-1 : les médicaments les plus recherchés sont les plus difficiles à promouvoir
+
+Les agonistes des récepteurs du GLP-1 — la classe qui comprend le sémaglutide, vendu notamment sous les marques Ozempic et Wegovy — font partie des médicaments les plus recherchés au Canada. Des requêtes comme « règles de publicité Ozempic au Canada » montrent que marketeurs, cliniques et agences se posent souvent la même question. La réponse découle directement des règles ci-dessus.
+
+- **Ce sont des médicaments d'ordonnance.** Au Canada, le régime Rx s'applique entièrement : aucun message destiné au public ne peut nommer le produit *et* décrire son usage. L'information de type rappel (nom, prix, quantité) est l'exception étroite.
+- **Non lié à une marque ne veut pas dire sans risque.** La directive de Santé Canada s'intéresse à l'impression d'ensemble. Une campagne de « sensibilisation » qui oriente de fait vers un seul produit — par son calendrier, ses visuels, sa formulation ou un lien vers une marque précise — peut être traitée comme de la publicité.
+- **Les tiers ne sont pas exemptés.** Les services de télésanté, pharmacies, cliniques et influenceurs rémunérés qui associent un nom de marque à un bénéfice dans un contenu public soulèvent la même question. Les règles publicitaires visent quiconque fait la promotion de la vente du médicament, pas seulement le fabricant.
+- **Point de vigilance SEO :** une balise title du type « [Marque] pour [maladie] » sur un site public est la violation silencieuse classique décrite plus bas. Le contenu éducatif sur la maladie et la *catégorie* de traitement, sans promotion de marque, est la voie défendable.
+
+---
+
 ## Ce que ça change pour votre site web et votre contenu
 
 Les règles restent abstraites jusqu'à ce qu'elles touchent une page. Voici où elles mordent vraiment :
@@ -99,6 +112,6 @@ C'est pourquoi, au Canada, **la recherche organique et le contenu éducatif sont
 
 ---
 
-> Cet article est une information éducative et non promotionnelle sur les règles publicitaires canadiennes. Il ne nomme aucun produit d'ordonnance de marque en lien avec son usage — ce qui est exactement ce que les règles ci-dessus exigent.
+> Cet article est une information éducative et non promotionnelle sur les règles publicitaires canadiennes. Il n'associe jamais un produit d'ordonnance de marque à son usage — ce qui est exactement ce que les règles ci-dessus exigent.
 
 Vous voulez que votre site santé soit bien classé *tout en restant* conforme ? C'est tout l'objet de ma pratique. [Obtenez une analyse préliminaire gratuite](/#contact) de l'état de votre site.

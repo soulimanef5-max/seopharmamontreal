@@ -1,6 +1,6 @@
 ---
 title: "SEO pour produits de santé naturels (PSN) au Canada : guide complet 2025"
-description: "Comment positionner une marque de produits de santé naturels sur Google au Canada ? Stratégie SEO conforme au RPSN de Santé Canada, avec exemples concrets pour les marques PSN québécoises."
+description: "Comment positionner une marque de produits de santé naturels sur Google au Canada ? Stratégie SEO dans le cadre du RPSN de Santé Canada."
 pubDate: 2026-05-23
 lang: fr
 tags: ["PSN", "NPN", "produits de santé naturels", "SEO", "RPSN", "Santé Canada", "e-commerce santé"]

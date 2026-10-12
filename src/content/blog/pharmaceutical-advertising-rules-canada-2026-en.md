@@ -5,9 +5,9 @@ description: "Can you advertise prescription drugs in Canada? A plain-English gu
 pubDate: 2026-06-25
 lang: en
 tags: ["PAAB", "Health Canada", "advertising", "compliance", "DTC", "pharma", "NHP"]
-readingTime: 9
+readingTime: 10
 author: Soulimane Farah
-modDate: 2026-06-25
+modDate: 2026-10-12
 translationSlug: "publicite-pharmaceutique-canada-2026"
 faq:
   - q: "Can you advertise prescription drugs to the public in Canada?"
@@ -22,6 +22,8 @@ faq:
     a: "Yes, but only within the product's Health Canada authorization. An NHP must carry a Natural Product Number (NPN) and every claim must match its Terms of Market Authorization. Claims that are false, misleading, or go beyond the authorized use are prohibited."
   - q: "How are Canada's pharma advertising rules different from the US?"
     a: "The US permits direct-to-consumer prescription-drug advertising under FDA oversight; Canada bans it. A US-built marketing or SEO strategy applied unchanged in Canada creates regulatory violations. Canadian compliance is governed by the Food and Drugs Act, Health Canada and the PAAB — not the FDA or HIPAA."
+  - q: "Can GLP-1 drugs like semaglutide be advertised to the public in Canada?"
+    a: "Not as branded promotion. GLP-1 receptor agonists such as semaglutide are prescription drugs in Canada, so the standard Rx rules apply: a message aimed at the public cannot name the product and describe what it is used for. Unbranded education about a condition is possible, but if it effectively points to one product, it can be treated as advertising."
 ---
 
 Most marketing advice about pharmaceuticals is written for the United States — where you can put a branded prescription drug on television. In Canada, you cannot. If you market drugs, natural health products or medical devices to Canadians, the rules are different, stricter, and enforced before publication, not after.
@@ -86,6 +88,17 @@ If a vendor cites **HIPAA or FDA** as your compliance framework, they are descri
 
 ---
 
+## The GLP-1 case: why the most-searched drugs are the hardest to market
+
+GLP-1 receptor agonists — the drug class that includes semaglutide, sold under brand names such as Ozempic and Wegovy — are among the most searched medicines in Canada. Searches like "Ozempic advertising rules Canada" show how often marketers, clinics and agencies ask the same question. The answer follows directly from the rules above.
+
+- **They are prescription drugs.** In Canada, the Rx regime applies in full: no message aimed at the public may name the product *and* describe what it is used for. Reminder-type information (name, price, quantity) is the narrow exception.
+- **Unbranded is not automatically safe.** Health Canada's guidance looks at the overall impression of a message. A "condition awareness" campaign that effectively steers people toward one product — through its timing, imagery, wording or a link to a specific brand — can be treated as advertising.
+- **Third parties are not exempt.** Telehealth services, pharmacies, clinics and paid influencers that pair a brand name with a benefit in public-facing content raise the same issue. Advertising rules apply to anyone promoting the sale of the drug, not only to the manufacturer.
+- **Point of vigilance for SEO:** a page title such as "[Brand] for [condition]" on a public website is the classic silent violation described below. Educational content about the condition and the treatment *category*, without brand promotion, is the defensible path.
+
+---
+
 ## What this means for your website and digital content
 
 Rules are abstract until they hit a page. Here is where they actually bite:
@@ -99,6 +112,6 @@ This is why, in Canada, **organic search and educational content are the strateg
 
 ---
 
-> This article is educational, non-promotional information about Canadian advertising rules. It names no branded prescription product in connection with its use — which is exactly what the rules above require.
+> This article is educational, non-promotional information about Canadian advertising rules. It never pairs a branded prescription product with its use — which is exactly what the rules above require.
 
 If you want your health website to rank *and* stay compliant, that's the entire focus of my practice. [Get a free preliminary analysis](/en/#contact) of where your site stands.

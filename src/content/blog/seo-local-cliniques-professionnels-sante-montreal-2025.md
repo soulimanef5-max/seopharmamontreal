@@ -1,6 +1,6 @@
 ---
 title: "SEO local pour cliniques et pros de santé à Montréal"
-description: "Comment les médecins, dentistes, physiothérapeutes et autres professionnels de santé à Montréal peuvent dominer les résultats Google locaux et attirer plus de patients. Stratégie SEO local adaptée au secteur santé québécois."
+description: "SEO local pour médecins, dentistes, physiothérapeutes et autres pros de santé à Montréal : être trouvé sur Google et attirer plus de patients."
 pubDate: 2026-05-21
 lang: fr
 tags: ["SEO local", "clinique", "médecin", "Montréal", "Google Business Profile", "santé", "patients"]
