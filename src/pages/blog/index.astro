@@ -24,9 +24,6 @@ const posts = (await getCollection('blog', e => e.data.lang === 'fr'))
     <header class="py-16 md:py-24" style="background: var(--color-primary);">
       <div class="container text-center">
         <span class="badge-authority mb-4 inline-flex">
-          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
-            <path d="M6 1l1.236 2.764L10 5l-2.764 1.236L6 9l-1.236-2.764L2 5l2.764-1.236L6 1z" fill="#FCD34D"/>
-          </svg>
           {t.blog.overline}
         </span>
         <h1 class="text-white mb-4" style="font-size: clamp(2rem, 5vw, 3rem); letter-spacing: -0.025em;">{t.blog.title}</h1>
