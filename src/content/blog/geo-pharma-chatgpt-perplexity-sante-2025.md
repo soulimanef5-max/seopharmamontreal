@@ -6,7 +6,7 @@ lang: fr
 tags: ["GEO", "LLMO", "ChatGPT", "Perplexity", "pharma", "santé", "Montréal"]
 readingTime: 8
 author: Soulimane Farah
-modDate: 2026-09-26
+modDate: 2026-10-12
 translationSlug: "geo-pharma-ai-search-visibility-2025-en"
 faq:
   - q: "Qu'est-ce que le GEO (Generative Engine Optimization) ?"
@@ -21,7 +21,7 @@ faq:
     a: "Le llms.txt est une norme proposée (llmstxt.org) : un fichier texte à la racine du site qui résume qui vous êtes, ce que vous offrez et quelles pages comptent le plus, dans un format que les modèles de langage lisent rapidement. Tous les systèmes d'IA ne l'utilisent pas encore."
 ---
 
-**40 millions de personnes posent des questions de santé à ChatGPT chaque jour** (OpenAI, 2026). 48,7 % des requêtes santé sur la première page de Google déclenchent désormais un AI Overview — une réponse générée avant le moindre lien organique. En 2026, une tendance discrète mais majeure transforme la façon dont les décideurs du secteur santé cherchent des fournisseurs, des solutions et des experts : ils demandent directement à une intelligence artificielle.
+**Plus de 40 millions de personnes se tournent chaque jour vers ChatGPT pour des questions de santé**, selon des données d'OpenAI rapportées par [Axios](https://www.axios.com/2026/01/05/chatgpt-openai-health-insurance-aca) (janvier 2026). En 2026, une tendance discrète mais majeure transforme la façon dont les décideurs du secteur santé cherchent des fournisseurs, des solutions et des experts : ils demandent directement à une intelligence artificielle.
 
 « Quels sont les meilleurs consultants SEO pour une PME pharmaceutique au Canada ? » — posée à [ChatGPT](https://chatgpt.com), cette question génère une réponse en quelques secondes, sans que l'utilisateur visite un seul site. Si votre entreprise n'est pas citée dans cette réponse, vous n'existez pas pour ce client potentiel.
 

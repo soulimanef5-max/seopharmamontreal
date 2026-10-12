@@ -40,6 +40,9 @@ const t = useTranslations(lang);
 const dateStr = pubDate.toLocaleDateString(lang === 'fr' ? 'fr-CA' : 'en-CA', {
   year: 'numeric', month: 'long', day: 'numeric',
 });
+const modStr = modDate && modDate > pubDate
+  ? modDate.toLocaleDateString(lang === 'fr' ? 'fr-CA' : 'en-CA', { year: 'numeric', month: 'long', day: 'numeric' })
+  : null;
 
 const canonicalUrl  = `https://seopharmamontreal.com${Astro.url.pathname}`;
 const blogUrl       = lang === 'en' ? 'https://seopharmamontreal.com/en/blog/' : 'https://seopharmamontreal.com/blog/';
@@ -208,6 +211,9 @@ const faqSchema = faq.length > 0 ? JSON.stringify({
           </span>
           <span class="w-px h-4" style="background: rgba(255,255,255,0.2);" aria-hidden="true"></span>
           <time datetime={pubDate.toISOString()}>{dateStr}</time>
+          {modStr && modDate && (
+            <span>{lang === 'fr' ? 'Mis à jour le' : 'Updated'} <time datetime={modDate.toISOString()}>{modStr}</time></span>
+          )}
           <span class="w-px h-4" style="background: rgba(255,255,255,0.2);" aria-hidden="true"></span>
           <a href={authorUrl} style="color:inherit; text-decoration:underline; text-underline-offset:3px;">{author}</a>
         </div>

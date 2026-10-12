@@ -7,7 +7,7 @@ lang: fr
 tags: ["consultant SEO", "SEO pharmaceutique", "Montréal", "PAAB", "GEO", "E-E-A-T", "Soulimane Farah", "pharma Canada"]
 readingTime: 11
 author: Soulimane Farah
-modDate: 2026-06-18
+modDate: 2026-10-12
 faq:
   - q: "Quelle est la différence entre un consultant SEO pharma et une agence SEO généraliste ?"
     a: "Un consultant SEO spécialisé en pharma connaît les contraintes réglementaires spécifiques à l'industrie : le cadre PAAB, l'interdiction de la publicité DTC au Canada, les exigences E-E-A-T pour les contenus YMYL, et les différences entre contenu brandé et non brandé. Une agence généraliste peut produire du bon SEO, mais risque de créer des contenus en violation du PAAB ou d'optimiser des pages qui ne peuvent légalement pas être optimisées de la même façon que dans d'autres secteurs."
@@ -78,7 +78,7 @@ C'est précisément ce que je construis pour vous — une présence en ligne qui
 
 ### La transition vers les IA de recherche est plus rapide en pharma
 
-Les professionnels de la santé, les pharmaciens, les directeurs médicaux et les équipes marketing pharma utilisent massivement ChatGPT, Perplexity et les AI Overviews de Google pour leurs recherches professionnelles. Une étude publiée en 2025 par Deloitte montre que **67% des professionnels de santé canadiens** utilisent des outils IA pour leurs recherches documentaires.
+Les professionnels de la santé, les pharmaciens, les directeurs médicaux et les équipes marketing pharma utilisent massivement ChatGPT, Perplexity et les AI Overviews de Google pour leurs recherches professionnelles.
 
 Le **GEO** (Generative Engine Optimization) — l'art de structurer son contenu pour être cité dans les réponses des IA — est donc critique en pharma, pas seulement en B2C. C'est une discipline que j'ai intégrée à ma méthode depuis le début : chaque article que je produis est structuré pour être extractible par un LLM.
 
@@ -101,7 +101,7 @@ Je vous livre un rapport d'audit avec scoring (sur 100), priorisation des action
 
 Sur la base de l'audit, je construis :
 - L'**architecture de contenu** : quels hubs thématiques, quels articles piliers, quels contenus de support, dans quel ordre les produire
-- La **stratégie de mots-clés** segmentée : informationnel / transactionnel / navigational, avec distinction brandé/non brandé conforme PAAB
+- La **stratégie de mots-clés** segmentée : informationnel / transactionnel / navigational, avec distinction brandé/non brandé dans le cadre du code PAAB
 - Le **plan de backlinks** : annuaires sectoriels (BIOTECanada, MEDEC, AQPP), partenariats avec associations professionnelles, mentions dans médias spécialisés
 - La **stratégie GEO** : format des articles pour maximiser la citabilité dans les LLMs (FAQ JSON-LD, données structurées, passages extractibles)
 
@@ -191,7 +191,7 @@ Je suis consultant SEO/GEO pharmaceutique basé à **Montréal, Québec, Canada*
 **Téléphone :** +1 438 920 6377
 **LinkedIn :** [Soulimane Farah](https://www.linkedin.com/in/soulimane-farah/)
 
-Vous voulez voir concrètement comment j'accompagne les entreprises pharma au Canada ? Découvrez [mon offre de SEO pharmaceutique conforme PAAB](/seo-pharma/).
+Vous voulez voir concrètement comment j'accompagne les entreprises pharma au Canada ? Découvrez [mon offre de SEO pharmaceutique dans le cadre du code PAAB](/seo-pharma/).
 
 Vous avez une question précise sur votre situation ? [Écrivez-moi directement](/#contact) — je réponds à chaque message personnellement.
 
