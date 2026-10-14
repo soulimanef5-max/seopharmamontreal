@@ -58,7 +58,7 @@ Dans la plupart des secteurs, le SEO est une question de volume : plus de conten
 
 ### La contrainte DTC change toute votre stratégie de contenu
 
-Au Canada, la publicité directe aux consommateurs (DTC) pour les médicaments d'ordonnance est **interdite**. Vous ne pouvez pas créer une page produit optimisée autour de « [médicament X] pour [indication] » comme le font vos concurrents américains. Vos pages produit Rx doivent être légalement austères.
+Au Canada, la publicité directe aux consommateurs (DTC) pour les médicaments d'ordonnance est **interdite**, à l'exception du nom, du prix et de la quantité (art. C.01.044 du Règlement sur les aliments et drogues). Vous ne pouvez pas créer une page produit optimisée autour de « [médicament X] pour [indication] » comme le font vos concurrents américains. Vos pages produit Rx doivent être légalement austères.
 
 La conséquence SEO : **100% de votre trafic organique doit passer par du contenu éducatif non brandé**. Ce sont les articles sur les conditions médicales, les guides sur les traitements génériques, les comparatifs réglementaires. Pas les pages produit.
 
@@ -78,7 +78,7 @@ C'est ce que je construis pour vous : une présence en ligne qui satisfait à la
 
 ### La transition vers les IA de recherche est plus rapide en pharma
 
-Les professionnels de la santé, les pharmaciens, les directeurs médicaux et les équipes marketing pharma utilisent massivement ChatGPT, Perplexity et les AI Overviews de Google pour leurs recherches professionnelles. Une étude publiée en 2025 par Deloitte montre que **67% des professionnels de santé canadiens** utilisent des outils IA pour leurs recherches documentaires.
+Les professionnels de la santé, les pharmaciens, les directeurs médicaux et les équipes marketing pharma utilisent de plus en plus ChatGPT, Perplexity et les AI Overviews de Google pour leurs recherches professionnelles.
 
 Le **GEO** (Generative Engine Optimization), qui consiste à structurer son contenu pour être cité dans les réponses des IA, est donc critique en pharma, pas seulement en B2C. C'est une discipline que j'ai intégrée à ma méthode depuis le début : chaque article que je produis est structuré pour être extractible par un LLM.
 

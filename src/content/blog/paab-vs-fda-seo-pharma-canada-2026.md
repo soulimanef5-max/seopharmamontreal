@@ -11,7 +11,7 @@ modDate: 2026-09-26
 translationSlug: "paab-vs-fda-seo-pharma-canada-2026-en"
 faq:
   - q: "Quelle est la principale différence entre PAAB et FDA pour le SEO pharmaceutique ?"
-    a: "Le timing et le périmètre. La FDA (États-Unis) fonctionne en post-market : vous publiez, et l'agence peut intervenir après coup. Le PAAB (Canada) fonctionne en pré-approbation pour le contenu brandé destiné aux professionnels de santé : vous soumettez avant de publier. Surtout, la publicité directe au consommateur (DTC) des médicaments d'ordonnance est autorisée aux États-Unis mais interdite au Canada, ce qui rend une grande partie du SEO « product-led » américain illégale au nord de la frontière."
+    a: "Le timing et le périmètre. La FDA (États-Unis) fonctionne en post-market : vous publiez, et l'agence peut intervenir après coup. Le PAAB (Canada) fonctionne en pré-approbation pour le contenu brandé destiné aux professionnels de santé : vous soumettez avant de publier. Surtout, la publicité directe au consommateur (DTC) des médicaments d'ordonnance est autorisée aux États-Unis mais interdite au Canada au-delà du nom, du prix et de la quantité, ce qui rend une grande partie du SEO « product-led » américain illégale au nord de la frontière."
   - q: "Peut-on cloner une page produit américaine sur un site canadien ?"
     a: "Non. Une page produit américaine optimisée autour de « [médicament] pour [condition] » enfreint les règles canadiennes sur la publicité des médicaments d'ordonnance si elle vise les consommateurs canadiens, car elle associe une marque d'ordonnance à une indication thérapeutique. Auprès du public, le Règlement sur les aliments et drogues (art. C.01.044) limite cette publicité au nom, au prix et à la quantité."
   - q: "Comment les moteurs de recherche IA (AI Overviews, ChatGPT, Perplexity) traitent-ils le contenu pharma transfrontalier ?"
@@ -24,7 +24,7 @@ faq:
 
 Si votre entreprise pharmaceutique opère aux États-Unis et s'étend au Canada (ou l'inverse), vous ne pouvez pas simplement traduire votre site et republier. Le cadre réglementaire qui gouverne ce que vous pouvez écrire, indexer et optimiser change radicalement à la frontière.
 
-La différence la plus lourde de conséquences : aux États-Unis, la publicité directe aux consommateurs (DTC) de médicaments d'ordonnance est **légale**. Au Canada, elle est **interdite** (voir nos [règles de publicité de médicaments au Canada](/blog/publicite-pharmaceutique-canada-2026/)). Cette seule distinction réécrit votre stratégie SEO de fond en comble.
+La différence la plus lourde de conséquences : aux États-Unis, la publicité directe aux consommateurs (DTC) de médicaments d'ordonnance est **légale**. Au Canada, elle est **interdite**, hormis le nom, le prix et la quantité du produit (voir nos [règles de publicité de médicaments au Canada](/blog/publicite-pharmaceutique-canada-2026/)). Cette seule distinction réécrit votre stratégie SEO de fond en comble.
 
 Ce n'est pas un détail juridique réservé aux équipes réglementaires. C'est une contrainte qui détermine quelles pages vous pouvez publier, quels mots-clés vous pouvez cibler, et même quel contenu une intelligence artificielle a le droit de citer à votre place. Une équipe marketing qui traite le Canada comme un simple « marché traduit » des États-Unis produit presque à coup sûr du contenu non conforme, et le découvre souvent trop tard, après indexation. Comprendre la fracture PAAB / FDA en amont, c'est éviter de reconstruire toute une architecture de contenu sous la pression d'un avis de non-conformité.
 
@@ -46,7 +46,7 @@ Cette différence de timing (réaction *vs* pré-approbation) change tout votre 
 
 | Élément | 🇺🇸 États-Unis (FDA) | 🇨🇦 Canada (PAAB / Santé Canada) |
 |---------|---------------------|----------------------------------|
-| Publicité DTC des Rx | **Autorisée** (avec « fair balance ») | **Interdite** |
+| Publicité DTC des Rx | **Autorisée** (avec « fair balance ») | **Interdite** (sauf nom, prix, quantité) |
 | Nommer un Rx + son indication aux consommateurs | Permis | Interdit (seuls nom, prix, quantité) |
 | Pages produit riches en mots-clés | Possible | Volontairement pauvres |
 | Témoignages patients sur un Rx | Permis (avec divulgation) | Interdit |
@@ -151,7 +151,7 @@ Avant de déployer du contenu pharma sur les deux marchés :
 
 ## Conclusion
 
-PAAB et FDA ne sont pas deux versions du même cadre. Ils suivent des logiques opposées. La FDA réagit, le PAAB pré-approuve. La FDA autorise le DTC, le PAAB l'interdit. Une stratégie SEO pharmaceutique transfrontalière qui ignore cette fracture finit par produire du contenu soit non conforme au Canada, soit sous-optimisé aux États-Unis.
+PAAB et FDA ne sont pas deux versions du même cadre. Ils suivent des logiques opposées. La FDA réagit, le PAAB pré-approuve. La FDA autorise le DTC, le Canada l'interdit. Une stratégie SEO pharmaceutique transfrontalière qui ignore cette fracture finit par produire du contenu soit non conforme au Canada, soit sous-optimisé aux États-Unis.
 
 L'avantage compétitif appartient aux entreprises qui conçoivent dès le départ **deux architectures distinctes reliées par un socle de contenu éducatif commun**. C'est plus exigeant, et c'est pour cela que vos concurrents non spécialisés ne suivent pas.
 

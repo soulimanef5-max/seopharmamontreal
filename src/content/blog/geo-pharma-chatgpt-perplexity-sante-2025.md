@@ -21,7 +21,7 @@ faq:
     a: "Le llms.txt est une norme proposée (llmstxt.org) : un fichier texte à la racine du site qui résume qui vous êtes, ce que vous offrez et quelles pages comptent le plus, dans un format que les modèles de langage lisent rapidement. Tous les systèmes d'IA ne l'utilisent pas encore."
 ---
 
-**40 millions de personnes posent des questions de santé à ChatGPT chaque jour** (OpenAI, 2026). 48,7 % des requêtes santé sur la première page de Google déclenchent désormais un AI Overview, c'est-à-dire une réponse générée avant le moindre lien organique. En 2026, les décideurs du secteur santé cherchent de plus en plus leurs fournisseurs, leurs solutions et leurs experts d'une nouvelle façon : ils posent directement la question à une intelligence artificielle.
+**40 millions de personnes posent des questions de santé à ChatGPT chaque jour**, selon un rapport d'OpenAI publié en janvier 2026 ([Axios](https://www.axios.com/2026/01/05/chatgpt-openai-health-insurance-aca)). Sur Google, une part croissante des recherches santé affiche désormais un AI Overview, c'est-à-dire une réponse générée avant le moindre lien organique. En 2026, les décideurs du secteur santé cherchent de plus en plus leurs fournisseurs, leurs solutions et leurs experts d'une nouvelle façon : ils posent directement la question à une intelligence artificielle.
 
 Posez à [ChatGPT](https://chatgpt.com) la question « Quels sont les meilleurs consultants SEO pour une PME pharmaceutique au Canada ? » : vous obtenez une réponse en quelques secondes, sans visiter un seul site. Si votre entreprise n'est pas citée dans cette réponse, vous n'existez pas pour ce client potentiel.
 
@@ -146,7 +146,7 @@ Les KPIs à suivre chaque mois :
 
 Perplexity se distingue des autres modèles par sa capacité à effectuer des recherches web en temps réel et à citer explicitement ses sources avec des liens. C'est la plateforme IA où la visibilité organique se transfère le plus directement.
 
-En mars 2026, Perplexity a lancé **Perplexity Health**, une interface dédiée aux requêtes médicales qui cite exclusivement des sources à haute autorité. Pour les entreprises pharma et santé au Québec, c'est à la fois une occasion (visibilité auprès d'une audience qualifiée) et une exigence (le niveau d'autorité requis est encore plus élevé).
+En mars 2026, Perplexity a lancé **[Perplexity Health](https://www.techrepublic.com/article/news-perplexity-health-ai/)**, une fonction santé d'abord réservée aux abonnés américains, qui s'appuie sur la littérature médicale (recommandations cliniques, revues à comité de lecture) et cite chacune de ses sources. Pour les entreprises pharma et santé au Québec, c'est à la fois une occasion (visibilité auprès d'une audience qualifiée) et une exigence (le niveau d'autorité requis est encore plus élevé).
 
 Pour optimiser votre présence sur Perplexity :
 

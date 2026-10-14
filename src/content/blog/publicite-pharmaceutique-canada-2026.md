@@ -79,7 +79,7 @@ C'est là que les stratégies importées dérapent. Une agence américaine optim
 
 | | États-Unis | Canada |
 |---|---|---|
-| Publicité Rx aux consommateurs | Légale (supervisée par la FDA) | **Interdite** |
+| Publicité Rx aux consommateurs | Légale (supervisée par la FDA) | **Interdite** (sauf nom, prix, quantité) |
 | Organisme de préautorisation | Aucun | **PAAB** |
 | Cadre de confidentialité | HIPAA | LPRPDE / Loi 25 (Québec) |
 | Loi applicable | Réglementation FDA | Loi sur les aliments et drogues |
