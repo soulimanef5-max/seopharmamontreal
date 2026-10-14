@@ -21,17 +21,17 @@ faq:
     a: "Create author pages with credentials, show publication and update dates, source every medical claim, add clear disclaimers, and for local businesses, strengthen the Google Business Profile with genuine reviews."
 ---
 
-If you manage the website of an independent pharmacy, a natural health product brand, or a medical device distributor in Québec, you're affected by one of the most overlooked — and most decisive — aspects of organic search: **E-E-A-T** criteria.
+If you manage the website of an independent pharmacy, a natural health product brand, or a medical device distributor in Québec, you're affected by one of the most overlooked, yet most decisive, aspects of organic search: **E-E-A-T** criteria.
 
 Since Google's major algorithm updates (notably the *Medic Update* in 2018 and successive refinements through 2025), Google treats health-related content with particular rigour. Understanding why, and more importantly how to respond, can mean the difference between page one and digital invisibility.
 
 ---
 
-## What is YMYL — and why is the pharma sector at its core?
+## What is YMYL, and why is the pharma sector at its core?
 
-YMYL stands for *Your Money Your Life*. It refers to all web pages whose content could affect a user's physical health, mental health, financial wellbeing, or safety.
+YMYL stands for *Your Money or Your Life*. It refers to all web pages whose content could affect a user's physical health, mental health, financial wellbeing, or safety.
 
-All pharmaceutical content is, by definition, YMYL: a poorly written medication leaflet, a misleading natural health product description, or an inaccurate article on drug interactions can cause real harm to a real person. Google knows this — which is why its human evaluators ([*Quality Raters*](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)) score these pages according to standards far more demanding than those applied to fashion or cooking websites.
+All pharmaceutical content is, by definition, YMYL: a poorly written medication leaflet, a misleading natural health product description, or an inaccurate article on drug interactions can cause real harm to a real person. Google knows this, which is why its human evaluators ([*Quality Raters*](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)) score these pages according to standards far more demanding than those applied to fashion or cooking websites.
 
 **Practical result:** if your site doesn't clearly demonstrate its level of expertise and trustworthiness, it will be deprioritized in search results, regardless of how technically sound your SEO is.
 
@@ -95,7 +95,7 @@ Most articles published on Québec pharma websites mention no author. For Google
 Even when a name is mentioned, there's often no dedicated page presenting the author's qualifications with links to their professional profiles.
 
 **3. Outdated content never updated**
-A 2019 article on diabetes treatments with no revision since is a powerful negative signal. In the medical sector, information evolves — your site must reflect this.
+A 2019 article on diabetes treatments with no revision since is a powerful negative signal. In the medical sector, information evolves, and your site must reflect this.
 
 **4. Missing or poorly positioned disclaimers**
 Health Canada requires specific warnings for natural health products. Their absence can result not only in an SEO penalty but also a regulatory infraction.
@@ -123,10 +123,10 @@ Here's where to start concretely:
 
 ## Conclusion
 
-SEO for the pharmaceutical sector isn't just about keywords and backlinks — it's about **proven, documented trust**. Google invests heavily to ensure its users can trust the results it shows them in the health space.
+In the pharmaceutical sector, keywords and backlinks only get you so far. What ranks is **proven, documented trust**. Google invests heavily to ensure its users can trust the results it shows them in the health space.
 
 Pharma SMEs that understand this and adapt their content strategy accordingly find themselves in a very strong competitive position, even against large chains.
 
 ---
 
-*Want to evaluate where your site stands on E-E-A-T criteria? [Request a free preliminary analysis](/en/#contact) — I'll send it to you within 24h.*
+*Want to evaluate where your site stands on E-E-A-T criteria? [Request a free preliminary analysis](/en/#contact) and I'll send it to you within 24h.*

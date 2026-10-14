@@ -21,9 +21,9 @@ faq:
     a: "Un contenu conforme est sourcé, factuel et signé par des experts identifiés. Ce sont les signaux que Google recherche quand il évalue du contenu santé : bien gérer la conformité soutient donc le classement au lieu de le freiner."
 ---
 
-La recherche organique est l'un des rares **canaux d'acquisition numériques** encore utilisables pour les médicaments d'ordonnance au Canada. Leur [publicité auprès du public](/blog/publicite-pharmaceutique-canada-2026/) se limite au nom, au prix et à la quantité, ce qui laisse peu de place aux campagnes payantes. Résultat : le SEO devient stratégique — mais il doit se faire dans le cadre strict du [PAAB](https://www.paab.ca) et de [Santé Canada](https://www.canada.ca/fr/sante-canada.html).
+La recherche organique est l'un des rares **canaux d'acquisition numériques** encore utilisables pour les médicaments d'ordonnance au Canada. Leur [publicité auprès du public](/blog/publicite-pharmaceutique-canada-2026/) se limite au nom, au prix et à la quantité, ce qui laisse peu de place aux campagnes payantes. Le SEO devient donc stratégique, mais il doit se faire dans le cadre strict du [PAAB](https://www.paab.ca) et de [Santé Canada](https://www.canada.ca/fr/sante-canada.html).
 
-Ce guide ne répète pas les règles — il vous montre **comment les appliquer concrètement** à votre stratégie SEO, page par page.
+Plutôt que de répéter les règles, ce guide vous montre **comment les appliquer concrètement** à votre stratégie SEO, page par page.
 
 > Si vous cherchez d'abord à comprendre le cadre réglementaire global, lisez notre article [Santé Canada et SEO : ce que les PME pharma doivent savoir](/blog/sante-canada-seo-pme-pharma-quebec-2025/).
 
@@ -33,10 +33,10 @@ Ce guide ne répète pas les règles — il vous montre **comment les appliquer 
 
 Une page web pharmaceutique non conforme expose à deux risques simultanés :
 
-1. **Risque PAAB** — plainte, retrait de contenu, atteinte à la réputation réglementaire
-2. **Risque Google** — pénalité YMYL pour contenu non fiable, chute de classement
+1. **Risque PAAB** : plainte, retrait de contenu, atteinte à la réputation réglementaire
+2. **Risque Google** : pénalité YMYL pour contenu non fiable, chute de classement
 
-Ces deux risques s'alimentent mutuellement. Un contenu signalé par le PAAB perd sa crédibilité aux yeux de Google — et vice versa. À l'inverse, un contenu conforme et bien sourcé **renforce à la fois votre position réglementaire et votre référencement**.
+Ces deux risques s'alimentent mutuellement. Un contenu signalé par le PAAB perd sa crédibilité aux yeux de Google, et vice versa. À l'inverse, un contenu conforme et bien sourcé **renforce à la fois votre position réglementaire et votre référencement**.
 
 ---
 
@@ -48,7 +48,7 @@ Le PAAB impose une séparation stricte entre :
 - **Contenu promotionnel brandé** : associe un nom de marque à un bénéfice thérapeutique → soumis à l'approbation PAAB
 - **Contenu éducatif non brandé** : parle d'une condition, d'un traitement générique → non soumis au PAAB
 
-**Impact SEO concret :** vos pages de blog éducatives (non brandées) peuvent être optimisées librement. Vos pages produit brandées doivent être soumises au PAAB avant publication — et leur contenu est structurellement limité.
+**Impact SEO concret :** vos pages de blog éducatives (non brandées) peuvent être optimisées librement. Vos pages produit brandées doivent être soumises au PAAB avant publication, et leur contenu est structurellement limité.
 
 **Erreur fréquente :** associer le nom d'un médicament Rx à un témoignage patient ou à un bénéfice spécifique dans une balise meta description. Sur une page destinée au public, cela enfreint les règles sur la publicité des médicaments d'ordonnance, et peut aussi envoyer un signal YMYL négatif à Google.
 
@@ -82,7 +82,7 @@ Pour les pages médicament, limitez votre schema `Drug` ou `Product` aux champs 
 
 ## E-E-A-T appliqué au secteur pharmaceutique canadien
 
-Google traite les sites pharmaceutiques comme du contenu YMYL (*Your Money Your Life*). Le niveau d'exigence E-E-A-T est maximal. Voici comment le démontrer concrètement sur chaque dimension.
+Google traite les sites pharmaceutiques comme du contenu YMYL (*Your Money or Your Life*). Le niveau d'exigence E-E-A-T est maximal. Voici comment le démontrer concrètement sur chaque dimension.
 
 ### Expérience (E)
 - Études de cas réels avec résultats mesurables (sans allégations Rx non approuvées)
@@ -117,7 +117,7 @@ Page d'accueil / Services
 ├── Pages produit brandées (contenu minimal, conforme PAAB)
 │   └── Lien vers ressources éducatives non brandées
 │
-├── Hub de contenu éducatif (non brandé — optimisé SEO librement)
+├── Hub de contenu éducatif (non brandé, optimisé SEO librement)
 │   ├── Articles sur les conditions médicales traitées
 │   ├── Articles sur les options thérapeutiques (génériques)
 │   ├── Guides réglementaires (PAAB, Santé Canada, BPF)
@@ -133,7 +133,7 @@ Cette architecture protège vos pages brandées du risque PAAB tout en créant u
 
 ---
 
-## Checklist d'audit SEO conformité PAAB — 15 points
+## Checklist d'audit SEO conformité PAAB : 15 points
 
 Avant de publier ou de modifier une page web pharmaceutique, parcourez cette liste :
 
@@ -166,7 +166,7 @@ Avant de publier ou de modifier une page web pharmaceutique, parcourez cette lis
 
 | Élément | ❌ Non conforme | ✅ Conforme |
 |---------|----------------|------------|
-| Title tag page produit Rx | « Marque X — traite efficacement le diabète » | « Marque X — médicament d'ordonnance » |
+| Title tag page produit Rx | « Marque X : traite efficacement le diabète » | « Marque X : médicament d'ordonnance » |
 | Meta description | « Marque X soulage la douleur en 15 minutes » | « Marque X : information pour professionnels de santé » |
 | Corps de texte | « Cliniquement prouvé pour réduire les symptômes » | Grand public : nom, prix et quantité seulement (art. C.01.044) ; l'information thérapeutique va dans une section réservée aux professionnels |
 | Témoignage | « Marie, 54 ans : Marque X a changé ma vie » | « [Témoignage B2B sur la qualité du service, sans allégation Rx] » |
@@ -176,8 +176,8 @@ Avant de publier ou de modifier une page web pharmaceutique, parcourez cette lis
 
 ## Conclusion
 
-La conformité PAAB et le SEO ne s'opposent pas — ils se renforcent. Un contenu rigoureusement conforme est, par définition, un contenu sourcé, factuel et rédigé par des experts. Ce sont exactement les signaux que Google recherche pour les sites YMYL.
+La conformité PAAB et le SEO ne s'opposent pas. Ils se renforcent. Un contenu rigoureusement conforme est, par définition, un contenu sourcé, factuel et rédigé par des experts. Ce sont exactement les signaux que Google recherche pour les sites YMYL.
 
 Les entreprises pharmaceutiques qui maîtrisent cette double exigence bénéficient d'un avantage compétitif durable : leurs concurrents non spécialisés ne peuvent pas les imiter sans expertise réglementaire.
 
-Pour un audit complet de votre site pharmaceutique — conformité PAAB + SEO + GEO — [contactez-moi directement](/#contact).
+Pour un audit complet de votre site pharmaceutique (conformité PAAB, SEO et GEO), [contactez-moi directement](/#contact).

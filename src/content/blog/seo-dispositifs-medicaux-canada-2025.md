@@ -22,13 +22,13 @@ faq:
 
 Le Canada compte des centaines de fabricants et de distributeurs de dispositifs médicaux. Pourtant, si vous tapez « fabricant dispositifs médicaux Canada » dans Google, vous trouverez essentiellement des répertoires génériques et quelques grandes multinationales.
 
-Les centaines de PME canadiennes qui fabriquent et distribuent des instruments médicaux — des dispositifs de diagnostic aux équipements chirurgicaux en passant par les orthèses sur mesure — sont pratiquement absentes des résultats organiques.
+Les centaines de PME canadiennes qui fabriquent et distribuent des instruments médicaux (des dispositifs de diagnostic aux équipements chirurgicaux, en passant par les orthèses sur mesure) sont pratiquement absentes des résultats organiques.
 
 C'est une anomalie de marché. Et une opportunité majeure.
 
 ---
 
-## Pourquoi les fabricants de DM ignorent le SEO — et pourquoi c'est une erreur
+## Pourquoi les fabricants de DM ignorent le SEO, et pourquoi c'est une erreur
 
 La plupart des entreprises du secteur des dispositifs médicaux (DM) au Canada comptent sur les salons professionnels, les réseaux de vente directe et les appels d'offres institutionnels pour développer leur clientèle. Le web est perçu comme un canal secondaire.
 
@@ -38,7 +38,7 @@ Cette perception est de plus en plus obsolète. Voici pourquoi :
 
 **Les appels d'offres sont précédés de recherches.** Avant même qu'un appel d'offres soit publié, les équipes cliniques et les acheteurs identifient des fournisseurs potentiels. Être visible à cette étape précoce est un avantage concurrentiel décisif.
 
-**Les concurrents internationaux investissent.** Medtronic, Philips, Stryker — toutes les grandes marques ont des équipes SEO dédiées. Pendant que les PME canadiennes ignorent le référencement, leurs concurrents internationaux capturent les acheteurs québécois et canadiens en ligne.
+**Les concurrents internationaux investissent.** Medtronic, Philips, Stryker : toutes les grandes marques ont des équipes SEO dédiées. Pendant que les PME canadiennes ignorent le référencement, leurs concurrents internationaux capturent les acheteurs québécois et canadiens en ligne.
 
 ---
 
@@ -80,7 +80,7 @@ Les acheteurs institutionnels de dispositifs médicaux n'utilisent pas les même
 
 ### Architecture de contenu pour un site fabricant de DM
 
-**Couche 1 — Pages produits complètes**
+**Couche 1 : Pages produits complètes**
 
 Chaque produit ou gamme mérite une page dédiée incluant :
 - Numéro d'homologation (Device Identifier ou DI) cliquable vers la [base de données des instruments médicaux de Santé Canada](https://health-products.canada.ca/mdall-limh/index-fra.jsp)
@@ -91,7 +91,7 @@ Chaque produit ou gamme mérite une page dédiée incluant :
 - Documentation disponible sur demande (IFU, dossier technique)
 - Coordonnées du gestionnaire de compte ou représentant régional
 
-**Couche 2 — Pages de spécialité clinique**
+**Couche 2 : Pages de spécialité clinique**
 
 Au lieu (ou en plus) d'organiser votre catalogue par ligne de produits, créez des pages organisées par spécialité clinique :
 
@@ -99,9 +99,9 @@ Au lieu (ou en plus) d'organiser votre catalogue par ligne de produits, créez d
 - « Équipements pour les soins intensifs »
 - « Dispositifs pour la réadaptation »
 
-Cette organisation reflète la façon dont vos acheteurs pensent — par besoin clinique, pas par catégorie de produit.
+Cette organisation reflète la façon dont vos acheteurs pensent : par besoin clinique, pas par catégorie de produit.
 
-**Couche 3 — Ressources techniques et réglementaires**
+**Couche 3 : Ressources techniques et réglementaires**
 
 Les acheteurs institutionnels de DM cherchent aussi :
 
@@ -113,7 +113,7 @@ Les acheteurs institutionnels de DM cherchent aussi :
 
 Ces ressources, accessibles après soumission d'un formulaire, génèrent des leads qualifiés et améliorent votre profil SEO par le temps passé sur le site et les téléchargements.
 
-**Couche 4 — Blog et actualités sectorielles**
+**Couche 4 : Blog et actualités sectorielles**
 
 Un blog positionné comme ressource d'information pour les professionnels de santé est particulièrement efficace en B2B médical :
 
@@ -121,7 +121,7 @@ Un blog positionné comme ressource d'information pour les professionnels de san
 - « ISO 13485:2016 : ce qui a changé pour les fabricants canadiens »
 - « Comment préparer un dossier d'homologation pour un DM de classe II au Canada »
 
-Ce type de contenu attire des responsables réglementaires, ingénieurs biomédicaux et acheteurs institutionnels — exactement vos cibles.
+Ce type de contenu attire des responsables réglementaires, ingénieurs biomédicaux et acheteurs institutionnels. Exactement vos cibles.
 
 ---
 
@@ -153,7 +153,7 @@ En B2B médical, la crédibilité est encore plus cruciale qu'en B2C. Votre site
 
 Les backlinks dans le secteur des DM proviennent de sources très spécifiques :
 
-- **[MEDEC](https://medec.org)** (Medical Device Canada) — l'association nationale du secteur
+- **[MEDEC](https://medec.org)** (Medical Device Canada), l'association nationale du secteur
 - **Réseau de recherche en santé** des universités canadiennes
 - **Publications scientifiques** qui citent vos dispositifs dans des études
 - **Hôpitaux et centres de recherche** qui mentionnent vos équipements

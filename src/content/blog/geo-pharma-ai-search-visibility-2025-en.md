@@ -21,11 +21,11 @@ faq:
     a: "llms.txt is a proposed standard (llmstxt.org): a plain-text file at the root of a site that summarizes who you are, what you offer and which pages matter most, in a format language models can read quickly. Not every AI system uses it yet."
 ---
 
-In 2025, a quiet but major shift is reshaping how healthcare decision-makers find suppliers, solutions and experts: they're asking AI directly.
+In 2025, healthcare decision-makers started finding suppliers, solutions and experts in a new way: they ask AI directly.
 
-"What are the best SEO consultants for a Canadian pharmaceutical company?" — asked to [ChatGPT](https://chatgpt.com), this question generates a complete answer in seconds, without the user visiting a single website. If your company isn't cited in that answer, you don't exist for that potential client.
+Ask [ChatGPT](https://chatgpt.com) "What are the best SEO consultants for a Canadian pharmaceutical company?" and you get a complete answer in seconds, without visiting a single website. If your company isn't cited in that answer, you don't exist for that potential client.
 
-This is the challenge — and the opportunity — of **GEO: Generative Engine Optimization**.
+That is both the challenge and the opportunity of **GEO: Generative Engine Optimization**.
 
 ---
 
@@ -35,7 +35,7 @@ This is the challenge — and the opportunity — of **GEO: Generative Engine Op
 
 **GEO** aims to be *cited as a source* by a language model ([ChatGPT](https://chatgpt.com), [Perplexity](https://www.perplexity.ai), Claude, Gemini). The goal: have the AI recommend your company, your product, or your expertise directly in its response.
 
-These two disciplines are complementary, but their mechanics differ fundamentally:
+These two disciplines are complementary, but their mechanics differ:
 
 | Criterion | Traditional SEO | GEO |
 |-----------|----------------|-----|
@@ -53,19 +53,19 @@ For a Canadian pharmaceutical company, a natural health product (NHP) brand, or 
 
 Language models are trained to be *cautious* about health topics. They apply their own form of YMYL filter: they prefer to cite recognized, institutional sources or those clearly identified as expert.
 
-This creates a paradox for SMEs: large brands and health institutions are naturally overrepresented in AI responses, while local and specialized players — often more relevant for the user — remain invisible.
+This creates a paradox for SMEs: large brands and health institutions are overrepresented in AI responses, while local and specialized players, often more relevant for the user, remain invisible.
 
-Good news: this imbalance is *correctable*, provided you adopt the right practices.
+You can correct this imbalance with the right practices.
 
 ### What AI Models Look for in Health Content
 
 Models like GPT-4o, Claude 3.5, or Perplexity analyze several signals before citing a source:
 
-1. **Author credibility** — an identified author with verifiable credentials is systematically favored
-2. **Information density** — content that directly answers factual questions is more easily citable than promotional text
-3. **Consistency of external mentions** — if other reliable sources mention your brand, AI models detect it
-4. **Content structure** — lists, definitions, tables and direct answers are more easily extracted
-5. **Implicit regulatory compliance** — content citing Health Canada, PAAB, or GMP/GLP standards inspires confidence in AI models
+1. **Author credibility**: an identified author with verifiable credentials is systematically favored
+2. **Information density**: content that directly answers factual questions is easier to cite than promotional text
+3. **Consistency of external mentions**: if other reliable sources mention your brand, AI models detect it
+4. **Content structure**: lists, definitions, tables and direct answers are easier to extract
+5. **Implicit regulatory compliance**: content citing Health Canada, PAAB, or GMP/GLP standards inspires confidence in AI models
 
 ---
 
@@ -73,7 +73,7 @@ Models like GPT-4o, Claude 3.5, or Perplexity analyze several signals before cit
 
 ### 1. Build a Verifiable Expert Author Profile
 
-AI models don't cite anonymous companies — they cite *people*. Your website must clearly identify content authors with:
+AI models don't cite anonymous companies. They cite *people*. Your website must clearly identify content authors with:
 
 - Full name and professional title
 - LinkedIn link (strong verifiability signal)
@@ -91,11 +91,11 @@ A language model easily extracts:
 - **Comparative tables** with factual data
 - **Short answer blocks** that respond to a question in 2-3 sentences
 
-Restructure your service pages, product sheets and blog articles to systematically incorporate these formats.
+Restructure your service pages, product sheets and blog articles to include these formats.
 
 ### 3. Optimize Your `llms.txt` File
 
-Similar to `robots.txt` for traditional crawlers, the [`llms.txt`](https://llmstxt.org) file is an emerging standard that allows language models to quickly understand your identity, expertise and reliable sources.
+Similar to `robots.txt` for traditional crawlers, the [`llms.txt`](https://llmstxt.org) file is an emerging standard that helps language models quickly understand your identity, expertise and reliable sources.
 
 This file should contain:
 - A concise description of your company and area of expertise
@@ -116,7 +116,7 @@ For Canadian pharma, the mentions to target first:
 
 ### 5. Directly Answer Questions Your Clients Ask AI Models
 
-Do the exercise: ask ChatGPT or Perplexity the questions your clients might ask. Then create content that answers those questions better than what's currently cited.
+Try it: ask ChatGPT or Perplexity the questions your clients might ask. Then create content that answers those questions better than what's currently cited.
 
 Example questions for an NHP brand:
 - "How do I market a natural health product in Canada?"
@@ -129,14 +129,14 @@ Each well-structured answer is an opportunity to be cited.
 
 ## The Special Case of Perplexity: The AI That Cites the Most
 
-Perplexity stands out from other models by its ability to conduct real-time web searches and explicitly cite sources with links. It's the AI platform where organic visibility is most directly transferable.
+Perplexity stands out from other models by its ability to run real-time web searches and explicitly cite sources with links. It's the AI platform where organic visibility transfers most directly.
 
 To optimize your presence on Perplexity:
 
-- **Publish regularly** — Perplexity favors recent content
-- **Use question-format titles** — "How to...", "What is...", "Why..."
-- **Make your site crawlable** — verify your `robots.txt` doesn't block AI crawlers (`GPTBot`, `PerplexityBot`, `ClaudeBot`) — see [OpenAI's GPTBot documentation](https://platform.openai.com/docs/gptbot)
-- **Get media backlinks** — Perplexity gives significant weight to sources mentioned in press articles
+- **Publish regularly.** Perplexity favors recent content.
+- **Use question-format titles**: "How to...", "What is...", "Why..."
+- **Make your site crawlable.** Check that your `robots.txt` doesn't block AI crawlers (`GPTBot`, `PerplexityBot`, `ClaudeBot`). See [OpenAI's GPTBot documentation](https://platform.openai.com/docs/gptbot).
+- **Get media backlinks.** Perplexity gives significant weight to sources mentioned in press articles.
 
 ---
 
@@ -144,9 +144,9 @@ To optimize your presence on Perplexity:
 
 The pharmaceutical sector faces a constraint most industries don't: the regulation of health claims. In Canada, [PAAB](https://www.paab.ca) strictly governs communication about prescription drugs, while Health Canada regulates claims for NHPs.
 
-This constraint becomes a *competitive advantage* in GEO: companies that demonstrate regulatory compliance in their web content inspire greater trust in AI models, which are trained to detect irresponsible or unsupported claims.
+In GEO, this constraint works in your favour: companies that demonstrate regulatory compliance in their web content inspire greater trust in AI models, which are trained to detect irresponsible or unsupported claims.
 
-**Recommended strategy:** systematically integrate references to applicable regulatory frameworks in your content — not defensively, but as proof of expertise. An article that correctly cites the [Natural Health Products Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2003-196/) or [ICH GMP guidelines](https://www.canada.ca/en/health-canada/services/drugs-health-products/compliance-enforcement/good-manufacturing-practices.html) positions its author as a reliable expert in the eyes of AI.
+**Recommended strategy:** reference the applicable regulatory frameworks throughout your content, as proof of expertise rather than as a defensive move. An article that correctly cites the [Natural Health Products Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2003-196/) or [ICH GMP guidelines](https://www.canada.ca/en/health-canada/services/drugs-health-products/compliance-enforcement/good-manufacturing-practices.html) positions its author as a reliable expert in the eyes of AI.
 
 ---
 
@@ -154,13 +154,13 @@ This constraint becomes a *competitive advantage* in GEO: companies that demonst
 
 If you've never optimized your presence for AI models, here's a practical starting sequence:
 
-**Step 1 — Audit your current visibility**
+**Step 1: Audit your current visibility**
 Ask ChatGPT, Perplexity and Claude questions about your sector, your specialty, your geographic market. Are you mentioned? Who is cited instead?
 
-**Step 2 — Identify your content gaps**
+**Step 2: Identify your content gaps**
 Compare the generated responses with your current content. Which questions don't your pages answer directly? Which formats are missing (tables, lists, definitions)?
 
-**Step 3 — Prioritize your actions**
+**Step 3: Prioritize your actions**
 - Short term (1-2 months): restructure existing pages, create the `llms.txt` file, verify AI crawler accessibility
 - Medium term (3-4 months): develop a content calendar targeting AI questions, build external mentions
 
@@ -168,8 +168,8 @@ Compare the generated responses with your current content. Which questions don't
 
 ## Conclusion
 
-GEO is not a trend — it's a structural evolution in how information circulates. For healthcare SMEs in Canada, it's both a threat (if your competitors adopt it before you) and an exceptional opportunity (if you act now, before the market is saturated).
+GEO is a structural change in how information circulates, not a passing trend. For healthcare SMEs in Canada, it's a threat if your competitors adopt it before you, and an opportunity if you act now, before the market is saturated.
 
-The good news: companies that already master E-E-A-T and regulatory compliance have a natural head start. It's a matter of adapting these assets to the specific requirements of language models.
+Companies that already master E-E-A-T and regulatory compliance have a head start. They only need to adapt those assets to how language models work.
 
 If you want to assess your company's current GEO visibility in AI responses, [contact me for a free preliminary analysis](/en/#contact).
