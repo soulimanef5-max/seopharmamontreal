@@ -11,7 +11,7 @@ modDate: 2026-09-26
 translationSlug: "paab-vs-fda-seo-pharma-canada-2026"
 faq:
   - q: "What is the main difference between PAAB and FDA for pharmaceutical SEO?"
-    a: "Timing and scope. The FDA (United States) operates post-market: you publish, and the agency can step in afterward. The PAAB (Canada) operates on pre-clearance for branded content aimed at healthcare professionals: you submit before publishing. Above all, direct-to-consumer (DTC) advertising of prescription drugs is permitted in the United States but prohibited in Canada, which makes a large share of US 'product-led' SEO illegal north of the border."
+    a: "Timing and scope. The FDA (United States) operates post-market: you publish, and the agency can step in afterward. The PAAB (Canada) operates on pre-clearance for branded content aimed at healthcare professionals: you submit before publishing. Above all, direct-to-consumer (DTC) advertising of prescription drugs is permitted in the United States but prohibited in Canada beyond name, price and quantity, which makes a large share of US 'product-led' SEO illegal north of the border."
   - q: "Can you clone a US product page onto a Canadian site?"
     a: "No. A US product page optimized around '[drug] for [condition]' breaches Canada's rules for prescription drug advertising if it is aimed at Canadian consumers, because it ties a prescription brand to a therapeutic indication. For the public, the Food and Drug Regulations (s. C.01.044) limit that advertising to the name, price and quantity."
   - q: "How do AI search engines (AI Overviews, ChatGPT, Perplexity) handle cross-border pharma content?"
@@ -24,7 +24,7 @@ faq:
 
 If your pharmaceutical company operates in the United States and expands into Canada (or the reverse), you cannot simply translate your website and republish. The regulatory framework that governs what you can write, index and optimize changes radically at the border.
 
-The most consequential difference: in the United States, direct-to-consumer (DTC) advertising of prescription drugs is **legal**. In Canada, it is **prohibited** (see our [Canadian pharmaceutical advertising rules](/en/blog/pharmaceutical-advertising-rules-canada-2026-en/)). That single distinction rewrites your SEO strategy from the ground up.
+The most consequential difference: in the United States, direct-to-consumer (DTC) advertising of prescription drugs is **legal**. In Canada, it is **prohibited**, apart from the product's name, price and quantity (see our [Canadian pharmaceutical advertising rules](/en/blog/pharmaceutical-advertising-rules-canada-2026-en/)). That single distinction rewrites your SEO strategy from the ground up.
 
 This is not a legal detail reserved for regulatory teams. It is a constraint that decides which pages you can publish, which keywords you can target, and even which content an artificial intelligence is allowed to cite on your behalf. A marketing team that treats Canada as a simple "translated market" of the United States produces non-compliant content almost by default, and often discovers it too late, after indexing. Understanding the PAAB / FDA divide upfront means avoiding the rebuild of an entire content architecture under the pressure of a non-compliance notice.
 
@@ -46,7 +46,7 @@ This difference in timing (reaction *vs* pre-clearance) changes your entire SEO 
 
 | Element | 🇺🇸 United States (FDA) | 🇨🇦 Canada (PAAB / Health Canada) |
 |---------|------------------------|-----------------------------------|
-| DTC advertising of Rx | **Permitted** (with "fair balance") | **Prohibited** |
+| DTC advertising of Rx | **Permitted** (with "fair balance") | **Prohibited** (except name, price, quantity) |
 | Naming an Rx + its indication to consumers | Allowed | Prohibited (name, price, quantity only) |
 | Keyword-rich product pages | Possible | Deliberately sparse |
 | Patient testimonials about an Rx | Allowed (with disclosure) | Prohibited |
@@ -151,7 +151,7 @@ Before deploying pharma content across both markets:
 
 ## Conclusion
 
-PAAB and FDA are not two versions of the same framework. They follow opposite logics. The FDA reacts, the PAAB pre-clears. The FDA permits DTC, the PAAB prohibits it. A cross-border pharmaceutical SEO strategy that ignores this divide ends up producing content that is either non-compliant in Canada or under-optimized in the United States.
+PAAB and FDA are not two versions of the same framework. They follow opposite logics. The FDA reacts, the PAAB pre-clears. The FDA permits DTC, Canada prohibits it. A cross-border pharmaceutical SEO strategy that ignores this divide ends up producing content that is either non-compliant in Canada or under-optimized in the United States.
 
 The competitive advantage belongs to companies that design, from the outset, **two distinct architectures linked by a common foundation of educational content**. It takes more work, which is why non-specialized competitors don't follow. This is the kind of cross-border architecture a [PAAB-specialized SEO consultant](/en/seo-pharma/) builds, rather than a generalist agency applying US playbooks north of the border.
 

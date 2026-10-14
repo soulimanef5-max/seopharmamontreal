@@ -79,7 +79,7 @@ This is where imported strategies fail. A US agency optimizes for a world where 
 
 | | United States | Canada |
 |---|---|---|
-| DTC Rx advertising | Legal (FDA-supervised) | **Prohibited** |
+| DTC Rx advertising | Legal (FDA-supervised) | **Prohibited** (except name, price, quantity) |
 | Preclearance body | None | **PAAB** |
 | Privacy framework | HIPAA | PIPEDA / Quebec Law 25 |
 | Governing law | FDA regulations | Food and Drugs Act |
