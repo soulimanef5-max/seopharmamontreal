@@ -21,9 +21,9 @@ faq:
     a: "Compliant content is sourced, factual and written by identified experts. Those are the signals Google looks for when it evaluates health content, so doing compliance well also supports rankings instead of limiting them."
 ---
 
-Organic search is one of the few **digital acquisition channels** that still work for prescription drugs in Canada. Advertising them to the public is limited to the name, price and quantity, which leaves little room for paid campaigns. The result: SEO becomes strategic — but it must operate within the strict framework of [PAAB](https://www.paab.ca) and [Health Canada](https://www.canada.ca/en/health-canada.html).
+Organic search is one of the few **digital acquisition channels** that still work for prescription drugs in Canada. Advertising them to the public is limited to the name, price and quantity, which leaves little room for paid campaigns. SEO therefore becomes strategic, but it must operate within the strict framework of [PAAB](https://www.paab.ca) and [Health Canada](https://www.canada.ca/en/health-canada.html).
 
-This guide doesn't repeat the rules — it shows you **how to apply them in practice**, page by page.
+Rather than repeating the rules, this guide shows you **how to apply them in practice**, page by page.
 
 > If you're looking to understand the regulatory framework first, read our article [Health Canada & SEO: What Pharma SMEs Need to Know](/en/blog/health-canada-seo-nhp-compliance-2025-en/).
 
@@ -33,10 +33,10 @@ This guide doesn't repeat the rules — it shows you **how to apply them in prac
 
 A non-compliant pharmaceutical web page creates two simultaneous risks:
 
-1. **PAAB risk** — complaint, content removal, regulatory reputation damage
-2. **Google risk** — YMYL penalty for unreliable content, ranking drop
+1. **PAAB risk**: complaint, content removal, regulatory reputation damage
+2. **Google risk**: YMYL penalty for unreliable content, ranking drop
 
-These two risks feed each other. Content flagged by PAAB loses credibility with Google — and vice versa. Conversely, compliant, well-sourced content **strengthens both your regulatory standing and your rankings**.
+These two risks feed each other. Content flagged by PAAB loses credibility with Google, and vice versa. On the other hand, compliant, well-sourced content **strengthens both your regulatory standing and your rankings**.
 
 ---
 
@@ -48,7 +48,7 @@ PAAB enforces strict separation between:
 - **Branded promotional content**: associates a brand name with a therapeutic benefit → requires PAAB review
 - **Unbranded educational content**: discusses a condition or generic treatment → not subject to PAAB
 
-**Practical SEO impact:** your educational blog posts (unbranded) can be freely optimized. Your branded product pages must be submitted to PAAB before publication — and their content is structurally limited.
+**Practical SEO impact:** your educational blog posts (unbranded) can be freely optimized. Your branded product pages must be submitted to PAAB before publication, and their content is structurally limited.
 
 **Common mistake:** associating an Rx drug name with a patient testimonial or specific benefit in a meta description. On a consumer-facing page, that breaches the rules for prescription drug advertising, and it can also send a negative YMYL signal to Google.
 
@@ -82,7 +82,7 @@ For drug pages, limit your `Drug` or `Product` schema to factual fields: name, m
 
 ## E-E-A-T Applied to Canadian Pharmaceutical Websites
 
-Google treats pharmaceutical sites as YMYL (*Your Money Your Life*) content. E-E-A-T requirements are at their highest. Here's how to demonstrate it concretely on each dimension.
+Google treats pharmaceutical sites as YMYL (*Your Money or Your Life*) content. E-E-A-T requirements are at their highest. Here's how to demonstrate it concretely on each dimension.
 
 ### Experience (E)
 - Real case studies with measurable results (without unapproved Rx claims)
@@ -117,7 +117,7 @@ Homepage / Services
 ├── Branded product pages (minimal content, PAAB-compliant)
 │   └── Link to unbranded educational resources
 │
-├── Educational content hub (unbranded — freely SEO-optimized)
+├── Educational content hub (unbranded, freely SEO-optimized)
 │   ├── Articles on treated medical conditions
 │   ├── Articles on therapeutic options (generic)
 │   ├── Regulatory guides (PAAB, Health Canada, GMP)
@@ -133,7 +133,7 @@ This architecture protects your branded pages from PAAB risk while creating a vo
 
 ---
 
-## PAAB SEO Compliance Audit Checklist — 15 Points
+## PAAB SEO Compliance Audit Checklist: 15 Points
 
 Before publishing or modifying a pharmaceutical web page, run through this list:
 
@@ -166,7 +166,7 @@ Before publishing or modifying a pharmaceutical web page, run through this list:
 
 | Element | ❌ Non-compliant | ✅ Compliant |
 |---------|----------------|-------------|
-| Rx product title tag | "Brand X — effectively treats diabetes" | "Brand X — prescription medication" |
+| Rx product title tag | "Brand X: effectively treats diabetes" | "Brand X: prescription medication" |
 | Meta description | "Brand X relieves pain in 15 minutes" | "Brand X: information for healthcare professionals" |
 | Body copy | "Clinically proven to reduce symptoms" | Public-facing: name, price and quantity only (s. C.01.044); therapeutic information goes in a section reserved for healthcare professionals |
 | Testimonial | "Mary, 54: Brand X changed my life" | "[B2B service quality testimonial, no Rx claims]" |
@@ -176,8 +176,8 @@ Before publishing or modifying a pharmaceutical web page, run through this list:
 
 ## Conclusion
 
-PAAB compliance and SEO don't conflict — they reinforce each other. Rigorously compliant content is, by definition, sourced, factual and written by experts. Those are exactly the signals Google looks for in YMYL sites.
+PAAB compliance and SEO don't conflict. They reinforce each other. Rigorously compliant content is, by definition, sourced, factual and written by experts. Those are exactly the signals Google looks for in YMYL sites.
 
 Pharmaceutical companies that master this dual requirement enjoy a durable competitive advantage: non-specialized competitors cannot replicate it without regulatory expertise.
 
-For a complete audit of your pharmaceutical site — PAAB compliance + SEO + GEO — [contact me directly](/en/#contact).
+For a complete audit of your pharmaceutical site (PAAB compliance, SEO and GEO), [contact me directly](/en/#contact).

@@ -22,17 +22,17 @@ faq:
 
 Jean Coutu. Pharmaprix. Uniprix. Metro Pharmacy. Ces chaînes dépensent des millions en marketing numérique et occupent les premières positions sur Google pour des centaines de mots-clés liés à la pharmacie.
 
-Pourtant, chaque semaine, des pharmacies indépendantes québécoises les battent dans les résultats de recherche locaux. Pas grâce à des budgets équivalents — mais grâce à des stratégies que les grandes chaînes ne peuvent pas répliquer.
+Pourtant, chaque semaine, des pharmacies indépendantes québécoises les battent dans les résultats de recherche locaux. Pas grâce à des budgets équivalents, mais grâce à des stratégies que les grandes chaînes ne peuvent pas répliquer.
 
 ---
 
 ## Pourquoi les grandes chaînes ont un désavantage structurel sur le SEO local
 
-La force des chaînes pharmaceutiques — leur standardisation — est leur faiblesse en SEO local.
+La force des chaînes pharmaceutiques, leur standardisation, devient leur faiblesse en SEO local.
 
 **Le problème de la page générique :** la page « Pharmaprix Montréal-Nord » est générée automatiquement depuis un template national. Elle contient peu de contenu local spécifique, peu de signaux d'appartenance à la communauté, et aucune personnalité propre. Google le sait.
 
-**Le problème de l'autorité diffuse :** les avis Google d'une chaîne sont répartis entre des dizaines d'établissements. Votre pharmacie indépendante concentre 100 % de ses avis sur un seul profil — ce qui peut générer un score de pertinence locale bien supérieur.
+**Le problème de l'autorité diffuse :** les avis Google d'une chaîne sont répartis entre des dizaines d'établissements. Votre pharmacie indépendante concentre 100 % de ses avis sur un seul profil, ce qui peut générer un score de pertinence locale bien supérieur.
 
 **Le problème des signaux d'engagement :** un pharmacien propriétaire qui répond personnellement aux avis, publie des posts sur Google Business Profile et est mentionné dans le journal local crée des signaux d'engagement authentiques que les systèmes automatisés des chaînes ne peuvent pas reproduire.
 
@@ -40,7 +40,7 @@ La force des chaînes pharmaceutiques — leur standardisation — est leur faib
 
 ## Les 4 leviers SEO où les indépendants gagnent systématiquement
 
-### Levier 1 — Le SEO hyperlocal de quartier
+### Levier 1 : Le SEO hyperlocal de quartier
 
 Les chaînes ciblent « pharmacie Montréal ». Vous, vous pouvez cibler :
 - « pharmacie Rosemont »
@@ -48,9 +48,9 @@ Les chaînes ciblent « pharmacie Montréal ». Vous, vous pouvez cibler :
 - « pharmacie ouverte le soir Plateau-Mont-Royal »
 - « pharmaciste qui parle espagnol Villeray »
 
-Ces recherches à longue traîne ont un volume plus faible, mais un taux de conversion bien supérieur — et une concurrence quasi nulle. Une pharmacie indépendante du Plateau peut créer une page dédiée à chaque quartier qu'elle dessert, avec du contenu vraiment local (rues, arrêts de métro, points de repère).
+Ces recherches à longue traîne ont un volume plus faible, mais un taux de conversion bien supérieur et une concurrence quasi nulle. Une pharmacie indépendante du Plateau peut créer une page dédiée à chaque quartier qu'elle dessert, avec du contenu vraiment local (rues, arrêts de métro, points de repère).
 
-### Levier 2 — Le profil Google Business Profile optimisé
+### Levier 2 : Le profil Google Business Profile optimisé
 
 Votre fiche Google est souvent le premier contact avec un patient potentiel. Les pharmacies indépendantes qui maximisent leur GBP suivent ces pratiques :
 
@@ -60,13 +60,13 @@ Votre fiche Google est souvent le premier contact avec un patient potentiel. Les
 - Catégorie principale : « Pharmacie » + catégories secondaires (« Pharmacie de garde », « Pharmacie homéopathique » si applicable)
 - Adresse précise avec accès PMR mentionné si disponible
 
-**Publications régulières :** publiez 2-3 posts par mois sur votre GBP — informations santé saisonnières (grippe, allergie), nouveaux services (vaccination, test de glycémie), promotions sur les produits en vente libre. Ces posts boosten votre visibilité locale de façon significative.
+**Publications régulières :** publiez 2-3 posts par mois sur votre GBP : informations santé saisonnières (grippe, allergie), nouveaux services (vaccination, test de glycémie), promotions sur les produits en vente libre. Ces posts améliorent nettement votre visibilité locale.
 
 **Photos authentiques :** des photos de votre équipe, de votre espace intérieur, de votre officine sont infiniment plus performantes que des photos génériques. Google favorise les fiches avec des photos récentes et variées.
 
 **Questions & Réponses :** préchargez vous-même des Q&R pertinentes (« Faites-vous des livraisons à domicile ? », « Acceptez-vous les assurances privées ? »). Ces Q&R apparaissent dans votre fiche et répondent aux questions avant même que l'utilisateur appelle.
 
-### Levier 3 — Le contenu de santé communautaire
+### Levier 3 : Le contenu de santé communautaire
 
 Une chaîne publie les mêmes articles santé génériques dans toutes ses succursales. Vous, vous pouvez créer du contenu qui parle à votre communauté spécifique.
 
@@ -78,7 +78,7 @@ Une chaîne publie les mêmes articles santé génériques dans toutes ses succu
 
 Ce type de contenu est introuvable sur les sites des chaînes. Il répond à des besoins réels, génère des partages sur les réseaux sociaux locaux (Facebook de quartier, NextDoor) et crée des backlinks naturels.
 
-### Levier 4 — La réputation numérique comme différenciateur
+### Levier 4 : La réputation numérique comme différenciateur
 
 La relation pharmacien-patient est intime et basée sur la confiance. C'est un avantage que les grandes chaînes ne peuvent pas fabriquer artificiellement.
 
@@ -137,6 +137,6 @@ Contrairement au SEO national où on mesure le trafic global, le SEO local se me
 
 Les pharmacies indépendantes ont une carte que les chaînes n'ont pas : **l'authenticité locale**. En SEO, cette authenticité se traduit par du contenu de quartier, une présence GBP soigneusement entretenue, une réputation numérique construite relation par relation.
 
-Vous n'avez pas besoin du budget de Jean Coutu pour dominer les résultats Google de votre quartier. Vous avez besoin d'une stratégie adaptée à votre réalité de pharmacien propriétaire — et de quelqu'un qui comprend à la fois le SEO et votre secteur.
+Vous n'avez pas besoin du budget de Jean Coutu pour dominer les résultats Google de votre quartier. Vous avez besoin d'une stratégie adaptée à votre réalité de pharmacien propriétaire, et de quelqu'un qui comprend à la fois le SEO et votre secteur.
 
-[Demandez une analyse préliminaire gratuite de votre présence en ligne](/#contact) — je vous dis exactement où vous en êtes et ce qui peut être amélioré en priorité.
+[Demandez une analyse préliminaire gratuite de votre présence en ligne](/#contact) : je vous dis exactement où vous en êtes et ce qui peut être amélioré en priorité.

@@ -21,17 +21,17 @@ faq:
     a: "Créer des pages auteur avec les qualifications, afficher les dates de publication et de mise à jour, sourcer chaque affirmation médicale, ajouter des avertissements clairs et, pour les entreprises locales, renforcer la fiche Google Business avec de vrais avis."
 ---
 
-Si vous gérez le site d'une pharmacie indépendante, d'une marque de produits de santé naturels ou d'un distributeur de dispositifs médicaux au Québec, vous êtes concerné par l'un des aspects les plus méconnus — et les plus déterminants — du référencement naturel : les critères **E-E-A-T**.
+Si vous gérez le site d'une pharmacie indépendante, d'une marque de produits de santé naturels ou d'un distributeur de dispositifs médicaux au Québec, vous êtes concerné par l'un des aspects les plus méconnus, et pourtant les plus déterminants, du référencement naturel : les critères **E-E-A-T**.
 
 Depuis les mises à jour majeures de son algorithme (notamment *Medic Update* en 2018 et les affinements successifs jusqu'en 2025), Google traite les contenus liés à la santé avec une rigueur particulière. Comprendre pourquoi, et surtout comment y répondre, peut faire la différence entre la première page et l'invisibilité numérique.
 
 ---
 
-## Qu'est-ce que le YMYL — et pourquoi le secteur pharma en est le cœur de cible ?
+## Qu'est-ce que le YMYL, et pourquoi le secteur pharma en est-il le cœur de cible ?
 
-YMYL signifie *Your Money Your Life*. Il désigne l'ensemble des pages web dont le contenu pourrait affecter la santé physique, mentale, financière ou la sécurité d'un utilisateur.
+YMYL signifie *Your Money or Your Life*. Il désigne l'ensemble des pages web dont le contenu pourrait affecter la santé physique, mentale, financière ou la sécurité d'un utilisateur.
 
-Tout contenu pharmaceutique est, par définition, YMYL : une notice de médicament mal rédigée, une description de produit de santé naturelle trompeuse ou un article sur les interactions médicamenteuses inexact peut nuire à une personne réelle. Google le sait — et c'est pour cela que ses évaluateurs humains (les [*Quality Raters*](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)) notent ces pages selon des standards bien plus exigeants que pour un site de mode ou de cuisine.
+Tout contenu pharmaceutique est, par définition, YMYL : une notice de médicament mal rédigée, une description de produit de santé naturelle trompeuse ou un article sur les interactions médicamenteuses inexact peut nuire à une personne réelle. Google le sait, et c'est pour cela que ses évaluateurs humains (les [*Quality Raters*](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)) notent ces pages selon des standards bien plus exigeants que pour un site de mode ou de cuisine.
 
 **Résultat concret :** si votre site ne démontre pas clairement son niveau d'expertise et de fiabilité, il sera dépriorisé dans les résultats, indépendamment de la qualité technique de votre SEO.
 
@@ -95,7 +95,7 @@ La majorité des articles publiés sur des sites pharma québécois ne mentionne
 Même quand un nom est mentionné, il n'existe souvent pas de page dédiée présentant les qualifications de l'auteur avec des liens vers ses profils professionnels.
 
 **3. Contenu obsolète non mis à jour**
-Un article sur les traitements du diabète rédigé en 2019 sans révision depuis est un signal négatif puissant. Dans le secteur médical, l'information évolue — votre site doit le refléter.
+Un article sur les traitements du diabète rédigé en 2019 sans révision depuis est un signal négatif puissant. Dans le secteur médical, l'information évolue, et votre site doit le refléter.
 
 **4. Disclaimers absents ou mal positionnés**
 Santé Canada exige certaines mises en garde pour les produits de santé naturels. Leur absence peut entraîner non seulement une pénalité SEO, mais aussi une infraction réglementaire.
@@ -123,10 +123,10 @@ Voici par où commencer concrètement :
 
 ## Conclusion
 
-Le SEO pour le secteur pharmaceutique n'est pas une question de mots-clés et de backlinks seulement — c'est une question de **confiance prouvée et documentée**. Google investit massivement pour que ses utilisateurs puissent faire confiance aux résultats qu'il leur montre dans le domaine de la santé.
+Dans le secteur pharmaceutique, les mots-clés et les backlinks ne suffisent pas. Ce qui fait la différence, c'est une **confiance prouvée et documentée**. Google investit massivement pour que ses utilisateurs puissent faire confiance aux résultats qu'il leur montre dans le domaine de la santé.
 
 Les PME pharma qui comprennent cela et adaptent leur stratégie de contenu en conséquence se retrouvent dans une position concurrentielle très favorable, même face aux grandes chaînes.
 
 ---
 
-*Vous souhaitez évaluer où en est votre site par rapport aux critères E-E-A-T ? [Demandez une analyse préliminaire gratuite](/#contact) — je vous transmets une analyse sous 24h.*
+*Vous souhaitez évaluer où en est votre site par rapport aux critères E-E-A-T ? [Demandez une analyse préliminaire gratuite](/#contact), je vous la transmets sous 24h.*

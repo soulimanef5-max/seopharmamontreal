@@ -20,9 +20,9 @@ faq:
   - q: "Connaissez-vous le cadre PAAB pour les professionnels de santé (HCP) ?"
     a: "Oui. Je distingue les deux cibles réglementaires principales du PAAB : le contenu destiné aux consommateurs (public général) et le contenu destiné aux professionnels de santé (HCP). Ces deux segments ont des règles différentes en matière d'allégations, de données cliniques et d'approbation. Je structure votre contenu en conséquence, avec des URLs et des accès distincts si nécessaire."
   - q: "Travaillez-vous aussi sur la visibilité dans les IA (ChatGPT, Perplexity, Gemini) ?"
-    a: "Oui — c'est même une composante centrale de ma méthode. Le GEO (Generative Engine Optimization) est l'ensemble des techniques pour être cité dans les réponses des IA génératives. En pratique : structure de contenu en questions/réponses, schémas FAQ JSON-LD, passages extractibles, données structurées Schema.org, et présence dans des sources que les LLMs crawlent et citent (Wikipedia, Wikidata, annuaires sectoriels reconnus)."
+    a: "Oui, c'est même une composante centrale de ma méthode. Le GEO (Generative Engine Optimization) est l'ensemble des techniques pour être cité dans les réponses des IA génératives. En pratique : structure de contenu en questions/réponses, schémas FAQ JSON-LD, passages extractibles, données structurées Schema.org, et présence dans des sources que les LLMs crawlent et citent (Wikipedia, Wikidata, annuaires sectoriels reconnus)."
   - q: "Quelle est votre expérience directe dans l'industrie pharmaceutique ?"
-    a: "J'ai passé 10 ans chez Roche, en marketing et ventes, puis je me suis spécialisé en assurance qualité en industrie pharmaceutique. Cette double expérience — le marketing pharma vécu de l'intérieur et la rigueur réglementaire — m'a exposé aux processus de validation de contenu, aux contraintes opérationnelles et aux enjeux des équipes marketing pharma. Ce n'est pas une expertise acquise en lisant des articles — c'est une compréhension de l'intérieur."
+    a: "J'ai passé 10 ans chez Roche, en marketing et ventes, puis je me suis spécialisé en assurance qualité en industrie pharmaceutique. Cette double expérience (le marketing pharma vécu de l'intérieur, puis la rigueur réglementaire) m'a fait connaître les processus de validation de contenu, les contraintes opérationnelles et les enjeux des équipes marketing pharma. Je ne l'ai pas apprise dans des articles : je l'ai vécue."
   - q: "Proposez-vous des audits en anglais pour des clients anglophones ?"
     a: "Oui. Je livre tous mes rapports et stratégies en français ou en anglais selon la préférence du client. Les articles de blog sont produits dans les deux langues (bilingue FR/EN) avec des versions optimisées pour les requêtes spécifiques à chaque marché."
   - q: "Comment se déroule la première prise de contact ?"
@@ -37,13 +37,13 @@ Je m'appelle **Soulimane Farah**. Je suis consultant SEO et GEO indépendant, ba
 
 ---
 
-## Qui est Soulimane Farah — et pourquoi la spécialisation pharma change tout
+## Qui est Soulimane Farah, et pourquoi la spécialisation pharma change tout
 
-Mon parcours professionnel a été construit dans l'industrie pharma et de la santé, pas dans le SEO généraliste. J'ai passé **10 ans chez Roche en marketing et ventes**, puis je me suis spécialisé en **assurance qualité en industrie pharmaceutique** — un parcours dont les exigences de conformité, de validation de contenu et de gouvernance réglementaire m'ont formé à une rigueur que les agences SEO standard n'acquièrent jamais.
+J'ai bâti mon parcours dans l'industrie pharma et la santé, pas dans le SEO généraliste. J'ai passé **10 ans chez Roche en marketing et ventes**, puis je me suis spécialisé en **assurance qualité en industrie pharmaceutique**. Les exigences de conformité, de validation de contenu et de gouvernance réglementaire de ce milieu m'ont donné une rigueur que les agences SEO classiques n'ont pas.
 
 Ce que ça signifie concrètement pour votre projet :
 
-- Je comprends la **différence entre un contenu brandé et non brandé** selon le PAAB — et je structure votre architecture de contenu en conséquence dès le départ
+- Je comprends la **différence entre un contenu brandé et non brandé** selon le PAAB, et je structure votre architecture de contenu en conséquence dès le départ
 - Je sais ce qu'une validation médicale implique dans un flux éditorial et comment l'intégrer sans bloquer la publication
 - Je maîtrise les **deux langues de travail du marché canadien** : français et anglais, avec une compréhension des nuances réglementaires dans les deux langues
 - Je comprends la pression concurrentielle réelle des équipes marketing pharma : délais réglementaires, budgets strictement alloués, cycles d'approbation longs
@@ -54,19 +54,19 @@ Je ne suis pas une agence de 50 personnes qui vous assigne un junior après le p
 
 ## Pourquoi le SEO pharmaceutique est fondamentalement différent
 
-Dans la plupart des secteurs, le SEO est une question de volume : plus de contenu, plus de liens, plus de mots-clés. En pharma canadienne, cette logique est partiellement fausse — et suivre des conseils SEO génériques peut vous coûter une plainte au PAAB ou une pénalité Google YMYL.
+Dans la plupart des secteurs, le SEO est une question de volume : plus de contenu, plus de liens, plus de mots-clés. En pharma canadienne, cette logique est en partie fausse, et suivre des conseils SEO génériques peut vous coûter une plainte au PAAB ou une pénalité Google YMYL.
 
 ### La contrainte DTC change toute votre stratégie de contenu
 
 Au Canada, la publicité directe aux consommateurs (DTC) pour les médicaments d'ordonnance est **interdite**. Vous ne pouvez pas créer une page produit optimisée autour de « [médicament X] pour [indication] » comme le font vos concurrents américains. Vos pages produit Rx doivent être légalement austères.
 
-La conséquence SEO : **100% de votre trafic organique doit passer par du contenu éducatif non brandé**. Ce sont les articles sur les conditions médicales, les guides sur les traitements génériques, les comparatifs réglementaires — pas les pages produit.
+La conséquence SEO : **100% de votre trafic organique doit passer par du contenu éducatif non brandé**. Ce sont les articles sur les conditions médicales, les guides sur les traitements génériques, les comparatifs réglementaires. Pas les pages produit.
 
 Un consultant généraliste ne comprend pas cette contrainte. Il optimisera vos pages produit (risque PAAB) ou vous conseillera de créer du contenu riche sur vos médicaments Rx (risque légal). Je sais, moi, où est la limite et comment maximiser votre visibilité dans ce cadre.
 
-### Google traite votre site comme YMYL — et exige le niveau E-E-A-T maximal
+### Google traite votre site comme YMYL et exige le niveau E-E-A-T maximal
 
-Les sites pharmaceutiques tombent dans la catégorie **YMYL** (*Your Money or Your Life*) de Google — les pages dont le contenu peut affecter directement la santé ou la vie des utilisateurs. Pour ces sites, Google exige des signaux E-E-A-T (Expérience, Expertise, Autorité, Fiabilité) d'un niveau nettement supérieur à la moyenne.
+Les sites pharmaceutiques tombent dans la catégorie **YMYL** (*Your Money or Your Life*) de Google, celle des pages dont le contenu peut affecter directement la santé ou la vie des utilisateurs. Pour ces sites, Google exige des signaux E-E-A-T (Expérience, Expertise, Autorité, Fiabilité) d'un niveau nettement supérieur à la moyenne.
 
 Concrètement, chaque article de votre site doit être :
 - Rédigé ou validé par un expert identifié avec credentials visibles
@@ -74,19 +74,19 @@ Concrètement, chaque article de votre site doit être :
 - Mis à jour régulièrement avec une date de modification visible
 - Intégré dans une architecture de contenu cohérente qui renforce l'autorité thématique
 
-C'est précisément ce que je construis pour vous — une présence en ligne qui satisfait simultanément les exigences de Google et les standards réglementaires canadiens.
+C'est ce que je construis pour vous : une présence en ligne qui satisfait à la fois les exigences de Google et les standards réglementaires canadiens.
 
 ### La transition vers les IA de recherche est plus rapide en pharma
 
 Les professionnels de la santé, les pharmaciens, les directeurs médicaux et les équipes marketing pharma utilisent massivement ChatGPT, Perplexity et les AI Overviews de Google pour leurs recherches professionnelles. Une étude publiée en 2025 par Deloitte montre que **67% des professionnels de santé canadiens** utilisent des outils IA pour leurs recherches documentaires.
 
-Le **GEO** (Generative Engine Optimization) — l'art de structurer son contenu pour être cité dans les réponses des IA — est donc critique en pharma, pas seulement en B2C. C'est une discipline que j'ai intégrée à ma méthode depuis le début : chaque article que je produis est structuré pour être extractible par un LLM.
+Le **GEO** (Generative Engine Optimization), qui consiste à structurer son contenu pour être cité dans les réponses des IA, est donc critique en pharma, pas seulement en B2C. C'est une discipline que j'ai intégrée à ma méthode depuis le début : chaque article que je produis est structuré pour être extractible par un LLM.
 
 ---
 
 ## Ma méthode en 4 phases
 
-### Phase 1 — Audit de conformité et diagnostic SEO (2 semaines)
+### Phase 1 : audit de conformité et diagnostic SEO (2 semaines)
 
 Avant toute stratégie, je cartographie l'existant :
 
@@ -97,7 +97,7 @@ Avant toute stratégie, je cartographie l'existant :
 
 Je vous livre un rapport d'audit avec scoring (sur 100), priorisation des actions par impact/effort, et plan d'action chiffré. Ce rapport seul vaut un investissement : vous savez exactement où vous en êtes et ce qui bloque votre visibilité.
 
-### Phase 2 — Stratégie et architecture (1 semaine)
+### Phase 2 : stratégie et architecture (1 semaine)
 
 Sur la base de l'audit, je construis :
 - L'**architecture de contenu** : quels hubs thématiques, quels articles piliers, quels contenus de support, dans quel ordre les produire
@@ -105,14 +105,14 @@ Sur la base de l'audit, je construis :
 - Le **plan de backlinks** : annuaires sectoriels (BIOTECanada, MEDEC, AQPP), partenariats avec associations professionnelles, mentions dans médias spécialisés
 - La **stratégie GEO** : format des articles pour maximiser la citabilité dans les LLMs (FAQ JSON-LD, données structurées, passages extractibles)
 
-### Phase 3 — Production et implémentation (en continu)
+### Phase 3 : production et implémentation (en continu)
 
 Je produis le contenu, je l'implémente techniquement, et je mesure :
 - Rédaction d'articles de fond bilingues FR/EN (1 500 à 2 500 mots), validés réglementairement
 - Implémentation technique : schema structured data, optimisation des Core Web Vitals, hreflang, maillage interne
 - Soumission de sitemaps, vérification de l'indexation, suivi de positionnement hebdomadaire
 
-### Phase 4 — Reporting et itération mensuelle
+### Phase 4 : reporting et itération mensuelle
 
 Chaque mois, vous recevez un rapport clair :
 - Évolution des positions sur vos mots-clés cibles
@@ -124,9 +124,9 @@ Chaque mois, vous recevez un rapport clair :
 
 ## Ce qui me différencie des agences SEO généralistes de Montréal
 
-La plupart des agences SEO montréalaises — Digitad, ProStar SEO, Dialekta, Cameleon Media — sont d'excellentes agences généralistes. Elles connaissent le SEO. Elles ne connaissent pas l'industrie pharmaceutique de l'intérieur.
+La plupart des agences SEO montréalaises (Digitad, ProStar SEO, Dialekta, Cameleon Media) sont d'excellentes agences généralistes. Elles connaissent le SEO. Elles ne connaissent pas l'industrie pharmaceutique de l'intérieur.
 
-| Critère | Agence SEO généraliste | Soulimane Farah — Consultant spécialisé |
+| Critère | Agence SEO généraliste | Soulimane Farah, consultant spécialisé |
 |---------|----------------------|----------------------------------------|
 | Connaissance du PAAB | Superficielle ou nulle | Pratique (expérience terrain pharma) |
 | Flux d'approbation contenu | Non intégré | Natif dans la méthode |
@@ -134,7 +134,7 @@ La plupart des agences SEO montréalaises — Digitad, ProStar SEO, Dialekta, Ca
 | Bilinguisme réglementaire FR/EN | Variable | Maîtrisé dans les deux langues |
 | Spécialisation GEO / citations IA | Rarement proposé | Intégré à chaque livrable |
 | Interlocuteur | Account manager + junior | Vous parlez directement au consultant |
-| Tarification | Retainer 3 000–8 000 $/mois | Audit 997 $ · Retainer 1 500–2 500 $/mois |
+| Tarification | Retainer de 3 000 à 8 000 $/mois | Audit 997 $ · Retainer de 1 500 à 2 500 $/mois |
 
 ---
 
@@ -159,7 +159,7 @@ Médecins, pharmaciens, cliniques de spécialité. J'applique les standards E-E-
 
 ## Résultats sur mon propre site (preuve de méthode)
 
-Plutôt que d'afficher des résultats clients, voici ce que ma méthode a produit sur mon propre site — entièrement vérifiable.
+Plutôt que d'afficher des résultats clients, voici ce que ma méthode a produit sur mon propre site. Tout est vérifiable.
 
 **seopharmamontreal.com**
 Site lancé en mai 2026 sur un marché à forte concurrence (Montréal SEO). En 3 semaines : indexation complète, position 1,2 sur requêtes de marque, Core Web Vitals au vert (LCP < 2,5s, CLS < 0,1), 13 articles bilingues publiés, score GSC à 70/100.
@@ -170,13 +170,13 @@ Site lancé en mai 2026 sur un marché à forte concurrence (Montréal SEO). En 
 
 Je pratique une tarification transparente, pensée pour les équipes marketing pharma qui ont des budgets alloués et des processus d'approbation.
 
-**Audit de conformité SEO + GEO — 997 $**
+**Audit de conformité SEO + GEO : 997 $**
 Rapport complet (audit technique, audit contenu, audit réglementaire PAAB, audit GEO/citations IA), scoring sur 100, plan d'action priorisé. Livraison en 10 jours ouvrables. Ce rapport peut être présenté à votre direction ou à vos partenaires agences.
 
-**Retainer mensuel — 1 500 $ à 2 500 $/mois**
+**Retainer mensuel : de 1 500 $ à 2 500 $/mois**
 Inclut : production de 2 à 4 articles bilingues FR/EN par mois, implémentation technique, suivi de positionnement hebdomadaire, rapport mensuel GSC + citations IA, accès direct par email/Zoom.
 
-**Projet ponctuel — sur devis**
+**Projet ponctuel : sur devis**
 Refonte d'architecture de contenu, migration SEO, implémentation schema structured data, stratégie GEO ciblée. Devis sous 48h.
 
 > Toutes les prestations incluent un partage de l'accès Google Search Console pour que vous gardez la propriété de vos données à tout moment.
@@ -193,7 +193,7 @@ Je suis consultant SEO/GEO pharmaceutique basé à **Montréal, Québec, Canada*
 
 Vous voulez voir concrètement comment j'accompagne les entreprises pharma au Canada ? Découvrez [mon offre de SEO pharmaceutique conforme PAAB](/seo-pharma/).
 
-Vous avez une question précise sur votre situation ? [Écrivez-moi directement](/#contact) — je réponds à chaque message personnellement.
+Vous avez une question précise sur votre situation ? [Écrivez-moi directement](/#contact). Je réponds personnellement à chaque message.
 
 ---
 
