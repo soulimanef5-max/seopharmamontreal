@@ -12,6 +12,7 @@ const blog = defineCollection({
     tags:        z.array(z.string()).default([]),
     readingTime:     z.number().optional(),
     author:          z.string().default('Soulimane Farah'),
+    authorNote:      z.string().optional(),
     translationSlug: z.string().optional(),
     modDate:         z.coerce.date().optional(),
     faq:             z.array(z.object({ q: z.string(), a: z.string() })).optional(),

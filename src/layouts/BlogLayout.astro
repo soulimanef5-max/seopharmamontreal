@@ -15,6 +15,7 @@ interface Props {
   modDate?:         Date;
   readingTime?:     number;
   author?:          string;
+  authorNote?:      string;
   tags?:            string[];
   slug?:            string;
   translationSlug?: string;
@@ -30,6 +31,7 @@ const {
   modDate,
   readingTime     = 5,
   author          = 'Soulimane Farah',
+  authorNote,
   tags            = [],
   slug            = '',
   translationSlug = '',
@@ -209,7 +211,7 @@ const faqSchema = faq.length > 0 ? JSON.stringify({
           <span class="w-px h-4" style="background: rgba(255,255,255,0.2);" aria-hidden="true"></span>
           <time datetime={pubDate.toISOString()}>{dateStr}</time>
           <span class="w-px h-4" style="background: rgba(255,255,255,0.2);" aria-hidden="true"></span>
-          <a href={authorUrl} style="color:inherit; text-decoration:underline; text-underline-offset:3px;">{author}</a>
+          <span><a href={authorUrl} style="color:inherit; text-decoration:underline; text-underline-offset:3px;">{author}</a>{authorNote && <> · {authorNote}</>}</span>
         </div>
       </div>
     </header>
