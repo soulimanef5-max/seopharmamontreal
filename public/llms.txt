@@ -104,6 +104,7 @@ et le fichier llms.txt.
 - [Revue PAAB : obligatoire ? Processus et délais expliqués](https://seopharmamontreal.com/blog/processus-revue-paab-explique-2026/)
 - [Publicité de médicaments au Canada : ce qui est permis](https://seopharmamontreal.com/blog/publicite-pharmaceutique-canada-2026/)
 - [Why Is SEO Important in the Pharmaceutical Industry? (A Canadian View)](https://seopharmamontreal.com/en/blog/why-seo-important-pharmaceutical-industry-2026-en/)
+- [Baromètre PSN 2026-T3 : les IA recommandent 11 marques canadiennes sur 37](https://seopharmamontreal.com/blog/barometre-psn-ia-2026-t3/) ([rapport PDF](https://seopharmamontreal.com/rapports/barometre-psn-2026-t3.pdf))
 
 ## Pages de services
 
