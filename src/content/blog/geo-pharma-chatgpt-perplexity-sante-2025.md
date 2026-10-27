@@ -140,6 +140,8 @@ Les KPIs à suivre chaque mois :
 - Sources concurrentes citées à votre place
 - Requêtes où vous apparaissez vs requêtes où vous êtes absent
 
+Exemple concret : le **[Baromètre PSN 2026-T3](/blog/barometre-psn-ia-2026-t3/)** a posé 8 questions d'acheteur à ChatGPT, Perplexity et Gemini, en français et en anglais. Résultat : 26 marques canadiennes de PSN sur 37 n'y sont jamais recommandées.
+
 ---
 
 ## Le cas particulier de Perplexity : l'IA qui cite le plus
