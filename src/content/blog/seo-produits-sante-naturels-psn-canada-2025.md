@@ -28,7 +28,7 @@ Résultat : des positions dominées par Amazon, iHerb et quelques grands distrib
 
 ## La particularité SEO des PSN : entre produit de santé et produit de grande consommation
 
-Les produits de santé naturels occupent une position unique dans le paysage réglementaire canadien, et dans la façon dont Google les évalue.
+Les produits de santé naturels occupent une position unique dans la réglementation canadienne, et dans la façon dont Google les évalue.
 
 **Côté réglementaire :** un PSN possède un [numéro de produit naturel (NPN)](https://health-products.canada.ca/lnhpd-bdpsnh/index-fra.jsp) ou un numéro de médicament homéopathique (DIN-HM) délivré par [Santé Canada](https://www.canada.ca/fr/sante-canada/services/medicaments-produits-sante/produits-sante-naturels.html). Ses allégations sont approuvées, ses ingrédients listés, ses conditions d'utilisation définies. Chaque allégation publiée doit respecter ces limites (voir nos [règles de publicité de médicaments et PSN au Canada](/blog/publicite-pharmaceutique-canada-2026/)).
 

@@ -170,7 +170,7 @@ Before publishing or modifying a pharmaceutical web page, run through this list:
 | Meta description | "Brand X relieves pain in 15 minutes" | "Brand X: information for healthcare professionals" |
 | Body copy | "Clinically proven to reduce symptoms" | Public-facing: name, price and quantity only (s. C.01.044); therapeutic information goes in a section reserved for healthcare professionals |
 | Testimonial | "Mary, 54: Brand X changed my life" | "[B2B service quality testimonial, no Rx claims]" |
-| Drug schema | `description: "reduces pain by 50%"` | `description: "prescription drug, tablet form"` |
+| Drug schema | `description: "reduces pain by 50%"` <!-- chiffre-ok --> | `description: "prescription drug, tablet form"` |
 
 ---
 
