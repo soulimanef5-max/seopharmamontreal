@@ -32,7 +32,7 @@ La force des chaînes pharmaceutiques, leur standardisation, devient leur faible
 
 **Le problème de la page générique :** la page « Pharmaprix Montréal-Nord » est générée automatiquement depuis un template national. Elle contient peu de contenu local spécifique, peu de signaux d'appartenance à la communauté, et aucune personnalité propre. Google le sait.
 
-**Le problème de l'autorité diffuse :** les avis Google d'une chaîne sont répartis entre des dizaines d'établissements. Votre pharmacie indépendante concentre 100 % de ses avis sur un seul profil, ce qui peut générer un score de pertinence locale bien supérieur.
+**Le problème de l'autorité diffuse :** les avis Google d'une chaîne sont répartis entre des dizaines d'établissements. Votre pharmacie indépendante concentre la totalité de ses avis sur un seul profil, ce qui peut générer un score de pertinence locale bien supérieur.
 
 **Le problème des signaux d'engagement :** un pharmacien propriétaire qui répond personnellement aux avis, publie des posts sur Google Business Profile et est mentionné dans le journal local crée des signaux d'engagement authentiques que les systèmes automatisés des chaînes ne peuvent pas reproduire.
 
@@ -82,7 +82,7 @@ Ce type de contenu est introuvable sur les sites des chaînes. Il répond à des
 
 La relation pharmacien-patient est intime et basée sur la confiance. C'est un avantage que les grandes chaînes ne peuvent pas fabriquer artificiellement.
 
-**Stratégie d'acquisition d'avis :** après une interaction positive (conseil personnalisé, service de livraison, vaccination), encouragez simplement vos patients à laisser un avis Google. Un taux de réponse aux avis de 100 %, avec des réponses personnalisées et signées par le pharmacien propriétaire, crée un signal de qualité local exceptionnel.
+**Stratégie d'acquisition d'avis :** après une interaction positive (conseil personnalisé, service de livraison, vaccination), encouragez simplement vos patients à laisser un avis Google. Répondre à chacun de vos avis, avec des réponses personnalisées et signées par le pharmacien propriétaire, crée un signal de qualité local exceptionnel.
 
 **Répondez toujours aux avis négatifs**, avec calme et professionnalisme. Une réponse bien formulée à un avis négatif est souvent plus rassurante pour les prospects qu'un avis positif supplémentaire.
 
@@ -125,7 +125,7 @@ Vérifiez que votre nom, adresse et numéro de téléphone sont **strictement id
 
 Contrairement au SEO national où on mesure le trafic global, le SEO local se mesure avec des indicateurs spécifiques :
 
-- **Vues de votre fiche GBP** : objectif progressif de +20 % par trimestre
+- **Vues de votre fiche GBP** : objectif progressif de +20 % par trimestre <!-- chiffre-ok -->
 - **Appels téléphoniques depuis GBP** : indicateur direct d'intention
 - **Demandes d'itinéraire** : signe que des patients vous trouvent et viennent physiquement
 - **Classement dans le Local Pack** (les 3 pharmacies affichées dans la carte Google) : viser le top 3 pour « pharmacie + votre quartier »
