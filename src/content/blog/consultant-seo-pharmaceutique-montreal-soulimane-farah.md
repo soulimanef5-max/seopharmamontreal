@@ -134,7 +134,7 @@ La plupart des agences SEO montréalaises (Digitad, ProStar SEO, Dialekta, Camel
 | Bilinguisme réglementaire FR/EN | Variable | Maîtrisé dans les deux langues |
 | Spécialisation GEO / citations IA | Rarement proposé | Intégré à chaque livrable |
 | Interlocuteur | Account manager + junior | Vous parlez directement au consultant |
-| Tarification | Retainer de 3 000 à 8 000 $/mois | Audit 997 $ · Retainer de 1 500 à 2 500 $/mois |
+| Tarification | Retainer de 3 000 à 8 000 $/mois | Audit 997 $ · SEO Mensuel 1 497 $/mois |
 
 ---
 
@@ -173,13 +173,16 @@ Je pratique une tarification transparente, pensée pour les équipes marketing p
 **Audit de conformité SEO + GEO : 997 $**
 Rapport complet (audit technique, audit contenu, audit réglementaire PAAB, audit GEO/citations IA), scoring sur 100, plan d'action priorisé. Livraison en 10 jours ouvrables. Ce rapport peut être présenté à votre direction ou à vos partenaires agences.
 
-**Retainer mensuel : de 1 500 $ à 2 500 $/mois**
-Inclut : production de 2 à 4 articles bilingues FR/EN par mois, implémentation technique, suivi de positionnement hebdomadaire, rapport mensuel GSC + citations IA, accès direct par email/Zoom.
+**SEO Mensuel : 1 497 $/mois**
+Inclut : 2 articles de contenu YMYL par mois, optimisation technique mensuelle, gestion de votre fiche Google Business Profile, suivi de positionnement hebdomadaire, rapport mensuel GSC + citations IA, accès direct par email/Zoom.
+
+**Accompagnement Premium : 2 997 $/mois**
+Inclut : tout le SEO Mensuel, plus 4 articles et 1 page de service par mois, une stratégie de netlinking santé et un appel stratégique mensuel.
 
 **Projet ponctuel : sur devis**
 Refonte d'architecture de contenu, migration SEO, implémentation schema structured data, stratégie GEO ciblée. Devis sous 48h.
 
-> Toutes les prestations incluent un partage de l'accès Google Search Console pour que vous gardez la propriété de vos données à tout moment.
+> Tous les prix sont en dollars canadiens, taxes en sus. Toutes les prestations incluent un partage de l'accès Google Search Console pour que vous gardiez la propriété de vos données à tout moment.
 
 ---
 
