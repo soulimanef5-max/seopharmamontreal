@@ -60,7 +60,7 @@ Dans la plupart des secteurs, le SEO est une question de volume : plus de conten
 
 Au Canada, la publicité directe aux consommateurs (DTC) pour les médicaments d'ordonnance est **interdite**, à l'exception du nom, du prix et de la quantité (art. C.01.044 du Règlement sur les aliments et drogues). Vous ne pouvez pas créer une page produit optimisée autour de « [médicament X] pour [indication] » comme le font vos concurrents américains. Vos pages produit Rx doivent être légalement austères.
 
-La conséquence SEO : **100% de votre trafic organique doit passer par du contenu éducatif non brandé**. Ce sont les articles sur les conditions médicales, les guides sur les traitements génériques, les comparatifs réglementaires. Pas les pages produit.
+La conséquence SEO : **tout votre trafic organique doit passer par du contenu éducatif non brandé**. Ce sont les articles sur les conditions médicales, les guides sur les traitements génériques, les comparatifs réglementaires. Pas les pages produit.
 
 Un consultant généraliste ne comprend pas cette contrainte. Il optimisera vos pages produit (risque PAAB) ou vous conseillera de créer du contenu riche sur vos médicaments Rx (risque légal). Je sais, moi, où est la limite et comment maximiser votre visibilité dans ce cadre.
 

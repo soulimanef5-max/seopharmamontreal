@@ -1,7 +1,7 @@
 ---
 title: "Baromètre PSN 2026-T3 : les IA recommandent 11 marques canadiennes sur 37"
 seoTitle: "Baromètre PSN 2026 : quelles marques les IA recommandent ?"
-description: "48 réponses de ChatGPT, Perplexity et Gemini, en français et en anglais : 26 marques canadiennes de produits de santé naturels sur 37 ne sont jamais recommandées."
+description: "48 réponses de ChatGPT, Perplexity et Gemini, en français et en anglais : 26 marques canadiennes de PSN sur 37 ne sont jamais recommandées."
 pubDate: 2026-10-27
 author: "Soulimane Farah"
 tags: ["GEO", "PSN", "IA", "baromètre"]
@@ -13,9 +13,9 @@ Quand un acheteur demande à une IA quel produit de santé naturel acheter au Ca
 
 ## En bref
 
-- **11 marques sur 37** sont recommandées au moins une fois (30 %).
-- **4 marques nationales** prennent 41 des 56 citations de l’échantillon (73 %).
-- **66 % des citations** vont à des marques hors échantillon, dont des marques étrangères (111 sur 167).
+- **11 marques sur 37** sont recommandées au moins une fois (30 %). <!-- chiffre-ok -->
+- **4 marques nationales** prennent 41 des 56 citations de l’échantillon (73 %). <!-- chiffre-ok -->
+- **66 % des citations** vont à des marques hors échantillon, dont des marques étrangères (111 sur 167). <!-- chiffre-ok -->
 - **9 marques québécoises sur 12** ne sont jamais citées.
 - **8 points de vigilance** : 3 erreurs d’origine et 5 allégations ou NPN attribués à des produits.
 

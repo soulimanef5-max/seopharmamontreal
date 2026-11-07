@@ -1,6 +1,7 @@
 ---
 title: "Health Canada & SEO: A Guide for NHP and Pharma Companies"
-description: "Health Canada rules and SEO reinforce each other. A practical guide for Canadian NHP, pharma and medical device brands that want to rank within the rules."
+seoTitle: "Health Canada & SEO: 6 Pillars for NHP and Pharma Websites"
+description: "Claims, NPNs, testimonials, title tags: the 6 pillars of SEO within Health Canada rules, and how to turn compliance into a Google ranking advantage."
 pubDate: 2026-05-22
 lang: en
 tags: ["Health Canada", "NHP", "NPN", "PAAB", "pharma SEO", "regulation", "Canada"]

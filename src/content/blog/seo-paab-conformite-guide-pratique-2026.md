@@ -1,5 +1,6 @@
 ---
 title: "SEO Pharmaceutique et Conformité PAAB : Le Guide Pratique pour le Canada"
+seoTitle: "SEO pharma et conformité PAAB : le guide pratique"
 description: "Faire du SEO pharmaceutique dans le cadre du PAAB et de Santé Canada : checklist, exemples concrets et stratégie E-E-A-T pour la pharma au Québec."
 pubDate: 2026-06-01
 lang: fr
@@ -170,7 +171,7 @@ Avant de publier ou de modifier une page web pharmaceutique, parcourez cette lis
 | Meta description | « Marque X soulage la douleur en 15 minutes » | « Marque X : information pour professionnels de santé » |
 | Corps de texte | « Cliniquement prouvé pour réduire les symptômes » | Grand public : nom, prix et quantité seulement (art. C.01.044) ; l'information thérapeutique va dans une section réservée aux professionnels |
 | Témoignage | « Marie, 54 ans : Marque X a changé ma vie » | « [Témoignage B2B sur la qualité du service, sans allégation Rx] » |
-| Schema Drug | `description: "réduit la douleur de 50%"` | `description: "médicament d'ordonnance, forme comprimé"` |
+| Schema Drug | `description: "réduit la douleur de 50%"` <!-- chiffre-ok --> | `description: "médicament d'ordonnance, forme comprimé"` |
 
 ---
 

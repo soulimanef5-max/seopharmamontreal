@@ -1,5 +1,5 @@
 ---
-title: "E-E-A-T and Medical SEO: What Google Requires from Pharma Websites in 2025"
+title: "E-E-A-T for Pharma: What Google Requires from Medical Websites"
 description: "Google's E-E-A-T criteria applied to pharma and health websites in Québec: a practical guide for pharma SMEs looking to rank sustainably."
 pubDate: 2026-05-29
 lang: en

@@ -28,6 +28,8 @@ Voici une explication claire de la revue [PAAB](https://www.paab.ca/) pour ceux 
 
 ---
 
+> **Vous publiez du contenu santé au Canada ?** Je passe vos pages, balises title et données structurées en revue pour repérer les points de vigilance PAAB et Santé Canada avant qu'ils vous coûtent un classement ou une plainte. [Voir l'offre SEO pharma](/seo-pharma/)
+
 ## L'approbation du PAAB est-elle obligatoire ou volontaire ?
 
 **Techniquement volontaire. En pratique obligatoire.** Le Conseil consultatif de publicité pharmaceutique est un organisme indépendant et sans but lucratif reconnu par Santé Canada pour préautoriser la publicité de médicaments d'ordonnance destinée aux professionnels de la santé. Aucune loi ne vous oblige à soumettre, mais les éditeurs et plateformes médicales exigent un numéro d'approbation PAAB avant de diffuser votre publicité, et Santé Canada s'appuie sur ce système. ([La FAQ du PAAB confirme cette obligation de fait.](https://www.paab.ca/question-733))

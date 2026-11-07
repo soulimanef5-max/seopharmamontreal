@@ -1,7 +1,7 @@
 ---
 title: "NHP Claims in Canada: What You Can (and Can't) Say"
 seoTitle: "NHP Claims in Canada: What Your NPN Lets You Say"
-description: "Which claims can a natural health product make in Canada? How your NPN and conditions of use set the limits, and where brands get flagged."
+description: "Your NPN sets the limit on every claim, down to your title tags. What NHP brands can say in Canada, what is banned, and where Health Canada flags them."
 pubDate: 2026-06-25
 lang: en
 tags: ["NHP", "Health Canada", "claims", "compliance", "SEO", "natural health products"]
@@ -31,6 +31,8 @@ In natural health product marketing in Canada, the most important rule is also t
 Get this right and compliance and SEO pull in the same direction. Get it wrong and you risk a regulatory complaint and a Google ranking problem at the same time.
 
 ---
+
+> **Publishing health content in Canada?** I review pages, title tags and structured data for PAAB and Health Canada watch points before they cost you rankings or a complaint. [See the NHP SEO service](/en/seo-nhp/)
 
 ## What claims can you make for an NHP?
 

@@ -1,6 +1,7 @@
 ---
 title: "Santé Canada et SEO : le guide des PME pharma et PSN"
-description: "Réglementation Santé Canada et SEO se renforcent. Guide pratique pour les entreprises québécoises qui veulent se positionner sans enfreindre les règles."
+seoTitle: "Santé Canada et SEO : 6 piliers pour PME pharma et PSN"
+description: "Allégations, NPN, témoignages, balises title : les 6 piliers d'un SEO conforme à Santé Canada, et comment en faire un avantage sur Google."
 pubDate: 2026-05-26
 lang: fr
 tags: ["Santé Canada", "PSN", "NPN", "PAAB", "SEO pharma", "réglementation", "Québec"]

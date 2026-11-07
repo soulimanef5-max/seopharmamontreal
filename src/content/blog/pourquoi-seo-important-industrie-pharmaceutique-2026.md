@@ -1,5 +1,6 @@
 ---
 title: "Pourquoi le SEO est important dans l'industrie pharmaceutique (vue canadienne)"
+seoTitle: "Pourquoi le SEO est vital en pharma au Canada"
 description: "Au Canada, la publicité des médicaments d'ordonnance au public est restreinte : la recherche organique devient le canal clé. Le SEO pharma vu par le PAAB."
 pubDate: 2026-06-13
 lang: fr

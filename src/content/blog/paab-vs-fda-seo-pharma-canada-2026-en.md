@@ -32,6 +32,8 @@ This is not a legal detail reserved for regulatory teams. It is a constraint tha
 
 ---
 
+> **Publishing health content in Canada?** I review pages, title tags and structured data for PAAB and Health Canada watch points before they cost you rankings or a complaint. [See the pharma SEO service](/en/seo-pharma/)
+
 ## Two regulators, two philosophies
 
 In the United States, it is the [FDA](https://www.fda.gov), through its [OPDP (Office of Prescription Drug Promotion)](https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/office-prescription-drug-promotion-opdp), that oversees drug promotion. The model is **post-market**: you publish, and the FDA can intervene afterward if the communication breaks the rules.

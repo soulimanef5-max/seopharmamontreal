@@ -1,7 +1,7 @@
 ---
 title: "PAAB vs FDA : ce qui change pour votre SEO pharmaceutique au Canada"
-seoTitle: "PAAB vs FDA : ce qui change pour votre SEO pharma"
-description: "Vous opérez des deux côtés de la frontière ? Les différences concrètes entre PAAB (Canada) et FDA (USA) qui transforment votre stratégie SEO pharma."
+seoTitle: "PAAB vs FDA : pourquoi votre SEO américain échoue au Canada"
+description: "Publicité Rx permise aux États-Unis, interdite au Canada (sauf nom, prix, quantité). Ce qui change pour vos pages, vos hreflang et votre schema."
 pubDate: 2026-06-04
 lang: fr
 tags: ["PAAB", "FDA", "conformité", "SEO pharma", "Canada", "États-Unis", "DTC"]
@@ -31,6 +31,8 @@ Ce n'est pas un détail juridique réservé aux équipes réglementaires. C'est 
 > Pour les fondamentaux de la conformité canadienne, lisez d'abord notre [guide pratique SEO et conformité PAAB](/blog/seo-paab-conformite-guide-pratique-2026/).
 
 ---
+
+> **Vous publiez du contenu santé au Canada ?** Je passe vos pages, balises title et données structurées en revue pour repérer les points de vigilance PAAB et Santé Canada avant qu'ils vous coûtent un classement ou une plainte. [Voir l'offre SEO pharma](/seo-pharma/)
 
 ## Deux régulateurs, deux philosophies
 

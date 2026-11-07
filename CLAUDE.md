@@ -24,6 +24,13 @@
 ## 4. Exécution pilotée par l'objectif
 - Transformer chaque tâche en critère vérifiable, puis boucler jusqu'à validation.
 - Critère par défaut sur ce projet (SEO technique impeccable) :
-  `npx astro build` local PUIS audit `dist/` — canonical auto-référent unique,
+  `npm run build` local (lance `check:content` puis `astro build`) PUIS audit `dist/` — canonical auto-référent unique,
   hreflang réciproques fr-CA/en-CA/x-default, 1 H1/page, sitemap à jour.
 - Grouper tous les fixes en UN seul push/déploiement (minutes Netlify serrées).
+
+## 5. Rédaction des articles de blogue
+- **Aucun chiffre sans source.** Tout %, million ou milliard porte un lien vers sa source sur la même ligne. Ne jamais inventer ni « arrondir » une statistique ; si la source est introuvable, retirer le chiffre. Exception assumée (données propres, exemple fictif) : `<!-- chiffre-ok -->` sur la ligne. `scripts/check-content.mjs` bloque le build sinon.
+- **Pas de tiret long (— ou –)** : virgule, parenthèses, deux-points ou point.
+- **Tics interdits** : « La bonne nouvelle : », « C'est précisément… », « formidable », « En résumé » qui répète le titre, « pas A, mais B » en série, « dans le paysage ». Liste complète dans le script.
+- **Au moins un passage de vécu réel de l'auteur par article** (Roche, Pharmascience, terrain). Ne jamais l'inventer : le demander à l'auteur.
+- **Règles réglementaires exactes** : au Canada, la publicité Rx au public est interdite sauf nom, prix et quantité (art. C.01.044) ; c'est la loi qui l'interdit, le PAAB préautorise.

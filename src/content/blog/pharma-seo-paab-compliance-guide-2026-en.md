@@ -1,6 +1,7 @@
 ---
 title: "Pharmaceutical SEO & PAAB Compliance: The Practical Guide for Canada"
-description: "How to do pharmaceutical SEO within PAAB and Health Canada rules: complete checklist, concrete examples and E-E-A-T strategy for pharma companies."
+seoTitle: "Pharma SEO & PAAB Compliance: A Practical Guide for Canada"
+description: "Title tags, meta descriptions and schema count as advertising under PAAB. A 15-point checklist to rank pharma pages in Canada within the rules."
 pubDate: 2026-06-01
 lang: en
 tags: ["PAAB", "compliance", "pharma SEO", "E-E-A-T", "YMYL", "Health Canada", "Quebec"]
@@ -170,7 +171,7 @@ Before publishing or modifying a pharmaceutical web page, run through this list:
 | Meta description | "Brand X relieves pain in 15 minutes" | "Brand X: information for healthcare professionals" |
 | Body copy | "Clinically proven to reduce symptoms" | Public-facing: name, price and quantity only (s. C.01.044); therapeutic information goes in a section reserved for healthcare professionals |
 | Testimonial | "Mary, 54: Brand X changed my life" | "[B2B service quality testimonial, no Rx claims]" |
-| Drug schema | `description: "reduces pain by 50%"` | `description: "prescription drug, tablet form"` |
+| Drug schema | `description: "reduces pain by 50%"` <!-- chiffre-ok --> | `description: "prescription drug, tablet form"` |
 
 ---
 

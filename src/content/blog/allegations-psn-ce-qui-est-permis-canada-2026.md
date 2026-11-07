@@ -1,7 +1,7 @@
 ---
 title: "Allégations PSN : ce que vous pouvez (et ne pouvez pas) dire"
-seoTitle: "Allégations PSN au Canada : ce qui est permis (2026)"
-description: "Quelles allégations pour un produit de santé naturel au Canada ? Comment le NPN et les conditions d'autorisation encadrent votre contenu et votre SEO."
+seoTitle: "Allégations PSN : ce que votre NPN vous permet de dire"
+description: "Votre NPN fixe vos allégations, jusque dans vos balises title. Ce qui est permis, ce qui est interdit et où Santé Canada épingle les marques de PSN."
 pubDate: 2026-06-25
 lang: fr
 tags: ["PSN", "Santé Canada", "allégations", "conformité", "SEO", "produits de santé naturels"]
@@ -31,6 +31,8 @@ En marketing des produits de santé naturels au Canada, la règle la plus import
 Bien comprise, cette règle aligne conformité et SEO. Mal comprise, elle vous expose à la fois à une plainte réglementaire et à un problème de classement Google.
 
 ---
+
+> **Vous publiez du contenu santé au Canada ?** Je passe vos pages, balises title et données structurées en revue pour repérer les points de vigilance PAAB et Santé Canada avant qu'ils vous coûtent un classement ou une plainte. [Voir l'offre SEO pour les PSN](/seo-psn/)
 
 ## Quelles allégations peut-on faire pour un PSN ?
 
