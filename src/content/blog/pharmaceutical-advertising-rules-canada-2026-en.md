@@ -32,6 +32,8 @@ This is a plain-English guide to what you can and cannot advertise in Canada and
 
 ---
 
+> **Publishing health content in Canada?** I audit pages, title tags and structured data for PAAB and Health Canada risks before they cost you rankings or a complaint. [See the PAAB-compliant SEO service](/en/seo-pharma/)
+
 ## Can you advertise prescription drugs in Canada?
 
 **No.** Direct-to-consumer (DTC) advertising of prescription drugs is prohibited in Canada under the [Food and Drugs Act](https://www.canada.ca/en/health-canada/services/drugs-health-products/regulatory-requirements-advertising.html). A manufacturer cannot both name a prescription drug and describe what it treats in the same message aimed at the public. Only products that Health Canada has authorized may be advertised at all.

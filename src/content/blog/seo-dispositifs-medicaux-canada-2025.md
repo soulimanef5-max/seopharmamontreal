@@ -1,5 +1,5 @@
 ---
-title: "SEO pour dispositifs médicaux au Canada : guide 2025"
+title: "SEO pour dispositifs médicaux au Canada : le guide B2B"
 description: "Stratégie SEO B2B pour fabricants de dispositifs médicaux au Canada, dans le cadre du Règlement sur les instruments médicaux, pour joindre les acheteurs."
 pubDate: 2026-05-20
 lang: fr

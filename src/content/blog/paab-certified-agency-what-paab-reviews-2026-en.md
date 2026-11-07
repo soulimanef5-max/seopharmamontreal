@@ -29,6 +29,8 @@ The [Pharmaceutical Advertising Advisory Board](https://www.paab.ca/about) is an
 
 ---
 
+> **Publishing health content in Canada?** I audit pages, title tags and structured data for PAAB and Health Canada risks before they cost you rankings or a complaint. [See the PAAB-compliant SEO service](/en/seo-pharma/)
+
 ## What PAAB is
 
 PAAB describes itself as "an independent not-for-profit organization funded on a fee-for-service model" and "the only regulator whose preclearance service is recognized by Health Canada for advertising directed to healthcare professionals" ([PAAB, About](https://www.paab.ca/about)). Its standards are in the [PAAB Code of Advertising Acceptance](https://code.paab.ca/). Health Canada can send an official to PAAB board meetings as an ex-officio observer, but it keeps its own authority under the Food and Drugs Act.

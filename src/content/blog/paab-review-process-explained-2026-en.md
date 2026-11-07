@@ -30,6 +30,8 @@ This is a plain-English walkthrough of the [PAAB](https://www.paab.ca/) review f
 
 ---
 
+> **Publishing health content in Canada?** I audit pages, title tags and structured data for PAAB and Health Canada risks before they cost you rankings or a complaint. [See the PAAB-compliant SEO service](/en/seo-pharma/)
+
 ## Is PAAB approval mandatory or voluntary?
 
 **Technically voluntary. Practically mandatory.** The Pharmaceutical Advertising Advisory Board is an independent, not-for-profit body recognized by Health Canada to preclear prescription-drug advertising aimed at healthcare professionals. Nothing in the law forces you to submit, but medical publishers and platforms require a PAAB approval number before they will run your ad, and Health Canada relies on the system. ([PAAB's own Q&A confirms the practical obligation.](https://www.paab.ca/question-733))

@@ -1,6 +1,7 @@
 ---
 title: "Pharmaceutical SEO & PAAB Compliance: The Practical Guide for Canada"
-description: "How to do pharmaceutical SEO within PAAB and Health Canada rules: complete checklist, concrete examples and E-E-A-T strategy for pharma companies."
+seoTitle: "Pharma SEO & PAAB Compliance: A Practical Guide for Canada"
+description: "Title tags, meta descriptions and schema count as advertising under PAAB. A 15-point checklist to rank pharma pages in Canada without compliance risk."
 pubDate: 2026-06-01
 lang: en
 tags: ["PAAB", "compliance", "pharma SEO", "E-E-A-T", "YMYL", "Health Canada", "Quebec"]

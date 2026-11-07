@@ -1,6 +1,7 @@
 ---
 title: "SEO pour pharmacies indépendantes au Québec"
-description: "Les pharmacies indépendantes peuvent devancer les chaînes sur Google grâce au SEO local. Stratégie concrète pour les pharmaciens propriétaires au Québec."
+seoTitle: "SEO pharmacie indépendante : battre les chaînes sur Google"
+description: "Comment une pharmacie indépendante du Québec peut devancer Jean Coutu et Pharmaprix sur Google : fiche Google, pages de quartier, avis. Plan concret."
 pubDate: 2026-05-24
 lang: fr
 tags: ["SEO local", "pharmacie", "Québec", "Google Business Profile", "AQPP", "pharmacien propriétaire"]

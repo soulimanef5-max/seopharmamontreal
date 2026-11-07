@@ -1,7 +1,7 @@
 ---
 title: "Publicité de médicaments au Canada : ce qui est permis"
 seoTitle: "Publicité de médicaments au Canada : règles PAAB 2026"
-description: "Peut-on annoncer un médicament d'ordonnance au Canada ? Guide clair des règles PAAB et Santé Canada, et de leur impact sur votre site web."
+description: "Peut-on annoncer un médicament d'ordonnance au Canada ? Ce que la loi permet (nom, prix, quantité), le rôle du PAAB et les pièges pour votre site web."
 pubDate: 2026-06-25
 lang: fr
 tags: ["PAAB", "Santé Canada", "publicité", "conformité", "DTC", "pharma", "PSN"]
@@ -31,6 +31,8 @@ La plupart des conseils marketing sur les médicaments sont écrits pour les Ét
 Voici un guide clair de ce que vous pouvez et ne pouvez pas annoncer au Canada et, dans la dernière section, **ce que chaque règle change pour votre site web et votre contenu**.
 
 ---
+
+> **Vous publiez du contenu santé au Canada ?** J'audite vos pages, balises title et données structurées pour repérer les risques PAAB et Santé Canada avant qu'ils vous coûtent un classement ou une plainte. [Voir l'offre SEO conforme PAAB](/seo-pharma/)
 
 ## Peut-on faire de la publicité de médicaments d'ordonnance au Canada ?
 

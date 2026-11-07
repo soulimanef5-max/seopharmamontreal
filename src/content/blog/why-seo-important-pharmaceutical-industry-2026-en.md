@@ -1,5 +1,6 @@
 ---
 title: "Why Is SEO Important in the Pharmaceutical Industry? (A Canadian View)"
+seoTitle: "Why SEO Matters in Pharma: The Canadian Case"
 description: "In Canada, Rx advertising to the public is restricted by law, which makes organic search pharma's key channel. Why SEO matters, through a PAAB lens."
 pubDate: 2026-06-13
 lang: en
