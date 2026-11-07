@@ -20,7 +20,7 @@ export const ui = {
       title1:   'Trouvé sur Google.',
       title2:   'Dans les règles de Santé Canada.',
       title3:   'Cité par les IA.',
-      subtitle: 'J\'aide les marques de santé réglementées — pharma, produits de santé naturels, dispositifs médicaux — à être trouvées sur Google et citées par les IA (ChatGPT, Perplexity, Claude). 15 ans dans l\'industrie pharmaceutique, du marketing à l\'assurance qualité : je connais vos contraintes Santé Canada / PAAB de l\'intérieur.',
+      subtitle: 'J\'aide les marques de santé réglementées (pharma, produits de santé naturels, dispositifs médicaux) à être trouvées sur Google et citées par les IA (ChatGPT, Perplexity, Claude). 15 ans dans l\'industrie pharmaceutique, du marketing à l\'assurance qualité : je connais vos contraintes Santé Canada / PAAB de l\'intérieur.',
       cta1:     'Analyse préliminaire gratuite (valeur 250 $)',
       cta2:     'Voir les services',
       proof1:   '150+ points d\'audit vérifiés',
@@ -30,19 +30,19 @@ export const ui = {
 
     problem: {
       overline: 'Le défi que vous connaissez bien',
-      title:    'Pourquoi votre site santé stagne — et comment y remédier',
+      title:    'Pourquoi votre site santé stagne, et comment y remédier',
       lead:     'Que vous vendiez des produits de santé naturels, des dispositifs médicaux ou des médicaments, trois obstacles reviennent systématiquement quand Google et les IA décident à qui accorder leur confiance.',
       pains: [
         {
           title: 'Invisible quand un client demande conseil à une IA',
-          body:  'Demandez à ChatGPT quel supplément ou produit de santé québécois acheter : ce sont des marques génériques qui sortent, rarement la vôtre. Vos clients délèguent ce choix à l\'IA — et l\'IA ne vous voit pas.',
+          body:  'Demandez à ChatGPT quel supplément ou produit de santé québécois acheter : ce sont des marques génériques qui sortent, rarement la vôtre. Vos clients délèguent ce choix à l\'IA, et l\'IA ne vous voit pas.',
         },
         {
-          title: 'Vos clients comparent en ligne — et votre trafic plafonne',
+          title: 'Vos clients comparent en ligne, et votre trafic plafonne',
           body:  'Chaque jour où vous êtes invisible sur les recherches d\'achat de votre catégorie, ce sont des ventes qui partent chez un concurrent mieux référencé. Le SEO n\'est pas un coût marketing : c\'est votre canal d\'acquisition le plus rentable.',
         },
         {
-          title: 'Votre meilleur atout — votre conformité — est invisible',
+          title: 'Votre meilleur atout, votre conformité, est invisible',
           body:  'NPN, BPF, preuves scientifiques : vous les avez. Mais s\'ils ne sont pas structurés (schema, fiches produits, auteurs identifiés), ni Google ni les IA ne les lisent comme un signal de confiance. Votre crédibilité réglementaire reste enfermée.',
         },
       ],
@@ -103,7 +103,7 @@ export const ui = {
       items: [
         { value: '150+', label: 'points contrôlés lors de chaque audit SEO technique' },
         { value: 'FR/EN', label: 'livrables bilingues, pensés pour le marché canadien' },
-        { value: '3–6',  label: 'mois pour des résultats organiques significatifs et durables' },
+        { value: '3 à 6',  label: 'mois pour des résultats organiques significatifs et durables' },
         { value: '24h',  label: 'délai de réponse (jours ouvrables) à chaque demande de client' },
       ],
     },
@@ -139,7 +139,7 @@ export const ui = {
 
     faq: {
       overline: 'Questions fréquentes',
-      title:    'FAQ — SEO pharma, YMYL et visibilité dans les LLMs',
+      title:    'FAQ : SEO pharma, YMYL et visibilité dans les LLMs',
       lead:     'Vous débutez avec le SEO ou vous avez des questions spécifiques au secteur pharma ? Voici les réponses honnêtes.',
       items: [
         {
@@ -160,11 +160,11 @@ export const ui = {
         },
         {
           q: 'Qu\'est-ce que le GEO (Generative Engine Optimization) ?',
-          a: 'Le GEO est l\'optimisation de la présence d\'une entreprise dans les réponses des intelligences artificielles génératives — ChatGPT, Perplexity, Google AI Overviews, Claude, Gemini. Contrairement au SEO traditionnel qui cible des liens cliquables dans Google, le GEO vise à être cité ou recommandé directement dans la réponse d\'un modèle de langage. En contexte pharma canadien, cela implique du contenu factuel structuré, des passages auto-suffisants et une conformité aux cadres PAAB et Santé Canada.',
+          a: 'Le GEO est l\'optimisation de la présence d\'une entreprise dans les réponses des intelligences artificielles génératives : ChatGPT, Perplexity, Google AI Overviews, Claude, Gemini. Contrairement au SEO traditionnel qui cible des liens cliquables dans Google, le GEO vise à être cité ou recommandé directement dans la réponse d\'un modèle de langage. En contexte pharma canadien, cela implique du contenu factuel structuré, des passages auto-suffisants et une conformité aux cadres PAAB et Santé Canada.',
         },
         {
           q: 'Comment Santé Canada affecte-t-il le SEO d\'un site pharmaceutique ?',
-          a: 'Santé Canada réglemente les allégations que vous pouvez publier sur votre site web — pour les médicaments, les produits de santé naturels (PSN) et les dispositifs médicaux. Publier une allégation thérapeutique non approuvée dans une balise méta ou un article de blogue constitue une infraction réglementaire. Paradoxalement, la conformité à Santé Canada est aussi un signal de confiance E-E-A-T puissant aux yeux de Google : un site qui cite ses numéros NPN, ses certifications BPF et les cadres réglementaires applicables se positionne comme une source fiable.',
+          a: 'Santé Canada réglemente les allégations que vous pouvez publier sur votre site web, pour les médicaments, les produits de santé naturels (PSN) et les dispositifs médicaux. Publier une allégation thérapeutique non approuvée dans une balise méta ou un article de blogue constitue une infraction réglementaire. Paradoxalement, la conformité à Santé Canada est aussi un signal de confiance E-E-A-T puissant aux yeux de Google : un site qui cite ses numéros NPN, ses certifications BPF et les cadres réglementaires applicables se positionne comme une source fiable.',
         },
         {
           q: 'Quelle est la différence entre un consultant SEO généraliste et un consultant SEO pharma ?',
@@ -188,9 +188,9 @@ export const ui = {
     about: {
       overline: 'À propos',
       title:    'Le seul consultant SEO/GEO à Montréal qui connaît vos SOPs',
-      p1:       'Roche Pharmaceuticals — 10 ans en marketing et ventes. Puis assurance qualité pharmaceutique (BPF/GMP, PSN, dispositifs médicaux) chez Pharmascience et Oral Science. Bilingue FR/EN.',
+      p1:       'Roche Pharmaceuticals : 10 ans en marketing et ventes. Puis assurance qualité pharmaceutique (BPF/GMP, PSN, dispositifs médicaux) chez Pharmascience et Oral Science. Bilingue FR/EN.',
       credentials: [
-        'AEC Assurance Qualité Pharmaceutique — Collège Gérald-Godin',
+        'AEC Assurance Qualité Pharmaceutique, Collège Gérald-Godin',
         'Certifié Auditeur Qualité',
         'Certifié AI-driven SEO',
         'Certifié Google Analytics 4',
@@ -209,13 +209,13 @@ export const ui = {
         { value: 'FR / EN', label: 'Bilingue · Montréal, QC' },
       ],
       quote:       '"Pendant que vos concurrents expliquent ce qu\'est un PSN à leur agence SEO, je travaille déjà sur votre stratégie."',
-      quoteAuthor: '— Soulimane Farah',
+      quoteAuthor: 'Soulimane Farah',
       cta:         'Discuter de votre projet',
     },
 
     pricing: {
       overline: 'Tarifs transparents',
-      title:    'Tarifs SEO/GEO Pharma — Forfaits flexibles sans engagement',
+      title:    'Tarifs SEO/GEO Pharma : forfaits flexibles sans engagement',
       lead:     'Pas de contrats longue durée cachés. Facturation mensuelle, annulation à tout moment. Tous les prix sont en CAD et excluent les taxes applicables.',
       note:     'Tous les forfaits incluent un appel de démarrage. Besoin d\'une offre sur mesure ?',
       noteLink: 'Contactez-moi',
@@ -279,7 +279,7 @@ export const ui = {
     contact: {
       overline:  'Première consultation gratuite',
       title:     'Prêt à dominer Google dans votre secteur santé ?',
-      subtitle:  'Partagez votre situation en 2 minutes. Je vous reviens avec une analyse préliminaire et des recommandations concrètes — sans engagement.',
+      subtitle:  'Partagez votre situation en 2 minutes. Je vous reviens avec une analyse préliminaire et des recommandations concrètes, sans engagement.',
       promises: [
         'Réponse sous 24 h ouvrables',
         'Analyse préliminaire offerte (valeur 250 $)',
@@ -290,7 +290,7 @@ export const ui = {
       directLabel:  'Contact direct',
       form: {
         title:       'Obtenir mon analyse préliminaire gratuite',
-        subtitle:    'Remplissez ce formulaire — je vous contacte sous 24h.',
+        subtitle:    'Remplissez ce formulaire : je vous contacte sous 24h.',
         prenom:      'Prénom',
         nom:         'Nom',
         entreprise:  'Entreprise',
@@ -327,7 +327,7 @@ export const ui = {
 
     blog: {
       overline:   'Blog',
-      title:      'Blog SEO Pharma — Guides et analyses pour le secteur santé',
+      title:      'Blog SEO Pharma : guides et analyses pour le secteur santé',
       lead:       'Articles, guides et analyses sur le SEO médical, le contenu YMYL et la visibilité locale pour les entreprises pharmaceutiques au Québec.',
       readMore:   'Lire l\'article',
       backHome:   '← Retour à l\'accueil',
@@ -355,7 +355,7 @@ export const ui = {
       title1:   'Found on Google.',
       title2:   'Within Health Canada rules.',
       title3:   'Cited by AI.',
-      subtitle: 'I help regulated health brands — pharma, natural health products, medical devices — get found on Google and cited by AI (ChatGPT, Perplexity, Claude). 15 years in the pharmaceutical industry, from marketing to quality assurance: I know your Health Canada / PAAB constraints from the inside.',
+      subtitle: 'I help regulated health brands (pharma, natural health products, medical devices) get found on Google and cited by AI (ChatGPT, Perplexity, Claude). 15 years in the pharmaceutical industry, from marketing to quality assurance: I know your Health Canada / PAAB constraints from the inside.',
       cta1:     'Free preliminary analysis ($250 value)',
       cta2:     'View Services',
       proof1:   '150+ audit points verified',
@@ -365,19 +365,19 @@ export const ui = {
 
     problem: {
       overline: 'A challenge you know well',
-      title:    'Why your health website stagnates — and how to fix it',
+      title:    'Why your health website stagnates, and how to fix it',
       lead:     'Whether you sell natural health products, medical devices or drugs, three obstacles come up again and again when Google and AI decide who to trust.',
       pains: [
         {
           title: 'Invisible when a customer asks an AI for advice',
-          body:  'Ask ChatGPT which Canadian supplement or health product to buy — generic brands come up, rarely yours. Your customers increasingly hand that decision to AI, and AI doesn\'t see you.',
+          body:  'Ask ChatGPT which Canadian supplement or health product to buy: generic brands come up, rarely yours. Your customers increasingly hand that decision to AI, and AI doesn\'t see you.',
         },
         {
-          title: 'Your customers compare online — and your organic traffic has plateaued',
-          body:  'Every day you\'re invisible on the buying searches in your category, a sale goes to a better-ranked competitor. SEO isn\'t a marketing cost — it\'s your most profitable acquisition channel.',
+          title: 'Your customers compare online, and your organic traffic has plateaued',
+          body:  'Every day you\'re invisible on the buying searches in your category, a sale goes to a better-ranked competitor. SEO isn\'t a marketing cost. It\'s your most profitable acquisition channel.',
         },
         {
-          title: 'Your biggest asset — your compliance — is invisible',
+          title: 'Your biggest asset, your compliance, is invisible',
           body:  'NPN, GMP, scientific evidence: you have them. But unless they\'re structured (schema, product pages, named authors), neither Google nor AI reads them as a trust signal. Your regulatory credibility stays locked away.',
         },
       ],
@@ -438,7 +438,7 @@ export const ui = {
       items: [
         { value: '150+', label: 'points checked in every technical SEO audit' },
         { value: 'FR/EN', label: 'bilingual deliverables, built for the Canadian market' },
-        { value: '3–6',  label: 'months to significant, lasting organic results' },
+        { value: '3 to 6',  label: 'months to significant, lasting organic results' },
         { value: '24h',  label: 'response time (business days) for every client request' },
       ],
     },
@@ -474,7 +474,7 @@ export const ui = {
 
     faq: {
       overline: 'Frequently asked questions',
-      title:    'FAQ — Pharma SEO, YMYL and LLM Visibility',
+      title:    'FAQ: Pharma SEO, YMYL and LLM Visibility',
       lead:     'New to SEO or do you have questions specific to the pharma sector? Here are honest answers.',
       items: [
         {
@@ -495,11 +495,11 @@ export const ui = {
         },
         {
           q: 'What is GEO (Generative Engine Optimization)?',
-          a: 'GEO is the optimization of a company\'s presence in generative AI responses — ChatGPT, Perplexity, Google AI Overviews, Claude, Gemini. Unlike traditional SEO that targets clickable links in Google, GEO aims to be cited or recommended directly in a language model\'s response. In a Canadian pharma context, this requires factual structured content, self-sufficient passages, and compliance with PAAB and Health Canada frameworks.',
+          a: 'GEO is the optimization of a company\'s presence in generative AI responses: ChatGPT, Perplexity, Google AI Overviews, Claude, Gemini. Unlike traditional SEO that targets clickable links in Google, GEO aims to be cited or recommended directly in a language model\'s response. In a Canadian pharma context, this requires factual structured content, self-sufficient passages, and compliance with PAAB and Health Canada frameworks.',
         },
         {
           q: 'How does Health Canada regulation affect my website\'s SEO?',
-          a: 'Health Canada regulates the claims you can publish on your website — for drugs, natural health products (NHPs), and medical devices. Publishing an unauthorized therapeutic claim in a meta tag or blog article constitutes a regulatory violation. Paradoxically, Health Canada compliance is also a powerful E-E-A-T trust signal in Google\'s eyes: a site that cites its NPN numbers, GMP certifications, and applicable regulatory frameworks positions itself as a reliable source.',
+          a: 'Health Canada regulates the claims you can publish on your website, for drugs, natural health products (NHPs), and medical devices. Publishing an unauthorized therapeutic claim in a meta tag or blog article constitutes a regulatory violation. Paradoxically, Health Canada compliance is also a powerful E-E-A-T trust signal in Google\'s eyes: a site that cites its NPN numbers, GMP certifications, and applicable regulatory frameworks positions itself as a reliable source.',
         },
         {
           q: 'What is the difference between a generalist SEO consultant and a pharma SEO specialist?',
@@ -523,9 +523,9 @@ export const ui = {
     about: {
       overline: 'About',
       title:    'The only SEO/GEO consultant in Montréal who knows your SOPs',
-      p1:       'Roche Pharmaceuticals — 10 years in marketing and sales. Then pharmaceutical quality assurance (GMP, NHP, medical devices) at Pharmascience and Oral Science. Bilingual FR/EN.',
+      p1:       'Roche Pharmaceuticals: 10 years in marketing and sales. Then pharmaceutical quality assurance (GMP, NHP, medical devices) at Pharmascience and Oral Science. Bilingual FR/EN.',
       credentials: [
-        'AEC Pharmaceutical Quality Assurance — Collège Gérald-Godin',
+        'AEC Pharmaceutical Quality Assurance, Collège Gérald-Godin',
         'Certified Quality Auditor',
         'Certified AI-driven SEO',
         'Certified Google Analytics 4',
@@ -535,7 +535,7 @@ export const ui = {
         'An SEO strategy that performs on Google',
         'Content compliant with Health Canada requirements',
         'Visibility in LLMs (ChatGPT, Claude, Perplexity)',
-        'Zero learning curve about your sector — at your expense',
+        'Zero learning curve about your sector, at your expense',
       ],
       stats: [
         { value: '15 yrs',   label: 'Roche · Pharmascience · Oral Science' },
@@ -544,13 +544,13 @@ export const ui = {
         { value: 'FR / EN',  label: 'Bilingual · Montréal, QC' },
       ],
       quote:       '"While your competitors are explaining what an NHP is to their SEO agency, I\'m already working on your strategy."',
-      quoteAuthor: '— Soulimane Farah',
+      quoteAuthor: 'Soulimane Farah',
       cta:         'Discuss your project',
     },
 
     pricing: {
       overline: 'Transparent pricing',
-      title:    'Pharma SEO/GEO Pricing — Flexible, No Long-Term Contract',
+      title:    'Pharma SEO/GEO Pricing: Flexible, No Long-Term Contract',
       lead:     'No hidden long-term contracts. Monthly billing, cancel anytime. All prices in CAD, taxes not included.',
       note:     'All plans include an onboarding call. Need a custom offer?',
       noteLink: 'Contact me',
@@ -614,7 +614,7 @@ export const ui = {
     contact: {
       overline:  'Free first consultation',
       title:     'Ready to dominate Google in your health sector?',
-      subtitle:  'Share your situation in 2 minutes. I\'ll get back to you with a preliminary analysis and concrete recommendations — no commitment.',
+      subtitle:  'Share your situation in 2 minutes. I\'ll get back to you with a preliminary analysis and concrete recommendations, no commitment.',
       promises: [
         'Reply within 1 business day',
         'Complimentary preliminary analysis (value $250)',
@@ -625,7 +625,7 @@ export const ui = {
       directLabel:  'Direct contact',
       form: {
         title:       'Get my free preliminary analysis',
-        subtitle:    'Fill out this form — I\'ll contact you within 24h.',
+        subtitle:    'Fill out this form: I\'ll contact you within 24h.',
         prenom:      'First name',
         nom:         'Last name',
         entreprise:  'Company',
@@ -662,7 +662,7 @@ export const ui = {
 
     blog: {
       overline:   'Blog',
-      title:      'Pharma SEO Blog — Guides & Analysis for the Health Sector',
+      title:      'Pharma SEO Blog: Guides & Analysis for the Health Sector',
       lead:       'Articles, guides and analysis on medical SEO, YMYL content and local visibility for pharmaceutical businesses in Québec.',
       readMore:   'Read article',
       backHome:   '← Back to home',
