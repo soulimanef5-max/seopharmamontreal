@@ -32,7 +32,7 @@ Get this right and compliance and SEO pull in the same direction. Get it wrong a
 
 ---
 
-> **Publishing health content in Canada?** I audit pages, title tags and structured data for PAAB and Health Canada risks before they cost you rankings or a complaint. [See the NHP SEO service](/en/seo-nhp/)
+> **Publishing health content in Canada?** I review pages, title tags and structured data for PAAB and Health Canada watch points before they cost you rankings or a complaint. [See the NHP SEO service](/en/seo-nhp/)
 
 ## What claims can you make for an NHP?
 

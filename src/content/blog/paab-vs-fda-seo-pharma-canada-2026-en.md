@@ -32,7 +32,7 @@ This is not a legal detail reserved for regulatory teams. It is a constraint tha
 
 ---
 
-> **Publishing health content in Canada?** I audit pages, title tags and structured data for PAAB and Health Canada risks before they cost you rankings or a complaint. [See the PAAB-compliant SEO service](/en/seo-pharma/)
+> **Publishing health content in Canada?** I review pages, title tags and structured data for PAAB and Health Canada watch points before they cost you rankings or a complaint. [See the pharma SEO service](/en/seo-pharma/)
 
 ## Two regulators, two philosophies
 

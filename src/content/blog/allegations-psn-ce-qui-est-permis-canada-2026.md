@@ -32,7 +32,7 @@ Bien comprise, cette règle aligne conformité et SEO. Mal comprise, elle vous e
 
 ---
 
-> **Vous publiez du contenu santé au Canada ?** J'audite vos pages, balises title et données structurées pour repérer les risques PAAB et Santé Canada avant qu'ils vous coûtent un classement ou une plainte. [Voir l'offre SEO pour les PSN](/seo-psn/)
+> **Vous publiez du contenu santé au Canada ?** Je passe vos pages, balises title et données structurées en revue pour repérer les points de vigilance PAAB et Santé Canada avant qu'ils vous coûtent un classement ou une plainte. [Voir l'offre SEO pour les PSN](/seo-psn/)
 
 ## Quelles allégations peut-on faire pour un PSN ?
 

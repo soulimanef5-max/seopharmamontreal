@@ -1,7 +1,7 @@
 ---
 title: "Pharmaceutical SEO & PAAB Compliance: The Practical Guide for Canada"
 seoTitle: "Pharma SEO & PAAB Compliance: A Practical Guide for Canada"
-description: "Title tags, meta descriptions and schema count as advertising under PAAB. A 15-point checklist to rank pharma pages in Canada without compliance risk."
+description: "Title tags, meta descriptions and schema count as advertising under PAAB. A 15-point checklist to rank pharma pages in Canada within the rules."
 pubDate: 2026-06-01
 lang: en
 tags: ["PAAB", "compliance", "pharma SEO", "E-E-A-T", "YMYL", "Health Canada", "Quebec"]

@@ -32,7 +32,7 @@ Ce n'est pas un détail juridique réservé aux équipes réglementaires. C'est 
 
 ---
 
-> **Vous publiez du contenu santé au Canada ?** J'audite vos pages, balises title et données structurées pour repérer les risques PAAB et Santé Canada avant qu'ils vous coûtent un classement ou une plainte. [Voir l'offre SEO conforme PAAB](/seo-pharma/)
+> **Vous publiez du contenu santé au Canada ?** Je passe vos pages, balises title et données structurées en revue pour repérer les points de vigilance PAAB et Santé Canada avant qu'ils vous coûtent un classement ou une plainte. [Voir l'offre SEO pharma](/seo-pharma/)
 
 ## Deux régulateurs, deux philosophies
 

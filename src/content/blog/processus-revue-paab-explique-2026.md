@@ -28,7 +28,7 @@ Voici une explication claire de la revue [PAAB](https://www.paab.ca/) pour ceux 
 
 ---
 
-> **Vous publiez du contenu santé au Canada ?** J'audite vos pages, balises title et données structurées pour repérer les risques PAAB et Santé Canada avant qu'ils vous coûtent un classement ou une plainte. [Voir l'offre SEO conforme PAAB](/seo-pharma/)
+> **Vous publiez du contenu santé au Canada ?** Je passe vos pages, balises title et données structurées en revue pour repérer les points de vigilance PAAB et Santé Canada avant qu'ils vous coûtent un classement ou une plainte. [Voir l'offre SEO pharma](/seo-pharma/)
 
 ## L'approbation du PAAB est-elle obligatoire ou volontaire ?
 

@@ -32,7 +32,7 @@ Voici un guide clair de ce que vous pouvez et ne pouvez pas annoncer au Canada e
 
 ---
 
-> **Vous publiez du contenu santé au Canada ?** J'audite vos pages, balises title et données structurées pour repérer les risques PAAB et Santé Canada avant qu'ils vous coûtent un classement ou une plainte. [Voir l'offre SEO conforme PAAB](/seo-pharma/)
+> **Vous publiez du contenu santé au Canada ?** Je passe vos pages, balises title et données structurées en revue pour repérer les points de vigilance PAAB et Santé Canada avant qu'ils vous coûtent un classement ou une plainte. [Voir l'offre SEO pharma](/seo-pharma/)
 
 ## Peut-on faire de la publicité de médicaments d'ordonnance au Canada ?
 
