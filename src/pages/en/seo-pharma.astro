@@ -48,7 +48,7 @@ const faqSchema = {
     {
       '@type': 'Question',
       name: 'What is the difference between PAAB (Canada) and FDA/HIPAA (United States) for SEO?',
-      acceptedAnswer: { '@type': 'Answer', text: 'In Canada, direct-to-consumer advertising of prescription drugs is banned and advertising to healthcare professionals is pre-approved by PAAB. In the US, DTC is legal and the FDA acts post-market. An SEO strategy designed for the US market (HIPAA, FDA) creates regulatory violations if applied as-is in Canada.' },
+      acceptedAnswer: { '@type': 'Answer', text: 'In Canada, direct-to-consumer advertising of prescription drugs is prohibited beyond the name, price and quantity, and advertising to healthcare professionals is pre-approved by PAAB. In the US, DTC is legal and the FDA acts post-market. An SEO strategy designed for the US market (HIPAA, FDA) creates regulatory violations if applied as-is in Canada.' },
     },
     {
       '@type': 'Question',
@@ -64,6 +64,16 @@ const faqSchema = {
       '@type': 'Question',
       name: 'Do you also optimize visibility in ChatGPT and Perplexity (GEO)?',
       acceptedAnswer: { '@type': 'Answer', text: 'Yes. GEO (Generative Engine Optimization) is built into every engagement: question/answer content structure, FAQ JSON-LD schemas, structured data and extractable passages to be cited in the generative AI answers used by healthcare professionals.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'Can you work alongside our existing SEO agency?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Yes. I can work as a complement to a generalist agency: I bring the Canadian pharmaceutical regulatory expertise, and the agency keeps the technical execution. This hybrid model is common in larger companies, where an agency runs the corporate site while a specialist handles the pharma content strategy.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'Can you work under an NDA?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Yes. I sign a confidentiality agreement from the audit phase onward if your organization requires it. It is standard practice in the pharmaceutical industry.' },
     },
     {
       '@type': 'Question',
@@ -194,6 +204,31 @@ const faqSchema = {
             <article style="background:white; border:1px solid var(--color-border); border-radius:1rem; padding:1.75rem;">
               <h3 style="font-size:1.0625rem; color:var(--color-primary); margin-bottom:0.5rem;">{s.t}</h3>
               <p style="font-size:0.9rem; color:var(--color-text-muted); line-height:1.65; margin:0;">{s.d}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 md:py-28" style="background: var(--color-surface, #f8fafc);" aria-labelledby="method-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="overline">How I work</span>
+          <h2 class="section-title" id="method-title">A 4-phase method, from diagnosis to monthly reporting</h2>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {[
+            { n: '1', t: 'Compliance audit and SEO diagnosis', w: '2 weeks', d: ['Regulatory review: pages with PAAB watch points (claims, Rx testimonials, metadata)', 'Technical SEO: Core Web Vitals, indexation, URL architecture, structured data, robots.txt', 'Content: topical coverage, gaps, cannibalization', 'AI visibility: presence in ChatGPT, Perplexity, Gemini and Google AI Overviews', 'Deliverable: a score out of 100 and actions prioritized by impact and effort'] },
+            { n: '2', t: 'Strategy and architecture', w: '1 week', d: ['Content architecture: topic hubs, pillar articles, supporting content', 'Keyword strategy with a PAAB-aware branded / unbranded split', 'Link plan: sector associations and directories (BIOTECanada, MEDEC)', 'GEO format: FAQ schema, structured data, extractable passages'] },
+            { n: '3', t: 'Production and implementation', w: 'Ongoing', d: ['In-depth bilingual FR/EN articles (1,500 to 2,500 words), reviewed for PAAB and Health Canada watch points', 'Technical implementation: structured data, Core Web Vitals, hreflang, internal linking', 'Sitemap submission, indexation checks, weekly rank tracking'] },
+            { n: '4', t: 'Monthly reporting and iteration', w: 'Every month', d: ['Rankings on your target keywords', 'Organic traffic from Google Search Console: clicks, impressions, CTR, average position', 'AI citations: are you mentioned in ChatGPT, Perplexity and Google AI Overviews?', 'Next month\'s priorities'] },
+          ].map((s) => (
+            <article style="background:white; border:1px solid var(--color-border); border-radius:1rem; padding:1.75rem;">
+              <p style="font-size:0.8125rem; font-weight:700; color:var(--color-cta); margin-bottom:0.5rem;">Phase {s.n} · {s.w}</p>
+              <h3 style="font-size:1.0625rem; color:var(--color-primary); margin-bottom:0.75rem;">{s.t}</h3>
+              <ul style="font-size:0.9rem; color:var(--color-text-muted); line-height:1.65; margin:0; padding-left:1.1rem; list-style:disc;">
+                {s.d.map((item) => <li style="margin-bottom:0.35rem;">{item}</li>)}
+              </ul>
             </article>
           ))}
         </div>
