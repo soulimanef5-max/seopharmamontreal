@@ -20,7 +20,7 @@ export const ui = {
       title1:   'Trouvé sur Google.',
       title2:   'Dans les règles de Santé Canada.',
       title3:   'Cité par les IA.',
-      subtitle: 'J\'aide les marques de santé réglementées (pharma, produits de santé naturels, dispositifs médicaux) à être trouvées sur Google et citées par les IA (ChatGPT, Perplexity, Claude). 15 ans dans l\'industrie pharmaceutique, du marketing à l\'assurance qualité : je connais vos contraintes Santé Canada / PAAB de l\'intérieur.',
+      subtitle: 'Je suis Soulimane Farah, consultant SEO/GEO à Montréal. J\'aide les marques de santé réglementées (pharma, produits de santé naturels, dispositifs médicaux) à être trouvées sur Google et citées par les IA (ChatGPT, Perplexity, Claude, Gemini). 15 ans en pharma, dont 10 chez Roche : je connais vos contraintes Santé Canada / PAAB de l\'intérieur.',
       cta1:     'Analyse préliminaire gratuite (valeur 250 $)',
       cta2:     'Voir les services',
       proof1:   '150+ points d\'audit vérifiés',
@@ -99,7 +99,7 @@ export const ui = {
     stats: {
       overline: 'Pourquoi ça compte',
       title:    'Le SEO médical, une discipline à part entière',
-      lead:     'Des chiffres sectoriels qui expliquent pourquoi une stratégie YMYL spécialisée fait toute la différence.',
+      lead:     'Ce que vous obtenez, concrètement, quand vous travaillez avec moi.',
       items: [
         { value: '150+', label: 'points contrôlés lors de chaque audit SEO technique' },
         { value: 'FR/EN', label: 'livrables bilingues, pensés pour le marché canadien' },
@@ -355,7 +355,7 @@ export const ui = {
       title1:   'Found on Google.',
       title2:   'Within Health Canada rules.',
       title3:   'Cited by AI.',
-      subtitle: 'I help regulated health brands (pharma, natural health products, medical devices) get found on Google and cited by AI (ChatGPT, Perplexity, Claude). 15 years in the pharmaceutical industry, from marketing to quality assurance: I know your Health Canada / PAAB constraints from the inside.',
+      subtitle: 'I\'m Soulimane Farah, a SEO/GEO consultant in Montréal. I help regulated health brands (pharma, natural health products, medical devices) get found on Google and cited by AI (ChatGPT, Perplexity, Claude, Gemini). 15 years in pharma, 10 of them at Roche: I know your Health Canada / PAAB constraints from the inside.',
       cta1:     'Free preliminary analysis ($250 value)',
       cta2:     'View Services',
       proof1:   '150+ audit points verified',
@@ -434,7 +434,7 @@ export const ui = {
     stats: {
       overline: 'Why it matters',
       title:    'Medical SEO: a discipline of its own',
-      lead:     'Industry figures that explain why a specialized YMYL strategy makes all the difference.',
+      lead:     'What you concretely get when you work with me.',
       items: [
         { value: '150+', label: 'points checked in every technical SEO audit' },
         { value: 'FR/EN', label: 'bilingual deliverables, built for the Canadian market' },
