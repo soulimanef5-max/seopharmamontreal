@@ -20,7 +20,7 @@ export const ui = {
       title1:   'Trouvé sur Google.',
       title2:   'Dans les règles de Santé Canada.',
       title3:   'Cité par les IA.',
-      subtitle: 'J\'aide les marques de santé réglementées (pharma, produits de santé naturels, dispositifs médicaux) à être trouvées sur Google et citées par les IA (ChatGPT, Perplexity, Claude). 15 ans dans l\'industrie pharmaceutique, du marketing à l\'assurance qualité : je connais vos contraintes Santé Canada / PAAB de l\'intérieur.',
+      subtitle: 'Je suis Soulimane Farah, consultant SEO/GEO à Montréal. J\'aide les marques de santé réglementées (pharma, produits de santé naturels, dispositifs médicaux) à être trouvées sur Google et citées par les IA (ChatGPT, Perplexity, Claude, Gemini). 15 ans en pharma, dont 10 chez Roche : je connais vos contraintes Santé Canada / PAAB de l\'intérieur.',
       cta1:     'Analyse préliminaire gratuite (valeur 250 $)',
       cta2:     'Voir les services',
       proof1:   '150+ points d\'audit vérifiés',
@@ -97,14 +97,14 @@ export const ui = {
     },
 
     stats: {
-      overline: 'Pourquoi ça compte',
-      title:    'Le SEO médical, une discipline à part entière',
-      lead:     'Des chiffres sectoriels qui expliquent pourquoi une stratégie YMYL spécialisée fait toute la différence.',
+      title:    'Baromètre PSN 2026-T3 : qui les IA recommandent-elles ?',
+      lead:     '48 réponses de ChatGPT, Perplexity et Gemini, en français et en anglais, le 16 octobre 2026.',
+      linkLabel: 'Lire le baromètre',
       items: [
-        { value: '150+', label: 'points contrôlés lors de chaque audit SEO technique' },
-        { value: 'FR/EN', label: 'livrables bilingues, pensés pour le marché canadien' },
-        { value: '3 à 6',  label: 'mois pour des résultats organiques significatifs et durables' },
-        { value: '24h',  label: 'délai de réponse (jours ouvrables) à chaque demande de client' },
+        { value: '37',       label: 'marques canadiennes de PSN analysées' },
+        { value: '26',       label: 'jamais recommandées par les IA' },
+        { value: '73 %', label: 'des citations captées par 4 marques nationales' },
+        { value: '9 sur 12', label: 'marques québécoises jamais citées' },
       ],
     },
 
@@ -355,7 +355,7 @@ export const ui = {
       title1:   'Found on Google.',
       title2:   'Within Health Canada rules.',
       title3:   'Cited by AI.',
-      subtitle: 'I help regulated health brands (pharma, natural health products, medical devices) get found on Google and cited by AI (ChatGPT, Perplexity, Claude). 15 years in the pharmaceutical industry, from marketing to quality assurance: I know your Health Canada / PAAB constraints from the inside.',
+      subtitle: 'I\'m Soulimane Farah, a SEO/GEO consultant in Montréal. I help regulated health brands (pharma, natural health products, medical devices) get found on Google and cited by AI (ChatGPT, Perplexity, Claude, Gemini). 15 years in pharma, 10 of them at Roche: I know your Health Canada / PAAB constraints from the inside.',
       cta1:     'Free preliminary analysis ($250 value)',
       cta2:     'View Services',
       proof1:   '150+ audit points verified',
@@ -432,14 +432,14 @@ export const ui = {
     },
 
     stats: {
-      overline: 'Why it matters',
-      title:    'Medical SEO: a discipline of its own',
-      lead:     'Industry figures that explain why a specialized YMYL strategy makes all the difference.',
+      title:    'NHP Barometer 2026-Q3: which brands do AI assistants recommend?',
+      lead:     '48 answers from ChatGPT, Perplexity and Gemini, in French and English, on October 16, 2026.',
+      linkLabel: 'Read the barometer (in French)',
       items: [
-        { value: '150+', label: 'points checked in every technical SEO audit' },
-        { value: 'FR/EN', label: 'bilingual deliverables, built for the Canadian market' },
-        { value: '3 to 6',  label: 'months to significant, lasting organic results' },
-        { value: '24h',  label: 'response time (business days) for every client request' },
+        { value: '37',       label: 'Canadian NHP brands analyzed' },
+        { value: '26',       label: 'never recommended by AI' },
+        { value: '73%',      label: 'of citations captured by 4 national brands' },
+        { value: '9 of 12',  label: 'Québec brands never cited' },
       ],
     },
 
