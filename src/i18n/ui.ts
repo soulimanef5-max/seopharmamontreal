@@ -97,14 +97,14 @@ export const ui = {
     },
 
     stats: {
-      overline: 'Pourquoi ça compte',
-      title:    'Le SEO médical, une discipline à part entière',
-      lead:     'Ce que vous obtenez, concrètement, quand vous travaillez avec moi.',
+      title:    'Baromètre PSN 2026-T3 : qui les IA recommandent-elles ?',
+      lead:     '48 réponses de ChatGPT, Perplexity et Gemini, en français et en anglais, le 16 octobre 2026.',
+      linkLabel: 'Lire le baromètre',
       items: [
-        { value: '150+', label: 'points contrôlés lors de chaque audit SEO technique' },
-        { value: 'FR/EN', label: 'livrables bilingues, pensés pour le marché canadien' },
-        { value: '3 à 6',  label: 'mois pour des résultats organiques significatifs et durables' },
-        { value: '24h',  label: 'délai de réponse (jours ouvrables) à chaque demande de client' },
+        { value: '37',       label: 'marques canadiennes de PSN analysées' },
+        { value: '26',       label: 'jamais recommandées par les IA' },
+        { value: '73 %', label: 'des citations captées par 4 marques nationales' },
+        { value: '9 sur 12', label: 'marques québécoises jamais citées' },
       ],
     },
 
@@ -432,14 +432,14 @@ export const ui = {
     },
 
     stats: {
-      overline: 'Why it matters',
-      title:    'Medical SEO: a discipline of its own',
-      lead:     'What you concretely get when you work with me.',
+      title:    'NHP Barometer 2026-Q3: which brands do AI assistants recommend?',
+      lead:     '48 answers from ChatGPT, Perplexity and Gemini, in French and English, on October 16, 2026.',
+      linkLabel: 'Read the barometer (in French)',
       items: [
-        { value: '150+', label: 'points checked in every technical SEO audit' },
-        { value: 'FR/EN', label: 'bilingual deliverables, built for the Canadian market' },
-        { value: '3 to 6',  label: 'months to significant, lasting organic results' },
-        { value: '24h',  label: 'response time (business days) for every client request' },
+        { value: '37',       label: 'Canadian NHP brands analyzed' },
+        { value: '26',       label: 'never recommended by AI' },
+        { value: '73%',      label: 'of citations captured by 4 national brands' },
+        { value: '9 of 12',  label: 'Québec brands never cited' },
       ],
     },
 
