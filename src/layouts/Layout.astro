@@ -120,7 +120,7 @@ const schemaPerson = {
     'https://www.wikidata.org/wiki/Q140078557',
   ],
   knowsAbout:  ['SEO', 'GEO', 'LLMO', 'YMYL', 'E-E-A-T', 'Pharma', 'Health Canada', 'GMP/BPF', 'NHP/PSN', 'Medical Devices'],
-  alumniOf:    { '@type': 'CollegeOrUniversity', name: 'Collège Gérald-Godin', url: 'https://www.college-gerald-godin.qc.ca' },
+  alumniOf:    [{ '@type': 'CollegeOrUniversity', name: 'Université des sciences et de la technologie Houari-Boumediene (USTHB)' }, { '@type': 'CollegeOrUniversity', name: "École nationale supérieure des sciences de la mer et de l'aménagement du littoral (ENSSMAL)" }, { '@type': 'CollegeOrUniversity', name: "École des hautes études commerciales d'Alger (EHEC)" }, { '@type': 'CollegeOrUniversity', name: 'Collège Gérald-Godin', url: 'https://www.college-gerald-godin.qc.ca' }],
   hasCredential: [
     {
       '@type':              'EducationalOccupationalCredential',
@@ -131,6 +131,7 @@ const schemaPerson = {
       '@type':              'EducationalOccupationalCredential',
       name:                 'DESS en administration des affaires',
       credentialCategory:   'degree',
+      recognizedBy:         { '@type': 'CollegeOrUniversity', name: "École des hautes études commerciales d'Alger (EHEC)" },
     },
     {
       '@type':              'EducationalOccupationalCredential',
@@ -146,7 +147,8 @@ const schemaPerson = {
     },
     {
       '@type':              'EducationalOccupationalCredential',
-      name:                 'Certifié AI-driven SEO',
+      name:                 'Formation AI-driven SEO (Udemy)',
+      recognizedBy:         { '@type': 'Organization', name: 'Udemy' },
       credentialCategory:   'certificate',
     },
   ],

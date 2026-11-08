@@ -190,9 +190,11 @@ export const ui = {
       title:    'Le seul consultant SEO/GEO à Montréal qui connaît vos SOPs',
       p1:       'Roche Pharmaceuticals : 10 ans en marketing et ventes. Puis assurance qualité pharmaceutique (BPF/GMP, PSN, dispositifs médicaux) chez Pharmascience et Oral Science. Bilingue FR/EN.',
       credentials: [
+        'Baccalauréat en sciences, USTHB puis ENSSMAL (Alger)',
+        'DESS en administration des affaires, EHEC Alger',
         'AEC Assurance Qualité Pharmaceutique, Collège Gérald-Godin',
         'Certifié Auditeur Qualité',
-        'Certifié AI-driven SEO',
+        'Formation AI-driven SEO (Udemy)',
         'Certifié Google Analytics 4',
       ],
       p2:       'Ce que ça veut dire pour vous :',
@@ -205,7 +207,7 @@ export const ui = {
       stats: [
         { value: '15 ans',  label: 'Roche · Pharmascience · Oral Science' },
         { value: 'AEC AQ',  label: 'Assurance Qualité Pharmaceutique' },
-        { value: 'GA4 + AI', label: 'Certifié Google Analytics & AI SEO' },
+        { value: 'GA4 + AI', label: 'Certifié Google Analytics · formation SEO et IA' },
         { value: 'FR / EN', label: 'Bilingue · Montréal, QC' },
       ],
       quote:       '"Pendant que vos concurrents expliquent ce qu\'est un PSN à leur agence SEO, je travaille déjà sur votre stratégie."',
@@ -525,9 +527,11 @@ export const ui = {
       title:    'The only SEO/GEO consultant in Montréal who knows your SOPs',
       p1:       'Roche Pharmaceuticals: 10 years in marketing and sales. Then pharmaceutical quality assurance (GMP, NHP, medical devices) at Pharmascience and Oral Science. Bilingual FR/EN.',
       credentials: [
+        'Bachelor of Science, USTHB then ENSSMAL (Algiers)',
+        'Graduate Diploma (DESS) in Business Administration, EHEC Algiers',
         'AEC Pharmaceutical Quality Assurance, Collège Gérald-Godin',
         'Certified Quality Auditor',
-        'Certified AI-driven SEO',
+        'AI-driven SEO training (Udemy)',
         'Certified Google Analytics 4',
       ],
       p2:       'What this means for you:',
@@ -540,7 +544,7 @@ export const ui = {
       stats: [
         { value: '15 yrs',   label: 'Roche · Pharmascience · Oral Science' },
         { value: 'AEC AQ',   label: 'Pharmaceutical Quality Assurance' },
-        { value: 'GA4 + AI', label: 'Certified Google Analytics & AI SEO' },
+        { value: 'GA4 + AI', label: 'Google Analytics certified · SEO & AI training' },
         { value: 'FR / EN',  label: 'Bilingual · Montréal, QC' },
       ],
       quote:       '"While your competitors are explaining what an NHP is to their SEO agency, I\'m already working on your strategy."',
